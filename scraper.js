@@ -17,6 +17,18 @@ async function getRunes() {
 
     const runes = new Array(items.length);
 
+    function findClass(element, name) {
+        for(const child of element.children) {
+            if(child.getAttribute("class").includes(name)) {
+                return child;
+            }
+            if(child.children.length > 0) {
+                return findClass(child, name);
+            }
+        }
+        return null;
+    };
+
     for (let i = 0; i < runeItems.length; i++) {
         const item = runeItems[i];
         const link = item.querySelector('a');
@@ -30,6 +42,13 @@ async function getRunes() {
         }
 
         // go into the link and get that data
+
+        const runeLink = await fetch(linkSrc);
+        const runeText = await runeLink.text();
+        const runeDiv = document.createElement('div');
+        runeDiv.innerHTML = runeText;
+
+        runes[i].description = findClass(runeDiv, 'description').textContent;
     }
     
 
@@ -40,7 +59,7 @@ async function getRunes() {
     return JSON.stringify(runes);
 }
 
-// console.log(getRunes());
+console.log(getRunes());
 
 
 function loadRunes() {
