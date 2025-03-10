@@ -1,6 +1,6 @@
 async function getRunes() {
     // fetch
-    const fetchLink = "./RuneList.html";
+    const fetchLink = "./resources/RuneList.html";
     const res = await fetch(fetchLink);
     const text = await res.text();
 
@@ -20,6 +20,7 @@ async function getRunes() {
     for (let i = 0; i < runeItems.length; i++) {
         const item = runeItems[i];
         const link = item.querySelector('a');
+        const linkSrc = link.href;
         const body = link.children[0];
         const title = body.children[2].textContent;
         const type = body.querySelector('[data-prop]').getAttribute('data-prop');
@@ -27,6 +28,8 @@ async function getRunes() {
             title: title,
             type: type
         }
+
+        // go into the link and get that data
     }
     
 
@@ -34,7 +37,19 @@ async function getRunes() {
     // append
     document.body.appendChild(items);
 
-    return runes;
+    return JSON.stringify(runes);
 }
 
-console.log(getRunes());
+// console.log(getRunes());
+
+
+function loadRunes() {
+    const link = "./resources/RuneList.json";
+    fetch(link)
+        .then(response => response.json())
+        .then(data => console.log(data));
+    
+}
+
+
+loadRunes()
