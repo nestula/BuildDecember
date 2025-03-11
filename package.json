@@ -1,0 +1,24 @@
+{
+  "name": "builddecember",
+  "version": "1.0.0",
+  "description": "An unofficial build planner for Undecember",
+  "main": "scraper.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nestula/BuildDecember.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nestula/BuildDecember/issues"
+  },
+  "homepage": "https://github.com/nestula/BuildDecember#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
