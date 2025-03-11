@@ -73,12 +73,6 @@ async function getRunes() {
     return JSON.stringify(runes);
 }
 
-// HERE
-
-fetch('https://undecember.thein.ru/en/runes/')
-    .then(response => response.text())
-    .then(data => console.log(data));
-
 
 // console.log(getRunes());
 
@@ -92,5 +86,5 @@ function loadRunes() {
 }
 
 
-// loadRunes()
+loadRunes()
 
