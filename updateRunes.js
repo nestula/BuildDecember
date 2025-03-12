@@ -77,7 +77,7 @@ async function updateRunes() {
         const fetchSubpageData = async (index) => {
             const link = subPageLinks[index];
             const subPageUrl = `https://undecember.thein.ru${link.getAttribute("href")}`;
-            console.log(`Fetching subpage: ${subPageUrl}`);
+            console.log(`${index} / ${subPageLinks.length} - ${subPageUrl}`);
             
             try {
                 const subPageData = await fetchPage(subPageUrl);
@@ -131,8 +131,9 @@ async function updateRunes() {
                     // Save the extracted data to the runes array
                     // Optionally, store the cleaned HTML
                     // runes[index].html = content.innerHTML;
+
+                    console.log(`${index + 1} / ${subPageLinks.length} - Processing`);
         
-                    console.log(`Subpage ${index + 1} minRarity: ${minRarity}`);
                 } else {
                     console.log(`Subpage ${index + 1} doesn't have content.`);
                 }
@@ -141,7 +142,7 @@ async function updateRunes() {
             }
         });
 
-        console.log("Scraped data:", runes);
+        // console.log("Scraped data:", runes);
 
         // Write the scraped data to a JSON file
         console.log("Writing to JSON file...");
