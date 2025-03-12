@@ -1,5 +1,7 @@
 // fs and updating json
 
+const fetchTimeout = 90;
+
 const fs = require("fs");
 const { JSDOM } = require("jsdom");
 const axios = require("axios");
@@ -98,7 +100,7 @@ async function updateRunes() {
         for (let currentIndex = 0; currentIndex < subPageLinks.length; currentIndex++) {
             await fetchSubpageData(currentIndex);
             // Add a delay of 1 second (1000ms) between requests
-            await sleep(100); // Adjust the time (in ms) to a reasonable value to avoid rate limiting
+            await sleep(fetchTimeout); // Adjust the time (in ms) to a reasonable value to avoid rate limiting
         }
 
         // Log all the fetched subpages' innerHTML
@@ -113,9 +115,20 @@ async function updateRunes() {
                     // Extract minimum rarity value
                     const minRarityElement = content.querySelector('[data-class="MinRarity"] span');
                     const minRarity = minRarityElement ? minRarityElement.textContent : "Unknown";
+                    runes[index].minRarity = minRarity;
+
+                    // get tags
+                    const tags = content.querySelectorAll('[class^="Elem_card_tags_item__"]');
+                    const tagList = [];
+                    tags.forEach(tag => tagList.push(tag.textContent));
+                    runes[index].tags = tagList;
+
+                    // get description
+                    const description = content.querySelector('[data-class="prop"]').textContent;
+                    runes[index].description = description;
+
         
                     // Save the extracted data to the runes array
-                    runes[index].minRarity = minRarity;
                     // Optionally, store the cleaned HTML
                     // runes[index].html = content.innerHTML;
         
@@ -132,7 +145,7 @@ async function updateRunes() {
 
         // Write the scraped data to a JSON file
         console.log("Writing to JSON file...");
-        const jsonData = JSON.stringify(runes);
+        const jsonData = JSON.stringify(runes, null, 2);
         fs.writeFileSync('./private/resources/RuneList.json', jsonData);
     } catch (error) {
         console.error("Error logging HTML data:", error);

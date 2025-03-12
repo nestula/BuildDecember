@@ -1,1 +1,3688 @@
-[{"title":"Shout of Terror","url":"https://undecember.thein.ru/en/runes/ShoutOfTerror/","minRarity":"Normal"},{"title":"Frost Wave","url":"https://undecember.thein.ru/en/runes/FrostWave/","minRarity":"Normal"},{"title":"Shield Charge","url":"https://undecember.thein.ru/en/runes/ShieldCharge/","minRarity":"Normal"},{"title":"Combo","url":"https://undecember.thein.ru/en/runes/Combo/","minRarity":"Normal"},{"title":"Illusion Axe","url":"https://undecember.thein.ru/en/runes/IllusionAxe/","minRarity":"Normal"},{"title":"Lightning Strike","url":"https://undecember.thein.ru/en/runes/LightningStrike/","minRarity":"Normal"},{"title":"Explosive Slash","url":"https://undecember.thein.ru/en/runes/ExplosiveSlash/","minRarity":"Normal"},{"title":"Earth Blow","url":"https://undecember.thein.ru/en/runes/EarthBlow/","minRarity":"Normal"},{"title":"Leap Attack","url":"https://undecember.thein.ru/en/runes/LeapAttack/","minRarity":"Normal"},{"title":"Whirlwind","url":"https://undecember.thein.ru/en/runes/Whirlwind/","minRarity":"Normal"},{"title":"Crescent Slash","url":"https://undecember.thein.ru/en/runes/CrescentSlash/","minRarity":"Normal"},{"title":"Lightning Vortex","url":"https://undecember.thein.ru/en/runes/LightningVortex/","minRarity":"Normal"},{"title":"Illusion Hook","url":"https://undecember.thein.ru/en/runes/IllusionHook/","minRarity":"Normal"},{"title":"Shield Strike","url":"https://undecember.thein.ru/en/runes/ShieldStrike/","minRarity":"Normal"},{"title":"Quick Slash","url":"https://undecember.thein.ru/en/runes/QuickSlash/","minRarity":"Normal"},{"title":"Fissure","url":"https://undecember.thein.ru/en/runes/Fissure/","minRarity":"Normal"},{"title":"Whirlwind Slash","url":"https://undecember.thein.ru/en/runes/WhirlwindSlash/","minRarity":"Normal"},{"title":"Bloodshed","url":"https://undecember.thein.ru/en/runes/Bloodshed/","minRarity":"Normal"},{"title":"Frost Strike","url":"https://undecember.thein.ru/en/runes/FrostStrike/","minRarity":"Normal"},{"title":"Fighter's Wrath","url":"https://undecember.thein.ru/en/runes/FightersWrath/","minRarity":"Normal"},{"title":"Bulwark of Protection","url":"https://undecember.thein.ru/en/runes/BulwarkOfProtection/","minRarity":"Normal"},{"title":"Shout of Provocation","url":"https://undecember.thein.ru/en/runes/ShoutOfProvocation/","minRarity":"Normal"},{"title":"Blood Explosion","url":"https://undecember.thein.ru/en/runes/BloodExplosion/","minRarity":"Normal"},{"title":"Guardian","url":"https://undecember.thein.ru/en/runes/Guardian/","minRarity":"Normal"},{"title":"Enduring Pain","url":"https://undecember.thein.ru/en/runes/EnduringPain/","minRarity":"Normal"},{"title":"Electric Area","url":"https://undecember.thein.ru/en/runes/ElectricArea/","minRarity":"Normal"},{"title":"Wheel Slash","url":"https://undecember.thein.ru/en/runes/WheelSlash/","minRarity":"Normal"},{"title":"Sprint","url":"https://undecember.thein.ru/en/runes/Sprint/","minRarity":"Normal"},{"title":"Thorn Explosion","url":"https://undecember.thein.ru/en/runes/ThornExplosion/","minRarity":"Normal"},{"title":"The Absolute's Hammer","url":"https://undecember.thein.ru/en/runes/TheAbsolutesHammer/","minRarity":"Normal"},{"title":"Tenacious Regeneration","url":"https://undecember.thein.ru/en/runes/TenaciousRegeneration/","minRarity":"Magic"},{"title":"Seal of Condensed Destruction","url":"https://undecember.thein.ru/en/runes/SealOfCondensedDestruction/","minRarity":"Magic"},{"title":"Seal of Defense","url":"https://undecember.thein.ru/en/runes/SealOfDefense/","minRarity":"Magic"},{"title":"Seal of Crowd Control Dodge","url":"https://undecember.thein.ru/en/runes/SealOfCrowdControlDodge/","minRarity":"Magic"},{"title":"Fire Blow","url":"https://undecember.thein.ru/en/runes/FireBlow/","minRarity":"Magic"},{"title":"Domain of Strength","url":"https://undecember.thein.ru/en/runes/DomainOfStrength/","minRarity":"Magic"},{"title":"Shout of Justice","url":"https://undecember.thein.ru/en/runes/ShoutOfJustice/","minRarity":"Rare"},{"title":"Fierce Strike","url":"https://undecember.thein.ru/en/runes/FierceStrike/","minRarity":"Rare"},{"title":"Fire Storm","url":"https://undecember.thein.ru/en/runes/FireStorm/","minRarity":"Rare"},{"title":"Seal of Physical Domain","url":"https://undecember.thein.ru/en/runes/SealOfPhysicalDomain/","minRarity":"Rare"},{"title":"Seal of Striking","url":"https://undecember.thein.ru/en/runes/SealOfStriking/","minRarity":"Rare"},{"title":"Arctic Shard","url":"https://undecember.thein.ru/en/runes/ArcticShard/","minRarity":"Rare"},{"title":"Spread Shot","url":"https://undecember.thein.ru/en/runes/SpreadShot/","minRarity":"Normal"},{"title":"Explosive Arrow","url":"https://undecember.thein.ru/en/runes/ExplosiveArrow/","minRarity":"Normal"},{"title":"Icy Arrow","url":"https://undecember.thein.ru/en/runes/IcyArrow/","minRarity":"Normal"},{"title":"Rapid Shot","url":"https://undecember.thein.ru/en/runes/RapidShot/","minRarity":"Normal"},{"title":"Poison Cloud","url":"https://undecember.thein.ru/en/runes/PoisonCloud/","minRarity":"Normal"},{"title":"Piercing Arrow","url":"https://undecember.thein.ru/en/runes/PiercingArrow/","minRarity":"Normal"},{"title":"Rain of Arrows","url":"https://undecember.thein.ru/en/runes/RainOfArrows/","minRarity":"Normal"},{"title":"Burn Arrow","url":"https://undecember.thein.ru/en/runes/BurnArrow/","minRarity":"Normal"},{"title":"Cross Lightning Arrow","url":"https://undecember.thein.ru/en/runes/CrossLightningArrow/","minRarity":"Normal"},{"title":"Dagger Throw","url":"https://undecember.thein.ru/en/runes/DaggerThrow/","minRarity":"Normal"},{"title":"Roll","url":"https://undecember.thein.ru/en/runes/Roll/","minRarity":"Normal"},{"title":"Cross Slash","url":"https://undecember.thein.ru/en/runes/CrossSlash/","minRarity":"Normal"},{"title":"Spinning Dagger","url":"https://undecember.thein.ru/en/runes/SpinningDagger/","minRarity":"Normal"},{"title":"Illusion Strike","url":"https://undecember.thein.ru/en/runes/IllusionStrike/","minRarity":"Normal"},{"title":"Piercing Sentry","url":"https://undecember.thein.ru/en/runes/PiercingSentry/","minRarity":"Normal"},{"title":"Fan Blade Sentry","url":"https://undecember.thein.ru/en/runes/FanBladeSentry/","minRarity":"Normal"},{"title":"Electric Sentry","url":"https://undecember.thein.ru/en/runes/ElectricSentry/","minRarity":"Normal"},{"title":"Deadly Poison Claw","url":"https://undecember.thein.ru/en/runes/DeadlyPoisonClaw/","minRarity":"Normal"},{"title":"Shadow Forest","url":"https://undecember.thein.ru/en/runes/ShadowForest/","minRarity":"Normal"},{"title":"Blade of Death","url":"https://undecember.thein.ru/en/runes/BladeOfDeath/","minRarity":"Normal"},{"title":"Bombardment Arrow","url":"https://undecember.thein.ru/en/runes/BombardmentArrow/","minRarity":"Normal"},{"title":"Deadly Poison Skewer","url":"https://undecember.thein.ru/en/runes/DeadlyPoisonSkewer/","minRarity":"Normal"},{"title":"Unleash Lightning Shot","url":"https://undecember.thein.ru/en/runes/UnleashLightningShot/","minRarity":"Normal"},{"title":"Frost Sentry","url":"https://undecember.thein.ru/en/runes/FrostSentry/","minRarity":"Normal"},{"title":"Vital Strike","url":"https://undecember.thein.ru/en/runes/VitalStrike/","minRarity":"Normal"},{"title":"Marksman","url":"https://undecember.thein.ru/en/runes/Marksman/","minRarity":"Normal"},{"title":"Illusion Arrow","url":"https://undecember.thein.ru/en/runes/IllusionArrow/","minRarity":"Normal"},{"title":"Poison Explosion","url":"https://undecember.thein.ru/en/runes/PoisonExplosion/","minRarity":"Normal"},{"title":"Counterattack","url":"https://undecember.thein.ru/en/runes/Counterattack/","minRarity":"Normal"},{"title":"Improved Senses","url":"https://undecember.thein.ru/en/runes/ImprovedSenses/","minRarity":"Normal"},{"title":"Enchanted Sentry","url":"https://undecember.thein.ru/en/runes/EnchantedSentry/","minRarity":"Normal"},{"title":"Freeze Arrow","url":"https://undecember.thein.ru/en/runes/FreezeArrow/","minRarity":"Normal"},{"title":"Scorching Arrow","url":"https://undecember.thein.ru/en/runes/ScorchingArrow/","minRarity":"Normal"},{"title":"Lightning Arrow","url":"https://undecember.thein.ru/en/runes/LightningArrow/","minRarity":"Normal"},{"title":"Shockwave Trap","url":"https://undecember.thein.ru/en/runes/ShockwaveTrap/","minRarity":"Normal"},{"title":"Fire Fissure Trap","url":"https://undecember.thein.ru/en/runes/FireFissureTrap/","minRarity":"Normal"},{"title":"Frost Trap","url":"https://undecember.thein.ru/en/runes/FrostTrap/","minRarity":"Normal"},{"title":"Electric Orb Trap","url":"https://undecember.thein.ru/en/runes/ElectricOrbTrap/","minRarity":"Normal"},{"title":"Poison Gas Trap","url":"https://undecember.thein.ru/en/runes/PoisonGasTrap/","minRarity":"Normal"},{"title":"Activate Trap","url":"https://undecember.thein.ru/en/runes/ActivateTrap/","minRarity":"Normal"},{"title":"Electric Shell Shot","url":"https://undecember.thein.ru/en/runes/ElectricShellShot/","minRarity":"Normal"},{"title":"Aerial Throw","url":"https://undecember.thein.ru/en/runes/AerialThrow/","minRarity":"Normal"},{"title":"Total Barrage","url":"https://undecember.thein.ru/en/runes/TotalBarrage/","minRarity":"Normal"},{"title":"Instant Acceleration","url":"https://undecember.thein.ru/en/runes/InstantAcceleration/","minRarity":"Normal"},{"title":"Whirlwind Barrage","url":"https://undecember.thein.ru/en/runes/WhirlwindBarrage/","minRarity":"Normal"},{"title":"Ogre Arrow","url":"https://undecember.thein.ru/en/runes/OgreArrow/","minRarity":"Normal"},{"title":"Shockwave Sentry","url":"https://undecember.thein.ru/en/runes/ShockwaveSentry/","minRarity":"Magic"},{"title":"Penetrating Slash","url":"https://undecember.thein.ru/en/runes/PenetratingSlash/","minRarity":"Magic"},{"title":"Poison Rain of Arrows","url":"https://undecember.thein.ru/en/runes/PoisonRainOfArrows/","minRarity":"Magic"},{"title":"Attack Impulse","url":"https://undecember.thein.ru/en/runes/AttackImpulse/","minRarity":"Magic"},{"title":"Seal of Accuracy","url":"https://undecember.thein.ru/en/runes/SealOfAccuracy/","minRarity":"Magic"},{"title":"Seal of Dodge","url":"https://undecember.thein.ru/en/runes/SealOfDodge/","minRarity":"Magic"},{"title":"Seal of Critical Chance","url":"https://undecember.thein.ru/en/runes/SealOfCriticalChance/","minRarity":"Magic"},{"title":"Sentry Expert","url":"https://undecember.thein.ru/en/runes/SentryExpert/","minRarity":"Magic"},{"title":"Fire Orb Trap","url":"https://undecember.thein.ru/en/runes/FireOrbTrap/","minRarity":"Magic"},{"title":"Chill Area Trap","url":"https://undecember.thein.ru/en/runes/ChillAreaTrap/","minRarity":"Magic"},{"title":"Wind Blade","url":"https://undecember.thein.ru/en/runes/WindBlade/","minRarity":"Magic"},{"title":"Throw Explosive","url":"https://undecember.thein.ru/en/runes/ThrowExplosive/","minRarity":"Magic"},{"title":"Firebomb Shot","url":"https://undecember.thein.ru/en/runes/FirebombShot/","minRarity":"Magic"},{"title":"Trick Shot","url":"https://undecember.thein.ru/en/runes/TrickShot/","minRarity":"Magic"},{"title":"Shockwave Arrow","url":"https://undecember.thein.ru/en/runes/ShockwaveArrow/","minRarity":"Rare"},{"title":"Veil of Protection","url":"https://undecember.thein.ru/en/runes/VeilOfProtection/","minRarity":"Rare"},{"title":"Seal of Chaos Resist","url":"https://undecember.thein.ru/en/runes/SealOfChaosResist/","minRarity":"Rare"},{"title":"Ice Crystal Arrow","url":"https://undecember.thein.ru/en/runes/IceCrystalArrow/","minRarity":"Rare"},{"title":"Summon Abyssling","url":"https://undecember.thein.ru/en/runes/SummonAbyssling/","minRarity":"Normal"},{"title":"Gather Minions","url":"https://undecember.thein.ru/en/runes/GatherMinions/","minRarity":"Normal"},{"title":"Fire Ball","url":"https://undecember.thein.ru/en/runes/FireBall/","minRarity":"Normal"},{"title":"Frost Ball","url":"https://undecember.thein.ru/en/runes/FrostBall/","minRarity":"Normal"},{"title":"Frost Shock","url":"https://undecember.thein.ru/en/runes/FrostShock/","minRarity":"Normal"},{"title":"Poison Orb","url":"https://undecember.thein.ru/en/runes/PoisonOrb/","minRarity":"Normal"},{"title":"Lightning Typhoon","url":"https://undecember.thein.ru/en/runes/LightningTyphoon/","minRarity":"Normal"},{"title":"Frost Thorn","url":"https://undecember.thein.ru/en/runes/FrostThorn/","minRarity":"Normal"},{"title":"Flamethrower","url":"https://undecember.thein.ru/en/runes/Flamethrower/","minRarity":"Normal"},{"title":"Charge Release","url":"https://undecember.thein.ru/en/runes/ChargeRelease/","minRarity":"Normal"},{"title":"Toxic Flame","url":"https://undecember.thein.ru/en/runes/ToxicFlame/","minRarity":"Normal"},{"title":"Summon Javelin Abyssling","url":"https://undecember.thein.ru/en/runes/SummonJavelinAbyssling/","minRarity":"Normal"},{"title":"Unite Crowd (Enrage)","url":"https://undecember.thein.ru/en/runes/UniteCrowdEnrage/","minRarity":"Normal"},{"title":"Summon Bursting Rune Knight","url":"https://undecember.thein.ru/en/runes/SummonBurstingRuneKnight/","minRarity":"Normal"},{"title":"Sacred Devotion","url":"https://undecember.thein.ru/en/runes/SacredDevotion/","minRarity":"Normal"},{"title":"Cold Armor","url":"https://undecember.thein.ru/en/runes/ColdArmor/","minRarity":"Normal"},{"title":"Lightning Chain","url":"https://undecember.thein.ru/en/runes/LightningChain/","minRarity":"Normal"},{"title":"Meteor","url":"https://undecember.thein.ru/en/runes/Meteor/","minRarity":"Normal"},{"title":"Poison Area","url":"https://undecember.thein.ru/en/runes/PoisonArea/","minRarity":"Normal"},{"title":"Plague Spike","url":"https://undecember.thein.ru/en/runes/PlagueSpike/","minRarity":"Normal"},{"title":"Frost Bomb","url":"https://undecember.thein.ru/en/runes/FrostBomb/","minRarity":"Normal"},{"title":"Thunderbolt","url":"https://undecember.thein.ru/en/runes/Thunderbolt/","minRarity":"Normal"},{"title":"Summon Fire Orb Abyssling","url":"https://undecember.thein.ru/en/runes/SummonFireOrbAbyssling/","minRarity":"Normal"},{"title":"Summon Poison Arrow Abyssling","url":"https://undecember.thein.ru/en/runes/SummonPoisonArrowAbyssling/","minRarity":"Normal"},{"title":"Summon Lightning Arrow Abyssling","url":"https://undecember.thein.ru/en/runes/SummonLightningArrowAbyssling/","minRarity":"Normal"},{"title":"Summon Snow Orb Abyssling","url":"https://undecember.thein.ru/en/runes/SummonSnowOrbAbyssling/","minRarity":"Normal"},{"title":"Mark of Focus","url":"https://undecember.thein.ru/en/runes/MarkOfFocus/","minRarity":"Normal"},{"title":"Siphon Life","url":"https://undecember.thein.ru/en/runes/SiphonLife/","minRarity":"Normal"},{"title":"Summon Arctic Rune Knight","url":"https://undecember.thein.ru/en/runes/SummonArcticRuneKnight/","minRarity":"Normal"},{"title":"Summon Lightning Rune Knight","url":"https://undecember.thein.ru/en/runes/SummonLightningRuneKnight/","minRarity":"Normal"},{"title":"Release Element","url":"https://undecember.thein.ru/en/runes/ReleaseElement/","minRarity":"Normal"},{"title":"Intensify Pain","url":"https://undecember.thein.ru/en/runes/IntensifyPain/","minRarity":"Normal"},{"title":"Cold Outburst","url":"https://undecember.thein.ru/en/runes/ColdOutburst/","minRarity":"Normal"},{"title":"Weaken Totem","url":"https://undecember.thein.ru/en/runes/WeakenTotem/","minRarity":"Normal"},{"title":"Tremor Totem","url":"https://undecember.thein.ru/en/runes/TremorTotem/","minRarity":"Normal"},{"title":"Protection Totem","url":"https://undecember.thein.ru/en/runes/ProtectionTotem/","minRarity":"Normal"},{"title":"Life Totem","url":"https://undecember.thein.ru/en/runes/LifeTotem/","minRarity":"Normal"},{"title":"Mist Totem","url":"https://undecember.thein.ru/en/runes/MistTotem/","minRarity":"Normal"},{"title":"Electromagnetic Field","url":"https://undecember.thein.ru/en/runes/ElectromagneticField/","minRarity":"Normal"},{"title":"Teleport","url":"https://undecember.thein.ru/en/runes/Teleport/","minRarity":"Normal"},{"title":"Summon Deadly Poison Rune Knight","url":"https://undecember.thein.ru/en/runes/SummonDeadlyPoisonRuneKnight/","minRarity":"Normal"},{"title":"Agile Movement","url":"https://undecember.thein.ru/en/runes/AgileMovement/","minRarity":"Normal"},{"title":"Pantheon","url":"https://undecember.thein.ru/en/runes/Pantheon/","minRarity":"Normal"},{"title":"Dark Judgment","url":"https://undecember.thein.ru/en/runes/DarkJudgment/","minRarity":"Normal"},{"title":"Persistent Strike","url":"https://undecember.thein.ru/en/runes/PersistentStrike/","minRarity":"Normal"},{"title":"Hazy Melody (Low Tone, High Tone)","url":"https://undecember.thein.ru/en/runes/HazyMelodyLowToneHighTone/","minRarity":"Normal"},{"title":"Condense Fire","url":"https://undecember.thein.ru/en/runes/CondenseFire/","minRarity":"Normal"},{"title":"Fire Torrent","url":"https://undecember.thein.ru/en/runes/FireTorrent/","minRarity":"Magic"},{"title":"Electric Ball","url":"https://undecember.thein.ru/en/runes/ElectricBall/","minRarity":"Magic"},{"title":"Sacred Light","url":"https://undecember.thein.ru/en/runes/SacredLight/","minRarity":"Magic"},{"title":"Summon Wrathful Rune Knight","url":"https://undecember.thein.ru/en/runes/SummonWrathfulRuneKnight/","minRarity":"Magic"},{"title":"Weaken DMG Totem","url":"https://undecember.thein.ru/en/runes/WeakenDMGTotem/","minRarity":"Magic"},{"title":"Seal of Condensed Elements","url":"https://undecember.thein.ru/en/runes/SealOfCondensedElements/","minRarity":"Magic"},{"title":"Seal of Element Resist","url":"https://undecember.thein.ru/en/runes/SealOfElementResist/","minRarity":"Magic"},{"title":"Summon Twisted Abyssling","url":"https://undecember.thein.ru/en/runes/SummonTwistedAbyssling/","minRarity":"Magic"},{"title":"Judgment of Light","url":"https://undecember.thein.ru/en/runes/JudgmentOfLight/","minRarity":"Magic"},{"title":"Absorb Energy","url":"https://undecember.thein.ru/en/runes/AbsorbEnergy/","minRarity":"Magic"},{"title":"Lightning Wave","url":"https://undecember.thein.ru/en/runes/LightningWave/","minRarity":"Magic"},{"title":"Flames of Death","url":"https://undecember.thein.ru/en/runes/FlamesOfDeath/","minRarity":"Magic"},{"title":"Seal of Persistence","url":"https://undecember.thein.ru/en/runes/SealOfPersistence/","minRarity":"Magic"},{"title":"Wings of Ignition","url":"https://undecember.thein.ru/en/runes/WingsOfIgnition/","minRarity":"Magic"},{"title":"Black Plague","url":"https://undecember.thein.ru/en/runes/BlackPlague/","minRarity":"Magic"},{"title":"Blizzard","url":"https://undecember.thein.ru/en/runes/Blizzard/","minRarity":"Rare"},{"title":"Wind Totem","url":"https://undecember.thein.ru/en/runes/WindTotem/","minRarity":"Rare"},{"title":"Seal of Elemental Domain","url":"https://undecember.thein.ru/en/runes/SealOfElementalDomain/","minRarity":"Rare"},{"title":"Seal of Pain","url":"https://undecember.thein.ru/en/runes/SealOfPain/","minRarity":"Rare"},{"title":"Vision Shift","url":"https://undecember.thein.ru/en/runes/VisionShift/","minRarity":"Rare"},{"title":"Knockback","url":"https://undecember.thein.ru/en/runes/Knockback/","minRarity":"Normal"},{"title":"Additional Physical DMG","url":"https://undecember.thein.ru/en/runes/AdditionalPhysicalDMG/","minRarity":"Normal"},{"title":"Additional Fire DMG","url":"https://undecember.thein.ru/en/runes/AdditionalFireDMG/","minRarity":"Normal"},{"title":"Endless Pain","url":"https://undecember.thein.ru/en/runes/EndlessPain/","minRarity":"Normal"},{"title":"Bloodthirst","url":"https://undecember.thein.ru/en/runes/Bloodthirst/","minRarity":"Normal"},{"title":"Armor Penetration","url":"https://undecember.thein.ru/en/runes/ArmorPenetration/","minRarity":"Normal"},{"title":"Ignite","url":"https://undecember.thein.ru/en/runes/Ignite/","minRarity":"Normal"},{"title":"Burning Flame","url":"https://undecember.thein.ru/en/runes/BurningFlame/","minRarity":"Normal"},{"title":"Area Effect","url":"https://undecember.thein.ru/en/runes/AreaEffect/","minRarity":"Normal"},{"title":"Concentrated Area DMG","url":"https://undecember.thein.ru/en/runes/ConcentratedAreaDMG/","minRarity":"Normal"},{"title":"Decrease Duration","url":"https://undecember.thein.ru/en/runes/DecreaseDuration/","minRarity":"Normal"},{"title":"Fire Penetration","url":"https://undecember.thein.ru/en/runes/FirePenetration/","minRarity":"Normal"},{"title":"Confidence","url":"https://undecember.thein.ru/en/runes/Confidence/","minRarity":"Normal"},{"title":"Regeneration","url":"https://undecember.thein.ru/en/runes/Regeneration/","minRarity":"Normal"},{"title":"Tenacity","url":"https://undecember.thein.ru/en/runes/Tenacity/","minRarity":"Normal"},{"title":"Spell Activation on Attack Hit","url":"https://undecember.thein.ru/en/runes/SpellActivationOnAttackHit/","minRarity":"Normal"},{"title":"Convert Fire DMG","url":"https://undecember.thein.ru/en/runes/ConvertFireDMG/","minRarity":"Normal"},{"title":"Center of Gravity","url":"https://undecember.thein.ru/en/runes/CenterOfGravity/","minRarity":"Normal"},{"title":"Overpower","url":"https://undecember.thein.ru/en/runes/Overpower/","minRarity":"Normal"},{"title":"Hushed Shout","url":"https://undecember.thein.ru/en/runes/HushedShout/","minRarity":"Normal"},{"title":"Savagery","url":"https://undecember.thein.ru/en/runes/Savagery/","minRarity":"Normal"},{"title":"Disarm","url":"https://undecember.thein.ru/en/runes/Disarm/","minRarity":"Normal"},{"title":"Hunger","url":"https://undecember.thein.ru/en/runes/Hunger/","minRarity":"Normal"},{"title":"Lingering Shout","url":"https://undecember.thein.ru/en/runes/LingeringShout/","minRarity":"Normal"},{"title":"Improved Shout","url":"https://undecember.thein.ru/en/runes/ImprovedShout/","minRarity":"Normal"},{"title":"Attack DMG Increase","url":"https://undecember.thein.ru/en/runes/AttackDMGIncrease/","minRarity":"Normal"},{"title":"Area Totem","url":"https://undecember.thein.ru/en/runes/AreaTotem/","minRarity":"Normal"},{"title":"Unity","url":"https://undecember.thein.ru/en/runes/Unity/","minRarity":"Normal"},{"title":"Trap Master","url":"https://undecember.thein.ru/en/runes/TrapMaster/","minRarity":"Normal"},{"title":"Trap Area Effect","url":"https://undecember.thein.ru/en/runes/TrapAreaEffect/","minRarity":"Normal"},{"title":"Iron Will","url":"https://undecember.thein.ru/en/runes/IronWill/","minRarity":"Normal"},{"title":"Break","url":"https://undecember.thein.ru/en/runes/Break/","minRarity":"Normal"},{"title":"Expand Vision","url":"https://undecember.thein.ru/en/runes/ExpandVision/","minRarity":"Normal"},{"title":"Absorb Minion HP","url":"https://undecember.thein.ru/en/runes/AbsorbMinionHP/","minRarity":"Normal"},{"title":"Predator's Roar","url":"https://undecember.thein.ru/en/runes/PredatorsRoar/","minRarity":"Normal"},{"title":"Extract Earth Energy","url":"https://undecember.thein.ru/en/runes/ExtractEarthEnergy/","minRarity":"Normal"},{"title":"Extract Fire Energy","url":"https://undecember.thein.ru/en/runes/ExtractFireEnergy/","minRarity":"Normal"},{"title":"Melee DMG Amplification","url":"https://undecember.thein.ru/en/runes/MeleeDMGAmplification/","minRarity":"Magic"},{"title":"Preemptive Strike","url":"https://undecember.thein.ru/en/runes/PreemptiveStrike/","minRarity":"Magic"},{"title":"Strike","url":"https://undecember.thein.ru/en/runes/Strike/","minRarity":"Magic"},{"title":"Buff Activation when Hit","url":"https://undecember.thein.ru/en/runes/BuffActivationWhenHit/","minRarity":"Magic"},{"title":"Ignition Explosion","url":"https://undecember.thein.ru/en/runes/IgnitionExplosion/","minRarity":"Magic"},{"title":"Buff Activation upon Crowd Control","url":"https://undecember.thein.ru/en/runes/BuffActivationUponCrowdControl/","minRarity":"Magic"},{"title":"Shout of Power","url":"https://undecember.thein.ru/en/runes/ShoutOfPower/","minRarity":"Magic"},{"title":"Increase Gold Gain Chance","url":"https://undecember.thein.ru/en/runes/IncreaseGoldGainChance/","minRarity":"Magic"},{"title":"Increase Gold Gain Amount","url":"https://undecember.thein.ru/en/runes/IncreaseGoldGainAmount/","minRarity":"Magic"},{"title":"Increase Kill EXP","url":"https://undecember.thein.ru/en/runes/IncreaseKillEXP/","minRarity":"Magic"},{"title":"Grip Strength","url":"https://undecember.thein.ru/en/runes/GripStrength/","minRarity":"Magic"},{"title":"Offset Counterattack","url":"https://undecember.thein.ru/en/runes/OffsetCounterattack/","minRarity":"Magic"},{"title":"Vitality Recovery","url":"https://undecember.thein.ru/en/runes/VitalityRecovery/","minRarity":"Magic"},{"title":"Focused Defense","url":"https://undecember.thein.ru/en/runes/FocusedDefense/","minRarity":"Magic"},{"title":"Overflowing Strength","url":"https://undecember.thein.ru/en/runes/OverflowingStrength/","minRarity":"Magic"},{"title":"Enhance Seal Range","url":"https://undecember.thein.ru/en/runes/EnhanceSealRange/","minRarity":"Magic"},{"title":"Killing Machine","url":"https://undecember.thein.ru/en/runes/KillingMachine/","minRarity":"Magic"},{"title":"Fighting Spirit","url":"https://undecember.thein.ru/en/runes/FightingSpirit/","minRarity":"Magic"},{"title":"Momentum","url":"https://undecember.thein.ru/en/runes/Momentum/","minRarity":"Magic"},{"title":"Spot Weakness","url":"https://undecember.thein.ru/en/runes/SpotWeakness/","minRarity":"Magic"},{"title":"Enrage","url":"https://undecember.thein.ru/en/runes/Enrage/","minRarity":"Magic"},{"title":"Concentrated Weapon Range DMG","url":"https://undecember.thein.ru/en/runes/ConcentratedWeaponRangeDMG/","minRarity":"Magic"},{"title":"Soul Prayer","url":"https://undecember.thein.ru/en/runes/SoulPrayer/","minRarity":"Magic"},{"title":"Lower Armor","url":"https://undecember.thein.ru/en/runes/LowerArmor/","minRarity":"Magic"},{"title":"Focused Strike","url":"https://undecember.thein.ru/en/runes/FocusedStrike/","minRarity":"Rare"},{"title":"Improved Technique","url":"https://undecember.thein.ru/en/runes/ImprovedTechnique/","minRarity":"Rare"},{"title":"Grand Approach","url":"https://undecember.thein.ru/en/runes/GrandApproach/","minRarity":"Rare"},{"title":"Noble Sacrifice","url":"https://undecember.thein.ru/en/runes/NobleSacrifice/","minRarity":"Rare"},{"title":"Convert Physical Damage","url":"https://undecember.thein.ru/en/runes/ConvertPhysicalDamage/","minRarity":"Rare"},{"title":"Warrior's Shadow","url":"https://undecember.thein.ru/en/runes/WarriorsShadow/","minRarity":"Rare"},{"title":"Quick Attack","url":"https://undecember.thein.ru/en/runes/QuickAttack/","minRarity":"Normal"},{"title":"Find Weakness","url":"https://undecember.thein.ru/en/runes/FindWeakness/","minRarity":"Normal"},{"title":"Additional Poison DMG","url":"https://undecember.thein.ru/en/runes/AdditionalPoisonDMG/","minRarity":"Normal"},{"title":"Multishot","url":"https://undecember.thein.ru/en/runes/Multishot/","minRarity":"Normal"},{"title":"Slaughter","url":"https://undecember.thein.ru/en/runes/Slaughter/","minRarity":"Normal"},{"title":"Increase Duration","url":"https://undecember.thein.ru/en/runes/IncreaseDuration/","minRarity":"Normal"},{"title":"Piercing","url":"https://undecember.thein.ru/en/runes/Piercing/","minRarity":"Normal"},{"title":"Poison Penetration","url":"https://undecember.thein.ru/en/runes/PoisonPenetration/","minRarity":"Normal"},{"title":"Projectile Acceleration","url":"https://undecember.thein.ru/en/runes/ProjectileAcceleration/","minRarity":"Normal"},{"title":"Precision","url":"https://undecember.thein.ru/en/runes/Precision/","minRarity":"Normal"},{"title":"Projectile Deceleration","url":"https://undecember.thein.ru/en/runes/ProjectileDeceleration/","minRarity":"Normal"},{"title":"Split Projectile","url":"https://undecember.thein.ru/en/runes/SplitProjectile/","minRarity":"Normal"},{"title":"Flowing Pain","url":"https://undecember.thein.ru/en/runes/FlowingPain/","minRarity":"Normal"},{"title":"Elite Slayer","url":"https://undecember.thein.ru/en/runes/EliteSlayer/","minRarity":"Normal"},{"title":"Blind Aid","url":"https://undecember.thein.ru/en/runes/BlindAid/","minRarity":"Normal"},{"title":"Deadly Poison","url":"https://undecember.thein.ru/en/runes/DeadlyPoison/","minRarity":"Normal"},{"title":"Convert Poison DMG","url":"https://undecember.thein.ru/en/runes/ConvertPoisonDMG/","minRarity":"Normal"},{"title":"Close Range Shot","url":"https://undecember.thein.ru/en/runes/CloseRangeShot/","minRarity":"Normal"},{"title":"Aim","url":"https://undecember.thein.ru/en/runes/Aim/","minRarity":"Normal"},{"title":"Chain Impact","url":"https://undecember.thein.ru/en/runes/ChainImpact/","minRarity":"Normal"},{"title":"Pierce Wound","url":"https://undecember.thein.ru/en/runes/PierceWound/","minRarity":"Normal"},{"title":"Precise Shot","url":"https://undecember.thein.ru/en/runes/PreciseShot/","minRarity":"Normal"},{"title":"Life Imbued Sentry","url":"https://undecember.thein.ru/en/runes/LifeImbuedSentry/","minRarity":"Normal"},{"title":"Precise Sentry","url":"https://undecember.thein.ru/en/runes/PreciseSentry/","minRarity":"Normal"},{"title":"Sturdy Sentry","url":"https://undecember.thein.ru/en/runes/SturdySentry/","minRarity":"Normal"},{"title":"Parallel Multi Trap","url":"https://undecember.thein.ru/en/runes/ParallelMultiTrap/","minRarity":"Normal"},{"title":"Random Multi Trap","url":"https://undecember.thein.ru/en/runes/RandomMultiTrap/","minRarity":"Normal"},{"title":"Quick Trap Installation","url":"https://undecember.thein.ru/en/runes/QuickTrapInstallation/","minRarity":"Normal"},{"title":"Increased Trap Install Distance","url":"https://undecember.thein.ru/en/runes/IncreaseTrapInstallDistance/","minRarity":"Normal"},{"title":"Trap Projectile Multishot","url":"https://undecember.thein.ru/en/runes/TrapProjectileMultishot/","minRarity":"Normal"},{"title":"Heat Efficiency","url":"https://undecember.thein.ru/en/runes/HeatEfficiency/","minRarity":"Normal"},{"title":"Heat Cycle","url":"https://undecember.thein.ru/en/runes/HeatCycle/","minRarity":"Normal"},{"title":"Trapper","url":"https://undecember.thein.ru/en/runes/Trapper/","minRarity":"Normal"},{"title":"Destructive Instinct","url":"https://undecember.thein.ru/en/runes/DestructiveInstinct/","minRarity":"Normal"},{"title":"Winding Wind","url":"https://undecember.thein.ru/en/runes/WindingWind/","minRarity":"Normal"},{"title":"Extract Poison Energy","url":"https://undecember.thein.ru/en/runes/ExtractPoisonEnergy/","minRarity":"Normal"},{"title":"Multi Sentry","url":"https://undecember.thein.ru/en/runes/MultiSentry/","minRarity":"Magic"},{"title":"Focus","url":"https://undecember.thein.ru/en/runes/Focus/","minRarity":"Magic"},{"title":"Spell Activation upon Enemy Kill","url":"https://undecember.thein.ru/en/runes/SpellActivationUponEnemyKill/","minRarity":"Magic"},{"title":"Parallel Multishot","url":"https://undecember.thein.ru/en/runes/ParallelMultishot/","minRarity":"Magic"},{"title":"Increase Item Drop Rarity","url":"https://undecember.thein.ru/en/runes/IncreaseItemDropRarity/","minRarity":"Magic"},{"title":"Increase Skill Rune Drop Chance","url":"https://undecember.thein.ru/en/runes/IncreaseSkillRuneDropChance/","minRarity":"Magic"},{"title":"Increase Link Rune Drop Chance","url":"https://undecember.thein.ru/en/runes/IncreaseLinkRuneDropChance/","minRarity":"Magic"},{"title":"Enhance Effect","url":"https://undecember.thein.ru/en/runes/EnhanceEffect/","minRarity":"Magic"},{"title":"Amplify Physical Projectile DMG","url":"https://undecember.thein.ru/en/runes/AmplifyPhysicalProjectileDMG/","minRarity":"Magic"},{"title":"Opportunistic Strike","url":"https://undecember.thein.ru/en/runes/OpportunisticStrike/","minRarity":"Magic"},{"title":"Quick Shout","url":"https://undecember.thein.ru/en/runes/QuickShout/","minRarity":"Magic"},{"title":"Versatility","url":"https://undecember.thein.ru/en/runes/Versatility/","minRarity":"Magic"},{"title":"Quick Sentry Installation","url":"https://undecember.thein.ru/en/runes/QuickSentryInstallation/","minRarity":"Magic"},{"title":"Quick Totem Installation","url":"https://undecember.thein.ru/en/runes/QuickTotemInstallation/","minRarity":"Magic"},{"title":"Amplify Trap DMG","url":"https://undecember.thein.ru/en/runes/AmplifyTrapDMG/","minRarity":"Magic"},{"title":"Lasting Trap","url":"https://undecember.thein.ru/en/runes/LastingTrap/","minRarity":"Magic"},{"title":"Outlaw","url":"https://undecember.thein.ru/en/runes/Outlaw/","minRarity":"Magic"},{"title":"Maximized DMG Increase","url":"https://undecember.thein.ru/en/runes/MaximizedDMGIncrease/","minRarity":"Magic"},{"title":"Cut","url":"https://undecember.thein.ru/en/runes/Cut/","minRarity":"Rare"},{"title":"DMG Acceleration","url":"https://undecember.thein.ru/en/runes/DMGAcceleration/","minRarity":"Rare"},{"title":"Increase Maximized DMG Chance","url":"https://undecember.thein.ru/en/runes/IncreaseMaximizedDMGChance/","minRarity":"Rare"},{"title":"Shadow Archer","url":"https://undecember.thein.ru/en/runes/ShadowArcher/","minRarity":"Rare"},{"title":"Additional Lightning DMG","url":"https://undecember.thein.ru/en/runes/AdditionalLightningDMG/","minRarity":"Normal"},{"title":"Additional Cold DMG","url":"https://undecember.thein.ru/en/runes/AdditionalColdDMG/","minRarity":"Normal"},{"title":"Quick Cast","url":"https://undecember.thein.ru/en/runes/QuickCast/","minRarity":"Normal"},{"title":"Lingering Chill","url":"https://undecember.thein.ru/en/runes/LingeringChill/","minRarity":"Normal"},{"title":"Use Count","url":"https://undecember.thein.ru/en/runes/UseCount/","minRarity":"Normal"},{"title":"Frost Explosion","url":"https://undecember.thein.ru/en/runes/FrostExplosion/","minRarity":"Normal"},{"title":"Cold Penetration","url":"https://undecember.thein.ru/en/runes/ColdPenetration/","minRarity":"Normal"},{"title":"Lightning Penetration","url":"https://undecember.thein.ru/en/runes/LightningPenetration/","minRarity":"Normal"},{"title":"Time Acceleration","url":"https://undecember.thein.ru/en/runes/TimeAcceleration/","minRarity":"Normal"},{"title":"Channeling Enhancement","url":"https://undecember.thein.ru/en/runes/ChannelingEnhancement/","minRarity":"Normal"},{"title":"Minion Speed","url":"https://undecember.thein.ru/en/runes/MinionSpeed/","minRarity":"Normal"},{"title":"Minion HP","url":"https://undecember.thein.ru/en/runes/MinionHP/","minRarity":"Normal"},{"title":"Minion Body Shield","url":"https://undecember.thein.ru/en/runes/MinionBodyShield/","minRarity":"Normal"},{"title":"Continuous Shock","url":"https://undecember.thein.ru/en/runes/ContinuousShock/","minRarity":"Normal"},{"title":"Conductor","url":"https://undecember.thein.ru/en/runes/Conductor/","minRarity":"Normal"},{"title":"Persistence","url":"https://undecember.thein.ru/en/runes/Persistence/","minRarity":"Normal"},{"title":"Spell Activation on Spell Hit","url":"https://undecember.thein.ru/en/runes/SpellActivationOnSpellHit/","minRarity":"Normal"},{"title":"Spell Activation while Channeling","url":"https://undecember.thein.ru/en/runes/SpellActivationWhileChanneling/","minRarity":"Normal"},{"title":"Convert Cold DMG","url":"https://undecember.thein.ru/en/runes/ConvertColdDMG/","minRarity":"Normal"},{"title":"Convert Lightning DMG","url":"https://undecember.thein.ru/en/runes/ConvertLightningDMG/","minRarity":"Normal"},{"title":"Time Warp","url":"https://undecember.thein.ru/en/runes/TimeWarp/","minRarity":"Normal"},{"title":"Sharpness","url":"https://undecember.thein.ru/en/runes/Sharpness/","minRarity":"Normal"},{"title":"Status Effect Enhancement","url":"https://undecember.thein.ru/en/runes/StatusEffectEnhancement/","minRarity":"Normal"},{"title":"DoT","url":"https://undecember.thein.ru/en/runes/DoT/","minRarity":"Normal"},{"title":"Minion Armor","url":"https://undecember.thein.ru/en/runes/MinionArmor/","minRarity":"Normal"},{"title":"Lingering Totem","url":"https://undecember.thein.ru/en/runes/LingeringTotem/","minRarity":"Normal"},{"title":"Life Imbued Totem","url":"https://undecember.thein.ru/en/runes/LifeImbuedTotem/","minRarity":"Normal"},{"title":"Enhanced Totem","url":"https://undecember.thein.ru/en/runes/EnhancedTotem/","minRarity":"Normal"},{"title":"DoT Enhancement","url":"https://undecember.thein.ru/en/runes/DoTEnhancement/","minRarity":"Normal"},{"title":"Spell DMG Increase","url":"https://undecember.thein.ru/en/runes/SpellDMGIncrease/","minRarity":"Normal"},{"title":"Preserve Mana","url":"https://undecember.thein.ru/en/runes/PreserveMana/","minRarity":"Normal"},{"title":"Extract Energy","url":"https://undecember.thein.ru/en/runes/ExtractEnergy/","minRarity":"Normal"},{"title":"Over Cooling","url":"https://undecember.thein.ru/en/runes/OverCooling/","minRarity":"Normal"},{"title":"Cooler","url":"https://undecember.thein.ru/en/runes/Cooler/","minRarity":"Normal"},{"title":"Readiness","url":"https://undecember.thein.ru/en/runes/Readiness/","minRarity":"Normal"},{"title":"Extract Cold Energy","url":"https://undecember.thein.ru/en/runes/ExtractColdEnergy/","minRarity":"Normal"},{"title":"Extract Lightning Energy","url":"https://undecember.thein.ru/en/runes/ExtractLightningEnergy/","minRarity":"Normal"},{"title":"Chain","url":"https://undecember.thein.ru/en/runes/Chain/","minRarity":"Magic"},{"title":"Element DMG Amplification","url":"https://undecember.thein.ru/en/runes/ElementDMGAmplification/","minRarity":"Magic"},{"title":"Finishing Strike","url":"https://undecember.thein.ru/en/runes/FinishingStrike/","minRarity":"Magic"},{"title":"Minion DMG","url":"https://undecember.thein.ru/en/runes/MinionDMG/","minRarity":"Magic"},{"title":"Electric Shock","url":"https://undecember.thein.ru/en/runes/ElectricShock/","minRarity":"Magic"},{"title":"Totem Affinity","url":"https://undecember.thein.ru/en/runes/TotemAffinity/","minRarity":"Magic"},{"title":"Impact","url":"https://undecember.thein.ru/en/runes/Impact/","minRarity":"Magic"},{"title":"Acceleration","url":"https://undecember.thein.ru/en/runes/Acceleration/","minRarity":"Magic"},{"title":"Increase Essence Drop Chance","url":"https://undecember.thein.ru/en/runes/IncreaseEssenceDropChance/","minRarity":"Magic"},{"title":"Increase Charm Drop Chance","url":"https://undecember.thein.ru/en/runes/IncreaseCharmDropChance/","minRarity":"Magic"},{"title":"Increase Alchemy Ingredient Drop Chance","url":"https://undecember.thein.ru/en/runes/IncreaseAlchemyIngredientDropChance/","minRarity":"Magic"},{"title":"Increase Element Drop Chance","url":"https://undecember.thein.ru/en/runes/IncreaseElementDropChance/","minRarity":"Magic"},{"title":"Dampen Resource Cost","url":"https://undecember.thein.ru/en/runes/DampenResourceCost/","minRarity":"Magic"},{"title":"Buff Activation upon using Movement Skill","url":"https://undecember.thein.ru/en/runes/BuffActivationUponUsingMovementSkill/","minRarity":"Magic"},{"title":"Barrier Absorb","url":"https://undecember.thein.ru/en/runes/BarrierAbsorb/","minRarity":"Magic"},{"title":"Intellectual","url":"https://undecember.thein.ru/en/runes/Intellectual/","minRarity":"Magic"},{"title":"Element Master","url":"https://undecember.thein.ru/en/runes/ElementMaster/","minRarity":"Magic"},{"title":"Disturb","url":"https://undecember.thein.ru/en/runes/Disturb/","minRarity":"Magic"},{"title":"Minion Presence","url":"https://undecember.thein.ru/en/runes/MinionPresence/","minRarity":"Magic"},{"title":"Promised Protection","url":"https://undecember.thein.ru/en/runes/PromisedProtection/","minRarity":"Magic"},{"title":"Endless Growth","url":"https://undecember.thein.ru/en/runes/EndlessGrowth/","minRarity":"Magic"},{"title":"Reverse Time","url":"https://undecember.thein.ru/en/runes/ReverseTime/","minRarity":"Magic"},{"title":"Mana Outburst","url":"https://undecember.thein.ru/en/runes/ManaOutburst/","minRarity":"Magic"},{"title":"Mana Storm","url":"https://undecember.thein.ru/en/runes/ManaStorm/","minRarity":"Rare"},{"title":"Harmony","url":"https://undecember.thein.ru/en/runes/Harmony/","minRarity":"Rare"},{"title":"Spell Activation on Hit","url":"https://undecember.thein.ru/en/runes/SpellActivationOnHit/","minRarity":"Rare"},{"title":"Totem Activation upon using Enhance Skill","url":"https://undecember.thein.ru/en/runes/TotemActivationUponUsingEnhanceSkill/","minRarity":"Rare"},{"title":"Smash","url":"https://undecember.thein.ru/en/runes/Smash/","minRarity":"Rare"},{"title":"Overflowing Energy","url":"https://undecember.thein.ru/en/runes/OverflowingEnergy/","minRarity":"Rare"},{"title":"Explosion Limit","url":"https://undecember.thein.ru/en/runes/ExplosionLimit/","minRarity":"Rare"}]
+[
+  {
+    "title": "Shout of Terror",
+    "url": "https://undecember.thein.ru/en/runes/ShoutOfTerror/",
+    "minRarity": "Normal",
+    "tags": [
+      "Attack",
+      "Melee",
+      "Area of Effect",
+      "Shout",
+      "Strike",
+      "Physical",
+      "Duration"
+    ]
+  },
+  {
+    "title": "Frost Wave",
+    "url": "https://undecember.thein.ru/en/runes/FrostWave/",
+    "minRarity": "Normal",
+    "tags": [
+      "Attack",
+      "Melee",
+      "Area of Effect",
+      "Strike",
+      "Cold",
+      "Shadow"
+    ]
+  },
+  {
+    "title": "Shield Charge",
+    "url": "https://undecember.thein.ru/en/runes/ShieldCharge/",
+    "minRarity": "Normal",
+    "tags": [
+      "Attack",
+      "Melee",
+      "Area of Effect",
+      "Strike",
+      "Physical",
+      "Movement"
+    ]
+  },
+  {
+    "title": "Combo",
+    "url": "https://undecember.thein.ru/en/runes/Combo/",
+    "minRarity": "Normal",
+    "tags": [
+      "Attack",
+      "Melee",
+      "Weapon Range",
+      "Strike",
+      "Physical",
+      "Shadow"
+    ]
+  },
+  {
+    "title": "Illusion Axe",
+    "url": "https://undecember.thein.ru/en/runes/IllusionAxe/",
+    "minRarity": "Normal",
+    "tags": [
+      "Attack",
+      "Melee",
+      "Area of Effect",
+      "Strike",
+      "Physical",
+      "Toggle",
+      "Toggle DMG"
+    ]
+  },
+  {
+    "title": "Lightning Strike",
+    "url": "https://undecember.thein.ru/en/runes/LightningStrike/",
+    "minRarity": "Normal",
+    "tags": [
+      "Attack",
+      "Area of Effect",
+      "Strike",
+      "Lightning",
+      "Projectile"
+    ]
+  },
+  {
+    "title": "Explosive Slash",
+    "url": "https://undecember.thein.ru/en/runes/ExplosiveSlash/",
+    "minRarity": "Normal",
+    "tags": [
+      "Attack",
+      "Melee",
+      "Weapon Range",
+      "Strike",
+      "Fire",
+      "Shadow"
+    ]
+  },
+  {
+    "title": "Earth Blow",
+    "url": "https://undecember.thein.ru/en/runes/EarthBlow/",
+    "minRarity": "Normal",
+    "tags": [
+      "Attack",
+      "Melee",
+      "Area of Effect",
+      "Strike",
+      "Physical",
+      "Blow",
+      "Shadow"
+    ]
+  },
+  {
+    "title": "Leap Attack",
+    "url": "https://undecember.thein.ru/en/runes/LeapAttack/",
+    "minRarity": "Normal",
+    "tags": [
+      "Attack",
+      "Melee",
+      "Area of Effect",
+      "Strike",
+      "Physical",
+      "Movement"
+    ]
+  },
+  {
+    "title": "Whirlwind",
+    "url": "https://undecember.thein.ru/en/runes/Whirlwind/",
+    "minRarity": "Normal",
+    "tags": [
+      "Attack",
+      "Melee",
+      "Weapon Range",
+      "Channel",
+      "Strike",
+      "Physical"
+    ]
+  },
+  {
+    "title": "Crescent Slash",
+    "url": "https://undecember.thein.ru/en/runes/CrescentSlash/",
+    "minRarity": "Normal",
+    "tags": [
+      "Attack",
+      "Melee",
+      "Weapon Range",
+      "Strike",
+      "Physical",
+      "Shadow"
+    ]
+  },
+  {
+    "title": "Lightning Vortex",
+    "url": "https://undecember.thein.ru/en/runes/LightningVortex/",
+    "minRarity": "Normal",
+    "tags": [
+      "Attack",
+      "Melee",
+      "Area of Effect",
+      "Strike",
+      "Lightning",
+      "Shadow"
+    ]
+  },
+  {
+    "title": "Illusion Hook",
+    "url": "https://undecember.thein.ru/en/runes/IllusionHook/",
+    "minRarity": "Normal",
+    "tags": [
+      "Spell",
+      "Melee",
+      "Area of Effect",
+      "Strike",
+      "Physical"
+    ]
+  },
+  {
+    "title": "Shield Strike",
+    "url": "https://undecember.thein.ru/en/runes/ShieldStrike/",
+    "minRarity": "Normal",
+    "tags": [
+      "Attack",
+      "Melee",
+      "Area of Effect",
+      "Strike",
+      "Physical",
+      "Shadow"
+    ]
+  },
+  {
+    "title": "Quick Slash",
+    "url": "https://undecember.thein.ru/en/runes/QuickSlash/",
+    "minRarity": "Normal",
+    "tags": [
+      "Attack",
+      "Melee",
+      "Weapon Range",
+      "Strike",
+      "Physical",
+      "Shadow"
+    ]
+  },
+  {
+    "title": "Fissure",
+    "url": "https://undecember.thein.ru/en/runes/Fissure/",
+    "minRarity": "Normal",
+    "tags": [
+      "Attack",
+      "Melee",
+      "Area of Effect",
+      "Strike",
+      "Physical",
+      "Shadow"
+    ]
+  },
+  {
+    "title": "Whirlwind Slash",
+    "url": "https://undecember.thein.ru/en/runes/WhirlwindSlash/",
+    "minRarity": "Normal",
+    "tags": [
+      "Attack",
+      "Strike",
+      "Physical",
+      "Projectile"
+    ]
+  },
+  {
+    "title": "Bloodshed",
+    "url": "https://undecember.thein.ru/en/runes/Bloodshed/",
+    "minRarity": "Normal",
+    "tags": [
+      "Attack",
+      "Melee",
+      "Area of Effect",
+      "Weapon Range",
+      "Strike",
+      "Physical",
+      "Shadow"
+    ]
+  },
+  {
+    "title": "Frost Strike",
+    "url": "https://undecember.thein.ru/en/runes/FrostStrike/",
+    "minRarity": "Normal",
+    "tags": [
+      "Attack",
+      "Melee",
+      "Area of Effect",
+      "Strike",
+      "Cold",
+      "Blow",
+      "Shadow"
+    ]
+  },
+  {
+    "title": "Fighter's Wrath",
+    "url": "https://undecember.thein.ru/en/runes/FightersWrath/",
+    "minRarity": "Normal",
+    "tags": [
+      "Spell",
+      "Attack Enhance",
+      "Duration"
+    ]
+  },
+  {
+    "title": "Bulwark of Protection",
+    "url": "https://undecember.thein.ru/en/runes/BulwarkOfProtection/",
+    "minRarity": "Normal",
+    "tags": [
+      "Spell",
+      "Defense Enhance",
+      "Duration"
+    ]
+  },
+  {
+    "title": "Shout of Provocation",
+    "url": "https://undecember.thein.ru/en/runes/ShoutOfProvocation/",
+    "minRarity": "Normal",
+    "tags": [
+      "Attack",
+      "Area of Effect",
+      "Shout",
+      "Duration"
+    ]
+  },
+  {
+    "title": "Blood Explosion",
+    "url": "https://undecember.thein.ru/en/runes/BloodExplosion/",
+    "minRarity": "Normal",
+    "tags": [
+      "Attack",
+      "Melee",
+      "Area of Effect",
+      "Strike",
+      "Physical",
+      "Duration",
+      "Toggle",
+      "Toggle DMG"
+    ]
+  },
+  {
+    "title": "Guardian",
+    "url": "https://undecember.thein.ru/en/runes/Guardian/",
+    "minRarity": "Normal",
+    "tags": [
+      "Attack",
+      "Melee",
+      "Area of Effect",
+      "Strike",
+      "Physical",
+      "Duration"
+    ]
+  },
+  {
+    "title": "Enduring Pain",
+    "url": "https://undecember.thein.ru/en/runes/EnduringPain/",
+    "minRarity": "Normal",
+    "tags": [
+      "Spell",
+      "Defense Enhance",
+      "Toggle",
+      "Toggle Effect"
+    ]
+  },
+  {
+    "title": "Electric Area",
+    "url": "https://undecember.thein.ru/en/runes/ElectricArea/",
+    "minRarity": "Normal",
+    "tags": [
+      "Attack",
+      "Area of Effect",
+      "Strike",
+      "Lightning"
+    ]
+  },
+  {
+    "title": "Wheel Slash",
+    "url": "https://undecember.thein.ru/en/runes/WheelSlash/",
+    "minRarity": "Normal",
+    "tags": [
+      "Attack",
+      "Melee",
+      "Weapon Range",
+      "Strike",
+      "DoT",
+      "Physical",
+      "Shadow"
+    ]
+  },
+  {
+    "title": "Sprint",
+    "url": "https://undecember.thein.ru/en/runes/Sprint/",
+    "minRarity": "Normal",
+    "tags": [
+      "Attack",
+      "Duration",
+      "Movement"
+    ]
+  },
+  {
+    "title": "Thorn Explosion",
+    "url": "https://undecember.thein.ru/en/runes/ThornExplosion/",
+    "minRarity": "Normal",
+    "tags": [
+      "Spell",
+      "Area of Effect",
+      "Strike",
+      "Physical",
+      "Projectile"
+    ]
+  },
+  {
+    "title": "The Absolute's Hammer",
+    "url": "https://undecember.thein.ru/en/runes/TheAbsolutesHammer/",
+    "minRarity": "Normal",
+    "tags": [
+      "Attack",
+      "Melee",
+      "Strike",
+      "Physical",
+      "Projectile"
+    ]
+  },
+  {
+    "title": "Tenacious Regeneration",
+    "url": "https://undecember.thein.ru/en/runes/TenaciousRegeneration/",
+    "minRarity": "Magic",
+    "tags": [
+      "Spell",
+      "Defense Enhance",
+      "Duration"
+    ]
+  },
+  {
+    "title": "Seal of Condensed Destruction",
+    "url": "https://undecember.thein.ru/en/runes/SealOfCondensedDestruction/",
+    "minRarity": "Magic",
+    "tags": [
+      "Spell",
+      "Attack Seal",
+      "Toggle"
+    ]
+  },
+  {
+    "title": "Seal of Defense",
+    "url": "https://undecember.thein.ru/en/runes/SealOfDefense/",
+    "minRarity": "Magic",
+    "tags": [
+      "Spell",
+      "Defense Seal",
+      "Toggle"
+    ]
+  },
+  {
+    "title": "Seal of Crowd Control Dodge",
+    "url": "https://undecember.thein.ru/en/runes/SealOfCrowdControlDodge/",
+    "minRarity": "Magic",
+    "tags": [
+      "Spell",
+      "Defense Seal",
+      "Toggle"
+    ]
+  },
+  {
+    "title": "Fire Blow",
+    "url": "https://undecember.thein.ru/en/runes/FireBlow/",
+    "minRarity": "Magic",
+    "tags": [
+      "Attack",
+      "Melee",
+      "Area of Effect",
+      "Strike",
+      "Fire",
+      "Blow",
+      "Projectile"
+    ]
+  },
+  {
+    "title": "Domain of Strength",
+    "url": "https://undecember.thein.ru/en/runes/DomainOfStrength/",
+    "minRarity": "Magic",
+    "tags": [
+      "Attack",
+      "Melee",
+      "Area of Effect",
+      "Channel",
+      "Strike",
+      "Physical"
+    ]
+  },
+  {
+    "title": "Shout of Justice",
+    "url": "https://undecember.thein.ru/en/runes/ShoutOfJustice/",
+    "minRarity": "Rare",
+    "tags": [
+      "Attack",
+      "Area of Effect",
+      "Shout",
+      "Duration"
+    ]
+  },
+  {
+    "title": "Fierce Strike",
+    "url": "https://undecember.thein.ru/en/runes/FierceStrike/",
+    "minRarity": "Rare",
+    "tags": [
+      "Attack",
+      "Area of Effect",
+      "Strike",
+      "Physical",
+      "Blow"
+    ]
+  },
+  {
+    "title": "Fire Storm",
+    "url": "https://undecember.thein.ru/en/runes/FireStorm/",
+    "minRarity": "Rare",
+    "tags": [
+      "Attack",
+      "Melee",
+      "Area of Effect",
+      "Strike",
+      "Fire",
+      "Shadow"
+    ]
+  },
+  {
+    "title": "Seal of Physical Domain",
+    "url": "https://undecember.thein.ru/en/runes/SealOfPhysicalDomain/",
+    "minRarity": "Rare",
+    "tags": [
+      "Spell",
+      "Defense Seal",
+      "Toggle"
+    ]
+  },
+  {
+    "title": "Seal of Striking",
+    "url": "https://undecember.thein.ru/en/runes/SealOfStriking/",
+    "minRarity": "Rare",
+    "tags": [
+      "Spell",
+      "Attack Seal",
+      "Toggle"
+    ]
+  },
+  {
+    "title": "Arctic Shard",
+    "url": "https://undecember.thein.ru/en/runes/ArcticShard/",
+    "minRarity": "Rare",
+    "tags": [
+      "Attack",
+      "Melee",
+      "Area of Effect",
+      "Strike",
+      "Cold",
+      "Shadow"
+    ]
+  },
+  {
+    "title": "Spread Shot",
+    "url": "https://undecember.thein.ru/en/runes/SpreadShot/",
+    "minRarity": "Normal",
+    "tags": [
+      "Attack",
+      "Strike",
+      "Physical",
+      "Projectile",
+      "Bow",
+      "Overheat",
+      "Shadow"
+    ]
+  },
+  {
+    "title": "Explosive Arrow",
+    "url": "https://undecember.thein.ru/en/runes/ExplosiveArrow/",
+    "minRarity": "Normal",
+    "tags": [
+      "Attack",
+      "Area of Effect",
+      "Strike",
+      "Fire",
+      "Projectile",
+      "Bow"
+    ]
+  },
+  {
+    "title": "Icy Arrow",
+    "url": "https://undecember.thein.ru/en/runes/IcyArrow/",
+    "minRarity": "Normal",
+    "tags": [
+      "Attack",
+      "Area of Effect",
+      "Strike",
+      "Cold",
+      "Projectile",
+      "Bow",
+      "Overheat",
+      "Shadow"
+    ]
+  },
+  {
+    "title": "Rapid Shot",
+    "url": "https://undecember.thein.ru/en/runes/RapidShot/",
+    "minRarity": "Normal",
+    "tags": [
+      "Attack",
+      "Strike",
+      "Physical",
+      "Projectile",
+      "Bow",
+      "Overheat",
+      "Shadow"
+    ]
+  },
+  {
+    "title": "Poison Cloud",
+    "url": "https://undecember.thein.ru/en/runes/PoisonCloud/",
+    "minRarity": "Normal",
+    "tags": [
+      "Spell",
+      "Melee",
+      "Area of Effect",
+      "Strike",
+      "Poison"
+    ]
+  },
+  {
+    "title": "Piercing Arrow",
+    "url": "https://undecember.thein.ru/en/runes/PiercingArrow/",
+    "minRarity": "Normal",
+    "tags": [
+      "Attack",
+      "Strike",
+      "Physical",
+      "Projectile",
+      "Bow",
+      "Overheat",
+      "Shadow"
+    ]
+  },
+  {
+    "title": "Rain of Arrows",
+    "url": "https://undecember.thein.ru/en/runes/RainOfArrows/",
+    "minRarity": "Normal",
+    "tags": [
+      "Attack",
+      "Area of Effect",
+      "Strike",
+      "Physical",
+      "Projectile",
+      "Bow"
+    ]
+  },
+  {
+    "title": "Burn Arrow",
+    "url": "https://undecember.thein.ru/en/runes/BurnArrow/",
+    "minRarity": "Normal",
+    "tags": [
+      "Attack",
+      "Strike",
+      "Fire",
+      "Projectile",
+      "Bow",
+      "Overheat",
+      "Shadow"
+    ]
+  },
+  {
+    "title": "Cross Lightning Arrow",
+    "url": "https://undecember.thein.ru/en/runes/CrossLightningArrow/",
+    "minRarity": "Normal",
+    "tags": [
+      "Attack",
+      "Area of Effect",
+      "Strike",
+      "Lightning",
+      "Projectile",
+      "Bow",
+      "Overheat",
+      "Shadow"
+    ]
+  },
+  {
+    "title": "Dagger Throw",
+    "url": "https://undecember.thein.ru/en/runes/DaggerThrow/",
+    "minRarity": "Normal",
+    "tags": [
+      "Attack",
+      "Strike",
+      "Poison",
+      "Projectile"
+    ]
+  },
+  {
+    "title": "Roll",
+    "url": "https://undecember.thein.ru/en/runes/Roll/",
+    "minRarity": "Normal",
+    "tags": [
+      "Attack",
+      "Duration",
+      "Movement"
+    ]
+  },
+  {
+    "title": "Cross Slash",
+    "url": "https://undecember.thein.ru/en/runes/CrossSlash/",
+    "minRarity": "Normal",
+    "tags": [
+      "Attack",
+      "Melee",
+      "Area of Effect",
+      "Strike",
+      "Physical",
+      "Shadow"
+    ]
+  },
+  {
+    "title": "Spinning Dagger",
+    "url": "https://undecember.thein.ru/en/runes/SpinningDagger/",
+    "minRarity": "Normal",
+    "tags": [
+      "Attack",
+      "Strike",
+      "Physical",
+      "Projectile"
+    ]
+  },
+  {
+    "title": "Illusion Strike",
+    "url": "https://undecember.thein.ru/en/runes/IllusionStrike/",
+    "minRarity": "Normal",
+    "tags": [
+      "Attack",
+      "Melee",
+      "Area of Effect",
+      "Strike",
+      "Physical",
+      "Movement"
+    ]
+  },
+  {
+    "title": "Piercing Sentry",
+    "url": "https://undecember.thein.ru/en/runes/PiercingSentry/",
+    "minRarity": "Normal",
+    "tags": [
+      "Attack",
+      "Sentry"
+    ]
+  },
+  {
+    "title": "Fan Blade Sentry",
+    "url": "https://undecember.thein.ru/en/runes/FanBladeSentry/",
+    "minRarity": "Normal",
+    "tags": [
+      "Attack",
+      "Sentry"
+    ]
+  },
+  {
+    "title": "Electric Sentry",
+    "url": "https://undecember.thein.ru/en/runes/ElectricSentry/",
+    "minRarity": "Normal",
+    "tags": [
+      "Attack",
+      "Sentry"
+    ]
+  },
+  {
+    "title": "Deadly Poison Claw",
+    "url": "https://undecember.thein.ru/en/runes/DeadlyPoisonClaw/",
+    "minRarity": "Normal",
+    "tags": [
+      "Attack",
+      "Melee",
+      "Area of Effect",
+      "Strike",
+      "Poison",
+      "Shadow"
+    ]
+  },
+  {
+    "title": "Shadow Forest",
+    "url": "https://undecember.thein.ru/en/runes/ShadowForest/",
+    "minRarity": "Normal",
+    "tags": [
+      "Spell",
+      "Area of Effect",
+      "Strike",
+      "Physical"
+    ]
+  },
+  {
+    "title": "Blade of Death",
+    "url": "https://undecember.thein.ru/en/runes/BladeOfDeath/",
+    "minRarity": "Normal",
+    "tags": [
+      "Spell",
+      "Strike",
+      "Physical",
+      "Projectile"
+    ]
+  },
+  {
+    "title": "Bombardment Arrow",
+    "url": "https://undecember.thein.ru/en/runes/BombardmentArrow/",
+    "minRarity": "Normal",
+    "tags": [
+      "Attack",
+      "Area of Effect",
+      "Strike",
+      "Physical",
+      "Projectile",
+      "Bow"
+    ]
+  },
+  {
+    "title": "Deadly Poison Skewer",
+    "url": "https://undecember.thein.ru/en/runes/DeadlyPoisonSkewer/",
+    "minRarity": "Normal",
+    "tags": [
+      "Attack",
+      "Melee",
+      "Area of Effect",
+      "Move Attack",
+      "Strike",
+      "Poison",
+      "Shadow"
+    ]
+  },
+  {
+    "title": "Unleash Lightning Shot",
+    "url": "https://undecember.thein.ru/en/runes/UnleashLightningShot/",
+    "minRarity": "Normal",
+    "tags": [
+      "Attack",
+      "Strike",
+      "Lightning",
+      "Projectile",
+      "Bow",
+      "Overheat",
+      "Shadow"
+    ]
+  },
+  {
+    "title": "Frost Sentry",
+    "url": "https://undecember.thein.ru/en/runes/FrostSentry/",
+    "minRarity": "Normal",
+    "tags": [
+      "Attack",
+      "Sentry"
+    ]
+  },
+  {
+    "title": "Vital Strike",
+    "url": "https://undecember.thein.ru/en/runes/VitalStrike/",
+    "minRarity": "Normal",
+    "tags": [
+      "Spell",
+      "Attack Enhance",
+      "Duration"
+    ]
+  },
+  {
+    "title": "Marksman",
+    "url": "https://undecember.thein.ru/en/runes/Marksman/",
+    "minRarity": "Normal",
+    "tags": [
+      "Spell",
+      "Attack Enhance",
+      "Duration"
+    ]
+  },
+  {
+    "title": "Illusion Arrow",
+    "url": "https://undecember.thein.ru/en/runes/IllusionArrow/",
+    "minRarity": "Normal",
+    "tags": [
+      "Attack",
+      "Strike",
+      "Physical",
+      "Projectile",
+      "Duration",
+      "Toggle",
+      "Toggle DMG"
+    ]
+  },
+  {
+    "title": "Poison Explosion",
+    "url": "https://undecember.thein.ru/en/runes/PoisonExplosion/",
+    "minRarity": "Normal",
+    "tags": [
+      "Attack",
+      "Area of Effect",
+      "Strike",
+      "Poison",
+      "Duration",
+      "Toggle",
+      "Toggle DMG"
+    ]
+  },
+  {
+    "title": "Counterattack",
+    "url": "https://undecember.thein.ru/en/runes/Counterattack/",
+    "minRarity": "Normal",
+    "tags": [
+      "Attack",
+      "Area of Effect",
+      "Strike",
+      "Physical",
+      "Toggle",
+      "Toggle DMG"
+    ]
+  },
+  {
+    "title": "Improved Senses",
+    "url": "https://undecember.thein.ru/en/runes/ImprovedSenses/",
+    "minRarity": "Normal",
+    "tags": [
+      "Spell",
+      "Defense Enhance",
+      "Duration"
+    ]
+  },
+  {
+    "title": "Enchanted Sentry",
+    "url": "https://undecember.thein.ru/en/runes/EnchantedSentry/",
+    "minRarity": "Normal",
+    "tags": [
+      "Spell",
+      "Channel"
+    ]
+  },
+  {
+    "title": "Freeze Arrow",
+    "url": "https://undecember.thein.ru/en/runes/FreezeArrow/",
+    "minRarity": "Normal",
+    "tags": [
+      "Attack",
+      "Area of Effect",
+      "Strike",
+      "Cold",
+      "Projectile",
+      "Bow",
+      "Overheat",
+      "Shadow"
+    ]
+  },
+  {
+    "title": "Scorching Arrow",
+    "url": "https://undecember.thein.ru/en/runes/ScorchingArrow/",
+    "minRarity": "Normal",
+    "tags": [
+      "Attack",
+      "Strike",
+      "Fire",
+      "Projectile",
+      "Bow",
+      "Overheat",
+      "Shadow"
+    ]
+  },
+  {
+    "title": "Lightning Arrow",
+    "url": "https://undecember.thein.ru/en/runes/LightningArrow/",
+    "minRarity": "Normal",
+    "tags": [
+      "Attack",
+      "Strike",
+      "Lightning",
+      "Projectile",
+      "Bow",
+      "Overheat",
+      "Shadow"
+    ]
+  },
+  {
+    "title": "Shockwave Trap",
+    "url": "https://undecember.thein.ru/en/runes/ShockwaveTrap/",
+    "minRarity": "Normal",
+    "tags": [
+      "Attack",
+      "Area of Effect",
+      "Trap",
+      "Strike",
+      "Physical"
+    ]
+  },
+  {
+    "title": "Fire Fissure Trap",
+    "url": "https://undecember.thein.ru/en/runes/FireFissureTrap/",
+    "minRarity": "Normal",
+    "tags": [
+      "Attack",
+      "Area of Effect",
+      "Trap",
+      "Strike",
+      "Fire"
+    ]
+  },
+  {
+    "title": "Frost Trap",
+    "url": "https://undecember.thein.ru/en/runes/FrostTrap/",
+    "minRarity": "Normal",
+    "tags": [
+      "Attack",
+      "Area of Effect",
+      "Trap",
+      "Strike",
+      "Cold",
+      "Projectile"
+    ]
+  },
+  {
+    "title": "Electric Orb Trap",
+    "url": "https://undecember.thein.ru/en/runes/ElectricOrbTrap/",
+    "minRarity": "Normal",
+    "tags": [
+      "Attack",
+      "Trap",
+      "Strike",
+      "Lightning",
+      "Projectile"
+    ]
+  },
+  {
+    "title": "Poison Gas Trap",
+    "url": "https://undecember.thein.ru/en/runes/PoisonGasTrap/",
+    "minRarity": "Normal",
+    "tags": [
+      "Attack",
+      "Area of Effect",
+      "Trap",
+      "Strike",
+      "Poison"
+    ]
+  },
+  {
+    "title": "Activate Trap",
+    "url": "https://undecember.thein.ru/en/runes/ActivateTrap/",
+    "minRarity": "Normal",
+    "tags": [
+      "Spell",
+      "Duration"
+    ]
+  },
+  {
+    "title": "Electric Shell Shot",
+    "url": "https://undecember.thein.ru/en/runes/ElectricShellShot/",
+    "minRarity": "Normal",
+    "tags": [
+      "Attack",
+      "Area of Effect",
+      "Strike",
+      "Lightning",
+      "Projectile",
+      "Bowgun",
+      "Overheat",
+      "Shadow"
+    ]
+  },
+  {
+    "title": "Aerial Throw",
+    "url": "https://undecember.thein.ru/en/runes/AerialThrow/",
+    "minRarity": "Normal",
+    "tags": [
+      "Attack",
+      "Melee",
+      "Area of Effect",
+      "Strike",
+      "Physical",
+      "Movement",
+      "Bowgun"
+    ]
+  },
+  {
+    "title": "Total Barrage",
+    "url": "https://undecember.thein.ru/en/runes/TotalBarrage/",
+    "minRarity": "Normal",
+    "tags": [
+      "Attack",
+      "Melee",
+      "Area of Effect",
+      "Strike",
+      "Physical",
+      "Bowgun",
+      "Overheat"
+    ]
+  },
+  {
+    "title": "Instant Acceleration",
+    "url": "https://undecember.thein.ru/en/runes/InstantAcceleration/",
+    "minRarity": "Normal",
+    "tags": [
+      "Attack",
+      "Movement",
+      "Bowgun"
+    ]
+  },
+  {
+    "title": "Whirlwind Barrage",
+    "url": "https://undecember.thein.ru/en/runes/WhirlwindBarrage/",
+    "minRarity": "Normal",
+    "tags": [
+      "Attack",
+      "Channel",
+      "Strike",
+      "Physical",
+      "Projectile",
+      "Bowgun",
+      "Overheat"
+    ]
+  },
+  {
+    "title": "Ogre Arrow",
+    "url": "https://undecember.thein.ru/en/runes/OgreArrow/",
+    "minRarity": "Normal",
+    "tags": [
+      "Attack",
+      "Strike",
+      "Poison",
+      "Projectile",
+      "Bow",
+      "Shadow"
+    ]
+  },
+  {
+    "title": "Shockwave Sentry",
+    "url": "https://undecember.thein.ru/en/runes/ShockwaveSentry/",
+    "minRarity": "Magic",
+    "tags": [
+      "Attack",
+      "Sentry"
+    ]
+  },
+  {
+    "title": "Penetrating Slash",
+    "url": "https://undecember.thein.ru/en/runes/PenetratingSlash/",
+    "minRarity": "Magic",
+    "tags": [
+      "Attack",
+      "Strike",
+      "Physical",
+      "Duration",
+      "Movement"
+    ]
+  },
+  {
+    "title": "Poison Rain of Arrows",
+    "url": "https://undecember.thein.ru/en/runes/PoisonRainOfArrows/",
+    "minRarity": "Magic",
+    "tags": [
+      "Attack",
+      "Area of Effect",
+      "Strike",
+      "Poison",
+      "Projectile",
+      "Bow",
+      "Shadow"
+    ]
+  },
+  {
+    "title": "Attack Impulse",
+    "url": "https://undecember.thein.ru/en/runes/AttackImpulse/",
+    "minRarity": "Magic",
+    "tags": [
+      "Spell",
+      "Attack Enhance",
+      "Duration"
+    ]
+  },
+  {
+    "title": "Seal of Accuracy",
+    "url": "https://undecember.thein.ru/en/runes/SealOfAccuracy/",
+    "minRarity": "Magic",
+    "tags": [
+      "Spell",
+      "Attack Seal",
+      "Toggle"
+    ]
+  },
+  {
+    "title": "Seal of Dodge",
+    "url": "https://undecember.thein.ru/en/runes/SealOfDodge/",
+    "minRarity": "Magic",
+    "tags": [
+      "Spell",
+      "Defense Seal",
+      "Toggle"
+    ]
+  },
+  {
+    "title": "Seal of Critical Chance",
+    "url": "https://undecember.thein.ru/en/runes/SealOfCriticalChance/",
+    "minRarity": "Magic",
+    "tags": [
+      "Spell",
+      "Attack Seal",
+      "Toggle"
+    ]
+  },
+  {
+    "title": "Sentry Expert",
+    "url": "https://undecember.thein.ru/en/runes/SentryExpert/",
+    "minRarity": "Magic",
+    "tags": [
+      "Spell",
+      "Defense Enhance",
+      "Attack Enhance",
+      "Toggle",
+      "Toggle Effect"
+    ]
+  },
+  {
+    "title": "Fire Orb Trap",
+    "url": "https://undecember.thein.ru/en/runes/FireOrbTrap/",
+    "minRarity": "Magic",
+    "tags": [
+      "Attack",
+      "Area of Effect",
+      "Trap",
+      "Strike",
+      "Fire",
+      "Projectile"
+    ]
+  },
+  {
+    "title": "Chill Area Trap",
+    "url": "https://undecember.thein.ru/en/runes/ChillAreaTrap/",
+    "minRarity": "Magic",
+    "tags": [
+      "Attack",
+      "Area of Effect",
+      "Trap",
+      "Strike",
+      "Cold"
+    ]
+  },
+  {
+    "title": "Wind Blade",
+    "url": "https://undecember.thein.ru/en/runes/WindBlade/",
+    "minRarity": "Magic",
+    "tags": [
+      "Attack",
+      "Melee",
+      "Area of Effect",
+      "Strike",
+      "Physical",
+      "Shadow"
+    ]
+  },
+  {
+    "title": "Throw Explosive",
+    "url": "https://undecember.thein.ru/en/runes/ThrowExplosive/",
+    "minRarity": "Magic",
+    "tags": [
+      "Attack",
+      "Area of Effect",
+      "Strike",
+      "Physical",
+      "Projectile",
+      "Bowgun",
+      "Shadow"
+    ]
+  },
+  {
+    "title": "Firebomb Shot",
+    "url": "https://undecember.thein.ru/en/runes/FirebombShot/",
+    "minRarity": "Magic",
+    "tags": [
+      "Attack",
+      "Area of Effect",
+      "Strike",
+      "Fire",
+      "Projectile",
+      "Bowgun",
+      "Overheat",
+      "Shadow"
+    ]
+  },
+  {
+    "title": "Trick Shot",
+    "url": "https://undecember.thein.ru/en/runes/TrickShot/",
+    "minRarity": "Magic",
+    "tags": [
+      "Attack",
+      "Area of Effect",
+      "Strike",
+      "Physical",
+      "Duration",
+      "Movement"
+    ]
+  },
+  {
+    "title": "Shockwave Arrow",
+    "url": "https://undecember.thein.ru/en/runes/ShockwaveArrow/",
+    "minRarity": "Rare",
+    "tags": [
+      "Attack",
+      "Melee",
+      "Strike",
+      "Physical",
+      "Projectile",
+      "Bow",
+      "Overheat"
+    ]
+  },
+  {
+    "title": "Veil of Protection",
+    "url": "https://undecember.thein.ru/en/runes/VeilOfProtection/",
+    "minRarity": "Rare",
+    "tags": [
+      "Spell",
+      "Defense Enhance",
+      "Toggle",
+      "Toggle Effect"
+    ]
+  },
+  {
+    "title": "Seal of Chaos Resist",
+    "url": "https://undecember.thein.ru/en/runes/SealOfChaosResist/",
+    "minRarity": "Rare",
+    "tags": [
+      "Spell",
+      "Defense Seal",
+      "Toggle"
+    ]
+  },
+  {
+    "title": "Ice Crystal Arrow",
+    "url": "https://undecember.thein.ru/en/runes/IceCrystalArrow/",
+    "minRarity": "Rare",
+    "tags": [
+      "Attack",
+      "Strike",
+      "Cold",
+      "Projectile",
+      "Bow",
+      "Overheat",
+      "Shadow"
+    ]
+  },
+  {
+    "title": "Summon Abyssling",
+    "url": "https://undecember.thein.ru/en/runes/SummonAbyssling/",
+    "minRarity": "Normal",
+    "tags": [
+      "Spell",
+      "Minion",
+      "Abyssling"
+    ]
+  },
+  {
+    "title": "Gather Minions",
+    "url": "https://undecember.thein.ru/en/runes/GatherMinions/",
+    "minRarity": "Normal",
+    "tags": [
+      "Spell",
+      "Duration"
+    ]
+  },
+  {
+    "title": "Fire Ball",
+    "url": "https://undecember.thein.ru/en/runes/FireBall/",
+    "minRarity": "Normal",
+    "tags": [
+      "Spell",
+      "Area of Effect",
+      "Strike",
+      "Fire",
+      "Projectile"
+    ]
+  },
+  {
+    "title": "Frost Ball",
+    "url": "https://undecember.thein.ru/en/runes/FrostBall/",
+    "minRarity": "Normal",
+    "tags": [
+      "Spell",
+      "Strike",
+      "Cold",
+      "Projectile"
+    ]
+  },
+  {
+    "title": "Frost Shock",
+    "url": "https://undecember.thein.ru/en/runes/FrostShock/",
+    "minRarity": "Normal",
+    "tags": [
+      "Spell",
+      "Melee",
+      "Area of Effect",
+      "Strike",
+      "Cold"
+    ]
+  },
+  {
+    "title": "Poison Orb",
+    "url": "https://undecember.thein.ru/en/runes/PoisonOrb/",
+    "minRarity": "Normal",
+    "tags": [
+      "Spell",
+      "Area of Effect",
+      "Strike",
+      "Poison",
+      "Projectile"
+    ]
+  },
+  {
+    "title": "Lightning Typhoon",
+    "url": "https://undecember.thein.ru/en/runes/LightningTyphoon/",
+    "minRarity": "Normal",
+    "tags": [
+      "Spell",
+      "Area of Effect",
+      "Strike",
+      "Lightning",
+      "Projectile"
+    ]
+  },
+  {
+    "title": "Frost Thorn",
+    "url": "https://undecember.thein.ru/en/runes/FrostThorn/",
+    "minRarity": "Normal",
+    "tags": [
+      "Spell",
+      "Strike",
+      "Cold",
+      "Projectile"
+    ]
+  },
+  {
+    "title": "Flamethrower",
+    "url": "https://undecember.thein.ru/en/runes/Flamethrower/",
+    "minRarity": "Normal",
+    "tags": [
+      "Spell",
+      "Melee",
+      "Area of Effect",
+      "Channel",
+      "DoT",
+      "Fire"
+    ]
+  },
+  {
+    "title": "Charge Release",
+    "url": "https://undecember.thein.ru/en/runes/ChargeRelease/",
+    "minRarity": "Normal",
+    "tags": [
+      "Spell",
+      "Area of Effect",
+      "Strike",
+      "Lightning",
+      "Projectile"
+    ]
+  },
+  {
+    "title": "Toxic Flame",
+    "url": "https://undecember.thein.ru/en/runes/ToxicFlame/",
+    "minRarity": "Normal",
+    "tags": [
+      "Spell",
+      "DoT",
+      "Poison",
+      "Projectile"
+    ]
+  },
+  {
+    "title": "Summon Javelin Abyssling",
+    "url": "https://undecember.thein.ru/en/runes/SummonJavelinAbyssling/",
+    "minRarity": "Normal",
+    "tags": [
+      "Spell",
+      "Minion",
+      "Abyssling"
+    ]
+  },
+  {
+    "title": "Unite Crowd (Enrage)",
+    "url": "https://undecember.thein.ru/en/runes/UniteCrowdEnrage/",
+    "minRarity": "Normal",
+    "tags": [
+      "Spell",
+      "Attack Enhance",
+      "Defense Enhance",
+      "Toggle",
+      "Toggle Effect"
+    ]
+  },
+  {
+    "title": "Summon Bursting Rune Knight",
+    "url": "https://undecember.thein.ru/en/runes/SummonBurstingRuneKnight/",
+    "minRarity": "Normal",
+    "tags": [
+      "Spell",
+      "Minion",
+      "Rune Knight"
+    ]
+  },
+  {
+    "title": "Sacred Devotion",
+    "url": "https://undecember.thein.ru/en/runes/SacredDevotion/",
+    "minRarity": "Normal",
+    "tags": [
+      "Spell",
+      "Channel"
+    ]
+  },
+  {
+    "title": "Cold Armor",
+    "url": "https://undecember.thein.ru/en/runes/ColdArmor/",
+    "minRarity": "Normal",
+    "tags": [
+      "Spell",
+      "Strike",
+      "Cold",
+      "Toggle",
+      "Toggle DMG",
+      "Toggle Effect"
+    ]
+  },
+  {
+    "title": "Lightning Chain",
+    "url": "https://undecember.thein.ru/en/runes/LightningChain/",
+    "minRarity": "Normal",
+    "tags": [
+      "Spell",
+      "Strike",
+      "Lightning"
+    ]
+  },
+  {
+    "title": "Meteor",
+    "url": "https://undecember.thein.ru/en/runes/Meteor/",
+    "minRarity": "Normal",
+    "tags": [
+      "Spell",
+      "Area of Effect",
+      "Strike",
+      "Fire",
+      "Projectile"
+    ]
+  },
+  {
+    "title": "Poison Area",
+    "url": "https://undecember.thein.ru/en/runes/PoisonArea/",
+    "minRarity": "Normal",
+    "tags": [
+      "Spell",
+      "DoT",
+      "Poison"
+    ]
+  },
+  {
+    "title": "Plague Spike",
+    "url": "https://undecember.thein.ru/en/runes/PlagueSpike/",
+    "minRarity": "Normal",
+    "tags": [
+      "Spell",
+      "Area of Effect",
+      "Strike",
+      "Poison",
+      "Projectile",
+      "Duration"
+    ]
+  },
+  {
+    "title": "Frost Bomb",
+    "url": "https://undecember.thein.ru/en/runes/FrostBomb/",
+    "minRarity": "Normal",
+    "tags": [
+      "Spell",
+      "Strike",
+      "Cold",
+      "Projectile"
+    ]
+  },
+  {
+    "title": "Thunderbolt",
+    "url": "https://undecember.thein.ru/en/runes/Thunderbolt/",
+    "minRarity": "Normal",
+    "tags": [
+      "Spell",
+      "Area of Effect",
+      "Strike",
+      "Lightning",
+      "Projectile",
+      "Toggle",
+      "Toggle DMG"
+    ]
+  },
+  {
+    "title": "Summon Fire Orb Abyssling",
+    "url": "https://undecember.thein.ru/en/runes/SummonFireOrbAbyssling/",
+    "minRarity": "Normal",
+    "tags": [
+      "Spell",
+      "Minion",
+      "Abyssling"
+    ]
+  },
+  {
+    "title": "Summon Poison Arrow Abyssling",
+    "url": "https://undecember.thein.ru/en/runes/SummonPoisonArrowAbyssling/",
+    "minRarity": "Normal",
+    "tags": [
+      "Spell",
+      "Minion",
+      "Abyssling"
+    ]
+  },
+  {
+    "title": "Summon Lightning Arrow Abyssling",
+    "url": "https://undecember.thein.ru/en/runes/SummonLightningArrowAbyssling/",
+    "minRarity": "Normal",
+    "tags": [
+      "Spell",
+      "Minion",
+      "Abyssling"
+    ]
+  },
+  {
+    "title": "Summon Snow Orb Abyssling",
+    "url": "https://undecember.thein.ru/en/runes/SummonSnowOrbAbyssling/",
+    "minRarity": "Normal",
+    "tags": [
+      "Spell",
+      "Minion",
+      "Abyssling"
+    ]
+  },
+  {
+    "title": "Mark of Focus",
+    "url": "https://undecember.thein.ru/en/runes/MarkOfFocus/",
+    "minRarity": "Normal",
+    "tags": [
+      "Spell",
+      "Attack Enhance",
+      "Duration"
+    ]
+  },
+  {
+    "title": "Siphon Life",
+    "url": "https://undecember.thein.ru/en/runes/SiphonLife/",
+    "minRarity": "Normal",
+    "tags": [
+      "Attack",
+      "Defense Enhance",
+      "Duration"
+    ]
+  },
+  {
+    "title": "Summon Arctic Rune Knight",
+    "url": "https://undecember.thein.ru/en/runes/SummonArcticRuneKnight/",
+    "minRarity": "Normal",
+    "tags": [
+      "Spell",
+      "Minion",
+      "Rune Knight"
+    ]
+  },
+  {
+    "title": "Summon Lightning Rune Knight",
+    "url": "https://undecember.thein.ru/en/runes/SummonLightningRuneKnight/",
+    "minRarity": "Normal",
+    "tags": [
+      "Spell",
+      "Minion",
+      "Rune Knight"
+    ]
+  },
+  {
+    "title": "Release Element",
+    "url": "https://undecember.thein.ru/en/runes/ReleaseElement/",
+    "minRarity": "Normal",
+    "tags": [
+      "Spell",
+      "Attack Enhance",
+      "Duration"
+    ]
+  },
+  {
+    "title": "Intensify Pain",
+    "url": "https://undecember.thein.ru/en/runes/IntensifyPain/",
+    "minRarity": "Normal",
+    "tags": [
+      "Spell",
+      "Attack Enhance",
+      "Duration"
+    ]
+  },
+  {
+    "title": "Cold Outburst",
+    "url": "https://undecember.thein.ru/en/runes/ColdOutburst/",
+    "minRarity": "Normal",
+    "tags": [
+      "Spell",
+      "Area of Effect",
+      "Strike",
+      "Cold",
+      "Projectile"
+    ]
+  },
+  {
+    "title": "Weaken Totem",
+    "url": "https://undecember.thein.ru/en/runes/WeakenTotem/",
+    "minRarity": "Normal",
+    "tags": [
+      "Spell",
+      "Totem"
+    ]
+  },
+  {
+    "title": "Tremor Totem",
+    "url": "https://undecember.thein.ru/en/runes/TremorTotem/",
+    "minRarity": "Normal",
+    "tags": [
+      "Spell",
+      "Totem"
+    ]
+  },
+  {
+    "title": "Protection Totem",
+    "url": "https://undecember.thein.ru/en/runes/ProtectionTotem/",
+    "minRarity": "Normal",
+    "tags": [
+      "Spell",
+      "Totem"
+    ]
+  },
+  {
+    "title": "Life Totem",
+    "url": "https://undecember.thein.ru/en/runes/LifeTotem/",
+    "minRarity": "Normal",
+    "tags": [
+      "Spell",
+      "Totem"
+    ]
+  },
+  {
+    "title": "Mist Totem",
+    "url": "https://undecember.thein.ru/en/runes/MistTotem/",
+    "minRarity": "Normal",
+    "tags": [
+      "Spell",
+      "Totem"
+    ]
+  },
+  {
+    "title": "Electromagnetic Field",
+    "url": "https://undecember.thein.ru/en/runes/ElectromagneticField/",
+    "minRarity": "Normal",
+    "tags": [
+      "Spell",
+      "Area of Effect",
+      "Strike",
+      "Lightning"
+    ]
+  },
+  {
+    "title": "Teleport",
+    "url": "https://undecember.thein.ru/en/runes/Teleport/",
+    "minRarity": "Normal",
+    "tags": [
+      "Spell",
+      "Duration",
+      "Movement"
+    ]
+  },
+  {
+    "title": "Summon Deadly Poison Rune Knight",
+    "url": "https://undecember.thein.ru/en/runes/SummonDeadlyPoisonRuneKnight/",
+    "minRarity": "Normal",
+    "tags": [
+      "Spell",
+      "Minion",
+      "Rune Knight"
+    ]
+  },
+  {
+    "title": "Agile Movement",
+    "url": "https://undecember.thein.ru/en/runes/AgileMovement/",
+    "minRarity": "Normal",
+    "tags": [
+      "Spell",
+      "Defense Enhance",
+      "Duration"
+    ]
+  },
+  {
+    "title": "Pantheon",
+    "url": "https://undecember.thein.ru/en/runes/Pantheon/",
+    "minRarity": "Normal",
+    "tags": [
+      "Spell",
+      "Defense Enhance",
+      "Duration"
+    ]
+  },
+  {
+    "title": "Dark Judgment",
+    "url": "https://undecember.thein.ru/en/runes/DarkJudgment/",
+    "minRarity": "Normal",
+    "tags": [
+      "Spell",
+      "Area of Effect",
+      "Strike",
+      "Cold",
+      "Poison",
+      "Lightning",
+      "Fire",
+      "Projectile",
+      ""
+    ]
+  },
+  {
+    "title": "Persistent Strike",
+    "url": "https://undecember.thein.ru/en/runes/PersistentStrike/",
+    "minRarity": "Normal",
+    "tags": [
+      "Spell",
+      "Attack Enhance",
+      "Duration"
+    ]
+  },
+  {
+    "title": "Hazy Melody (Low Tone, High Tone)",
+    "url": "https://undecember.thein.ru/en/runes/HazyMelodyLowToneHighTone/",
+    "minRarity": "Normal",
+    "tags": [
+      "Spell",
+      "Attack Enhance",
+      "Defense Enhance",
+      "Toggle",
+      "Toggle Effect"
+    ]
+  },
+  {
+    "title": "Condense Fire",
+    "url": "https://undecember.thein.ru/en/runes/CondenseFire/",
+    "minRarity": "Normal",
+    "tags": [
+      "Spell",
+      "Area of Effect",
+      "Strike",
+      "Fire",
+      "Projectile"
+    ]
+  },
+  {
+    "title": "Fire Torrent",
+    "url": "https://undecember.thein.ru/en/runes/FireTorrent/",
+    "minRarity": "Magic",
+    "tags": [
+      "Spell",
+      "Channel",
+      "Strike",
+      "Fire",
+      "Projectile"
+    ]
+  },
+  {
+    "title": "Electric Ball",
+    "url": "https://undecember.thein.ru/en/runes/ElectricBall/",
+    "minRarity": "Magic",
+    "tags": [
+      "Spell",
+      "Area of Effect",
+      "Strike",
+      "Lightning",
+      "Projectile"
+    ]
+  },
+  {
+    "title": "Sacred Light",
+    "url": "https://undecember.thein.ru/en/runes/SacredLight/",
+    "minRarity": "Magic",
+    "tags": [
+      "Spell",
+      "Melee",
+      "Area of Effect",
+      "Channel",
+      "Strike",
+      "Cold",
+      "Poison",
+      "Lightning",
+      "Fire"
+    ]
+  },
+  {
+    "title": "Summon Wrathful Rune Knight",
+    "url": "https://undecember.thein.ru/en/runes/SummonWrathfulRuneKnight/",
+    "minRarity": "Magic",
+    "tags": [
+      "Spell",
+      "Minion",
+      "Rune Knight"
+    ]
+  },
+  {
+    "title": "Weaken DMG Totem",
+    "url": "https://undecember.thein.ru/en/runes/WeakenDMGTotem/",
+    "minRarity": "Magic",
+    "tags": [
+      "Spell",
+      "Totem"
+    ]
+  },
+  {
+    "title": "Seal of Condensed Elements",
+    "url": "https://undecember.thein.ru/en/runes/SealOfCondensedElements/",
+    "minRarity": "Magic",
+    "tags": [
+      "Spell",
+      "Attack Seal",
+      "Toggle"
+    ]
+  },
+  {
+    "title": "Seal of Element Resist",
+    "url": "https://undecember.thein.ru/en/runes/SealOfElementResist/",
+    "minRarity": "Magic",
+    "tags": [
+      "Spell",
+      "Defense Seal",
+      "Toggle"
+    ]
+  },
+  {
+    "title": "Summon Twisted Abyssling",
+    "url": "https://undecember.thein.ru/en/runes/SummonTwistedAbyssling/",
+    "minRarity": "Magic",
+    "tags": [
+      "Spell",
+      "Minion",
+      "Abyssling"
+    ]
+  },
+  {
+    "title": "Judgment of Light",
+    "url": "https://undecember.thein.ru/en/runes/JudgmentOfLight/",
+    "minRarity": "Magic",
+    "tags": [
+      "Spell",
+      "Area of Effect",
+      "Strike",
+      "Cold",
+      "Poison",
+      "Lightning",
+      "Fire",
+      "Projectile",
+      ""
+    ]
+  },
+  {
+    "title": "Absorb Energy",
+    "url": "https://undecember.thein.ru/en/runes/AbsorbEnergy/",
+    "minRarity": "Magic",
+    "tags": [
+      "Spell",
+      "Attack Enhance",
+      "Duration"
+    ]
+  },
+  {
+    "title": "Lightning Wave",
+    "url": "https://undecember.thein.ru/en/runes/LightningWave/",
+    "minRarity": "Magic",
+    "tags": [
+      "Spell",
+      "Melee",
+      "Area of Effect",
+      "Strike",
+      "Lightning"
+    ]
+  },
+  {
+    "title": "Flames of Death",
+    "url": "https://undecember.thein.ru/en/runes/FlamesOfDeath/",
+    "minRarity": "Magic",
+    "tags": [
+      "Spell",
+      "Melee",
+      "Area of Effect",
+      "Strike",
+      "Fire"
+    ]
+  },
+  {
+    "title": "Seal of Persistence",
+    "url": "https://undecember.thein.ru/en/runes/SealOfPersistence/",
+    "minRarity": "Magic",
+    "tags": [
+      "Spell",
+      "Attack Seal",
+      "Toggle"
+    ]
+  },
+  {
+    "title": "Wings of Ignition",
+    "url": "https://undecember.thein.ru/en/runes/WingsOfIgnition/",
+    "minRarity": "Magic",
+    "tags": [
+      "Spell",
+      "Strike",
+      "Fire",
+      "Projectile"
+    ]
+  },
+  {
+    "title": "Black Plague",
+    "url": "https://undecember.thein.ru/en/runes/BlackPlague/",
+    "minRarity": "Magic",
+    "tags": [
+      "Spell",
+      "Area of Effect",
+      "Channel",
+      "Strike",
+      "Poison"
+    ]
+  },
+  {
+    "title": "Blizzard",
+    "url": "https://undecember.thein.ru/en/runes/Blizzard/",
+    "minRarity": "Rare",
+    "tags": [
+      "Spell",
+      "Area of Effect",
+      "Strike",
+      "Cold"
+    ]
+  },
+  {
+    "title": "Wind Totem",
+    "url": "https://undecember.thein.ru/en/runes/WindTotem/",
+    "minRarity": "Rare",
+    "tags": [
+      "Spell",
+      "Totem"
+    ]
+  },
+  {
+    "title": "Seal of Elemental Domain",
+    "url": "https://undecember.thein.ru/en/runes/SealOfElementalDomain/",
+    "minRarity": "Rare",
+    "tags": [
+      "Spell",
+      "Defense Seal",
+      "Toggle"
+    ]
+  },
+  {
+    "title": "Seal of Pain",
+    "url": "https://undecember.thein.ru/en/runes/SealOfPain/",
+    "minRarity": "Rare",
+    "tags": [
+      "Spell",
+      "Attack Seal",
+      "Toggle"
+    ]
+  },
+  {
+    "title": "Vision Shift",
+    "url": "https://undecember.thein.ru/en/runes/VisionShift/",
+    "minRarity": "Rare",
+    "tags": [
+      "Spell",
+      "Area of Effect",
+      "Move Attack",
+      "Strike",
+      "Physical"
+    ]
+  },
+  {
+    "title": "Knockback",
+    "url": "https://undecember.thein.ru/en/runes/Knockback/",
+    "minRarity": "Normal",
+    "tags": [
+      "Strike",
+      "Attack"
+    ]
+  },
+  {
+    "title": "Additional Physical DMG",
+    "url": "https://undecember.thein.ru/en/runes/AdditionalPhysicalDMG/",
+    "minRarity": "Normal",
+    "tags": [
+      "Physical"
+    ]
+  },
+  {
+    "title": "Additional Fire DMG",
+    "url": "https://undecember.thein.ru/en/runes/AdditionalFireDMG/",
+    "minRarity": "Normal",
+    "tags": [
+      "Fire"
+    ]
+  },
+  {
+    "title": "Endless Pain",
+    "url": "https://undecember.thein.ru/en/runes/EndlessPain/",
+    "minRarity": "Normal",
+    "tags": [
+      "Physical",
+      "Strike"
+    ]
+  },
+  {
+    "title": "Bloodthirst",
+    "url": "https://undecember.thein.ru/en/runes/Bloodthirst/",
+    "minRarity": "Normal",
+    "tags": [
+      "Physical",
+      "Strike"
+    ]
+  },
+  {
+    "title": "Armor Penetration",
+    "url": "https://undecember.thein.ru/en/runes/ArmorPenetration/",
+    "minRarity": "Normal",
+    "tags": [
+      "Physical"
+    ]
+  },
+  {
+    "title": "Ignite",
+    "url": "https://undecember.thein.ru/en/runes/Ignite/",
+    "minRarity": "Normal",
+    "tags": [
+      "Fire",
+      "Strike"
+    ]
+  },
+  {
+    "title": "Burning Flame",
+    "url": "https://undecember.thein.ru/en/runes/BurningFlame/",
+    "minRarity": "Normal",
+    "tags": [
+      "Fire",
+      "Strike"
+    ]
+  },
+  {
+    "title": "Area Effect",
+    "url": "https://undecember.thein.ru/en/runes/AreaEffect/",
+    "minRarity": "Normal",
+    "tags": [
+      "Strike",
+      "DoT",
+      "Area of Effect"
+    ]
+  },
+  {
+    "title": "Concentrated Area DMG",
+    "url": "https://undecember.thein.ru/en/runes/ConcentratedAreaDMG/",
+    "minRarity": "Normal",
+    "tags": [
+      "Strike",
+      "DoT",
+      "Area of Effect"
+    ]
+  },
+  {
+    "title": "Decrease Duration",
+    "url": "https://undecember.thein.ru/en/runes/DecreaseDuration/",
+    "minRarity": "Normal",
+    "tags": [
+      "Duration"
+    ]
+  },
+  {
+    "title": "Fire Penetration",
+    "url": "https://undecember.thein.ru/en/runes/FirePenetration/",
+    "minRarity": "Normal",
+    "tags": [
+      "Fire"
+    ]
+  },
+  {
+    "title": "Confidence",
+    "url": "https://undecember.thein.ru/en/runes/Confidence/",
+    "minRarity": "Normal",
+    "tags": [
+      "Strike",
+      "DoT"
+    ]
+  },
+  {
+    "title": "Regeneration",
+    "url": "https://undecember.thein.ru/en/runes/Regeneration/",
+    "minRarity": "Normal",
+    "tags": [
+      "Melee",
+      "Attack",
+      "Strike"
+    ]
+  },
+  {
+    "title": "Tenacity",
+    "url": "https://undecember.thein.ru/en/runes/Tenacity/",
+    "minRarity": "Normal",
+    "tags": [
+      "Melee",
+      "Attack",
+      "Strike"
+    ]
+  },
+  {
+    "title": "Spell Activation on Attack Hit",
+    "url": "https://undecember.thein.ru/en/runes/SpellActivationOnAttackHit/",
+    "minRarity": "Normal",
+    "tags": [
+      "Attack",
+      "Strike"
+    ]
+  },
+  {
+    "title": "Convert Fire DMG",
+    "url": "https://undecember.thein.ru/en/runes/ConvertFireDMG/",
+    "minRarity": "Normal",
+    "tags": [
+      "Strike",
+      "DoT",
+      "Physical"
+    ]
+  },
+  {
+    "title": "Center of Gravity",
+    "url": "https://undecember.thein.ru/en/runes/CenterOfGravity/",
+    "minRarity": "Normal",
+    "tags": [
+      "Strike",
+      "DoT"
+    ]
+  },
+  {
+    "title": "Overpower",
+    "url": "https://undecember.thein.ru/en/runes/Overpower/",
+    "minRarity": "Normal",
+    "tags": [
+      "Strike"
+    ]
+  },
+  {
+    "title": "Hushed Shout",
+    "url": "https://undecember.thein.ru/en/runes/HushedShout/",
+    "minRarity": "Normal",
+    "tags": [
+      "Shout"
+    ]
+  },
+  {
+    "title": "Savagery",
+    "url": "https://undecember.thein.ru/en/runes/Savagery/",
+    "minRarity": "Normal",
+    "tags": [
+      "Melee",
+      "Weapon Range"
+    ]
+  },
+  {
+    "title": "Disarm",
+    "url": "https://undecember.thein.ru/en/runes/Disarm/",
+    "minRarity": "Normal",
+    "tags": [
+      "Movement"
+    ]
+  },
+  {
+    "title": "Hunger",
+    "url": "https://undecember.thein.ru/en/runes/Hunger/",
+    "minRarity": "Normal",
+    "tags": [
+      "Melee",
+      "Attack",
+      "Strike"
+    ]
+  },
+  {
+    "title": "Lingering Shout",
+    "url": "https://undecember.thein.ru/en/runes/LingeringShout/",
+    "minRarity": "Normal",
+    "tags": [
+      "Shout"
+    ]
+  },
+  {
+    "title": "Improved Shout",
+    "url": "https://undecember.thein.ru/en/runes/ImprovedShout/",
+    "minRarity": "Normal",
+    "tags": [
+      "Shout"
+    ]
+  },
+  {
+    "title": "Attack DMG Increase",
+    "url": "https://undecember.thein.ru/en/runes/AttackDMGIncrease/",
+    "minRarity": "Normal",
+    "tags": [
+      "Strike",
+      "DoT",
+      "Attack"
+    ]
+  },
+  {
+    "title": "Area Totem",
+    "url": "https://undecember.thein.ru/en/runes/AreaTotem/",
+    "minRarity": "Normal",
+    "tags": [
+      "Totem"
+    ]
+  },
+  {
+    "title": "Unity",
+    "url": "https://undecember.thein.ru/en/runes/Unity/",
+    "minRarity": "Normal",
+    "tags": [
+      "Abyssling",
+      "Minion"
+    ]
+  },
+  {
+    "title": "Trap Master",
+    "url": "https://undecember.thein.ru/en/runes/TrapMaster/",
+    "minRarity": "Normal",
+    "tags": [
+      "Trap"
+    ]
+  },
+  {
+    "title": "Trap Area Effect",
+    "url": "https://undecember.thein.ru/en/runes/TrapAreaEffect/",
+    "minRarity": "Normal",
+    "tags": [
+      "Trap"
+    ]
+  },
+  {
+    "title": "Iron Will",
+    "url": "https://undecember.thein.ru/en/runes/IronWill/",
+    "minRarity": "Normal",
+    "tags": [
+      "Attack",
+      "Melee",
+      "Strike"
+    ]
+  },
+  {
+    "title": "Break",
+    "url": "https://undecember.thein.ru/en/runes/Break/",
+    "minRarity": "Normal",
+    "tags": [
+      "Strike",
+      "Melee",
+      "Attack"
+    ]
+  },
+  {
+    "title": "Expand Vision",
+    "url": "https://undecember.thein.ru/en/runes/ExpandVision/",
+    "minRarity": "Normal",
+    "tags": [
+      "Movement"
+    ]
+  },
+  {
+    "title": "Absorb Minion HP",
+    "url": "https://undecember.thein.ru/en/runes/AbsorbMinionHP/",
+    "minRarity": "Normal",
+    "tags": [
+      "Minion"
+    ]
+  },
+  {
+    "title": "Predator's Roar",
+    "url": "https://undecember.thein.ru/en/runes/PredatorsRoar/",
+    "minRarity": "Normal",
+    "tags": [
+      "Shout"
+    ]
+  },
+  {
+    "title": "Extract Earth Energy",
+    "url": "https://undecember.thein.ru/en/runes/ExtractEarthEnergy/",
+    "minRarity": "Normal",
+    "tags": [
+      "Physical",
+      "Strike"
+    ]
+  },
+  {
+    "title": "Extract Fire Energy",
+    "url": "https://undecember.thein.ru/en/runes/ExtractFireEnergy/",
+    "minRarity": "Normal",
+    "tags": [
+      "Fire",
+      "Strike"
+    ]
+  },
+  {
+    "title": "Melee DMG Amplification",
+    "url": "https://undecember.thein.ru/en/runes/MeleeDMGAmplification/",
+    "minRarity": "Magic",
+    "tags": [
+      "Melee",
+      "Attack"
+    ]
+  },
+  {
+    "title": "Preemptive Strike",
+    "url": "https://undecember.thein.ru/en/runes/PreemptiveStrike/",
+    "minRarity": "Magic",
+    "tags": [
+      "Strike",
+      "DoT"
+    ]
+  },
+  {
+    "title": "Strike",
+    "url": "https://undecember.thein.ru/en/runes/Strike/",
+    "minRarity": "Magic",
+    "tags": [
+      "Strike"
+    ]
+  },
+  {
+    "title": "Buff Activation when Hit",
+    "url": "https://undecember.thein.ru/en/runes/BuffActivationWhenHit/",
+    "minRarity": "Magic",
+    "tags": [
+      "Shout",
+      "Attack Enhance",
+      "Defense Enhance"
+    ]
+  },
+  {
+    "title": "Ignition Explosion",
+    "url": "https://undecember.thein.ru/en/runes/IgnitionExplosion/",
+    "minRarity": "Magic",
+    "tags": [
+      "Strike",
+      "Fire"
+    ]
+  },
+  {
+    "title": "Buff Activation upon Crowd Control",
+    "url": "https://undecember.thein.ru/en/runes/BuffActivationUponCrowdControl/",
+    "minRarity": "Magic",
+    "tags": [
+      "Shout",
+      "Attack Enhance",
+      "Defense Enhance"
+    ]
+  },
+  {
+    "title": "Shout of Power",
+    "url": "https://undecember.thein.ru/en/runes/ShoutOfPower/",
+    "minRarity": "Magic",
+    "tags": [
+      "Shout"
+    ]
+  },
+  {
+    "title": "Increase Gold Gain Chance",
+    "url": "https://undecember.thein.ru/en/runes/IncreaseGoldGainChance/",
+    "minRarity": "Magic",
+    "tags": [
+      "Strike"
+    ]
+  },
+  {
+    "title": "Increase Gold Gain Amount",
+    "url": "https://undecember.thein.ru/en/runes/IncreaseGoldGainAmount/",
+    "minRarity": "Magic",
+    "tags": [
+      "Strike"
+    ]
+  },
+  {
+    "title": "Increase Kill EXP",
+    "url": "https://undecember.thein.ru/en/runes/IncreaseKillEXP/",
+    "minRarity": "Magic",
+    "tags": [
+      "Strike"
+    ]
+  },
+  {
+    "title": "Grip Strength",
+    "url": "https://undecember.thein.ru/en/runes/GripStrength/",
+    "minRarity": "Magic",
+    "tags": [
+      "Melee",
+      "Attack",
+      "Strike"
+    ]
+  },
+  {
+    "title": "Offset Counterattack",
+    "url": "https://undecember.thein.ru/en/runes/OffsetCounterattack/",
+    "minRarity": "Magic",
+    "tags": [
+      "Attack",
+      "Spell",
+      "Strike"
+    ]
+  },
+  {
+    "title": "Vitality Recovery",
+    "url": "https://undecember.thein.ru/en/runes/VitalityRecovery/",
+    "minRarity": "Magic",
+    "tags": [
+      "Defense Enhance"
+    ]
+  },
+  {
+    "title": "Focused Defense",
+    "url": "https://undecember.thein.ru/en/runes/FocusedDefense/",
+    "minRarity": "Magic",
+    "tags": [
+      "Defense Enhance"
+    ]
+  },
+  {
+    "title": "Overflowing Strength",
+    "url": "https://undecember.thein.ru/en/runes/OverflowingStrength/",
+    "minRarity": "Magic",
+    "tags": [
+      "Defense Enhance"
+    ]
+  },
+  {
+    "title": "Enhance Seal Range",
+    "url": "https://undecember.thein.ru/en/runes/EnhanceSealRange/",
+    "minRarity": "Magic",
+    "tags": [
+      "Attack Seal",
+      "Defense Seal"
+    ]
+  },
+  {
+    "title": "Killing Machine",
+    "url": "https://undecember.thein.ru/en/runes/KillingMachine/",
+    "minRarity": "Magic",
+    "tags": [
+      "Strike",
+      "DoT"
+    ]
+  },
+  {
+    "title": "Fighting Spirit",
+    "url": "https://undecember.thein.ru/en/runes/FightingSpirit/",
+    "minRarity": "Magic",
+    "tags": [
+      "Attack",
+      "Melee",
+      "Strike"
+    ]
+  },
+  {
+    "title": "Momentum",
+    "url": "https://undecember.thein.ru/en/runes/Momentum/",
+    "minRarity": "Magic",
+    "tags": [
+      "Movement",
+      "Strike"
+    ]
+  },
+  {
+    "title": "Spot Weakness",
+    "url": "https://undecember.thein.ru/en/runes/SpotWeakness/",
+    "minRarity": "Magic",
+    "tags": [
+      "Projectile"
+    ]
+  },
+  {
+    "title": "Enrage",
+    "url": "https://undecember.thein.ru/en/runes/Enrage/",
+    "minRarity": "Magic",
+    "tags": [
+      "Attack",
+      "Melee",
+      "Strike"
+    ]
+  },
+  {
+    "title": "Concentrated Weapon Range DMG",
+    "url": "https://undecember.thein.ru/en/runes/ConcentratedWeaponRangeDMG/",
+    "minRarity": "Magic",
+    "tags": [
+      "Strike",
+      "DoT",
+      "Weapon Range"
+    ]
+  },
+  {
+    "title": "Soul Prayer",
+    "url": "https://undecember.thein.ru/en/runes/SoulPrayer/",
+    "minRarity": "Magic",
+    "tags": [
+      "Attack",
+      "Spell",
+      "Melee",
+      "Strike"
+    ]
+  },
+  {
+    "title": "Lower Armor",
+    "url": "https://undecember.thein.ru/en/runes/LowerArmor/",
+    "minRarity": "Magic",
+    "tags": [
+      "Attack",
+      "Spell",
+      "Physical",
+      "Strike"
+    ]
+  },
+  {
+    "title": "Focused Strike",
+    "url": "https://undecember.thein.ru/en/runes/FocusedStrike/",
+    "minRarity": "Rare",
+    "tags": [
+      "Attack",
+      "Spell",
+      "Blow"
+    ]
+  },
+  {
+    "title": "Improved Technique",
+    "url": "https://undecember.thein.ru/en/runes/ImprovedTechnique/",
+    "minRarity": "Rare",
+    "tags": [
+      "Attack",
+      "Spell"
+    ]
+  },
+  {
+    "title": "Grand Approach",
+    "url": "https://undecember.thein.ru/en/runes/GrandApproach/",
+    "minRarity": "Rare",
+    "tags": [
+      "Attack",
+      "Melee",
+      "Strike"
+    ]
+  },
+  {
+    "title": "Noble Sacrifice",
+    "url": "https://undecember.thein.ru/en/runes/NobleSacrifice/",
+    "minRarity": "Rare",
+    "tags": [
+      "Minion"
+    ]
+  },
+  {
+    "title": "Convert Physical Damage",
+    "url": "https://undecember.thein.ru/en/runes/ConvertPhysicalDamage/",
+    "minRarity": "Rare",
+    "tags": [
+      "Strike",
+      "DoT",
+      "Fire",
+      "Cold",
+      "Lightning",
+      "Poison"
+    ]
+  },
+  {
+    "title": "Warrior's Shadow",
+    "url": "https://undecember.thein.ru/en/runes/WarriorsShadow/",
+    "minRarity": "Rare",
+    "tags": [
+      "Attack",
+      "Shadow",
+      "Strike",
+      "Melee"
+    ]
+  },
+  {
+    "title": "Quick Attack",
+    "url": "https://undecember.thein.ru/en/runes/QuickAttack/",
+    "minRarity": "Normal",
+    "tags": [
+      "Attack"
+    ]
+  },
+  {
+    "title": "Find Weakness",
+    "url": "https://undecember.thein.ru/en/runes/FindWeakness/",
+    "minRarity": "Normal",
+    "tags": [
+      "Strike"
+    ]
+  },
+  {
+    "title": "Additional Poison DMG",
+    "url": "https://undecember.thein.ru/en/runes/AdditionalPoisonDMG/",
+    "minRarity": "Normal",
+    "tags": [
+      "Poison"
+    ]
+  },
+  {
+    "title": "Multishot",
+    "url": "https://undecember.thein.ru/en/runes/Multishot/",
+    "minRarity": "Normal",
+    "tags": [
+      "Projectile"
+    ]
+  },
+  {
+    "title": "Slaughter",
+    "url": "https://undecember.thein.ru/en/runes/Slaughter/",
+    "minRarity": "Normal",
+    "tags": [
+      "Strike"
+    ]
+  },
+  {
+    "title": "Increase Duration",
+    "url": "https://undecember.thein.ru/en/runes/IncreaseDuration/",
+    "minRarity": "Normal",
+    "tags": [
+      "Duration"
+    ]
+  },
+  {
+    "title": "Piercing",
+    "url": "https://undecember.thein.ru/en/runes/Piercing/",
+    "minRarity": "Normal",
+    "tags": [
+      "Projectile"
+    ]
+  },
+  {
+    "title": "Poison Penetration",
+    "url": "https://undecember.thein.ru/en/runes/PoisonPenetration/",
+    "minRarity": "Normal",
+    "tags": [
+      "Poison"
+    ]
+  },
+  {
+    "title": "Projectile Acceleration",
+    "url": "https://undecember.thein.ru/en/runes/ProjectileAcceleration/",
+    "minRarity": "Normal",
+    "tags": [
+      "Projectile"
+    ]
+  },
+  {
+    "title": "Precision",
+    "url": "https://undecember.thein.ru/en/runes/Precision/",
+    "minRarity": "Normal",
+    "tags": [
+      "Strike"
+    ]
+  },
+  {
+    "title": "Projectile Deceleration",
+    "url": "https://undecember.thein.ru/en/runes/ProjectileDeceleration/",
+    "minRarity": "Normal",
+    "tags": [
+      "Projectile"
+    ]
+  },
+  {
+    "title": "Split Projectile",
+    "url": "https://undecember.thein.ru/en/runes/SplitProjectile/",
+    "minRarity": "Normal",
+    "tags": [
+      "Projectile"
+    ]
+  },
+  {
+    "title": "Flowing Pain",
+    "url": "https://undecember.thein.ru/en/runes/FlowingPain/",
+    "minRarity": "Normal",
+    "tags": [
+      "Strike",
+      "Poison"
+    ]
+  },
+  {
+    "title": "Elite Slayer",
+    "url": "https://undecember.thein.ru/en/runes/EliteSlayer/",
+    "minRarity": "Normal",
+    "tags": [
+      "Strike",
+      "DoT"
+    ]
+  },
+  {
+    "title": "Blind Aid",
+    "url": "https://undecember.thein.ru/en/runes/BlindAid/",
+    "minRarity": "Normal",
+    "tags": [
+      "Strike",
+      "Poison"
+    ]
+  },
+  {
+    "title": "Deadly Poison",
+    "url": "https://undecember.thein.ru/en/runes/DeadlyPoison/",
+    "minRarity": "Normal",
+    "tags": [
+      "Strike",
+      "DoT",
+      "Poison"
+    ]
+  },
+  {
+    "title": "Convert Poison DMG",
+    "url": "https://undecember.thein.ru/en/runes/ConvertPoisonDMG/",
+    "minRarity": "Normal",
+    "tags": [
+      "Strike",
+      "DoT",
+      "Physical"
+    ]
+  },
+  {
+    "title": "Close Range Shot",
+    "url": "https://undecember.thein.ru/en/runes/CloseRangeShot/",
+    "minRarity": "Normal",
+    "tags": [
+      "Bow",
+      "Sentry",
+      "Projectile"
+    ]
+  },
+  {
+    "title": "Aim",
+    "url": "https://undecember.thein.ru/en/runes/Aim/",
+    "minRarity": "Normal",
+    "tags": [
+      "Attack"
+    ]
+  },
+  {
+    "title": "Chain Impact",
+    "url": "https://undecember.thein.ru/en/runes/ChainImpact/",
+    "minRarity": "Normal",
+    "tags": []
+  },
+  {
+    "title": "Pierce Wound",
+    "url": "https://undecember.thein.ru/en/runes/PierceWound/",
+    "minRarity": "Normal",
+    "tags": [
+      "Projectile"
+    ]
+  },
+  {
+    "title": "Precise Shot",
+    "url": "https://undecember.thein.ru/en/runes/PreciseShot/",
+    "minRarity": "Normal",
+    "tags": [
+      "Bow",
+      "Sentry",
+      "Projectile"
+    ]
+  },
+  {
+    "title": "Life Imbued Sentry",
+    "url": "https://undecember.thein.ru/en/runes/LifeImbuedSentry/",
+    "minRarity": "Normal",
+    "tags": [
+      "Sentry"
+    ]
+  },
+  {
+    "title": "Precise Sentry",
+    "url": "https://undecember.thein.ru/en/runes/PreciseSentry/",
+    "minRarity": "Normal",
+    "tags": [
+      "Sentry"
+    ]
+  },
+  {
+    "title": "Sturdy Sentry",
+    "url": "https://undecember.thein.ru/en/runes/SturdySentry/",
+    "minRarity": "Normal",
+    "tags": [
+      "Sentry"
+    ]
+  },
+  {
+    "title": "Parallel Multi Trap",
+    "url": "https://undecember.thein.ru/en/runes/ParallelMultiTrap/",
+    "minRarity": "Normal",
+    "tags": [
+      "Trap"
+    ]
+  },
+  {
+    "title": "Random Multi Trap",
+    "url": "https://undecember.thein.ru/en/runes/RandomMultiTrap/",
+    "minRarity": "Normal",
+    "tags": [
+      "Trap"
+    ]
+  },
+  {
+    "title": "Quick Trap Installation",
+    "url": "https://undecember.thein.ru/en/runes/QuickTrapInstallation/",
+    "minRarity": "Normal",
+    "tags": [
+      "Trap"
+    ]
+  },
+  {
+    "title": "Increased Trap Install Distance",
+    "url": "https://undecember.thein.ru/en/runes/IncreaseTrapInstallDistance/",
+    "minRarity": "Normal",
+    "tags": [
+      "Trap"
+    ]
+  },
+  {
+    "title": "Trap Projectile Multishot",
+    "url": "https://undecember.thein.ru/en/runes/TrapProjectileMultishot/",
+    "minRarity": "Normal",
+    "tags": [
+      "Trap",
+      "Projectile"
+    ]
+  },
+  {
+    "title": "Heat Efficiency",
+    "url": "https://undecember.thein.ru/en/runes/HeatEfficiency/",
+    "minRarity": "Normal",
+    "tags": [
+      "Overheat"
+    ]
+  },
+  {
+    "title": "Heat Cycle",
+    "url": "https://undecember.thein.ru/en/runes/HeatCycle/",
+    "minRarity": "Normal",
+    "tags": [
+      "Overheat"
+    ]
+  },
+  {
+    "title": "Trapper",
+    "url": "https://undecember.thein.ru/en/runes/Trapper/",
+    "minRarity": "Normal",
+    "tags": [
+      "Trap"
+    ]
+  },
+  {
+    "title": "Destructive Instinct",
+    "url": "https://undecember.thein.ru/en/runes/DestructiveInstinct/",
+    "minRarity": "Normal",
+    "tags": [
+      "Minion"
+    ]
+  },
+  {
+    "title": "Winding Wind",
+    "url": "https://undecember.thein.ru/en/runes/WindingWind/",
+    "minRarity": "Normal",
+    "tags": [
+      "Attack",
+      "Spell"
+    ]
+  },
+  {
+    "title": "Extract Poison Energy",
+    "url": "https://undecember.thein.ru/en/runes/ExtractPoisonEnergy/",
+    "minRarity": "Normal",
+    "tags": [
+      "Poison",
+      "Strike"
+    ]
+  },
+  {
+    "title": "Multi Sentry",
+    "url": "https://undecember.thein.ru/en/runes/MultiSentry/",
+    "minRarity": "Magic",
+    "tags": [
+      "Sentry"
+    ]
+  },
+  {
+    "title": "Focus",
+    "url": "https://undecember.thein.ru/en/runes/Focus/",
+    "minRarity": "Magic",
+    "tags": [
+      "Melee",
+      "Attack",
+      "Strike"
+    ]
+  },
+  {
+    "title": "Spell Activation upon Enemy Kill",
+    "url": "https://undecember.thein.ru/en/runes/SpellActivationUponEnemyKill/",
+    "minRarity": "Magic",
+    "tags": [
+      "Strike"
+    ]
+  },
+  {
+    "title": "Parallel Multishot",
+    "url": "https://undecember.thein.ru/en/runes/ParallelMultishot/",
+    "minRarity": "Magic",
+    "tags": [
+      "Projectile"
+    ]
+  },
+  {
+    "title": "Increase Item Drop Rarity",
+    "url": "https://undecember.thein.ru/en/runes/IncreaseItemDropRarity/",
+    "minRarity": "Magic",
+    "tags": [
+      "Strike"
+    ]
+  },
+  {
+    "title": "Increase Skill Rune Drop Chance",
+    "url": "https://undecember.thein.ru/en/runes/IncreaseSkillRuneDropChance/",
+    "minRarity": "Magic",
+    "tags": [
+      "Strike"
+    ]
+  },
+  {
+    "title": "Increase Link Rune Drop Chance",
+    "url": "https://undecember.thein.ru/en/runes/IncreaseLinkRuneDropChance/",
+    "minRarity": "Magic",
+    "tags": [
+      "Strike"
+    ]
+  },
+  {
+    "title": "Enhance Effect",
+    "url": "https://undecember.thein.ru/en/runes/EnhanceEffect/",
+    "minRarity": "Magic",
+    "tags": [
+      "Shout",
+      "Attack Enhance",
+      "Defense Enhance",
+      "Rapid Seal"
+    ]
+  },
+  {
+    "title": "Amplify Physical Projectile DMG",
+    "url": "https://undecember.thein.ru/en/runes/AmplifyPhysicalProjectileDMG/",
+    "minRarity": "Magic",
+    "tags": [
+      "Physical",
+      "Projectile"
+    ]
+  },
+  {
+    "title": "Opportunistic Strike",
+    "url": "https://undecember.thein.ru/en/runes/OpportunisticStrike/",
+    "minRarity": "Magic",
+    "tags": [
+      "Attack",
+      "Spell",
+      "Strike"
+    ]
+  },
+  {
+    "title": "Quick Shout",
+    "url": "https://undecember.thein.ru/en/runes/QuickShout/",
+    "minRarity": "Magic",
+    "tags": [
+      "Shout"
+    ]
+  },
+  {
+    "title": "Versatility",
+    "url": "https://undecember.thein.ru/en/runes/Versatility/",
+    "minRarity": "Magic",
+    "tags": [
+      "Attack Enhance"
+    ]
+  },
+  {
+    "title": "Quick Sentry Installation",
+    "url": "https://undecember.thein.ru/en/runes/QuickSentryInstallation/",
+    "minRarity": "Magic",
+    "tags": [
+      "Sentry"
+    ]
+  },
+  {
+    "title": "Quick Totem Installation",
+    "url": "https://undecember.thein.ru/en/runes/QuickTotemInstallation/",
+    "minRarity": "Magic",
+    "tags": [
+      "Totem"
+    ]
+  },
+  {
+    "title": "Amplify Trap DMG",
+    "url": "https://undecember.thein.ru/en/runes/AmplifyTrapDMG/",
+    "minRarity": "Magic",
+    "tags": [
+      "Trap"
+    ]
+  },
+  {
+    "title": "Lasting Trap",
+    "url": "https://undecember.thein.ru/en/runes/LastingTrap/",
+    "minRarity": "Magic",
+    "tags": [
+      "Trap"
+    ]
+  },
+  {
+    "title": "Outlaw",
+    "url": "https://undecember.thein.ru/en/runes/Outlaw/",
+    "minRarity": "Magic",
+    "tags": [
+      "Overheat"
+    ]
+  },
+  {
+    "title": "Maximized DMG Increase",
+    "url": "https://undecember.thein.ru/en/runes/MaximizedDMGIncrease/",
+    "minRarity": "Magic",
+    "tags": [
+      "Strike"
+    ]
+  },
+  {
+    "title": "Cut",
+    "url": "https://undecember.thein.ru/en/runes/Cut/",
+    "minRarity": "Rare",
+    "tags": [
+      "Melee",
+      "Strike",
+      "Physical"
+    ]
+  },
+  {
+    "title": "DMG Acceleration",
+    "url": "https://undecember.thein.ru/en/runes/DMGAcceleration/",
+    "minRarity": "Rare",
+    "tags": [
+      "Strike",
+      "DoT"
+    ]
+  },
+  {
+    "title": "Increase Maximized DMG Chance",
+    "url": "https://undecember.thein.ru/en/runes/IncreaseMaximizedDMGChance/",
+    "minRarity": "Rare",
+    "tags": [
+      "Strike"
+    ]
+  },
+  {
+    "title": "Shadow Archer",
+    "url": "https://undecember.thein.ru/en/runes/ShadowArcher/",
+    "minRarity": "Rare",
+    "tags": [
+      "Attack",
+      "Shadow",
+      "Strike",
+      "Projectile"
+    ]
+  },
+  {
+    "title": "Additional Lightning DMG",
+    "url": "https://undecember.thein.ru/en/runes/AdditionalLightningDMG/",
+    "minRarity": "Normal",
+    "tags": [
+      "Lightning"
+    ]
+  },
+  {
+    "title": "Additional Cold DMG",
+    "url": "https://undecember.thein.ru/en/runes/AdditionalColdDMG/",
+    "minRarity": "Normal",
+    "tags": [
+      "Cold"
+    ]
+  },
+  {
+    "title": "Quick Cast",
+    "url": "https://undecember.thein.ru/en/runes/QuickCast/",
+    "minRarity": "Normal",
+    "tags": [
+      "Spell"
+    ]
+  },
+  {
+    "title": "Lingering Chill",
+    "url": "https://undecember.thein.ru/en/runes/LingeringChill/",
+    "minRarity": "Normal",
+    "tags": [
+      "Cold",
+      "Strike"
+    ]
+  },
+  {
+    "title": "Use Count",
+    "url": "https://undecember.thein.ru/en/runes/UseCount/",
+    "minRarity": "Normal",
+    "tags": []
+  },
+  {
+    "title": "Frost Explosion",
+    "url": "https://undecember.thein.ru/en/runes/FrostExplosion/",
+    "minRarity": "Normal",
+    "tags": [
+      "Cold",
+      "Strike"
+    ]
+  },
+  {
+    "title": "Cold Penetration",
+    "url": "https://undecember.thein.ru/en/runes/ColdPenetration/",
+    "minRarity": "Normal",
+    "tags": [
+      "Cold"
+    ]
+  },
+  {
+    "title": "Lightning Penetration",
+    "url": "https://undecember.thein.ru/en/runes/LightningPenetration/",
+    "minRarity": "Normal",
+    "tags": [
+      "Lightning"
+    ]
+  },
+  {
+    "title": "Time Acceleration",
+    "url": "https://undecember.thein.ru/en/runes/TimeAcceleration/",
+    "minRarity": "Normal",
+    "tags": [
+      "Attack",
+      "Spell"
+    ]
+  },
+  {
+    "title": "Channeling Enhancement",
+    "url": "https://undecember.thein.ru/en/runes/ChannelingEnhancement/",
+    "minRarity": "Normal",
+    "tags": [
+      "Channel"
+    ]
+  },
+  {
+    "title": "Minion Speed",
+    "url": "https://undecember.thein.ru/en/runes/MinionSpeed/",
+    "minRarity": "Normal",
+    "tags": [
+      "Minion"
+    ]
+  },
+  {
+    "title": "Minion HP",
+    "url": "https://undecember.thein.ru/en/runes/MinionHP/",
+    "minRarity": "Normal",
+    "tags": [
+      "Minion"
+    ]
+  },
+  {
+    "title": "Minion Body Shield",
+    "url": "https://undecember.thein.ru/en/runes/MinionBodyShield/",
+    "minRarity": "Normal",
+    "tags": [
+      "Minion"
+    ]
+  },
+  {
+    "title": "Continuous Shock",
+    "url": "https://undecember.thein.ru/en/runes/ContinuousShock/",
+    "minRarity": "Normal",
+    "tags": [
+      "Lightning",
+      "Strike"
+    ]
+  },
+  {
+    "title": "Conductor",
+    "url": "https://undecember.thein.ru/en/runes/Conductor/",
+    "minRarity": "Normal",
+    "tags": [
+      "Lightning",
+      "Strike"
+    ]
+  },
+  {
+    "title": "Persistence",
+    "url": "https://undecember.thein.ru/en/runes/Persistence/",
+    "minRarity": "Normal",
+    "tags": [
+      "Strike"
+    ]
+  },
+  {
+    "title": "Spell Activation on Spell Hit",
+    "url": "https://undecember.thein.ru/en/runes/SpellActivationOnSpellHit/",
+    "minRarity": "Normal",
+    "tags": [
+      "Spell",
+      "Strike"
+    ]
+  },
+  {
+    "title": "Spell Activation while Channeling",
+    "url": "https://undecember.thein.ru/en/runes/SpellActivationWhileChanneling/",
+    "minRarity": "Normal",
+    "tags": [
+      "Channel"
+    ]
+  },
+  {
+    "title": "Convert Cold DMG",
+    "url": "https://undecember.thein.ru/en/runes/ConvertColdDMG/",
+    "minRarity": "Normal",
+    "tags": [
+      "Strike",
+      "DoT",
+      "Physical"
+    ]
+  },
+  {
+    "title": "Convert Lightning DMG",
+    "url": "https://undecember.thein.ru/en/runes/ConvertLightningDMG/",
+    "minRarity": "Normal",
+    "tags": [
+      "Strike",
+      "DoT",
+      "Physical"
+    ]
+  },
+  {
+    "title": "Time Warp",
+    "url": "https://undecember.thein.ru/en/runes/TimeWarp/",
+    "minRarity": "Normal",
+    "tags": [
+      "Repeat Strike",
+      "Repeat DoT"
+    ]
+  },
+  {
+    "title": "Sharpness",
+    "url": "https://undecember.thein.ru/en/runes/Sharpness/",
+    "minRarity": "Normal",
+    "tags": [
+      "Strike",
+      "Cold"
+    ]
+  },
+  {
+    "title": "Status Effect Enhancement",
+    "url": "https://undecember.thein.ru/en/runes/StatusEffectEnhancement/",
+    "minRarity": "Normal",
+    "tags": [
+      "Strike"
+    ]
+  },
+  {
+    "title": "DoT",
+    "url": "https://undecember.thein.ru/en/runes/DoT/",
+    "minRarity": "Normal",
+    "tags": [
+      "Strike",
+      "DoT"
+    ]
+  },
+  {
+    "title": "Minion Armor",
+    "url": "https://undecember.thein.ru/en/runes/MinionArmor/",
+    "minRarity": "Normal",
+    "tags": [
+      "Minion"
+    ]
+  },
+  {
+    "title": "Lingering Totem",
+    "url": "https://undecember.thein.ru/en/runes/LingeringTotem/",
+    "minRarity": "Normal",
+    "tags": [
+      "Totem"
+    ]
+  },
+  {
+    "title": "Life Imbued Totem",
+    "url": "https://undecember.thein.ru/en/runes/LifeImbuedTotem/",
+    "minRarity": "Normal",
+    "tags": [
+      "Totem"
+    ]
+  },
+  {
+    "title": "Enhanced Totem",
+    "url": "https://undecember.thein.ru/en/runes/EnhancedTotem/",
+    "minRarity": "Normal",
+    "tags": [
+      "Totem"
+    ]
+  },
+  {
+    "title": "DoT Enhancement",
+    "url": "https://undecember.thein.ru/en/runes/DoTEnhancement/",
+    "minRarity": "Normal",
+    "tags": [
+      "Strike"
+    ]
+  },
+  {
+    "title": "Spell DMG Increase",
+    "url": "https://undecember.thein.ru/en/runes/SpellDMGIncrease/",
+    "minRarity": "Normal",
+    "tags": [
+      "Strike",
+      "DoT",
+      "Spell"
+    ]
+  },
+  {
+    "title": "Preserve Mana",
+    "url": "https://undecember.thein.ru/en/runes/PreserveMana/",
+    "minRarity": "Normal",
+    "tags": [
+      "Attack",
+      "Spell"
+    ]
+  },
+  {
+    "title": "Extract Energy",
+    "url": "https://undecember.thein.ru/en/runes/ExtractEnergy/",
+    "minRarity": "Normal",
+    "tags": []
+  },
+  {
+    "title": "Over Cooling",
+    "url": "https://undecember.thein.ru/en/runes/OverCooling/",
+    "minRarity": "Normal",
+    "tags": [
+      "Overheat"
+    ]
+  },
+  {
+    "title": "Cooler",
+    "url": "https://undecember.thein.ru/en/runes/Cooler/",
+    "minRarity": "Normal",
+    "tags": [
+      "Movement"
+    ]
+  },
+  {
+    "title": "Readiness",
+    "url": "https://undecember.thein.ru/en/runes/Readiness/",
+    "minRarity": "Normal",
+    "tags": [
+      "Movement"
+    ]
+  },
+  {
+    "title": "Extract Cold Energy",
+    "url": "https://undecember.thein.ru/en/runes/ExtractColdEnergy/",
+    "minRarity": "Normal",
+    "tags": [
+      "Cold",
+      "Strike"
+    ]
+  },
+  {
+    "title": "Extract Lightning Energy",
+    "url": "https://undecember.thein.ru/en/runes/ExtractLightningEnergy/",
+    "minRarity": "Normal",
+    "tags": [
+      "Lightning",
+      "Strike"
+    ]
+  },
+  {
+    "title": "Chain",
+    "url": "https://undecember.thein.ru/en/runes/Chain/",
+    "minRarity": "Magic",
+    "tags": []
+  },
+  {
+    "title": "Element DMG Amplification",
+    "url": "https://undecember.thein.ru/en/runes/ElementDMGAmplification/",
+    "minRarity": "Magic",
+    "tags": [
+      "Fire",
+      "Cold",
+      "Lightning",
+      "Poison"
+    ]
+  },
+  {
+    "title": "Finishing Strike",
+    "url": "https://undecember.thein.ru/en/runes/FinishingStrike/",
+    "minRarity": "Magic",
+    "tags": [
+      "Strike"
+    ]
+  },
+  {
+    "title": "Minion DMG",
+    "url": "https://undecember.thein.ru/en/runes/MinionDMG/",
+    "minRarity": "Magic",
+    "tags": [
+      "Minion"
+    ]
+  },
+  {
+    "title": "Electric Shock",
+    "url": "https://undecember.thein.ru/en/runes/ElectricShock/",
+    "minRarity": "Magic",
+    "tags": [
+      "Strike"
+    ]
+  },
+  {
+    "title": "Totem Affinity",
+    "url": "https://undecember.thein.ru/en/runes/TotemAffinity/",
+    "minRarity": "Magic",
+    "tags": [
+      "Totem"
+    ]
+  },
+  {
+    "title": "Impact",
+    "url": "https://undecember.thein.ru/en/runes/Impact/",
+    "minRarity": "Magic",
+    "tags": [
+      "Melee",
+      "Attack",
+      "Strike"
+    ]
+  },
+  {
+    "title": "Acceleration",
+    "url": "https://undecember.thein.ru/en/runes/Acceleration/",
+    "minRarity": "Magic",
+    "tags": [
+      "Strike"
+    ]
+  },
+  {
+    "title": "Increase Essence Drop Chance",
+    "url": "https://undecember.thein.ru/en/runes/IncreaseEssenceDropChance/",
+    "minRarity": "Magic",
+    "tags": [
+      "Strike"
+    ]
+  },
+  {
+    "title": "Increase Charm Drop Chance",
+    "url": "https://undecember.thein.ru/en/runes/IncreaseCharmDropChance/",
+    "minRarity": "Magic",
+    "tags": [
+      "Strike"
+    ]
+  },
+  {
+    "title": "Increase Alchemy Ingredient Drop Chance",
+    "url": "https://undecember.thein.ru/en/runes/IncreaseAlchemyIngredientDropChance/",
+    "minRarity": "Magic",
+    "tags": [
+      "Strike"
+    ]
+  },
+  {
+    "title": "Increase Element Drop Chance",
+    "url": "https://undecember.thein.ru/en/runes/IncreaseElementDropChance/",
+    "minRarity": "Magic",
+    "tags": [
+      "Strike"
+    ]
+  },
+  {
+    "title": "Dampen Resource Cost",
+    "url": "https://undecember.thein.ru/en/runes/DampenResourceCost/",
+    "minRarity": "Magic",
+    "tags": [
+      "Attack",
+      "Spell"
+    ]
+  },
+  {
+    "title": "Buff Activation upon using Movement Skill",
+    "url": "https://undecember.thein.ru/en/runes/BuffActivationUponUsingMovementSkill/",
+    "minRarity": "Magic",
+    "tags": [
+      "Movement"
+    ]
+  },
+  {
+    "title": "Barrier Absorb",
+    "url": "https://undecember.thein.ru/en/runes/BarrierAbsorb/",
+    "minRarity": "Magic",
+    "tags": [
+      "Spell",
+      "Strike"
+    ]
+  },
+  {
+    "title": "Intellectual",
+    "url": "https://undecember.thein.ru/en/runes/Intellectual/",
+    "minRarity": "Magic",
+    "tags": [
+      "Attack Enhance"
+    ]
+  },
+  {
+    "title": "Element Master",
+    "url": "https://undecember.thein.ru/en/runes/ElementMaster/",
+    "minRarity": "Magic",
+    "tags": [
+      "Fire",
+      "Cold",
+      "Lightning",
+      "Poison"
+    ]
+  },
+  {
+    "title": "Disturb",
+    "url": "https://undecember.thein.ru/en/runes/Disturb/",
+    "minRarity": "Magic",
+    "tags": [
+      "Movement"
+    ]
+  },
+  {
+    "title": "Minion Presence",
+    "url": "https://undecember.thein.ru/en/runes/MinionPresence/",
+    "minRarity": "Magic",
+    "tags": [
+      "Minion"
+    ]
+  },
+  {
+    "title": "Promised Protection",
+    "url": "https://undecember.thein.ru/en/runes/PromisedProtection/",
+    "minRarity": "Magic",
+    "tags": [
+      "Defense Enhance"
+    ]
+  },
+  {
+    "title": "Endless Growth",
+    "url": "https://undecember.thein.ru/en/runes/EndlessGrowth/",
+    "minRarity": "Magic",
+    "tags": [
+      "Minion"
+    ]
+  },
+  {
+    "title": "Reverse Time",
+    "url": "https://undecember.thein.ru/en/runes/ReverseTime/",
+    "minRarity": "Magic",
+    "tags": [
+      "Movement"
+    ]
+  },
+  {
+    "title": "Mana Outburst",
+    "url": "https://undecember.thein.ru/en/runes/ManaOutburst/",
+    "minRarity": "Magic",
+    "tags": [
+      "Strike",
+      "DoT"
+    ]
+  },
+  {
+    "title": "Mana Storm",
+    "url": "https://undecember.thein.ru/en/runes/ManaStorm/",
+    "minRarity": "Rare",
+    "tags": [
+      "Strike",
+      "DoT"
+    ]
+  },
+  {
+    "title": "Harmony",
+    "url": "https://undecember.thein.ru/en/runes/Harmony/",
+    "minRarity": "Rare",
+    "tags": [
+      "Attack",
+      "Spell"
+    ]
+  },
+  {
+    "title": "Spell Activation on Hit",
+    "url": "https://undecember.thein.ru/en/runes/SpellActivationOnHit/",
+    "minRarity": "Rare",
+    "tags": [
+      "Strike"
+    ]
+  },
+  {
+    "title": "Totem Activation upon using Enhance Skill",
+    "url": "https://undecember.thein.ru/en/runes/TotemActivationUponUsingEnhanceSkill/",
+    "minRarity": "Rare",
+    "tags": [
+      "Attack Enhance",
+      "Defense Enhance"
+    ]
+  },
+  {
+    "title": "Smash",
+    "url": "https://undecember.thein.ru/en/runes/Smash/",
+    "minRarity": "Rare",
+    "tags": [
+      "Strike"
+    ]
+  },
+  {
+    "title": "Overflowing Energy",
+    "url": "https://undecember.thein.ru/en/runes/OverflowingEnergy/",
+    "minRarity": "Rare",
+    "tags": [
+      "Attack",
+      "Spell"
+    ]
+  },
+  {
+    "title": "Explosion Limit",
+    "url": "https://undecember.thein.ru/en/runes/ExplosionLimit/",
+    "minRarity": "Rare",
+    "tags": [
+      "Overheat",
+      "Bowgun"
+    ]
+  }
+]
