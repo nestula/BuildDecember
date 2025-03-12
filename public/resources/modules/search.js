@@ -15,6 +15,9 @@ async function getRuneJSONData() {
         allRunes = data.json; // Store runes globally
         window.allRunes= allRunes; // Make it accessible globally
         HasLoadedJSON = true; // Set the flag to true once data is loaded
+
+        document.getElementById("limit").value = allRunes.length; // Default limit
+
         displayRunes(allRunes); // Display initially
         return data.json; // Return the JSON data
     } catch (error) {
@@ -27,7 +30,11 @@ function displayRunes(runes) {
     const iconContainer = document.getElementById("runeList");
     iconContainer.innerHTML = ""; // Clear previous content
 
-    const limit = parseInt(document.getElementById("limit").value) || 30;
+    let limit = parseInt(document.getElementById("limit").value) || 30;
+    if(limit<5) limit = 5; // Minimum limit
+    if(limit>runes.length) limit = runes.length; // Maximum limit
+    document.getElementById("limit").max = runes.length; // Update limit input
+
     runes.slice(0, limit).forEach(rune => {
         const runeItem = document.createElement("div");
         runeItem.classList.add("runeItem");
@@ -36,6 +43,12 @@ function displayRunes(runes) {
         icon.src = `./resources/icons/${rune.icon}`;
         runeItem.appendChild(icon);
         runeItem.appendChild(document.createTextNode(rune.title));
+
+        // description
+        const description = document.createElement("div");
+        description.classList.add("description");
+        description.textContent = rune.description || "No description available";
+        runeItem.appendChild(description);
 
         iconContainer.appendChild(runeItem);
     });

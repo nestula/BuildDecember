@@ -11,6 +11,21 @@
     --scrollbar-thumb-bg: #888;   /* Scrollbar thumb color */
     --scrollbar-thumb-hover-bg: #aaa; /* Scrollbar thumb hover color */
     --scrollbar-width: 8px;       /* Scrollbar width */
+    --radius: 20px;
+    --icon-size: 60px;            /* Rune item icon size */
+    --header-color: #08002b;      /* Header color */
+}
+
+.section {
+    backdrop-filter: blur(8px);
+    background-color: rgba(255, 255, 255, 0.2);
+    padding:20px;
+    border-radius: var(--radius);
+    margin-bottom: 20px;
+}
+.section h1 {
+    font-size: 4rem;
+    color: var(--header-color);
 }
 
 body {
@@ -45,6 +60,12 @@ body {
 }
 
 /* Rune Container */
+
+#runeListContainer {
+    min-height: 50vh;
+}
+
+
 .rune-container {
     display: flex;
     flex-wrap: wrap;
@@ -61,13 +82,37 @@ body {
     border-radius: 5px;
     box-shadow: 0px 0px 5px var(--box-shadow);
     color: var(--text-color);
+    position: relative;
 }
 
 .runeItem img {
     width: var(--icon-size);
-    height: var(--icon-size);
     margin-right: 10px;
+    aspect-ratio: 1/1;
 }
+
+.runeItem .description {
+    transition: 0.2s;
+    opacity: 0;
+    top: 100%;
+    left: 0;
+    position: absolute;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px var(--box-shadow);
+    z-index: 1;
+    padding: 10px;
+    background: var(--background-color);
+    pointer-events: none;
+}
+.runeItem:hover {
+    cursor: pointer;
+}
+.runeItem:hover .description {
+    transition: 0.2s;
+    opacity: 1;
+}
+
 
 /* Custom Scrollbar */
 ::-webkit-scrollbar {
