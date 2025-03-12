@@ -63,7 +63,7 @@ async function updateRunes() {
         for(let i = 0; i < runeElementList.length; i++) {
             runes[i] = {
                 title: runeElementList[i].querySelector('a').textContent,
-                url: `https://undecember.thein.ru${runeElementList[i].querySelector('a').getAttribute('href')}`
+                //url: `https://undecember.thein.ru${runeElementList[i].querySelector('a').getAttribute('href')}`
             };
         }
 
@@ -111,7 +111,15 @@ async function updateRunes() {
                 const subPageDOM = new JSDOM(html);
                 const content = subPageDOM.window.document.getElementById("content");
         
-                if (content) {
+                if (content) { // Check if content exists //
+
+                    const card = content.querySelector('[class^="Elem_card__"]');
+
+                    // get image src
+                    const imageTag = card.querySelector('[class^="Elem_image_icon__"]');
+                    const iconName = imageTag.getAttribute("src").split('/').pop(); // Extract the image name, e.g., "icon.png"
+                    runes[index].icon = iconName;
+
                     // Extract minimum rarity value
                     const minRarityElement = content.querySelector('[data-class="MinRarity"] span');
                     const minRarity = minRarityElement ? minRarityElement.textContent : "Unknown";
@@ -127,6 +135,25 @@ async function updateRunes() {
                     const description = content.querySelector('[data-class="prop"]').textContent;
                     runes[index].description = description;
 
+                    // get weapon types
+                    const weaponTypes = content.querySelectorAll('[data-class="WeaponType"] span');
+                    const weaponTypeList = new Array(weaponTypes.length);
+                    weaponTypes.forEach((type, i) => {
+                        weaponTypeList[i] = type.textContent.replaceAll(/["',]/g, "");
+                    });
+                    if(weaponTypeList.length > 0) {
+                        runes[index].weaponTypes = weaponTypeList;
+                    }
+
+                    // get main stat type
+                    const statTag = card.querySelector('[class^="Elem_image_point__"]');
+                    const stat = statTag.getAttribute("data-stat");
+                    if(stat) {
+                        runes[index].mainStat = stat;
+                    }
+
+
+
         
                     // Save the extracted data to the runes array
                     // Optionally, store the cleaned HTML
@@ -135,6 +162,7 @@ async function updateRunes() {
                     console.log(`${index + 1} / ${subPageLinks.length} - Processing`);
         
                 } else {
+
                     console.log(`Subpage ${index + 1} doesn't have content.`);
                 }
             } else {
