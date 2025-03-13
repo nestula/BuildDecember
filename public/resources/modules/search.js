@@ -54,8 +54,7 @@ function displayRunes(runes) {
     });
 }
 
-function SearchRune() {
-    const searchTerm = event.target.value.toLowerCase();
+function SearchRune(searchTerm) {
 
     if (!searchTerm) {
         displayRunes(allRunes); // Show full list if search is empty
@@ -77,8 +76,9 @@ function SearchRune() {
     displayRunes(filteredRunes);
 }
 
-document.getElementById("searchBox").addEventListener("input", SearchRune);
-document.getElementById("limit").addEventListener("input", () => displayRunes(allRunes)); // Refresh on limit change
+const searchElement = document.getElementById("searchBox");
+document.getElementById("searchBox").addEventListener("input", ()=>{SearchRune(searchElement.value)});
+document.getElementById("limit").addEventListener("input", ()=>{SearchRune(searchElement.value)}); // Refresh on limit change
 
 
 // Load runes when the page loads
