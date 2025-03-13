@@ -55,11 +55,7 @@ class Board {
         this.ctx.clearRect(0, 0, this.c.width, this.c.height);
     
         // Draw hexagons in a grid pattern
-        // Draw circle in center
-        this.ctx.beginPath();
-        this.ctx.arc(this.center.x, this.center.y, 10, 0, 2 * Math.PI);
-        this.ctx.fillStyle = "#000";
-        this.ctx.fill();
+
 
         for(let row = -5; row <= 5; row++) {
             for (let col = -5; col <= 5; col++) {
@@ -73,7 +69,7 @@ class Board {
                 const distance = Math.sqrt((x - cx) ** 2 + (y - cy) ** 2);
                 const horizontalDistance = Math.abs(x - cx);
                 const verticalDistance = Math.abs(y - cy);
-                if(distance > 240 && (row != 0 || horizontalDistance > 250)) continue; // Limit distance from center
+                if(distance > this.c.width/2.5 && (row != 0 || horizontalDistance > this.c.width/2.4)) continue; // Limit distance from center
                 // Draw hexagon
                 drawHexagon(x, y);
             }
