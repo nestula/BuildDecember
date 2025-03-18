@@ -42,7 +42,6 @@ class Board {
                     this.table[this.currentPosition[0]][this.currentPosition[1]]=this.currentRune;
                     this.currentRune=null;
                 }
-                console.log(this.table)
             }
         }
 
@@ -76,6 +75,9 @@ class Board {
                 path.lineTo(points[i].x, points[i].y);
             }
             path.closePath();
+            this.ctx.fillStyle = "#555";
+            this.ctx.fill(path);
+            this.ctx.lineWidth = 2;
             this.ctx.stroke(path);
 
             return path;
@@ -130,18 +132,14 @@ class Board {
                         if (matchingRune) {
                             // see if the image is cached
                             if(!this.cached_images[matchingRune.title]) {
-                                // const img = new Image();
-                                // img.src = matchingRune.icon;
-                                // console.log(matchingRune)
-                                // this.cached_images[matchingRune] // finish
+                                const img = new Image();
+                                img.src = `../../resources/icons/${matchingRune.icon}`;
+                                this.cached_images[matchingRune.title] = img; // finish
                             }
 
-                            // // Proceed with the matchingRune, e.g., draw its image
-                            // const img = new Image();
-                            // img.src = matchingRune.icon;
-                            // img.onload = () => {
-                            //     // ctx.drawImage(img, x - hexSize / 2, y - hexSize / 2, hexSize, hexSize);
-                            // };
+                            const img = this.cached_images[matchingRune.title];
+                            const padding = 0.8;
+                            ctx.drawImage(img, x - hexSize*padding, y - hexSize*padding, hexSize*2*padding, hexSize*2*padding);
                         }
                     }
 

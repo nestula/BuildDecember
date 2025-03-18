@@ -13,7 +13,12 @@
       "Duration"
     ],
     "description": "Deals damage to enemies around the caster and dampens their armor. Enemies hit have a chance of being stunned",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Frost Wave",
@@ -28,7 +33,12 @@
       "Shadow"
     ],
     "description": "Emits Cold energy in front of the caster to deal damage to enemies",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Shield Charge",
@@ -43,7 +53,12 @@
       "Movement"
     ],
     "description": "Charges forward to inflict Physical DMG on the enemy",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Combo",
@@ -58,7 +73,12 @@
       "Shadow"
     ],
     "description": "Swings weapon to attack the enemy twice. Deals DMG even faster from Frenzy effect on hit",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Illusion Axe",
@@ -74,7 +94,12 @@
       "Toggle DMG"
     ],
     "description": "Summons Illusion Axes that circle around the caster to deal damage to the enemy",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Lightning Strike",
@@ -88,7 +113,11 @@
       "Projectile"
     ],
     "description": "Calls down lightning in front and around the lightning to deal damage to enemies.",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "skill",
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Explosive Slash",
@@ -103,7 +132,12 @@
       "Shadow"
     ],
     "description": "Applies Debuff effect on hit. Killing a Debuffed enemy causes an explosion that deals damage to nearby enemies",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Earth Blow",
@@ -119,7 +153,12 @@
       "Shadow"
     ],
     "description": "Strikes the ground to deal DMG to the enemy Gain Maintain Position Effect on hit, effect decays upon moving",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Leap Attack",
@@ -134,7 +173,12 @@
       "Movement"
     ],
     "description": "Leaps forward to inflict damage and knock enemies back upon landing",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Whirlwind",
@@ -149,7 +193,12 @@
       "Physical"
     ],
     "description": "Spins toward the control direction while Channeling, dealing damage to all enemies in the path",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Crescent Slash",
@@ -164,7 +213,12 @@
       "Shadow"
     ],
     "description": "Swings weapon in a wide area to deal Physical DMG to multiple enemies",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Lightning Vortex",
@@ -179,7 +233,12 @@
       "Shadow"
     ],
     "description": "Swings weapon to damage multiple enemies and create a vortex. The vortex deals additional damage to nearby enemies",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Illusion Hook",
@@ -193,7 +252,12 @@
       "Physical"
     ],
     "description": "Throws a hook to inflict Physical DMG on the enemy. Enemies hit will be pulled toward the caster",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Shield Strike",
@@ -208,7 +272,12 @@
       "Shadow"
     ],
     "description": "Knocks the enemy back with a shield to inflict Physical DMG",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Quick Slash",
@@ -223,7 +292,12 @@
       "Shadow"
     ],
     "description": "Inflicts additional damage to nearby enemies upon hitting a single enemy",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Fissure",
@@ -238,7 +312,12 @@
       "Shadow"
     ],
     "description": "Slams the ground to create a fissure that deals damage to enemies in a wide area, with a chance to gain Earth Energy on a normal hit",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Whirlwind Slash",
@@ -251,7 +330,12 @@
       "Projectile"
     ],
     "description": "Slashes the air quickly to send forth a Whirlwind",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Bloodshed",
@@ -267,7 +351,12 @@
       "Shadow"
     ],
     "description": "Chance to afflict Bleed to targets hit and creates a Domain of Blood upon inflicting Bleed",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Frost Strike",
@@ -283,7 +372,12 @@
       "Shadow"
     ],
     "description": "Strikes the ground to create a Frost Pillar that deals damage to enemies",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Fighter's Wrath",
@@ -295,7 +389,12 @@
       "Duration"
     ],
     "description": "Amplifies Melee DMG and increases Attack Speed during skill duration",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Bulwark of Protection",
@@ -307,7 +406,12 @@
       "Duration"
     ],
     "description": "Increases Armor and Element Resist during skill duration",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Shout of Provocation",
@@ -320,7 +424,12 @@
       "Duration"
     ],
     "description": "Increases the caster's Armor during skill duration and forces enemies within range to attack the caster. Temporarily increases DMG upon use",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Blood Explosion",
@@ -337,7 +446,12 @@
       "Toggle DMG"
     ],
     "description": "Cause Blood Explosion in the surrounding area upon reaching stack count by inflicting Bleed",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Guardian",
@@ -352,7 +466,12 @@
       "Duration"
     ],
     "description": "Deals Physical DMG to nearby enemies and inflicts Stun or Slow on hit",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Enduring Pain",
@@ -365,7 +484,12 @@
       "Toggle Effect"
     ],
     "description": "Increases Armor based on stacks upon taking damage while using this skill. Gains an Enhance buff at Max Stacks",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Electric Area",
@@ -378,7 +502,12 @@
       "Lightning"
     ],
     "description": "Creates an Electric Area that deals Lightning damage in the forward direction. Enemies within range take Lightning damage periodically",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Wheel Slash",
@@ -394,7 +523,12 @@
       "Shadow"
     ],
     "description": "Slash the surroundings to deal DoT to the target.",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Sprint",
@@ -406,7 +540,12 @@
       "Movement"
     ],
     "description": "Sprint very quickly for a short amount of time. Becomes momentarily immune to Crowd Control status effects.",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Thorn Explosion",
@@ -420,7 +559,12 @@
       "Projectile"
     ],
     "description": "Attack by summoning thorns around the target and additionally triggers an explosion attack",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "The Absolute's Hammer",
@@ -434,7 +578,12 @@
       "Projectile"
     ],
     "description": "Throws a hammer that spirals in vortex and deals DMG to nearby enemies.",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Tenacious Regeneration",
@@ -446,7 +595,11 @@
       "Duration"
     ],
     "description": "Increases HP and HP Regen during skill duration",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "skill",
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Seal of Condensed Destruction",
@@ -458,7 +611,11 @@
       "Toggle"
     ],
     "description": "Increases Target's Physical DMG",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "skill",
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Seal of Defense",
@@ -470,7 +627,11 @@
       "Toggle"
     ],
     "description": "Increases Target's Armor",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "skill",
+    "howToGet": [
+      "Guild"
+    ]
   },
   {
     "title": "Seal of Crowd Control Dodge",
@@ -482,7 +643,11 @@
       "Toggle"
     ],
     "description": "Increases Crowd Control Dodge Chance of target.",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "skill",
+    "howToGet": [
+      "Guild"
+    ]
   },
   {
     "title": "Fire Blow",
@@ -498,7 +663,11 @@
       "Projectile"
     ],
     "description": "Slams the ground to deal Fire DMG and create a Fire Pillar.",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "skill",
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Domain of Strength",
@@ -513,7 +682,11 @@
       "Physical"
     ],
     "description": "Channels to summon a Domain of Strength. Domain of Strength automatically attacks enemies on each attack cycle. Attacks grow faster with longer channeling",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "skill",
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Shout of Justice",
@@ -526,7 +699,11 @@
       "Duration"
     ],
     "description": "Dampens enemy Movement Speed within range, temporarily Recovers HP, and removes Status Effects during Skill duration",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "skill",
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Fierce Strike",
@@ -540,7 +717,11 @@
       "Blow"
     ],
     "description": "Summons a hammer to deal Physical damage to multiple enemies. Periodically summons a giant hammer to deal even more damage instead",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "skill",
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Fire Storm",
@@ -555,7 +736,11 @@
       "Shadow"
     ],
     "description": "Spin in place to create a Fire Storm, and create a new Fire Storm upon hitting a Burning enemy",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "skill",
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Seal of Physical Domain",
@@ -567,7 +752,11 @@
       "Toggle"
     ],
     "description": "Decreases Target's Physical DMG Taken",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "skill",
+    "howToGet": [
+      "Guild"
+    ]
   },
   {
     "title": "Seal of Striking",
@@ -579,7 +768,11 @@
       "Toggle"
     ],
     "description": "Amplifies Target's Strike DMG",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "skill",
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Arctic Shard",
@@ -594,7 +787,11 @@
       "Shadow"
     ],
     "description": "Creates Ice Pillars to deal Cold DMG against enemies, and creates additional Ice Pillars based on Cold Energy",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "skill",
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Spread Shot",
@@ -610,7 +807,12 @@
       "Shadow"
     ],
     "description": "Fires several arrows over a wide area to inflict physical damage on the enemy",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Explosive Arrow",
@@ -625,7 +827,12 @@
       "Bow"
     ],
     "description": "Fires an exploding arrow to deal damage to the enemy. Killing an enemy with an attached arrow inflicts additional explosion damage",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Icy Arrow",
@@ -642,7 +849,12 @@
       "Shadow"
     ],
     "description": "Fires an icy arrow to damage the enemy. Frost Spheres are formed along the arrow's path inflicting additional damage with an explosion",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Rapid Shot",
@@ -658,7 +870,12 @@
       "Shadow"
     ],
     "description": "Fires multiple arrows in a straight line to inflict physical damage on the enemy",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Poison Cloud",
@@ -672,7 +889,12 @@
       "Poison"
     ],
     "description": "Forms a poisonous cloud around the caster to deal Poison DMG to enemies",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Piercing Arrow",
@@ -688,7 +910,12 @@
       "Shadow"
     ],
     "description": "Fires an arrow that pierces targets to inflict damage",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Rain of Arrows",
@@ -703,7 +930,12 @@
       "Bow"
     ],
     "description": "Temporarily calls down a Rain of Arrows to deal DMG to enemies. Rain of Arrows duration is affected by Attack Speed",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Burn Arrow",
@@ -719,7 +951,12 @@
       "Shadow"
     ],
     "description": "Shoots a Fire arrow that causes Burn and inflicts damage on the enemy",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Cross Lightning Arrow",
@@ -736,7 +973,12 @@
       "Shadow"
     ],
     "description": "Fires an arrow that explodes in a cross shape to inflict damage on the enemy",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Dagger Throw",
@@ -749,7 +991,12 @@
       "Projectile"
     ],
     "description": "Throws a dagger to damage the enemy. Inflicts additional damage by bouncing off surrounding enemies on hit",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Roll",
@@ -761,7 +1008,12 @@
       "Movement"
     ],
     "description": "Rolls a short distance forward",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Cross Slash",
@@ -776,7 +1028,12 @@
       "Shadow"
     ],
     "description": "Cross your weapons to deal damage twice to enemies in front of you",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Spinning Dagger",
@@ -789,7 +1046,11 @@
       "Projectile"
     ],
     "description": "Throws a spinning dagger at enemies in a straight line to inflict damage",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "skill",
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Illusion Strike",
@@ -804,7 +1065,12 @@
       "Movement"
     ],
     "description": "Moves forward to inflict damage on enemies. Chance to inflict Status Effects on Strikes and Critical Hits",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Piercing Sentry",
@@ -815,7 +1081,12 @@
       "Sentry"
     ],
     "description": "Piercing Sentry has the Strike, Physical, Projectile tags.",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Fan Blade Sentry",
@@ -826,7 +1097,12 @@
       "Sentry"
     ],
     "description": "Fan Blade Sentry has the Strike, Physical, Projectile tags.",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Electric Sentry",
@@ -837,7 +1113,12 @@
       "Sentry"
     ],
     "description": "Electric Sentry has the Strike, Lightning, Projectile tags.",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Deadly Poison Claw",
@@ -852,7 +1133,12 @@
       "Shadow"
     ],
     "description": "Swings a Dagger to deal Area DMG. Has a chance to gain Poison Energy upon dealing DMG to enemies, and amplifies DMG per stack.",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Shadow Forest",
@@ -865,7 +1151,12 @@
       "Physical"
     ],
     "description": "Creates an artificial space that deals DoT to enemies",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Blade of Death",
@@ -878,7 +1169,12 @@
       "Projectile"
     ],
     "description": "Throws a dagger that returns to the caster",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Bombardment Arrow",
@@ -893,7 +1189,12 @@
       "Bow"
     ],
     "description": "Fires an arrow that bombards a large area",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Deadly Poison Skewer",
@@ -909,7 +1210,12 @@
       "Shadow"
     ],
     "description": "Stabs forward while charging. Consumes Poison Energy to deal DMG and applies DMG Amplification and Critical DMG per stack.",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Unleash Lightning Shot",
@@ -925,7 +1231,12 @@
       "Shadow"
     ],
     "description": "Shoots an arrow that inflicts Shock. Discharges multiple Lightning strands upon hitting a Shocked enemy",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Frost Sentry",
@@ -936,7 +1247,12 @@
       "Sentry"
     ],
     "description": "Frost Sentry has the Strike, Area of Effect, Cold, Projectile tags.",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Vital Strike",
@@ -948,7 +1264,11 @@
       "Duration"
     ],
     "description": "Increases Critical Rate and Critical DMG during skill duration",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "skill",
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Marksman",
@@ -960,7 +1280,12 @@
       "Duration"
     ],
     "description": "Increases Projectile DMG and Pierce Count during skill duration",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Illusion Arrow",
@@ -976,7 +1301,12 @@
       "Toggle DMG"
     ],
     "description": "Chance to automatically fire a Guided Arrow upon reaching stack count with Bow Skills",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Poison Explosion",
@@ -992,7 +1322,12 @@
       "Toggle DMG"
     ],
     "description": "Cause Poison Explosion in the surrounding area upon reaching stack count by inflicting Venom",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Counterattack",
@@ -1007,7 +1342,12 @@
       "Toggle DMG"
     ],
     "description": "Deal DMG to the enemy upon dodging, blocking, or damaged by enemy attack",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Improved Senses",
@@ -1019,7 +1359,12 @@
       "Duration"
     ],
     "description": "Gains a temporary Enhance effect based on the number of Daggers equipped upon using a Skill",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Enchanted Sentry",
@@ -1030,7 +1375,12 @@
       "Channel"
     ],
     "description": "Amplifies the Attack Speed of nearby Sentries based on the number of stacks while Channeling",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Freeze Arrow",
@@ -1047,7 +1397,12 @@
       "Shadow"
     ],
     "description": "Fires multiple arrows that freeze the enemy to deal damage and cause an additional Cold Explosion upon inflicting Freeze",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Scorching Arrow",
@@ -1063,7 +1418,12 @@
       "Shadow"
     ],
     "description": "Fires a burning arrow. Gains Maintain Position effect on hit and fires an additional arrow based on the number of stacks",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Lightning Arrow",
@@ -1079,7 +1439,12 @@
       "Shadow"
     ],
     "description": "Fires arrows in a row and deals Lightning Damage to enemy. Obtain Lightning Energy at a certain chance on hit and gain effect proportionate to Lightning Energy stack.",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Shockwave Trap",
@@ -1093,7 +1458,12 @@
       "Physical"
     ],
     "description": "Installs a Trap that explodes to deal Physical DMG upon detecting an enemy",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Fire Fissure Trap",
@@ -1107,7 +1477,12 @@
       "Fire"
     ],
     "description": "Installs a Trap that explodes to deal Fire DMG upon detecting an enemy",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Frost Trap",
@@ -1122,7 +1497,12 @@
       "Projectile"
     ],
     "description": "Installs a Trap that detonates a cold orb to deal Cold DMG upon detecting an enemy",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Electric Orb Trap",
@@ -1136,7 +1516,12 @@
       "Projectile"
     ],
     "description": "Installs a Trap that fires an electric orb that deals Lightning DMG upon detecting an enemy",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Poison Gas Trap",
@@ -1150,7 +1535,12 @@
       "Poison"
     ],
     "description": "Installs a Trap that generates poison gas that deals Poison DMG upon detecting an enemy",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Activate Trap",
@@ -1161,7 +1551,11 @@
       "Duration"
     ],
     "description": "Forces all installed Traps to activate.",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "skill",
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Electric Shell Shot",
@@ -1178,7 +1572,12 @@
       "Shadow"
     ],
     "description": "Shoots an Electric Round that explodes behind the target on Hit",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Aerial Throw",
@@ -1194,7 +1593,12 @@
       "Bowgun"
     ],
     "description": "Move and deal DMG within trail",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Total Barrage",
@@ -1210,7 +1614,12 @@
       "Overheat"
     ],
     "description": "Accumulate up to max Overheat when used to deal DMG proportionate to the remaining Overheat",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Instant Acceleration",
@@ -1222,7 +1631,12 @@
       "Bowgun"
     ],
     "description": "Move fast and Release Accumulated Overheat",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Whirlwind Barrage",
@@ -1238,7 +1652,11 @@
       "Overheat"
     ],
     "description": "Shoots a barrage of rounds around you while moving when maintaining Focus",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "skill",
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Ogre Arrow",
@@ -1253,7 +1671,12 @@
       "Shadow"
     ],
     "description": "Fires a projectile that pierces and tracks the enemy",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Shockwave Sentry",
@@ -1264,7 +1687,11 @@
       "Sentry"
     ],
     "description": "Shockwave Sentry has the Strike, Physical, Projectile tags.",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "skill",
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Penetrating Slash",
@@ -1278,7 +1705,11 @@
       "Movement"
     ],
     "description": "Moves forward, inflicting Physical damage on enemies in your path",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "skill",
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Poison Rain of Arrows",
@@ -1294,7 +1725,11 @@
       "Shadow"
     ],
     "description": "Fires an arrow into the air to inflict damage on the enemy",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "skill",
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Attack Impulse",
@@ -1306,7 +1741,11 @@
       "Duration"
     ],
     "description": "Temporarily increases Attack Speed and DMG upon use",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "skill",
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Seal of Accuracy",
@@ -1318,7 +1757,11 @@
       "Toggle"
     ],
     "description": "Increases Target's Hit Rate",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "skill",
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Seal of Dodge",
@@ -1330,7 +1773,11 @@
       "Toggle"
     ],
     "description": "Increases Target's Dodge Rate",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "skill",
+    "howToGet": [
+      "Guild"
+    ]
   },
   {
     "title": "Seal of Critical Chance",
@@ -1342,7 +1789,11 @@
       "Toggle"
     ],
     "description": "Increases Target's Critical Chance",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "skill",
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Sentry Expert",
@@ -1356,7 +1807,11 @@
       "Toggle Effect"
     ],
     "description": "Changes Sentry Stats according to the situation",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "skill",
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Fire Orb Trap",
@@ -1371,7 +1826,11 @@
       "Projectile"
     ],
     "description": "Installs a Trap that fires a randomly exploding flame orb that deals Fire DMG upon detecting an enemy",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "skill",
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Chill Area Trap",
@@ -1385,7 +1844,11 @@
       "Cold"
     ],
     "description": "Installs a Trap that generates a chilly area that deals Cold DMG upon detecting an enemy",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "skill",
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Wind Blade",
@@ -1400,7 +1863,11 @@
       "Shadow"
     ],
     "description": "Deal Physical DMG by scattering daggers nearby. Deal DMG again on Critical Hit.",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "skill",
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Throw Explosive",
@@ -1416,7 +1883,11 @@
       "Shadow"
     ],
     "description": "Throw numerous explosives to deal DMG within an area",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "skill",
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Firebomb Shot",
@@ -1433,7 +1904,11 @@
       "Shadow"
     ],
     "description": "Shoots a Fire Element shell A Firebomb explodes on Hit and deals DMG for a set amount of time",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "skill",
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Trick Shot",
@@ -1448,7 +1923,11 @@
       "Movement"
     ],
     "description": "Moves forward and deals damage to an enemy behind",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "skill",
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Shockwave Arrow",
@@ -1464,7 +1943,11 @@
       "Overheat"
     ],
     "description": "Fires an arrow that pierces through a short distance to deal damage to enemies",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "skill",
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Veil of Protection",
@@ -1477,7 +1960,11 @@
       "Toggle Effect"
     ],
     "description": "Decreases Melee or Projectile DMG Taken whenever a Skill is used",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "skill",
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Seal of Chaos Resist",
@@ -1489,7 +1976,11 @@
       "Toggle"
     ],
     "description": "Increases Target's Chaos Resist",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "skill",
+    "howToGet": [
+      "Guild"
+    ]
   },
   {
     "title": "Ice Crystal Arrow",
@@ -1505,7 +1996,11 @@
       "Shadow"
     ],
     "description": "Shoots a Cold Arrow that can be Chained. Gain Scaling Cold effect on hit and fires additional arrow(s) upon moving based on the number of Cold Crystal stack(s)",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "skill",
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Summon Abyssling",
@@ -1517,7 +2012,12 @@
       "Abyssling"
     ],
     "description": "Abyssling has the Strike, Area of Effect, Physical, Melee tags.",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Gather Minions",
@@ -1528,7 +2028,12 @@
       "Duration"
     ],
     "description": "Summons all Minions to the caster's location",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Fire Ball",
@@ -1542,7 +2047,12 @@
       "Projectile"
     ],
     "description": "Fires a fire ball that explodes on hit to deal fire damage",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Frost Ball",
@@ -1555,7 +2065,12 @@
       "Projectile"
     ],
     "description": "Fires a slow-moving Frost Sphere that pierces enemies in its path to deal cold damage",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Frost Shock",
@@ -1569,7 +2084,12 @@
       "Cold"
     ],
     "description": "Forms an area of Ice Thorns around the caster to deal Cold DMG to enemies",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Poison Orb",
@@ -1583,7 +2103,12 @@
       "Projectile"
     ],
     "description": "Throws a poison orb that bounces forward and deals Poison DMG to enemies",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Lightning Typhoon",
@@ -1597,7 +2122,12 @@
       "Projectile"
     ],
     "description": "Temporarily summons a Lightning Typhoon that follows enemies to deal Lighting DMG",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Frost Thorn",
@@ -1610,7 +2140,12 @@
       "Projectile"
     ],
     "description": "Shoots out Frost Thorns to deal Cold DMG to the enemy",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Flamethrower",
@@ -1625,7 +2160,12 @@
       "Fire"
     ],
     "description": "Deals Fire DMG, amplifying Fire DMG for each Channeling stage. Canceling Channeling at stage 1 or above causes Fire Explosion. However, Fire Explosion is not caused when Channeling is canceled by Movement Skills or Crowd Control effects",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Charge Release",
@@ -1639,7 +2179,12 @@
       "Projectile"
     ],
     "description": "Fires several electric currents to deal Lightning DMG on the enemy",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Toxic Flame",
@@ -1652,7 +2197,12 @@
       "Projectile"
     ],
     "description": "Fires a piercing toxic flame that deals Poison DoT. Is not affected by Projectile DMG",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Summon Javelin Abyssling",
@@ -1664,7 +2214,11 @@
       "Abyssling"
     ],
     "description": "Javelin Abyssling has the Strike, Physical, Projectile tags.",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "skill",
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Unite Crowd (Enrage)",
@@ -1678,7 +2232,12 @@
       "Toggle Effect"
     ],
     "description": "Changes your Minion's active stance every time this skill is used.",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Summon Bursting Rune Knight",
@@ -1690,7 +2249,12 @@
       "Rune Knight"
     ],
     "description": "Bursting Rune Knight has the Strike, Area of Effect, Fire, Melee tags.",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Sacred Devotion",
@@ -1701,7 +2265,12 @@
       "Channel"
     ],
     "description": "Decreases the caster's Armor and all Element Resist while channeling, but increases Minion DMG",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Cold Armor",
@@ -1716,7 +2285,12 @@
       "Toggle Effect"
     ],
     "description": "Forms an ice barrier that inflicts Cold DMG and causes Chill to attackers when hit by a melee attack",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Lightning Chain",
@@ -1728,7 +2302,12 @@
       "Lightning"
     ],
     "description": "Discharges lightning that chains to deal lightning damage to multiple enemies",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Meteor",
@@ -1742,7 +2321,12 @@
       "Projectile"
     ],
     "description": "Brings down a massive meteor to deal damage on enemies in an area",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Poison Area",
@@ -1754,7 +2338,12 @@
       "Poison"
     ],
     "description": "Temporarily forms a poisonous area to deal Poison DMG to enemies",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Plague Spike",
@@ -1769,7 +2358,12 @@
       "Duration"
     ],
     "description": "Fires plague spikes to deal Poison DMG to the enemy. Triggers Burst Plague on hit, inflicting a plague that decreases the enemy's Element Resist by chance.",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Frost Bomb",
@@ -1782,7 +2376,12 @@
       "Projectile"
     ],
     "description": "Fires a Frost Bomb that explodes after a period of time. Upon explosion, shoots several Ice Shards to deal Cold DMG on the enemy",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Thunderbolt",
@@ -1798,7 +2397,12 @@
       "Toggle DMG"
     ],
     "description": "Calls down lightning in front and around the caster to deal damage to enemies",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Summon Fire Orb Abyssling",
@@ -1810,7 +2414,12 @@
       "Abyssling"
     ],
     "description": "Fire Orb Abyssling has the Strike, Range, Area of Effect, Fire, Projectile tags.",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Summon Poison Arrow Abyssling",
@@ -1822,7 +2431,12 @@
       "Abyssling"
     ],
     "description": "Poison Arrow Abyssling has the Strike, Poison, Projectile tags.",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Summon Lightning Arrow Abyssling",
@@ -1834,7 +2448,12 @@
       "Abyssling"
     ],
     "description": "Lightning Arrow Abyssling has the Strike, Lightning, Projectile tags.",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Summon Snow Orb Abyssling",
@@ -1846,7 +2465,12 @@
       "Abyssling"
     ],
     "description": "Snow Orb Abyssling has the Strike, Cold, Projectile tags.",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Mark of Focus",
@@ -1858,7 +2482,12 @@
       "Duration"
     ],
     "description": "Marks an enemy for a period of time. The marked enemy becomes the target of minion attacks and receives increased damage from Minions",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Siphon Life",
@@ -1870,7 +2499,12 @@
       "Duration"
     ],
     "description": "Grants enemy HP Absorb effect to yourself and your Minion during skill duration",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Summon Arctic Rune Knight",
@@ -1882,7 +2516,12 @@
       "Rune Knight"
     ],
     "description": "Arctic Rune Knight has the Strike, Area of Effect, Cold, Melee tags.",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Summon Lightning Rune Knight",
@@ -1894,7 +2533,12 @@
       "Rune Knight"
     ],
     "description": "Lightning Rune Knight has the Strike, Area of Effect, Lightning, Melee tags.",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Release Element",
@@ -1906,7 +2550,12 @@
       "Duration"
     ],
     "description": "Amplifies Element DMG and increases Cast Speed during skill duration",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Intensify Pain",
@@ -1918,7 +2567,12 @@
       "Duration"
     ],
     "description": "Increases DMG Status Effect Rate for the duration, and Status Effect DMG are amplified",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Cold Outburst",
@@ -1932,7 +2586,12 @@
       "Projectile"
     ],
     "description": "Launches multiple Ice Spikes forward. Deals damage beyond the target with Ice Shards",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Weaken Totem",
@@ -1943,7 +2602,12 @@
       "Totem"
     ],
     "description": "Summons a Totem that increases DMG Taken by enemies",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Tremor Totem",
@@ -1954,7 +2618,12 @@
       "Totem"
     ],
     "description": "Summons a Totem that dampens Movement, Attack, and Cast Speed of enemies",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Protection Totem",
@@ -1965,7 +2634,12 @@
       "Totem"
     ],
     "description": "Summons a Totem that increases Barrier and decreases Barrier Regen Cycle for Caster and allies",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Life Totem",
@@ -1976,7 +2650,12 @@
       "Totem"
     ],
     "description": "Summons a Totem that increases HP Regen for Caster and allies",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Mist Totem",
@@ -1987,7 +2666,12 @@
       "Totem"
     ],
     "description": "Summons a Totem that decreases Hit Rate and Critical Rate of enemies",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Electromagnetic Field",
@@ -2000,7 +2684,12 @@
       "Lightning"
     ],
     "description": "Releases an Electric Sphere that instantly draws enemies to the center",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Teleport",
@@ -2012,7 +2701,12 @@
       "Movement"
     ],
     "description": "Teleports forward. Temporarily increases Element Resist after teleporting",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Summon Deadly Poison Rune Knight",
@@ -2024,7 +2718,12 @@
       "Rune Knight"
     ],
     "description": "Deadly Poison Rune Knight has the Strike, Area of Effect, Poison, Melee tags.",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Agile Movement",
@@ -2036,7 +2735,11 @@
       "Duration"
     ],
     "description": "Gains a buff that temporarily dampens DMG Taken and amplifies Dodge Rate upon taking DMG while maintaining Skill",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "skill",
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Pantheon",
@@ -2048,7 +2751,11 @@
       "Duration"
     ],
     "description": "Enhances your Barrier to greatly increase Barrier Regen",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "skill",
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Dark Judgment",
@@ -2066,7 +2773,12 @@
       ""
     ],
     "description": "Summons Judgment at random to your surrounding and deals damage with your highest element Buff will reset on using any skills other than Judgment",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Persistent Strike",
@@ -2078,7 +2790,11 @@
       "Duration"
     ],
     "description": "Increases the chance of double maximization for the duration",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "skill",
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Hazy Melody (Low Tone, High Tone)",
@@ -2092,7 +2808,12 @@
       "Toggle Effect"
     ],
     "description": "The stance applied to minions are changed whenever a skill is used.",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Condense Fire",
@@ -2106,7 +2827,11 @@
       "Projectile"
     ],
     "description": "Creates a sphere of condensed Fire Energy",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "skill",
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Fire Torrent",
@@ -2120,7 +2845,11 @@
       "Projectile"
     ],
     "description": "Channels to temporarily summon a Fire Torrent. Flames periodically spew out from the torrent to track down enemies. Attacks grow faster with longer channeling",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "skill",
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Electric Ball",
@@ -2134,7 +2863,11 @@
       "Projectile"
     ],
     "description": "Fires an electric ball that periodically explodes. Explosions deal Lightning DMG to nearby enemies",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "skill",
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Sacred Light",
@@ -2152,7 +2885,11 @@
       "Fire"
     ],
     "description": "Deal DMG with the highest Elemental damage in front while Channeling. Gain Maintain Position Effect on hit, effect decays upon moving.",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "skill",
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Summon Wrathful Rune Knight",
@@ -2164,7 +2901,11 @@
       "Rune Knight"
     ],
     "description": "Wrathful Rune Knight has the Strike, Area of Effect, Physical, Melee tags.",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "skill",
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Weaken DMG Totem",
@@ -2175,7 +2916,11 @@
       "Totem"
     ],
     "description": "Summons a Totem that Dampens enemy DMG",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "skill",
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Seal of Condensed Elements",
@@ -2187,7 +2932,11 @@
       "Toggle"
     ],
     "description": "Increases Target's Element DMG",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "skill",
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Seal of Element Resist",
@@ -2199,7 +2948,11 @@
       "Toggle"
     ],
     "description": "Increases Target's Element Resist for all Elements",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "skill",
+    "howToGet": [
+      "Guild"
+    ]
   },
   {
     "title": "Summon Twisted Abyssling",
@@ -2211,7 +2964,11 @@
       "Abyssling"
     ],
     "description": "Twisted Abyssling has the Strike, Area of Effect, Physical, Melee tags.",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "skill",
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Judgment of Light",
@@ -2229,7 +2986,11 @@
       ""
     ],
     "description": "Deal DMG with Highest Element. Amplify DMG and increase Resource Cost on hit. Buff will reset on using any skills other than Judgment.",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "skill",
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Absorb Energy",
@@ -2241,7 +3002,11 @@
       "Duration"
     ],
     "description": "Consumes all Energy to increase stats identical to the effect(s) of consumed Energy for the duration",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "skill",
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Lightning Wave",
@@ -2255,7 +3020,11 @@
       "Lightning"
     ],
     "description": "Use all Lightning Energy to fire a lightning wave to deal Lightning Damage to frontal enemies.",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "skill",
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Flames of Death",
@@ -2269,7 +3038,11 @@
       "Fire"
     ],
     "description": "Burst out a trail of fire that deals Fire DMG, deal omni directional Fire DMG upon reaching max Fire Energy",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "skill",
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Seal of Persistence",
@@ -2281,7 +3054,11 @@
       "Toggle"
     ],
     "description": "Increase Double Maximized DMG effect of Target",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "skill",
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Wings of Ignition",
@@ -2294,7 +3071,8 @@
       "Projectile"
     ],
     "description": "Summons projectiles that track enemies, and if hit, the projectiles split. The split projectiles then track new targets.",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "skill"
   },
   {
     "title": "Black Plague",
@@ -2308,7 +3086,8 @@
       "Poison"
     ],
     "description": "Moves toward the control direction while channeling, forming an area of Black Plague around yourself. Inflicts additional DMG according to the number of Black Plague stacks. However, Great Plague is not caused when Channeling is canceled by Movement Skills or Crowd Control effects.",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "skill"
   },
   {
     "title": "Blizzard",
@@ -2321,7 +3100,11 @@
       "Cold"
     ],
     "description": "Summons a powerful Blizzard that deals DMG to enemies in front of the caster. Blizzard duration is affected by Cast Speed",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "skill",
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Wind Totem",
@@ -2332,7 +3115,11 @@
       "Totem"
     ],
     "description": "Summons a Totem that increases Attack Speed and Cast Speed for Caster and allies",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "skill",
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Seal of Elemental Domain",
@@ -2344,7 +3131,11 @@
       "Toggle"
     ],
     "description": "Decreases Target's Element DMG Taken",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "skill",
+    "howToGet": [
+      "Guild"
+    ]
   },
   {
     "title": "Seal of Pain",
@@ -2356,7 +3147,11 @@
       "Toggle"
     ],
     "description": "Amplifies Target's DoT",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "skill",
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Vision Shift",
@@ -2370,7 +3165,8 @@
       "Physical"
     ],
     "description": "Moves forward to inflict DMG on enemies. Amplifies Resource Cost and DMG upon continuously using the skill.",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "skill"
   },
   {
     "title": "Knockback",
@@ -2381,7 +3177,22 @@
       "Attack"
     ],
     "description": "Can be linked with Skills that satisfy Strike, Attack (must include all)",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "link",
+    "conditions": {
+      "must": [
+        "Strike",
+        "Attack"
+      ],
+      "cannot": [
+        "Minion",
+        "Sentry"
+      ]
+    },
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Additional Physical DMG",
@@ -2391,7 +3202,15 @@
       "Physical"
     ],
     "description": "Can be linked with Skills that satisfy Physical",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "link",
+    "conditions": {
+      "minions": true
+    },
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Additional Fire DMG",
@@ -2401,7 +3220,15 @@
       "Fire"
     ],
     "description": "Can be linked with Skills that satisfy Fire",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "link",
+    "conditions": {
+      "minions": true
+    },
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Endless Pain",
@@ -2412,7 +3239,19 @@
       "Strike"
     ],
     "description": "Can be linked with Skills that satisfy Physical, Strike (must include all)",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "link",
+    "conditions": {
+      "must": [
+        "Physical",
+        "Strike"
+      ],
+      "minions": true
+    },
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Bloodthirst",
@@ -2423,7 +3262,19 @@
       "Strike"
     ],
     "description": "Can be linked with Skills that satisfy Physical, Strike (must include all)",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "link",
+    "conditions": {
+      "must": [
+        "Physical",
+        "Strike"
+      ],
+      "minions": true
+    },
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Armor Penetration",
@@ -2433,7 +3284,14 @@
       "Physical"
     ],
     "description": "Can be linked with Skills that satisfy Physical",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "link",
+    "conditions": {
+      "minions": true
+    },
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Ignite",
@@ -2444,7 +3302,19 @@
       "Strike"
     ],
     "description": "Can be linked with Skills that satisfy Fire, Strike (must include all)",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "link",
+    "conditions": {
+      "must": [
+        "Fire",
+        "Strike"
+      ],
+      "minions": true
+    },
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Burning Flame",
@@ -2455,7 +3325,19 @@
       "Strike"
     ],
     "description": "Can be linked with Skills that satisfy Fire, Strike (must include all)",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "link",
+    "conditions": {
+      "must": [
+        "Fire",
+        "Strike"
+      ],
+      "minions": true
+    },
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Area Effect",
@@ -2467,7 +3349,22 @@
       "Area of Effect"
     ],
     "description": "Can be linked with Skills that satisfy Area of Effect",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "link",
+    "conditions": {
+      "any": [
+        "Strike",
+        "DoT"
+      ],
+      "cannot": [
+        "Trap"
+      ],
+      "minions": true
+    },
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Concentrated Area DMG",
@@ -2479,7 +3376,21 @@
       "Area of Effect"
     ],
     "description": "Can be linked with Skills that satisfy Area of Effect",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "link",
+    "conditions": {
+      "any": [
+        "Strike",
+        "DoT"
+      ],
+      "cannot": [
+        "Trap"
+      ],
+      "minions": true
+    },
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Decrease Duration",
@@ -2489,7 +3400,13 @@
       "Duration"
     ],
     "description": "Can be linked with Skills that satisfy Duration",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "link",
+    "conditions": {},
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Fire Penetration",
@@ -2499,7 +3416,14 @@
       "Fire"
     ],
     "description": "Can be linked with Skills that satisfy Fire",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "link",
+    "conditions": {
+      "minions": true
+    },
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Confidence",
@@ -2510,7 +3434,19 @@
       "DoT"
     ],
     "description": "Can be linked with Skills that satisfy any one of Strike, DoT",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "link",
+    "conditions": {
+      "any": [
+        "Strike",
+        "DoT"
+      ],
+      "minions": true
+    },
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Regeneration",
@@ -2522,7 +3458,25 @@
       "Strike"
     ],
     "description": "Can be linked with Skills that satisfy Melee, Attack, Strike (must include all)",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "link",
+    "conditions": {
+      "must": [
+        "Melee",
+        "Attack",
+        "Strike"
+      ],
+      "cannot": [
+        "Totem",
+        "Sentry",
+        "Minion",
+        "Movement",
+        "Toggle"
+      ]
+    },
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Tenacity",
@@ -2534,7 +3488,25 @@
       "Strike"
     ],
     "description": "Can be linked with Skills that satisfy Melee, Attack, Strike (must include all)",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "link",
+    "conditions": {
+      "must": [
+        "Melee",
+        "Attack",
+        "Strike"
+      ],
+      "cannot": [
+        "Totem",
+        "Sentry",
+        "Minion",
+        "Movement",
+        "Toggle"
+      ]
+    },
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Spell Activation on Attack Hit",
@@ -2545,7 +3517,12 @@
       "Strike"
     ],
     "description": "Must link an Activation (Attack, Strike) Skill and a Target (Spell) Skill in the arrow's direction.",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Convert Fire DMG",
@@ -2557,7 +3534,25 @@
       "Physical"
     ],
     "description": "Can be linked with Skills that satisfy Physical",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "link",
+    "conditions": {
+      "any": [
+        "Strike",
+        "DoT"
+      ],
+      "cannot": [
+        "Cannot Convert DMG",
+        "Totem",
+        "Minion",
+        "Shout"
+      ],
+      "minions": true
+    },
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Center of Gravity",
@@ -2568,7 +3563,25 @@
       "DoT"
     ],
     "description": "Can be linked with Skills that satisfy any one of Strike, DoT",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "link",
+    "conditions": {
+      "any": [
+        "Strike",
+        "DoT"
+      ],
+      "cannot": [
+        "Channel",
+        "Totem",
+        "Sentry",
+        "Minion",
+        "Movement"
+      ]
+    },
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Overpower",
@@ -2578,7 +3591,18 @@
       "Strike"
     ],
     "description": "Can be linked with Skills that satisfy Strike",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "link",
+    "conditions": {
+      "cannot": [
+        "Toggle"
+      ],
+      "minions": true
+    },
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Hushed Shout",
@@ -2588,7 +3612,13 @@
       "Shout"
     ],
     "description": "Can be linked with Skills that satisfy Shout",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "link",
+    "conditions": {},
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Savagery",
@@ -2599,7 +3629,21 @@
       "Weapon Range"
     ],
     "description": "Can be linked with Skills that satisfy Melee, Weapon Range (must include all)",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "link",
+    "conditions": {
+      "must": [
+        "Melee",
+        "Weapon Range"
+      ],
+      "cannot": [
+        "Movement"
+      ]
+    },
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Disarm",
@@ -2609,7 +3653,19 @@
       "Movement"
     ],
     "description": "Can be linked with Skills that satisfy Movement",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "link",
+    "conditions": {
+      "cannot": [
+        "Totem",
+        "Sentry",
+        "Minion"
+      ]
+    },
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Hunger",
@@ -2621,7 +3677,26 @@
       "Strike"
     ],
     "description": "Can be linked with Skills that satisfy Melee, Attack, Strike (must include all)",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "link",
+    "conditions": {
+      "must": [
+        "Melee",
+        "Attack",
+        "Strike"
+      ],
+      "cannot": [
+        "Totem",
+        "Sentry",
+        "Minion",
+        "Movement",
+        "Toggle"
+      ]
+    },
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Lingering Shout",
@@ -2631,7 +3706,13 @@
       "Shout"
     ],
     "description": "Can be linked with Skills that satisfy Shout",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "link",
+    "conditions": {},
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Improved Shout",
@@ -2641,7 +3722,13 @@
       "Shout"
     ],
     "description": "Can be linked with Skills that satisfy Shout",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "link",
+    "conditions": {},
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Attack DMG Increase",
@@ -2653,7 +3740,19 @@
       "Attack"
     ],
     "description": "Can be linked with Skills that satisfy Attack",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "link",
+    "conditions": {
+      "any": [
+        "Strike",
+        "DoT"
+      ],
+      "minions": true
+    },
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Area Totem",
@@ -2663,7 +3762,20 @@
       "Totem"
     ],
     "description": "Can be linked with Skills that satisfy Totem",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "link",
+    "conditions": {
+      "cannot": [
+        "Sentry",
+        "Toggle",
+        "Shout",
+        "Movement"
+      ]
+    },
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Unity",
@@ -2674,7 +3786,17 @@
       "Minion"
     ],
     "description": "Can be linked with Skills that satisfy Abyssling, Minion (must include all)",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "link",
+    "conditions": {
+      "must": [
+        "Abyssling",
+        "Minion"
+      ]
+    },
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Trap Master",
@@ -2684,7 +3806,13 @@
       "Trap"
     ],
     "description": "Can be linked with Skills that satisfy Trap",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "link",
+    "conditions": {},
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Trap Area Effect",
@@ -2694,7 +3822,13 @@
       "Trap"
     ],
     "description": "Can be linked with Skills that satisfy Trap",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "link",
+    "conditions": {},
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Iron Will",
@@ -2706,7 +3840,24 @@
       "Strike"
     ],
     "description": "Can be linked with Skills that satisfy Attack, Melee, Strike (must include all)",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "link",
+    "conditions": {
+      "must": [
+        "Attack",
+        "Melee",
+        "Strike"
+      ],
+      "cannot": [
+        "Minion",
+        "Sentry",
+        "Toggle"
+      ]
+    },
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Break",
@@ -2718,7 +3869,25 @@
       "Attack"
     ],
     "description": "Can be linked with Skills that satisfy Strike, Melee, Attack (must include all)",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "link",
+    "conditions": {
+      "must": [
+        "Strike",
+        "Melee",
+        "Attack"
+      ],
+      "cannot": [
+        "Minion",
+        "Sentry",
+        "Trap",
+        "Toggle"
+      ]
+    },
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Expand Vision",
@@ -2728,7 +3897,13 @@
       "Movement"
     ],
     "description": "Can be linked with Skills that satisfy Movement",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "link",
+    "conditions": {},
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Absorb Minion HP",
@@ -2738,7 +3913,13 @@
       "Minion"
     ],
     "description": "Can be linked with Skills that satisfy Minion",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "link",
+    "conditions": {},
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Predator's Roar",
@@ -2748,7 +3929,9 @@
       "Shout"
     ],
     "description": "Can be linked with Skills that satisfy Shout",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "link",
+    "conditions": {}
   },
   {
     "title": "Extract Earth Energy",
@@ -2759,7 +3942,19 @@
       "Strike"
     ],
     "description": "Can be linked with Skills that satisfy Physical, Strike (must include all)",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "link",
+    "conditions": {
+      "must": [
+        "Physical",
+        "Strike"
+      ],
+      "minions": true
+    },
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Extract Fire Energy",
@@ -2770,7 +3965,19 @@
       "Strike"
     ],
     "description": "Can be linked with Skills that satisfy Fire, Удар (must include all)",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "link",
+    "conditions": {
+      "must": [
+        "Fire",
+        "Удар"
+      ],
+      "minions": true
+    },
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Melee DMG Amplification",
@@ -2781,7 +3988,18 @@
       "Attack"
     ],
     "description": "Can be linked with Skills that satisfy Melee, Attack (must include all)",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "link",
+    "conditions": {
+      "must": [
+        "Melee",
+        "Attack"
+      ],
+      "minions": true
+    },
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Preemptive Strike",
@@ -2792,7 +4010,18 @@
       "DoT"
     ],
     "description": "Can be linked with Skills that satisfy any one of Strike, DoT",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "link",
+    "conditions": {
+      "any": [
+        "Strike",
+        "DoT"
+      ],
+      "minions": true
+    },
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Strike",
@@ -2802,7 +4031,17 @@
       "Strike"
     ],
     "description": "Can be linked with Skills that satisfy Strike",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "link",
+    "conditions": {
+      "cannot": [
+        "Toggle"
+      ],
+      "minions": true
+    },
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Buff Activation when Hit",
@@ -2814,7 +4053,11 @@
       "Defense Enhance"
     ],
     "description": "Must link a Target Shout, Attack Enhance, Defense Enhance Skill in the arrow's direction.",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "skill",
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Ignition Explosion",
@@ -2825,7 +4068,18 @@
       "Fire"
     ],
     "description": "Can be linked with Skills that satisfy Strike, Fire (must include all)",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "link",
+    "conditions": {
+      "must": [
+        "Strike",
+        "Fire"
+      ],
+      "minions": true
+    },
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Buff Activation upon Crowd Control",
@@ -2837,7 +4091,11 @@
       "Defense Enhance"
     ],
     "description": "Must link a Target Shout, Attack Enhance, Defense Enhance Skill in the arrow's direction.",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "skill",
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Shout of Power",
@@ -2847,7 +4105,12 @@
       "Shout"
     ],
     "description": "Can be linked with Skills that satisfy Shout",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "link",
+    "conditions": {},
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Increase Gold Gain Chance",
@@ -2857,7 +4120,19 @@
       "Strike"
     ],
     "description": "Can be linked with Skills that satisfy Strike",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "link",
+    "conditions": {
+      "cannot": [
+        "Totem",
+        "Sentry",
+        "Minion",
+        "Movement"
+      ]
+    },
+    "howToGet": [
+      "Guild"
+    ]
   },
   {
     "title": "Increase Gold Gain Amount",
@@ -2867,7 +4142,19 @@
       "Strike"
     ],
     "description": "Can be linked with Skills that satisfy Strike",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "link",
+    "conditions": {
+      "cannot": [
+        "Totem",
+        "Sentry",
+        "Minion",
+        "Movement"
+      ]
+    },
+    "howToGet": [
+      "Guild"
+    ]
   },
   {
     "title": "Increase Kill EXP",
@@ -2877,7 +4164,19 @@
       "Strike"
     ],
     "description": "Can be linked with Skills that satisfy Strike",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "link",
+    "conditions": {
+      "cannot": [
+        "Totem",
+        "Sentry",
+        "Minion",
+        "Movement"
+      ]
+    },
+    "howToGet": [
+      "Guild"
+    ]
   },
   {
     "title": "Grip Strength",
@@ -2889,7 +4188,24 @@
       "Strike"
     ],
     "description": "Can be linked with Skills that satisfy Melee, Attack, Strike (must include all)",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "link",
+    "conditions": {
+      "must": [
+        "Melee",
+        "Attack",
+        "Strike"
+      ],
+      "cannot": [
+        "Totem",
+        "Sentry",
+        "Minion",
+        "Toggle"
+      ]
+    },
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Offset Counterattack",
@@ -2901,7 +4217,26 @@
       "Strike"
     ],
     "description": "Can be linked with Skills that satisfy Strike",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "link",
+    "conditions": {
+      "any": [
+        "Attack",
+        "Spell"
+      ],
+      "cannot": [
+        "Totem",
+        "Minion",
+        "Sentry",
+        "Movement",
+        "Toggle",
+        "Shout",
+        "Trap"
+      ]
+    },
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Vitality Recovery",
@@ -2911,7 +4246,21 @@
       "Defense Enhance"
     ],
     "description": "Can be linked with Skills that satisfy Defense Enhance",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "link",
+    "conditions": {
+      "cannot": [
+        "Totem",
+        "Sentry",
+        "Toggle",
+        "Shout",
+        "Movement",
+        "Minion"
+      ]
+    },
+    "howToGet": [
+      "Guild"
+    ]
   },
   {
     "title": "Focused Defense",
@@ -2921,7 +4270,21 @@
       "Defense Enhance"
     ],
     "description": "Can be linked with Skills that satisfy Defense Enhance",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "link",
+    "conditions": {
+      "cannot": [
+        "Totem",
+        "Sentry",
+        "Toggle",
+        "Shout",
+        "Movement",
+        "Minion"
+      ]
+    },
+    "howToGet": [
+      "Guild"
+    ]
   },
   {
     "title": "Overflowing Strength",
@@ -2931,7 +4294,21 @@
       "Defense Enhance"
     ],
     "description": "Can be linked with Skills that satisfy Defense Enhance",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "link",
+    "conditions": {
+      "cannot": [
+        "Totem",
+        "Sentry",
+        "Toggle",
+        "Shout",
+        "Movement",
+        "Minion"
+      ]
+    },
+    "howToGet": [
+      "Guild"
+    ]
   },
   {
     "title": "Enhance Seal Range",
@@ -2942,7 +4319,17 @@
       "Defense Seal"
     ],
     "description": "Can be linked with Skills that satisfy any one of Attack Seal, Defense Seal",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "link",
+    "conditions": {
+      "any": [
+        "Attack Seal",
+        "Defense Seal"
+      ]
+    },
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Killing Machine",
@@ -2953,7 +4340,21 @@
       "DoT"
     ],
     "description": "Can be linked with Skills that satisfy any one of Strike, DoT",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "link",
+    "conditions": {
+      "any": [
+        "Strike",
+        "DoT"
+      ],
+      "cannot": [
+        "Minion",
+        "Sentry"
+      ]
+    },
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Fighting Spirit",
@@ -2965,7 +4366,25 @@
       "Strike"
     ],
     "description": "Can be linked with Skills that satisfy Attack, Melee, Strike (must include all)",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "link",
+    "conditions": {
+      "must": [
+        "Attack",
+        "Melee",
+        "Strike"
+      ],
+      "cannot": [
+        "Minion",
+        "Sentry",
+        "Toggle",
+        "Shout",
+        "Movement"
+      ]
+    },
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Momentum",
@@ -2976,7 +4395,17 @@
       "Strike"
     ],
     "description": "Can be linked with Skills that satisfy Movement, Strike (must include all)",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "link",
+    "conditions": {
+      "must": [
+        "Movement",
+        "Strike"
+      ]
+    },
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Spot Weakness",
@@ -2986,7 +4415,20 @@
       "Projectile"
     ],
     "description": "Can be linked with Skills that satisfy Projectile",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "link",
+    "conditions": {
+      "cannot": [
+        "Minion",
+        "Sentry",
+        "Toggle",
+        "Movement",
+        "DoT"
+      ]
+    },
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Enrage",
@@ -2998,7 +4440,18 @@
       "Strike"
     ],
     "description": "Can be linked with Skills that satisfy Attack, Melee, Strike (must include all)",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "link",
+    "conditions": {
+      "must": [
+        "Attack",
+        "Melee",
+        "Strike"
+      ]
+    },
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Concentrated Weapon Range DMG",
@@ -3010,7 +4463,20 @@
       "Weapon Range"
     ],
     "description": "Can be linked with Skills that satisfy Weapon Range",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "link",
+    "conditions": {
+      "any": [
+        "Strike",
+        "DoT"
+      ],
+      "cannot": [
+        "Trap"
+      ]
+    },
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Soul Prayer",
@@ -3023,7 +4489,29 @@
       "Strike"
     ],
     "description": "Can be linked with Skills that satisfy Melee, Strike (must include all)",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "link",
+    "conditions": {
+      "must": [
+        "Melee",
+        "Strike"
+      ],
+      "any": [
+        "Attack",
+        "Spell"
+      ],
+      "cannot": [
+        "Minion",
+        "Sentry",
+        "Toggle",
+        "Shout",
+        "Movement",
+        "Channel"
+      ]
+    },
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Lower Armor",
@@ -3036,7 +4524,28 @@
       "Strike"
     ],
     "description": "Can be linked with Skills that satisfy Physical, Strike (must include all)",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "link",
+    "conditions": {
+      "must": [
+        "Physical",
+        "Strike"
+      ],
+      "any": [
+        "Attack",
+        "Spell"
+      ],
+      "cannot": [
+        "Shout",
+        "Attack Enhance",
+        "Defense Enhance",
+        "Attack Seal",
+        "Defense Seal"
+      ]
+    },
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Focused Strike",
@@ -3048,7 +4557,17 @@
       "Blow"
     ],
     "description": "Can be linked with Skills that satisfy Blow",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "link",
+    "conditions": {
+      "any": [
+        "Attack",
+        "Spell"
+      ]
+    },
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Improved Technique",
@@ -3059,7 +4578,17 @@
       "Spell"
     ],
     "description": "Can be linked with Skills that satisfy any one of Attack, Spell",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "link",
+    "conditions": {
+      "any": [
+        "Attack",
+        "Spell"
+      ]
+    },
+    "howToGet": [
+      "Guild"
+    ]
   },
   {
     "title": "Grand Approach",
@@ -3071,7 +4600,20 @@
       "Strike"
     ],
     "description": "Can be linked with Skills that satisfy Attack, Melee, Strike",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "link",
+    "conditions": {
+      "cannot": [
+        "Minion",
+        "Sentry",
+        "Toggle",
+        "Movement",
+        "DoT"
+      ]
+    },
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Noble Sacrifice",
@@ -3081,7 +4623,12 @@
       "Minion"
     ],
     "description": "Can be linked with Skills that satisfy Minion",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "link",
+    "conditions": {},
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Convert Physical Damage",
@@ -3096,7 +4643,25 @@
       "Poison"
     ],
     "description": "Can be linked with Skills that satisfy any one of Strike, DoT and are any one of Fire, Cold, Lightning, Poison",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "link",
+    "conditions": {
+      "any": [
+        "Strike",
+        "DoT"
+      ],
+      "cannot": [
+        "Cannot Convert DMG",
+        "Totem",
+        "Minion",
+        "Shout",
+        "Physical"
+      ],
+      "minions": true
+    },
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Warrior's Shadow",
@@ -3109,7 +4674,21 @@
       "Melee"
     ],
     "description": "Can be linked with Skills that satisfy Attack, Shadow, Strike, Melee (must include all)",
-    "mainStat": "Strength"
+    "mainStat": "Strength",
+    "type": "link",
+    "conditions": {
+      "must": [
+        "Attack",
+        "Shadow",
+        "Strike",
+        "Melee"
+      ],
+      "cannot": [
+        "Projectile",
+        "Channel",
+        "Chain Attack"
+      ]
+    }
   },
   {
     "title": "Quick Attack",
@@ -3119,7 +4698,23 @@
       "Attack"
     ],
     "description": "Can be linked with Skills that satisfy Attack",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "link",
+    "conditions": {
+      "cannot": [
+        "Shout",
+        "Attack Enhance",
+        "Defense Enhance",
+        "Toggle",
+        "Movement",
+        "Trap"
+      ],
+      "minions": true
+    },
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Find Weakness",
@@ -3129,7 +4724,15 @@
       "Strike"
     ],
     "description": "Can be linked with Skills that satisfy Strike",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "link",
+    "conditions": {
+      "minions": true
+    },
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Additional Poison DMG",
@@ -3139,7 +4742,15 @@
       "Poison"
     ],
     "description": "Can be linked with Skills that satisfy Poison",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "link",
+    "conditions": {
+      "minions": true
+    },
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Multishot",
@@ -3149,7 +4760,21 @@
       "Projectile"
     ],
     "description": "Can be linked with Skills that satisfy Projectile",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "link",
+    "conditions": {
+      "cannot": [
+        "Totem",
+        "Movement",
+        "Cannot Multishot",
+        "Trap"
+      ],
+      "minions": true
+    },
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Slaughter",
@@ -3159,7 +4784,15 @@
       "Strike"
     ],
     "description": "Can be linked with Skills that satisfy Strike",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "link",
+    "conditions": {
+      "minions": true
+    },
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Increase Duration",
@@ -3169,7 +4802,13 @@
       "Duration"
     ],
     "description": "Can be linked with Skills that satisfy Duration",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "link",
+    "conditions": {},
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Piercing",
@@ -3179,7 +4818,19 @@
       "Projectile"
     ],
     "description": "Can be linked with Skills that satisfy Projectile",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "link",
+    "conditions": {
+      "cannot": [
+        "Totem",
+        "Movement",
+        "Cannot Pierce"
+      ],
+      "minions": true
+    },
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Poison Penetration",
@@ -3189,7 +4840,14 @@
       "Poison"
     ],
     "description": "Can be linked with Skills that satisfy Poison",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "link",
+    "conditions": {
+      "minions": true
+    },
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Projectile Acceleration",
@@ -3199,7 +4857,18 @@
       "Projectile"
     ],
     "description": "Can be linked with Skills that satisfy Projectile",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "link",
+    "conditions": {
+      "cannot": [
+        "Cannot Change Speed"
+      ],
+      "minions": true
+    },
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Precision",
@@ -3209,7 +4878,15 @@
       "Strike"
     ],
     "description": "Can be linked with Skills that satisfy Strike",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "link",
+    "conditions": {
+      "minions": true
+    },
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Projectile Deceleration",
@@ -3219,7 +4896,17 @@
       "Projectile"
     ],
     "description": "Can be linked with Skills that satisfy Projectile",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "link",
+    "conditions": {
+      "cannot": [
+        "Cannot Change Speed"
+      ],
+      "minions": true
+    },
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Split Projectile",
@@ -3229,7 +4916,20 @@
       "Projectile"
     ],
     "description": "Can be linked with Skills that satisfy Projectile",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "link",
+    "conditions": {
+      "cannot": [
+        "Totem",
+        "Movement",
+        "Cannot Split"
+      ],
+      "minions": true
+    },
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Flowing Pain",
@@ -3240,7 +4940,19 @@
       "Poison"
     ],
     "description": "Can be linked with Skills that satisfy Strike, Poison (must include all)",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "link",
+    "conditions": {
+      "must": [
+        "Strike",
+        "Poison"
+      ],
+      "minions": true
+    },
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Elite Slayer",
@@ -3251,7 +4963,19 @@
       "DoT"
     ],
     "description": "Can be linked with Skills that satisfy any one of Strike, DoT",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "link",
+    "conditions": {
+      "any": [
+        "Strike",
+        "DoT"
+      ],
+      "minions": true
+    },
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Blind Aid",
@@ -3262,7 +4986,19 @@
       "Poison"
     ],
     "description": "Can be linked with Skills that satisfy Strike, Poison (must include all)",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "link",
+    "conditions": {
+      "must": [
+        "Strike",
+        "Poison"
+      ],
+      "minions": true
+    },
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Deadly Poison",
@@ -3274,7 +5010,19 @@
       "Poison"
     ],
     "description": "Can be linked with Skills that satisfy Poison",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "link",
+    "conditions": {
+      "any": [
+        "Strike",
+        "DoT"
+      ],
+      "minions": true
+    },
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Convert Poison DMG",
@@ -3286,7 +5034,25 @@
       "Physical"
     ],
     "description": "Can be linked with Skills that satisfy Physical",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "link",
+    "conditions": {
+      "any": [
+        "Strike",
+        "DoT"
+      ],
+      "cannot": [
+        "Cannot Convert DMG",
+        "Totem",
+        "Minion",
+        "Shout"
+      ],
+      "minions": true
+    },
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Close Range Shot",
@@ -3298,7 +5064,23 @@
       "Projectile"
     ],
     "description": "Can be linked with Skills that satisfy Projectile",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "link",
+    "conditions": {
+      "any": [
+        "Bow",
+        "Sentry"
+      ],
+      "cannot": [
+        "Channel",
+        "Totem",
+        "Movement"
+      ],
+      "minions": true
+    },
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Aim",
@@ -3308,7 +5090,21 @@
       "Attack"
     ],
     "description": "Can be linked with Skills that satisfy Attack",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "link",
+    "conditions": {
+      "cannot": [
+        "Totem",
+        "Movement",
+        "Toggle",
+        "Minion",
+        "Sentry"
+      ]
+    },
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Chain Impact",
@@ -3316,7 +5112,19 @@
     "minRarity": "Normal",
     "tags": [],
     "description": "Cannot be linked with Skills that satisfy Minion, Sentry, Cannot Chain",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "link",
+    "conditions": {
+      "cannot": [
+        "Minion",
+        "Sentry",
+        "Cannot Chain"
+      ]
+    },
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Pierce Wound",
@@ -3326,7 +5134,19 @@
       "Projectile"
     ],
     "description": "Can be linked with Skills that satisfy Projectile",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "link",
+    "conditions": {
+      "cannot": [
+        "Minion",
+        "Sentry",
+        "Cannot Pierce"
+      ]
+    },
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Precise Shot",
@@ -3338,7 +5158,24 @@
       "Projectile"
     ],
     "description": "Can be linked with Skills that satisfy Projectile",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "link",
+    "conditions": {
+      "any": [
+        "Bow",
+        "Sentry"
+      ],
+      "cannot": [
+        "Channel",
+        "Totem",
+        "Movement"
+      ],
+      "minions": true
+    },
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Life Imbued Sentry",
@@ -3348,7 +5185,13 @@
       "Sentry"
     ],
     "description": "Can be linked with Skills that satisfy Sentry",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "link",
+    "conditions": {},
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Precise Sentry",
@@ -3358,7 +5201,13 @@
       "Sentry"
     ],
     "description": "Can be linked with Skills that satisfy Sentry",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "link",
+    "conditions": {},
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Sturdy Sentry",
@@ -3368,7 +5217,13 @@
       "Sentry"
     ],
     "description": "Can be linked with Skills that satisfy Sentry",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "link",
+    "conditions": {},
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Parallel Multi Trap",
@@ -3378,7 +5233,13 @@
       "Trap"
     ],
     "description": "Can be linked with Skills that satisfy Trap",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "link",
+    "conditions": {},
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Random Multi Trap",
@@ -3388,7 +5249,13 @@
       "Trap"
     ],
     "description": "Can be linked with Skills that satisfy Trap",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "link",
+    "conditions": {},
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Quick Trap Installation",
@@ -3398,7 +5265,13 @@
       "Trap"
     ],
     "description": "Can be linked with Skills that satisfy Trap",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "link",
+    "conditions": {},
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Increased Trap Install Distance",
@@ -3408,7 +5281,12 @@
       "Trap"
     ],
     "description": "Can be linked with Skills that satisfy Trap",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "link",
+    "conditions": {},
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Trap Projectile Multishot",
@@ -3419,7 +5297,18 @@
       "Projectile"
     ],
     "description": "Can be linked with Skills that satisfy Trap, Projectile (must include all)",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "link",
+    "conditions": {
+      "must": [
+        "Trap",
+        "Projectile"
+      ]
+    },
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Heat Efficiency",
@@ -3429,7 +5318,13 @@
       "Overheat"
     ],
     "description": "Can be linked with Skills that satisfy Overheat",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "link",
+    "conditions": {},
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Heat Cycle",
@@ -3439,7 +5334,13 @@
       "Overheat"
     ],
     "description": "Can be linked with Skills that satisfy Overheat",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "link",
+    "conditions": {},
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Trapper",
@@ -3449,7 +5350,12 @@
       "Trap"
     ],
     "description": "Can be linked with Skills that satisfy Trap",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "link",
+    "conditions": {},
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Destructive Instinct",
@@ -3459,7 +5365,13 @@
       "Minion"
     ],
     "description": "Can be linked with Skills that satisfy Minion",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "link",
+    "conditions": {},
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Winding Wind",
@@ -3470,7 +5382,26 @@
       "Spell"
     ],
     "description": "Can be linked with Skills that satisfy any one of Attack, Spell",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "link",
+    "conditions": {
+      "any": [
+        "Attack",
+        "Spell"
+      ],
+      "cannot": [
+        "Shout",
+        "Attack Enhance",
+        "Defense Enhance",
+        "Toggle",
+        "Movement",
+        "Trap"
+      ]
+    },
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Extract Poison Energy",
@@ -3481,7 +5412,19 @@
       "Strike"
     ],
     "description": "Can be linked with Skills that satisfy Poison, Удар (must include all)",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "link",
+    "conditions": {
+      "must": [
+        "Poison",
+        "Удар"
+      ],
+      "minions": true
+    },
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Multi Sentry",
@@ -3491,7 +5434,12 @@
       "Sentry"
     ],
     "description": "Can be linked with Skills that satisfy Sentry",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "link",
+    "conditions": {},
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Focus",
@@ -3503,7 +5451,25 @@
       "Strike"
     ],
     "description": "Can be linked with Skills that satisfy Melee, Attack, Strike (must include all)",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "link",
+    "conditions": {
+      "must": [
+        "Melee",
+        "Attack",
+        "Strike"
+      ],
+      "cannot": [
+        "Totem",
+        "Sentry",
+        "Minion",
+        "Movement",
+        "Toggle"
+      ]
+    },
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Spell Activation upon Enemy Kill",
@@ -3513,7 +5479,11 @@
       "Strike"
     ],
     "description": "Must link an Activation (Strike) Skill and a Target (Spell) Skill in the arrow's direction.",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "skill",
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Parallel Multishot",
@@ -3523,7 +5493,20 @@
       "Projectile"
     ],
     "description": "Can be linked with Skills that satisfy Projectile",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "link",
+    "conditions": {
+      "cannot": [
+        "Totem",
+        "Movement",
+        "Cannot Multishot",
+        "Cannot use Parallel Shot",
+        "Trap"
+      ]
+    },
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Increase Item Drop Rarity",
@@ -3533,7 +5516,19 @@
       "Strike"
     ],
     "description": "Can be linked with Skills that satisfy Strike",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "link",
+    "conditions": {
+      "cannot": [
+        "Totem",
+        "Sentry",
+        "Minion",
+        "Movement"
+      ]
+    },
+    "howToGet": [
+      "Guild"
+    ]
   },
   {
     "title": "Increase Skill Rune Drop Chance",
@@ -3543,7 +5538,19 @@
       "Strike"
     ],
     "description": "Can be linked with Skills that satisfy Strike",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "link",
+    "conditions": {
+      "cannot": [
+        "Totem",
+        "Sentry",
+        "Minion",
+        "Movement"
+      ]
+    },
+    "howToGet": [
+      "Guild"
+    ]
   },
   {
     "title": "Increase Link Rune Drop Chance",
@@ -3553,7 +5560,19 @@
       "Strike"
     ],
     "description": "Can be linked with Skills that satisfy Strike",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "link",
+    "conditions": {
+      "cannot": [
+        "Totem",
+        "Sentry",
+        "Minion",
+        "Movement"
+      ]
+    },
+    "howToGet": [
+      "Guild"
+    ]
   },
   {
     "title": "Enhance Effect",
@@ -3566,7 +5585,19 @@
       "Rapid Seal"
     ],
     "description": "Can be linked with Skills that satisfy any one of Shout, Attack Enhance, Defense Enhance, Rapid Seal",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "link",
+    "conditions": {
+      "any": [
+        "Shout",
+        "Attack Enhance",
+        "Defense Enhance",
+        "Rapid Seal"
+      ]
+    },
+    "howToGet": [
+      "Guild"
+    ]
   },
   {
     "title": "Amplify Physical Projectile DMG",
@@ -3577,7 +5608,18 @@
       "Projectile"
     ],
     "description": "Can be linked with Skills that satisfy Physical, Projectile (must include all)",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "link",
+    "conditions": {
+      "must": [
+        "Physical",
+        "Projectile"
+      ],
+      "minions": true
+    },
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Opportunistic Strike",
@@ -3589,7 +5631,24 @@
       "Strike"
     ],
     "description": "Can be linked with Skills that satisfy Strike",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "link",
+    "conditions": {
+      "any": [
+        "Attack",
+        "Spell"
+      ],
+      "cannot": [
+        "Channel",
+        "Totem",
+        "Sentry",
+        "Minion",
+        "Toggle"
+      ]
+    },
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Quick Shout",
@@ -3599,7 +5658,12 @@
       "Shout"
     ],
     "description": "Can be linked with Skills that satisfy Shout",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "link",
+    "conditions": {},
+    "howToGet": [
+      "Unique Dungeon"
+    ]
   },
   {
     "title": "Versatility",
@@ -3609,7 +5673,21 @@
       "Attack Enhance"
     ],
     "description": "Can be linked with Skills that satisfy Attack Enhance",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "link",
+    "conditions": {
+      "cannot": [
+        "Totem",
+        "Sentry",
+        "Toggle",
+        "Shout",
+        "Movement",
+        "Minion"
+      ]
+    },
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Quick Sentry Installation",
@@ -3619,7 +5697,19 @@
       "Sentry"
     ],
     "description": "Can be linked with Skills that satisfy Sentry",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "link",
+    "conditions": {
+      "cannot": [
+        "Totem",
+        "Toggle",
+        "Shout",
+        "Movement"
+      ]
+    },
+    "howToGet": [
+      "Unique Dungeon"
+    ]
   },
   {
     "title": "Quick Totem Installation",
@@ -3629,7 +5719,19 @@
       "Totem"
     ],
     "description": "Can be linked with Skills that satisfy Totem",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "link",
+    "conditions": {
+      "cannot": [
+        "Sentry",
+        "Toggle",
+        "Shout",
+        "Movement"
+      ]
+    },
+    "howToGet": [
+      "Unique Dungeon"
+    ]
   },
   {
     "title": "Amplify Trap DMG",
@@ -3639,7 +5741,12 @@
       "Trap"
     ],
     "description": "Can be linked with Skills that satisfy Trap",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "link",
+    "conditions": {},
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Lasting Trap",
@@ -3649,7 +5756,12 @@
       "Trap"
     ],
     "description": "Can be linked with Skills that satisfy Overheat",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "link",
+    "conditions": {},
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Outlaw",
@@ -3659,7 +5771,12 @@
       "Overheat"
     ],
     "description": "Can be linked with Skills that satisfy Trap",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "link",
+    "conditions": {},
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Maximized DMG Increase",
@@ -3669,7 +5786,21 @@
       "Strike"
     ],
     "description": "Can be linked with Skills that satisfy Strike",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "link",
+    "conditions": {
+      "cannot": [
+        "Shout",
+        "Attack Enhance",
+        "Defense Enhance",
+        "Toggle",
+        "Movement"
+      ],
+      "minions": true
+    },
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Cut",
@@ -3681,7 +5812,24 @@
       "Physical"
     ],
     "description": "Can be linked with Skills that satisfy Melee, Strike, Physical (must include all)",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "link",
+    "conditions": {
+      "must": [
+        "Melee",
+        "Strike",
+        "Physical"
+      ],
+      "cannot": [
+        "Totem",
+        "Sentry",
+        "Minion",
+        "Toggle"
+      ]
+    },
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "DMG Acceleration",
@@ -3692,7 +5840,18 @@
       "DoT"
     ],
     "description": "Can be linked with Skills that satisfy any one of Strike, DoT",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "link",
+    "conditions": {
+      "any": [
+        "Strike",
+        "DoT"
+      ],
+      "minions": true
+    },
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Increase Maximized DMG Chance",
@@ -3702,7 +5861,24 @@
       "Strike"
     ],
     "description": "Can be linked with Skills that satisfy Strike (must include all)",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "link",
+    "conditions": {
+      "must": [
+        "Strike"
+      ],
+      "cannot": [
+        "Shout",
+        "Attack Enhance",
+        "Defense Enhance",
+        "Toggle",
+        "Movement"
+      ],
+      "minions": true
+    },
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Shadow Archer",
@@ -3715,7 +5891,20 @@
       "Projectile"
     ],
     "description": "Can be linked with Skills that satisfy Attack, Shadow, Strike, Projectile (must include all)",
-    "mainStat": "Agility"
+    "mainStat": "Agility",
+    "type": "link",
+    "conditions": {
+      "must": [
+        "Attack",
+        "Shadow",
+        "Strike",
+        "Projectile"
+      ],
+      "cannot": [
+        "Melee",
+        "Trap"
+      ]
+    }
   },
   {
     "title": "Additional Lightning DMG",
@@ -3725,7 +5914,15 @@
       "Lightning"
     ],
     "description": "Can be linked with Skills that satisfy Lightning",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "link",
+    "conditions": {
+      "minions": true
+    },
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Additional Cold DMG",
@@ -3735,7 +5932,15 @@
       "Cold"
     ],
     "description": "Can be linked with Skills that satisfy Cold",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "link",
+    "conditions": {
+      "minions": true
+    },
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Quick Cast",
@@ -3745,7 +5950,23 @@
       "Spell"
     ],
     "description": "Can be linked with Skills that satisfy Spell",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "link",
+    "conditions": {
+      "cannot": [
+        "Shout",
+        "Attack Enhance",
+        "Defense Enhance",
+        "Toggle",
+        "Movement",
+        "Trap"
+      ],
+      "minions": true
+    },
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Lingering Chill",
@@ -3756,7 +5977,19 @@
       "Strike"
     ],
     "description": "Can be linked with Skills that satisfy Cold, Strike (must include all)",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "link",
+    "conditions": {
+      "must": [
+        "Cold",
+        "Strike"
+      ],
+      "minions": true
+    },
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Use Count",
@@ -3764,7 +5997,13 @@
     "minRarity": "Normal",
     "tags": [],
     "description": "Can be linked with Skills that satisfy Use Count Skills",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "link",
+    "conditions": {},
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Frost Explosion",
@@ -3775,7 +6014,19 @@
       "Strike"
     ],
     "description": "Can be linked with Skills that satisfy Cold, Strike (must include all)",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "link",
+    "conditions": {
+      "must": [
+        "Cold",
+        "Strike"
+      ],
+      "minions": true
+    },
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Cold Penetration",
@@ -3785,7 +6036,14 @@
       "Cold"
     ],
     "description": "Can be linked with Skills that satisfy Cold",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "link",
+    "conditions": {
+      "minions": true
+    },
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Lightning Penetration",
@@ -3795,7 +6053,14 @@
       "Lightning"
     ],
     "description": "Can be linked with Skills that satisfy Lightning",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "link",
+    "conditions": {
+      "minions": true
+    },
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Time Acceleration",
@@ -3806,7 +6071,22 @@
       "Spell"
     ],
     "description": "Can be linked with Skills that satisfy any one of Attack, Spell",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "link",
+    "conditions": {
+      "any": [
+        "Attack",
+        "Spell"
+      ],
+      "cannot": [
+        "Movement",
+        "Chain Attack"
+      ]
+    },
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Channeling Enhancement",
@@ -3816,7 +6096,13 @@
       "Channel"
     ],
     "description": "Can be linked with Skills that satisfy Channel",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "link",
+    "conditions": {},
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Minion Speed",
@@ -3826,7 +6112,13 @@
       "Minion"
     ],
     "description": "Can be linked with Skills that satisfy Minion",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "link",
+    "conditions": {},
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Minion HP",
@@ -3836,7 +6128,13 @@
       "Minion"
     ],
     "description": "Can be linked with Skills that satisfy Minion",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "link",
+    "conditions": {},
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Minion Body Shield",
@@ -3846,7 +6144,13 @@
       "Minion"
     ],
     "description": "Can be linked with Skills that satisfy Minion",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "link",
+    "conditions": {},
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Continuous Shock",
@@ -3857,7 +6161,19 @@
       "Strike"
     ],
     "description": "Can be linked with Skills that satisfy Lightning, Strike (must include all)",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "link",
+    "conditions": {
+      "must": [
+        "Lightning",
+        "Strike"
+      ],
+      "minions": true
+    },
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Conductor",
@@ -3868,7 +6184,19 @@
       "Strike"
     ],
     "description": "Can be linked with Skills that satisfy Lightning, Strike (must include all)",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "link",
+    "conditions": {
+      "must": [
+        "Lightning",
+        "Strike"
+      ],
+      "minions": true
+    },
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Persistence",
@@ -3878,7 +6206,15 @@
       "Strike"
     ],
     "description": "Can be linked with Skills that satisfy Strike",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "link",
+    "conditions": {
+      "minions": true
+    },
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Spell Activation on Spell Hit",
@@ -3889,7 +6225,12 @@
       "Strike"
     ],
     "description": "Must link an Activation (Spell, Strike) Skill and a Target (Spell) Skill in the arrow's direction.",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Spell Activation while Channeling",
@@ -3899,7 +6240,12 @@
       "Channel"
     ],
     "description": "Must link an Activation (Channeling) Skill and a Target (Spell) Skill in the arrow's direction.",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "skill",
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Convert Cold DMG",
@@ -3911,7 +6257,25 @@
       "Physical"
     ],
     "description": "Can be linked with Skills that satisfy Physical",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "link",
+    "conditions": {
+      "any": [
+        "Strike",
+        "DoT"
+      ],
+      "cannot": [
+        "Cannot Convert DMG",
+        "Totem",
+        "Minion",
+        "Shout"
+      ],
+      "minions": true
+    },
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Convert Lightning DMG",
@@ -3923,7 +6287,25 @@
       "Physical"
     ],
     "description": "Can be linked with Skills that satisfy Physical",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "link",
+    "conditions": {
+      "any": [
+        "Strike",
+        "DoT"
+      ],
+      "cannot": [
+        "Cannot Convert DMG",
+        "Totem",
+        "Minion",
+        "Shout"
+      ],
+      "minions": true
+    },
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Time Warp",
@@ -3934,7 +6316,13 @@
       "Repeat DoT"
     ],
     "description": "Can be linked with Skills that do not have Cooldown",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "link",
+    "conditions": {},
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Sharpness",
@@ -3945,7 +6333,25 @@
       "Cold"
     ],
     "description": "Can be linked with Skills that satisfy Strike, Cold (must include all)",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "link",
+    "conditions": {
+      "must": [
+        "Strike",
+        "Cold"
+      ],
+      "cannot": [
+        "Channel",
+        "Totem",
+        "Sentry",
+        "Minion",
+        "Movement"
+      ]
+    },
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Status Effect Enhancement",
@@ -3955,7 +6361,18 @@
       "Strike"
     ],
     "description": "Can be linked with Skills that satisfy Strike (must include all)",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "link",
+    "conditions": {
+      "must": [
+        "Strike"
+      ],
+      "minions": true
+    },
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "DoT",
@@ -3966,7 +6383,19 @@
       "DoT"
     ],
     "description": "Can be linked with Skills that satisfy any one of Strike, DoT",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "link",
+    "conditions": {
+      "any": [
+        "Strike",
+        "DoT"
+      ],
+      "minions": true
+    },
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Minion Armor",
@@ -3976,7 +6405,13 @@
       "Minion"
     ],
     "description": "Can be linked with Skills that satisfy Minion",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "link",
+    "conditions": {},
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Lingering Totem",
@@ -3986,7 +6421,13 @@
       "Totem"
     ],
     "description": "Can be linked with Skills that satisfy Totem",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "link",
+    "conditions": {},
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Life Imbued Totem",
@@ -3996,7 +6437,13 @@
       "Totem"
     ],
     "description": "Can be linked with Skills that satisfy Totem",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "link",
+    "conditions": {},
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Enhanced Totem",
@@ -4006,7 +6453,13 @@
       "Totem"
     ],
     "description": "Can be linked with Skills that satisfy Totem",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "link",
+    "conditions": {},
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "DoT Enhancement",
@@ -4016,7 +6469,19 @@
       "Strike"
     ],
     "description": "Can be linked with Skills that satisfy Strike",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "link",
+    "conditions": {
+      "cannot": [
+        "Totem",
+        "Sentry",
+        "Minion"
+      ]
+    },
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Spell DMG Increase",
@@ -4028,7 +6493,19 @@
       "Spell"
     ],
     "description": "Can be linked with Skills that satisfy Spell",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "link",
+    "conditions": {
+      "any": [
+        "Strike",
+        "DoT"
+      ],
+      "minions": true
+    },
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Preserve Mana",
@@ -4039,7 +6516,21 @@
       "Spell"
     ],
     "description": "Can be linked with Skills that satisfy any one of Attack, Spell",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "link",
+    "conditions": {
+      "any": [
+        "Attack",
+        "Spell"
+      ],
+      "cannot": [
+        "Channel",
+        "Toggle"
+      ]
+    },
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Extract Energy",
@@ -4047,7 +6538,17 @@
     "minRarity": "Normal",
     "tags": [],
     "description": "Can be linked with Skills that satisfy Strike (must include all)",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "link",
+    "conditions": {
+      "must": [
+        "Strike"
+      ],
+      "minions": true
+    },
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Over Cooling",
@@ -4057,7 +6558,13 @@
       "Overheat"
     ],
     "description": "Can be linked with Skills that satisfy Overheat",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "link",
+    "conditions": {},
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Cooler",
@@ -4067,7 +6574,12 @@
       "Movement"
     ],
     "description": "Can be linked with Skills that satisfy Movement",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "link",
+    "conditions": {},
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Readiness",
@@ -4077,7 +6589,19 @@
       "Movement"
     ],
     "description": "Can be linked with Skills that satisfy Movement",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "link",
+    "conditions": {
+      "cannot": [
+        "Totem",
+        "Sentry",
+        "Minion"
+      ]
+    },
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Extract Cold Energy",
@@ -4088,7 +6612,19 @@
       "Strike"
     ],
     "description": "Can be linked with Skills that satisfy Cold, Удар (must include all)",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "link",
+    "conditions": {
+      "must": [
+        "Cold",
+        "Удар"
+      ],
+      "minions": true
+    },
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Extract Lightning Energy",
@@ -4099,7 +6635,19 @@
       "Strike"
     ],
     "description": "Can be linked with Skills that satisfy Lightning, Удар (must include all)",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "link",
+    "conditions": {
+      "must": [
+        "Lightning",
+        "Удар"
+      ],
+      "minions": true
+    },
+    "howToGet": [
+      "Drop",
+      "Shop"
+    ]
   },
   {
     "title": "Chain",
@@ -4107,7 +6655,18 @@
     "minRarity": "Magic",
     "tags": [],
     "description": "Can be linked with Skills that are capable of being Chained",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "link",
+    "conditions": {
+      "cannot": [
+        "Totem",
+        "Movement"
+      ],
+      "minions": true
+    },
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Element DMG Amplification",
@@ -4120,7 +6679,20 @@
       "Poison"
     ],
     "description": "Can be linked with Skills that satisfy any one of Fire, Cold, Lightning, Poison",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "link",
+    "conditions": {
+      "any": [
+        "Fire",
+        "Cold",
+        "Lightning",
+        "Poison"
+      ],
+      "minions": true
+    },
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Finishing Strike",
@@ -4130,7 +6702,14 @@
       "Strike"
     ],
     "description": "Can be linked with Skills that satisfy Strike",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "link",
+    "conditions": {
+      "minions": true
+    },
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Minion DMG",
@@ -4140,7 +6719,12 @@
       "Minion"
     ],
     "description": "Can be linked with Skills that satisfy Minion",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "link",
+    "conditions": {},
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Electric Shock",
@@ -4150,7 +6734,14 @@
       "Strike"
     ],
     "description": "Can be linked with Skills that satisfy Strike",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "link",
+    "conditions": {
+      "minions": true
+    },
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Totem Affinity",
@@ -4160,7 +6751,12 @@
       "Totem"
     ],
     "description": "Can be linked with Skills that satisfy Totem",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "link",
+    "conditions": {},
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Impact",
@@ -4172,7 +6768,19 @@
       "Strike"
     ],
     "description": "Can be linked with Skills that satisfy Melee, Attack, Strike (must include all)",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "link",
+    "conditions": {
+      "must": [
+        "Melee",
+        "Attack",
+        "Strike"
+      ],
+      "minions": true
+    },
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Acceleration",
@@ -4182,7 +6790,20 @@
       "Strike"
     ],
     "description": "Can be linked with Skills that satisfy Strike",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "link",
+    "conditions": {
+      "cannot": [
+        "Totem",
+        "Sentry",
+        "Minion",
+        "Movement",
+        "Toggle"
+      ]
+    },
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Increase Essence Drop Chance",
@@ -4192,7 +6813,19 @@
       "Strike"
     ],
     "description": "Can be linked with Skills that satisfy Strike",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "link",
+    "conditions": {
+      "cannot": [
+        "Totem",
+        "Sentry",
+        "Minion",
+        "Movement"
+      ]
+    },
+    "howToGet": [
+      "Guild"
+    ]
   },
   {
     "title": "Increase Charm Drop Chance",
@@ -4202,7 +6835,19 @@
       "Strike"
     ],
     "description": "Can be linked with Skills that satisfy Strike",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "link",
+    "conditions": {
+      "cannot": [
+        "Totem",
+        "Sentry",
+        "Minion",
+        "Movement"
+      ]
+    },
+    "howToGet": [
+      "Guild"
+    ]
   },
   {
     "title": "Increase Alchemy Ingredient Drop Chance",
@@ -4212,7 +6857,19 @@
       "Strike"
     ],
     "description": "Can be linked with Skills that satisfy Strike",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "link",
+    "conditions": {
+      "cannot": [
+        "Totem",
+        "Sentry",
+        "Minion",
+        "Movement"
+      ]
+    },
+    "howToGet": [
+      "Guild"
+    ]
   },
   {
     "title": "Increase Element Drop Chance",
@@ -4222,7 +6879,19 @@
       "Strike"
     ],
     "description": "Can be linked with Skills that satisfy Strike",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "link",
+    "conditions": {
+      "cannot": [
+        "Totem",
+        "Sentry",
+        "Minion",
+        "Movement"
+      ]
+    },
+    "howToGet": [
+      "Guild"
+    ]
   },
   {
     "title": "Dampen Resource Cost",
@@ -4233,7 +6902,17 @@
       "Spell"
     ],
     "description": "Can be linked with Skills that satisfy any one of Attack, Spell",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "link",
+    "conditions": {
+      "any": [
+        "Attack",
+        "Spell"
+      ]
+    },
+    "howToGet": [
+      "Guild"
+    ]
   },
   {
     "title": "Buff Activation upon using Movement Skill",
@@ -4243,7 +6922,11 @@
       "Movement"
     ],
     "description": "Must link an Activation (Movement) Skill and a Target (Shout, Attack Enhance, Defense Enhance) Skill in the arrow's direction.",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "skill",
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Barrier Absorb",
@@ -4254,7 +6937,23 @@
       "Strike"
     ],
     "description": "Can be linked with Skills that satisfy Spell, Strike (must include all)",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "link",
+    "conditions": {
+      "must": [
+        "Spell",
+        "Strike"
+      ],
+      "cannot": [
+        "Totem",
+        "Sentry",
+        "Minion",
+        "Toggle"
+      ]
+    },
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Intellectual",
@@ -4264,7 +6963,21 @@
       "Attack Enhance"
     ],
     "description": "Can be linked with Skills that satisfy Attack Enhance",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "link",
+    "conditions": {
+      "cannot": [
+        "Totem",
+        "Sentry",
+        "Toggle",
+        "Shout",
+        "Movement",
+        "Minion"
+      ]
+    },
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Element Master",
@@ -4277,7 +6990,20 @@
       "Poison"
     ],
     "description": "Can be linked with Skills that satisfy any one of Fire, Cold, Lightning, Poison",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "link",
+    "conditions": {
+      "any": [
+        "Fire",
+        "Cold",
+        "Lightning",
+        "Poison"
+      ],
+      "minions": true
+    },
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Disturb",
@@ -4287,7 +7013,12 @@
       "Movement"
     ],
     "description": "Can be linked with Skills that satisfy Movement",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "link",
+    "conditions": {},
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Minion Presence",
@@ -4297,7 +7028,12 @@
       "Minion"
     ],
     "description": "Can be linked with Skills that satisfy Minion",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "link",
+    "conditions": {},
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Promised Protection",
@@ -4307,7 +7043,21 @@
       "Defense Enhance"
     ],
     "description": "Can be linked with Skills that satisfy Defense Enhance",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "link",
+    "conditions": {
+      "cannot": [
+        "Totem",
+        "Sentry",
+        "Toggle",
+        "Shout",
+        "Movement",
+        "Minion"
+      ]
+    },
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Endless Growth",
@@ -4317,7 +7067,12 @@
       "Minion"
     ],
     "description": "Can be linked with Skills that satisfy Minion",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "link",
+    "conditions": {},
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Reverse Time",
@@ -4327,7 +7082,8 @@
       "Movement"
     ],
     "description": "Cannot be linked with Skills that satisfy Movement",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "skill"
   },
   {
     "title": "Mana Outburst",
@@ -4338,7 +7094,24 @@
       "DoT"
     ],
     "description": "Can be linked with Skills that satisfy any one of Strike, DoT",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "link",
+    "conditions": {
+      "any": [
+        "Strike",
+        "DoT"
+      ],
+      "cannot": [
+        "Movement",
+        "Attack Enhance",
+        "Defense Enhance",
+        "Toggle",
+        "Minion",
+        "Sentry",
+        "Shout",
+        "Trap"
+      ]
+    }
   },
   {
     "title": "Mana Storm",
@@ -4349,7 +7122,18 @@
       "DoT"
     ],
     "description": "Can be linked with Skills that satisfy any one of Strike, DoT",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "link",
+    "conditions": {
+      "any": [
+        "Strike",
+        "DoT"
+      ],
+      "minions": true
+    },
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Harmony",
@@ -4360,7 +7144,28 @@
       "Spell"
     ],
     "description": "Can be linked with Skills that satisfy any one of Attack, Spell",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "link",
+    "conditions": {
+      "any": [
+        "Attack",
+        "Spell"
+      ],
+      "cannot": [
+        "Totem",
+        "Minion",
+        "Sentry",
+        "Toggle",
+        "Shout",
+        "Attack Enhance",
+        "Defense Enhance",
+        "Movement",
+        "Trap"
+      ]
+    },
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Spell Activation on Hit",
@@ -4370,7 +7175,11 @@
       "Strike"
     ],
     "description": "Must link an Activation (Strike) Skill and a Target (Spell) Skill in the arrow's direction.",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "skill",
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Totem Activation upon using Enhance Skill",
@@ -4381,7 +7190,11 @@
       "Defense Enhance"
     ],
     "description": "Must link an Activation (Enhance) Skill and a Target (Totem) Skill in the arrow's direction.",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "skill",
+    "howToGet": [
+      "Guild"
+    ]
   },
   {
     "title": "Smash",
@@ -4391,7 +7204,14 @@
       "Strike"
     ],
     "description": "Can be linked with Skills that satisfy Strike",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "link",
+    "conditions": {
+      "minions": true
+    },
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Overflowing Energy",
@@ -4402,7 +7222,28 @@
       "Spell"
     ],
     "description": "Can be linked with Skills that satisfy any one of Attack, Spell",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "link",
+    "conditions": {
+      "any": [
+        "Attack",
+        "Spell"
+      ],
+      "cannot": [
+        "Totem",
+        "Minion",
+        "Sentry",
+        "Toggle",
+        "Shout",
+        "Attack Enhance",
+        "Defense Enhance",
+        "Movement",
+        "Trap"
+      ]
+    },
+    "howToGet": [
+      "Synthesis"
+    ]
   },
   {
     "title": "Explosion Limit",
@@ -4413,6 +7254,16 @@
       "Bowgun"
     ],
     "description": "Can be linked with Skills that satisfy Overheat, Bowgun (must include all)",
-    "mainStat": "Intellect"
+    "mainStat": "Intellect",
+    "type": "link",
+    "conditions": {
+      "must": [
+        "Overheat",
+        "Bowgun"
+      ]
+    },
+    "howToGet": [
+      "Synthesis"
+    ]
   }
 ]

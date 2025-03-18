@@ -152,14 +152,65 @@ async function updateRunes() {
                         runes[index].mainStat = stat;
                     }
 
+                    // get rune type
+                    const typeElement = content.querySelector('[class^="Elem_card_desc__"]');
+                    if(typeElement) { // Check if typeElement exists //
+                        // get type
+                        const typeText = typeElement ? typeElement.textContent : "Unknown";
+                        let type="skill";
+                        if(typeText.includes("Can be linked with" || typeText.includes("Cannot be linked with"))) {
+                            type="link";
+                        }
+                        runes[index].type = type;
+    
+                        // get conditions
+                        if(type === "link") {
+                            const linkConditions = {};
+                            const conditions = typeElement.querySelectorAll('[data-class="prop"]');
+                            for(let i = 0; i < conditions.length; i++) {
+                                const condition = conditions[i].textContent.toLowerCase();
+                                let items = conditions[i].querySelector("span");
+                                if(items) {
+                                    items = items.textContent.split(", ");
+                                } else {
+                                    items = true;
+                                }
+    
+                                
+                                if(condition.includes("that satisfy any one")) {
+                                    linkConditions["any"] = items;
+                                }
+                                if(condition.includes("cannot be linked with skills that satisfy")) {
+                                    linkConditions["cannot"] = items;
+                                }
+                                if(condition.includes("must include all")) {
+                                    linkConditions["must"] = items;
+                                }
+                                // minions
+                                if(condition.includes("applies to minions")) {
+                                    linkConditions["minions"] = items;
+                                }
+                                runes[index].conditions = linkConditions;
+                            }
+                        }
+        
+                    }
 
-
+                    // how to get
+                    const howToGetElement = content.querySelector('[data-class="HowtoGet"]');
+                    if(howToGetElement) {
+                        const getMethods = howToGetElement.querySelectorAll("span");
+                        const getMethodsList = [];
+                        getMethods.forEach(getMethod => getMethodsList.push(getMethod.textContent));
+                        runes[index].howToGet = getMethodsList;
+                    }
+                    
         
                     // Save the extracted data to the runes array
                     // Optionally, store the cleaned HTML
                     // runes[index].html = content.innerHTML;
 
-                    console.log(`${index + 1} / ${subPageLinks.length} - Processing`);
+                    console.log(`${index + 1} / ${subPageLinks.length} - Processing ${runes[index].title}...`);
         
                 } else {
 
