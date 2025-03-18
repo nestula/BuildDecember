@@ -20,6 +20,7 @@ function loadRuneData() {
 
     runes.forEach(rune => {
         const runeItem = document.createElement("div");
+        runeItem.style.userSelect = "none";
         runeItem.classList.add("runeItem");
 
         const icon = document.createElement("img");
@@ -41,7 +42,7 @@ function loadRuneData() {
 
         runeList.appendChild(runeItem);
 
-        runeItem.addEventListener("click", (event) => { 
+        runeItem.addEventListener("mousedown", (event) => { 
             const rune = runeItem.querySelector(".runeName").textContent;
             status.selectedRune = rune;
             board.currentRune = rune;
@@ -59,6 +60,7 @@ function checkRunes() {
         }, 500);
     } else {
         console.log('Runes Loaded');
+        loadRuneData();
     }
 }
 checkRunes();

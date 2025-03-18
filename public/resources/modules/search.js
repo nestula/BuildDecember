@@ -38,7 +38,8 @@ function SearchRune(searchTerm) {
                 if (title.includes(term)) matchCount++;
                 const tags = rune.tags.join(" ").toLowerCase();
                 if (tags.includes(term)) matchCount++;
-                
+                if (rune.type.toLowerCase().includes(term)) matchCount++;
+                if (rune.description.toLowerCase().includes(term)) matchCount+=0.5;
             });
 
             const score = matchCount > 0 ? matchCount / terms.length : 0; // Score based on matches

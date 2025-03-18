@@ -31,17 +31,34 @@ class Board {
         ]
 
         this.currentPosition = null;
+        this.savedPosition = null;
         this.currentRune = null;
 
         this.mouse = {
             x:0,
             y:0,
             down: false,
-            onclick: ()=>{
+            onmousedown: ()=>{
+                if(!this.currentRune && this.currentPosition) {
+                    this.currentRune = this.table[this.currentPosition[0]][this.currentPosition[1]];
+                    this.savedPosition = this.currentPosition;
+                    this.c.style.cursor = "grabbing";
+                    console.log(this.currentRune);
+                }
+            },
+            onmouseup: ()=>{
+                if(this.savedPosition) {
+                    this.table[this.savedPosition[0]][this.savedPosition[1]]=null;
+                    this.savedPosition = null;
+                    this.c.style.cursor = "default";
+                }
                 if(this.currentPosition && this.currentRune) {
                     this.table[this.currentPosition[0]][this.currentPosition[1]]=this.currentRune;
                     this.currentRune=null;
                 }
+            },
+            onclick: ()=>{
+
             }
         }
 
@@ -86,8 +103,7 @@ class Board {
         // Clear canvas
         this.ctx.clearRect(0, 0, this.c.width, this.c.height);
     
-        // Draw hexagons in a grid pattern
-
+        // Draw hexagon slots //
 
         const pattern = [
             5,
@@ -125,6 +141,9 @@ class Board {
 
                 // check if slot has rune
                 if(this.table[i][j]) {
+                    if(!this.savedPosition) {
+                        this.c.style.cursor = "grab";
+                    }
                     const runeName = this.table[i][j];
                     if (window.allRunes) {
                         const matchingRune = window.allRunes.find(rune => rune.title.toLowerCase() === runeName.toLowerCase());
@@ -143,7 +162,8 @@ class Board {
                         }
                     }
 
-                    // ctx.drawImage();
+                } else {
+                    // this.c.style.cursor = "default";
                 }
 
             }
@@ -154,6 +174,8 @@ class Board {
         if(!isInSlot) {
             this.currentPosition=null;
         }
+
+
     }
     
 
@@ -173,8 +195,14 @@ class Board {
             this.mouse.x=x;
             this.mouse.y=y;
         });
-        this.c.addEventListener("mousedown", (e)=>{this.mouse.down=true});
-        this.c.addEventListener("mouseup", (e)=>{this.mouse.down=false});
+        this.c.addEventListener("mousedown", (e)=>{
+            this.mouse.down=true;
+            this.mouse.onmousedown();
+        });
+        this.c.addEventListener("mouseup", (e)=>{
+            this.mouse.down=false;
+            this.mouse.onmouseup();
+        });
         this.c.addEventListener("click", (e)=>{this.mouse.onclick()});
 
         // start ticks

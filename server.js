@@ -6,7 +6,7 @@ const fs = require("fs");
 
 
 const app = express();
-const PORT = process.env.PORT || 3395; // Use a different port if 3000 is in use
+const PORT = process.env.PORT || 3300; // Use a different port if 3000 is in use
 
 // Serve static files from 'public' folder
 app.use(express.static("public"));
@@ -52,4 +52,4 @@ app.get("/getJSON", (req, res) => {
 
 const updateRunes = require("./private/scraper/updateRunes");
 
-updateRunes();
+// updateRunes();
