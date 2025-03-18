@@ -18,10 +18,38 @@ class Board {
             y: this.c.height / 2
         }
 
+        this.cached_images = {}; // Cache for images
+
+        this.table=[
+            new Array(5),
+            new Array(6),
+            new Array(7),
+            new Array(8),
+            new Array(7),
+            new Array(6),
+            new Array(5),
+        ]
+
+        this.currentPosition = null;
+        this.currentRune = null;
+
+        this.mouse = {
+            x:0,
+            y:0,
+            down: false,
+            onclick: ()=>{
+                if(this.currentPosition && this.currentRune) {
+                    this.table[this.currentPosition[0]][this.currentPosition[1]]=this.currentRune;
+                    this.currentRune=null;
+                }
+                console.log(this.table)
+            }
+        }
+
         // Start the animation loop
         this._start();
 
-        this.cached_images = {}; // Cache for images
+
     }
     _handleResize() {
         this.center.x = this.c.width / 2;
@@ -31,7 +59,7 @@ class Board {
     _draw() {
         const hexSize = 40;  // Radius of each hexagon (distance from center to any vertex)
         const hexWidth = Math.sqrt(3) * hexSize;  // Width of the hexagon (horizontal distance between two points)
-        const hexHeight = 2 * hexSize;  // Height of the hexagon (vertical distance between two points)
+        const hexHeight = hexSize*1.5;
     
         // Function to draw a single hexagon
         const drawHexagon = (x, y) => {
@@ -42,13 +70,15 @@ class Board {
                 const py = y + hexSize * Math.sin(angle);  // Y coordinate of the corner
                 points.push({ x: px, y: py });
             }
-            this.ctx.beginPath();
-            this.ctx.moveTo(points[0].x, points[0].y);
+            const path = new Path2D();
+            path.moveTo(points[0].x, points[0].y);
             for (let i = 1; i < 6; i++) {
-                this.ctx.lineTo(points[i].x, points[i].y);
+                path.lineTo(points[i].x, points[i].y);
             }
-            this.ctx.closePath();
-            this.ctx.stroke();
+            path.closePath();
+            this.ctx.stroke(path);
+
+            return path;
         };
     
         // Clear canvas
@@ -57,24 +87,75 @@ class Board {
         // Draw hexagons in a grid pattern
 
 
-        for(let row = -5; row <= 5; row++) {
-            for (let col = -5; col <= 5; col++) {
-                // center x and y
-                const cx = this.center.x;
-                const cy = this.center.y;                
-                // Calculate the center position of each hexagon
-                const x = this.center.x + col * hexWidth + (row % 2) * (hexWidth / 2) - (hexWidth / 2);  // Horizontal offset for staggered columns
-                const y = this.center.y + row * (hexHeight * 0.75);  // Vertical offset for staggered rows
-                // distance
-                const distance = Math.sqrt((x - cx) ** 2 + (y - cy) ** 2);
-                const horizontalDistance = Math.abs(x - cx);
-                const verticalDistance = Math.abs(y - cy);
-                if(distance > this.c.width/2.5 && (row != 0 || horizontalDistance > this.c.width/2.4)) continue; // Limit distance from center
-                // Draw hexagon
-                drawHexagon(x, y);
+        const pattern = [
+            5,
+            6,
+            7,
+            8,
+            7,
+            6,
+            5
+        ]
+
+        const cx = this.center.x;
+        const cy = this.center.y;
+        const ctx = this.ctx;
+        let y = cy - ((pattern.length/2)*hexHeight-(hexHeight/2));
+
+        let isInSlot = false;
+        // loop y
+        for(let i=0; i<pattern.length; i++) {
+            const amt = pattern[i];
+
+            let x = cx - ((amt/2)*hexWidth+(hexWidth/2)); // calc x
+            
+            // loop x
+            for(let j=0; j<amt; j++) {
+                x+=hexWidth;
+                // check mouse position
+                const path = drawHexagon(x,y);
+                if(!isInSlot) {
+                    if(this.ctx.isPointInPath(path, this.mouse.x,this.mouse.y)) {
+                        this.currentPosition=[i,j];
+                        isInSlot=true;
+                    }
+                }
+
+                // check if slot has rune
+                if(this.table[i][j]) {
+                    const runeName = this.table[i][j];
+                    if (window.allRunes) {
+                        const matchingRune = window.allRunes.find(rune => rune.title.toLowerCase() === runeName.toLowerCase());
+                        // print
+                        if (matchingRune) {
+                            // see if the image is cached
+                            if(!this.cached_images[matchingRune.title]) {
+                                // const img = new Image();
+                                // img.src = matchingRune.icon;
+                                // console.log(matchingRune)
+                                // this.cached_images[matchingRune] // finish
+                            }
+
+                            // // Proceed with the matchingRune, e.g., draw its image
+                            // const img = new Image();
+                            // img.src = matchingRune.icon;
+                            // img.onload = () => {
+                            //     // ctx.drawImage(img, x - hexSize / 2, y - hexSize / 2, hexSize, hexSize);
+                            // };
+                        }
+                    }
+
+                    // ctx.drawImage();
+                }
+
             }
+
+            y+=hexHeight;
         }
-      
+        // set back to default
+        if(!isInSlot) {
+            this.currentPosition=null;
+        }
     }
     
 
@@ -84,6 +165,22 @@ class Board {
     }
     _start() {
         window.addEventListener('resize', () => this._handleResize());
+
+        // event listeners
+
+        this.c.addEventListener("mousemove", (e)=>{
+            const rect = this.c.getBoundingClientRect();
+            const x = (e.clientX - rect.left) | 0;
+            const y = (e.clientY - rect.top) | 0;
+            this.mouse.x=x;
+            this.mouse.y=y;
+        });
+        this.c.addEventListener("mousedown", (e)=>{this.mouse.down=true});
+        this.c.addEventListener("mouseup", (e)=>{this.mouse.down=false});
+        this.c.addEventListener("click", (e)=>{this.mouse.onclick()});
+
+        // start ticks
+
         this._tick();
     }
 }
