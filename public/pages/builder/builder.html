@@ -5,9 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Builder</title>
     <link rel="stylesheet" href="../../all.css">
+    <link rel="stylesheet" href="./builder.css">
 </head>
 <body>
+
+
+    <div id="main">
+        <!-- Side Bar -->
+        <div id="sideBar">
+            <div id="statsRoute">Stats</div>
+            <div id="boardRoute">Board</div>
+            <div id="zodiacRoute">Zodiac</div>
+            <div id="gearRoute">Gear</div>
+            <div id="shareRoute">Share</div>
+        </div>
+        <div id="activity">
+            <h1>Builder</h1>
+            <!-- Active Section -->
+            <div id="activeSection">
+                <!-- Board Section -->
+                <div id="boardSection">
+                    <canvas id="board" width="600" height="600"></canvas>
+                    <div id="boardCenter">
+                        center
+                    </div>
+                    <div id="runeLookup">
+                        <input type="text" id="runeSearch" placeholder="Search runes...">
+                        <div id="runeList">
+                            <!-- Runes will be added here -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     
+
     <script src="../../all.js" type="module"></script>
+    <script src="./builder.js" type="module"></script>
 </body>
 </html>

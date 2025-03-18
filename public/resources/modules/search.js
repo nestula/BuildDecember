@@ -16,8 +16,6 @@ async function getRuneJSONData() {
         window.allRunes= allRunes; // Make it accessible globally
         HasLoadedJSON = true; // Set the flag to true once data is loaded
 
-        document.getElementById("limit").value = allRunes.length; // Default limit
-
         return data.json; // Return the JSON data
     } catch (error) {
         console.error("Error fetching JSON:", error);

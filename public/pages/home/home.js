@@ -16,7 +16,7 @@ function displayRunes(runes) {
         runeItem.classList.add("runeItem");
 
         const icon = document.createElement("img");
-        icon.src = `./resources/icons/${rune.icon}`;
+        icon.src = `../../resources/icons/${rune.icon}`;
         runeItem.appendChild(icon);
         runeItem.appendChild(document.createTextNode(rune.title));
 

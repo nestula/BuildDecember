@@ -1,5 +1,6 @@
 :root {
     --background-color: #1e1e1e;  /* Main background */
+    --secondary: #333;            /* Secondary color */
     --text-color: white;          /* Text color */
     --border-color: #555;         /* Border color */
     --input-background: #333;     /* Input background color */
@@ -16,17 +17,7 @@
     --header-color: #08002b;      /* Header color */
 }
 
-.section {
-    backdrop-filter: blur(8px);
-    background-color: rgba(255, 255, 255, 0.2);
-    padding:20px;
-    border-radius: var(--radius);
-    margin-bottom: 20px;
-}
-.section h1 {
-    font-size: 4rem;
-    color: var(--header-color);
-}
+
 
 body {
     background-image: url("./resources/images/background.webp");
@@ -37,7 +28,7 @@ body {
     color: var(--text-color);
     text-align: center;
     margin: 0;
-    padding: 20px;
+    min-height: 100vh;
 }
 
 /* Search Box */

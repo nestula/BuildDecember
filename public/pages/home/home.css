@@ -1,0 +1,11 @@
+.section {
+    backdrop-filter: blur(8px);
+    background-color: rgba(255, 255, 255, 0.2);
+    padding:20px;
+    /* border-radius: var(--radius); */
+    margin-bottom: 20px;
+}
+.section h1 {
+    font-size: 4rem;
+    color: var(--header-color);
+}

@@ -3,29 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Build December</title>
+    <title>Redirecting</title>
     <link rel="stylesheet" href="all.css">
 </head>
-<body>
+<body onload="window.location.href = '/pages/home/home.html';">
 
-    <div id="runeBoard" class="section">
-        <h1>Rune Board</h1>
-        <canvas id="board"></canvas>
-    </div>
+    <h1>Redirecting</h1>
 
-    <div id="runeListContainer" class="section">
-        <h1>Runes</h1>
-        <div class="search-container">
-            <input type="text" class="query" id="searchBox" placeholder="Search runes..." />
-            <label for="limit">Limit:</label>
-            <input type="number" class="query" id="limit" placeholder="Limit" min="5" max="500" value="500" step="1" />
-            <hr>
-        </div>
-        <hr>
-        <div id="runeList" class="rune-container"></div>
-    </div>
-
-    
-    <script src="./pages/home/home.js" type="module"></script>
 </body>
 </html>
