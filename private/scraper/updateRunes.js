@@ -250,6 +250,6 @@ async function updateRunes() {
     }
 }
 
-updateRunes();
+// updateRunes();
 
 module.exports = updateRunes;

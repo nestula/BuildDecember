@@ -4,12 +4,16 @@ const path = require("path");
 const axios = require("axios");
 const fs = require("fs");
 
+const favicon = require("serve-favicon");
+
+
 
 const app = express();
 const PORT = process.env.PORT || 3300; // Use a different port if 3000 is in use
 
 // Serve static files from 'public' folder
 app.use(express.static("public"));
+app.use(favicon(path.join(__dirname, "public", "favicon.png")));
 
 // API Route
 app.get("/api/hello", (req, res) => {
