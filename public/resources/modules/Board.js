@@ -1,3 +1,5 @@
+import RuneInfo from "./RuneInfo.js";
+
 class Board {
     constructor(element, options={}) {
         if(!element) {
@@ -119,7 +121,6 @@ class Board {
             5
         ]
 
-    
 
         const cx = this.center.x;
         const cy = this.center.y;
@@ -133,7 +134,7 @@ class Board {
             return cy - ((pattern.length/2)*hexHeight-(hexHeight/2)) + (i*hexHeight); // calc y
         }
 
-        function drawConnection(i1, j1, i2, j2) {
+        function drawConnection(i1, j1, i2, j2, color) {
             const amt1 = pattern[i1];
             const amt2 = pattern[i2];
 
@@ -158,7 +159,7 @@ class Board {
             path.moveTo(x1,y1);
             path.lineTo(x2,y2);
             ctx.lineWidth = 5;
-            ctx.strokeStyle = "#333";
+            ctx.strokeStyle = color || "black";
             ctx.stroke(path);
         }
 
@@ -186,7 +187,14 @@ class Board {
                 // check if slot has rune
                 if(this.table[i][j]) {
                     // rememner, j is x, i is y so [y][x] position is reversed
-                    drawConnection(i, j, i-1, j-1);
+                    if(i>3) {
+                        // if(RuneInfo.canConnect(this.table[i-1][j], this.table[i][j])) {
+                            
+                        // }
+                        drawConnection(i, j, i-1, j+1);
+                    } else {
+                        drawConnection(i, j, i-1, j);
+                    }
 
                     if(!this.savedPosition) {
                         this.c.style.cursor = "grab";
@@ -239,8 +247,13 @@ class Board {
             const rect = this.c.getBoundingClientRect();
             const x = (e.clientX - rect.left) | 0;
             const y = (e.clientY - rect.top) | 0;
+
+            const hexSize = this.c.height/14;  // Radius of each hexagon (distance from center to any vertex)
+            const hexWidth = Math.sqrt(3) * hexSize;  // Width of the hexagon (horizontal distance between two points)
+            const hexHeight = hexSize*1.5;
+            
             this.mouse.x=x;
-            this.mouse.y=y;
+            this.mouse.y=y - hexHeight/4;
         });
         this.c.addEventListener("mousedown", (e)=>{
             this.mouse.down=true;

@@ -1,5 +1,6 @@
 import SearchRune from "../../resources/modules/search.js";
 import Board from "../../resources/modules/Board.js";
+import RuneInfo from "../../resources/modules/RuneInfo.js";
 
 const boardParent = document.getElementById("board").parentElement;
 const board = new Board(document.getElementById("board"), {width:500, height:500});
@@ -12,7 +13,7 @@ const status = {
 function loadRuneData() {
     const searchTerm = document.getElementById("runeSearch").value;
     const runes = SearchRune(searchTerm);
-    
+
     // Display
 
     const runeList = document.getElementById("runeList");

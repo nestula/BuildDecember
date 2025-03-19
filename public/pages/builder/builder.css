@@ -1,6 +1,10 @@
 .flex {
     display: flex;
 }
+img {
+    user-select: none;
+    pointer-events: none;
+}
 
 /* sidebar */
 
