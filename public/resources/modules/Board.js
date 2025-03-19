@@ -29,9 +29,20 @@ class Board {
             new Array(7),
             new Array(6),
             new Array(5),
+        ],
+        this.calculatedTable=[
+            new Array(5),
+            new Array(6),
+            new Array(7),
+            new Array(8),
+            new Array(7),
+            new Array(6),
+            new Array(5),
         ]
         this.table[2][2] = "Ogre Arrow";
-        this.table[2][3] = "Extract Poison Energy";
+        this.table[1][2] = "Convert Physical Damage";
+        this.table[2][3] = "Additional Physical DMG";
+        this.table[3][3] = "Extract Poison Energy";
 
         this.currentPosition = null;
         this.savedPosition = null;
@@ -72,6 +83,49 @@ class Board {
     _handleResize() {
         this.center.x = this.c.width / 2;
         this.center.y = this.c.height / 2;
+    }
+
+    doesConnect(i, j, i2, j2) {
+        let surroundingIndexes = [];
+        if(i == 3) {
+            // middle
+            surroundingIndexes = [
+                [i-1, j], // top right
+                [i-1, j-1], // top left
+                [i, j+1], // right
+                [i, j-1], // left
+                [i+1, j], // bottom left
+                [i+1, j-1], // bottom right
+            ]
+        } else if(i < 3) {
+            // top row
+            surroundingIndexes = [
+                [i-1, j], // top right
+                [i-1, j-1], // top left
+                [i, j+1], // right
+                [i, j-1], // left
+                [i+1, j], // bottom left
+                [i+1, j+1], // bottom right
+            ]
+        } else if(i > 3) {
+            // bottom row
+            surroundingIndexes = [
+                [i-1, j+1], // top right
+                [i-1, j], // top left
+                [i, j+1], // right
+                [i, j-1], // left
+                [i+1, j], // bottom left
+                [i+1, j-1], // bottom right
+            ]
+        }
+        let connects = false;
+        for(const [posx, posy] of surroundingIndexes) {
+            if(posx == i2 && posy == j2) {
+                connects = true;
+                break;
+            }
+        }
+        return connects;
     }
 
     _draw() {
@@ -239,15 +293,40 @@ class Board {
 
                 // draw connections
 
-                for(const [ni, nj] of surroundingIndexes) {
-                    // check if indexes are within bounds
-                    if (ni >= 0 && ni < pattern.length && nj >= 0 && nj < pattern[ni]) {
-                        if(baseRuneName && window.allRunes) {
-                            const baseRune = window.allRunes.find(rune => rune.title.toLowerCase() === baseRuneName.toLowerCase());
+                if(baseRuneName && window.allRunes) {
+                    const baseRune = JSON.parse(JSON.stringify(window.allRunes.find(rune => rune.title.toLowerCase() === baseRuneName.toLowerCase())));
+                    if(baseRune.type == "link") break;
+                
+                    // update based on surrounding
+                    let newTags = baseRune.tags; //  Array
+                    for(const [ni, nj] of surroundingIndexes) {
+                        // check if it exists
+                        if(this.table[ni] && this.table[ni][nj]) {
+                            const checkRune = window.allRunes.find(rune => rune.title.toLowerCase() === this.table[ni][nj].toLowerCase());
+                            // Converts
+                            if(checkRune.title.includes("Convert")) {
+                                const convertType = checkRune.title.split(" ")[1];
+                                newTags = newTags.filter(tag => !["Poison", "Fire", "Lightning", "Cold", "Physical"].includes(tag));
+                                newTags.push(convertType);
+                                drawConnection(i, j, ni, nj, "orange");
+                            }
+                        }
+                    }
+                    baseRune.tags = newTags;
+                    if(Date.now()%10 == 0) {
+                        // console.log(newTags);
+                    }
+
+                    for(const [ni, nj] of surroundingIndexes) {
+                        // check if indexes are within bounds
+                        if (ni >= 0 && ni < pattern.length && nj >= 0 && nj < pattern[ni]) {
+                            // see if connectable
                             if(baseRune.type=="skill" && this.table[ni] && this.table[ni][nj]) {
+                                // check if rune can connect
                                 const linkRune = window.allRunes.find(rune => rune.title.toLowerCase() === this.table[ni][nj].toLowerCase());
-                                if(linkRune.type=="link" && RuneInfo.canConnect(baseRune.title, linkRune.title)) {
+                                if(linkRune.type=="link" && RuneInfo.canLink(baseRune, linkRune)) {
                                     let color = "black";
+                                    // set color
                                     switch(linkRune.mainStat.toLowerCase()) {
                                         case "strength":
                                             color="red";
@@ -259,9 +338,10 @@ class Board {
                                             color="blue";
                                             break;
                                         default:
-                                            color="red";
+                                            color="orange";
                                     }
                                     drawConnection(i, j, ni, nj, color);
+
                                 }
                             }
                         }
