@@ -25,9 +25,14 @@
             <div id="activeSection">
                 <!-- Board Section -->
                 <div id="boardSection">
-                    <canvas id="board" width="600" height="600"></canvas>
+                    <canvas id="board" width="500" height="500"></canvas>
                     <div id="boardCenter">
-                        center
+                        <div id="runeInfo" class="flex">
+                            <img id="runeIcon" src="" alt="Rune Icon">
+                            <div id="runeName"></div>
+                        </div>
+                        <div id="runeMinRarity"></div>
+                        <div id="runeDescription"></div>
                     </div>
                     <div id="runeLookup">
                         <input type="text" id="runeSearch" placeholder="Search runes...">

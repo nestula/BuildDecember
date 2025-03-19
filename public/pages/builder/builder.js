@@ -2,7 +2,7 @@ import SearchRune from "../../resources/modules/search.js";
 import Board from "../../resources/modules/Board.js";
 
 const boardParent = document.getElementById("board").parentElement;
-const board = new Board(document.getElementById("board"));
+const board = new Board(document.getElementById("board"), {width:500, height:500});
 
 const status = {
    selectedRune: null 
@@ -47,9 +47,15 @@ function loadRuneData() {
             status.selectedRune = rune;
             board.currentRune = rune;
         });
+        runeItem.addEventListener("click", (event) => { 
+            const rune = runeItem.querySelector(".runeName").textContent;
+            showRuneInfo(rune);
+        });
     });
     
 }
+
+
 
 
 
@@ -64,6 +70,27 @@ function checkRunes() {
     }
 }
 checkRunes();
+
+
+function showRuneInfo(name) {
+    const rune = window.allRunes.find(r => r.title == name);
+
+    const img = document.getElementById("runeIcon");
+    img.src = `../../resources/icons/${rune.icon}`;
+
+    const runeName = document.getElementById("runeName");
+    runeName.textContent = rune.title;
+
+    const runeDescription = document.getElementById("runeDescription");
+    runeDescription.textContent = rune.description || "No description available";
+
+    const runeMinRarity = document.getElementById("runeMinRarity");
+    runeMinRarity.innerHTML = `Min. Rarity: <span style="font-style: italic">${rune.minRarity}</span>`;
+}
+board.mouse.externalmouseup = ()=>{
+    if(!board.currentRune) return;
+    showRuneInfo(board.currentRune);
+};
 
 
 document.getElementById("runeSearch").addEventListener("input", loadRuneData);

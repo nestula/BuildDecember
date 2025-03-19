@@ -43,10 +43,10 @@ class Board {
                     this.currentRune = this.table[this.currentPosition[0]][this.currentPosition[1]];
                     this.savedPosition = this.currentPosition;
                     this.c.style.cursor = "grabbing";
-                    console.log(this.currentRune);
                 }
             },
             onmouseup: ()=>{
+                this.mouse.externalmouseup();
                 if(this.savedPosition) {
                     this.table[this.savedPosition[0]][this.savedPosition[1]]=null;
                     this.savedPosition = null;
@@ -57,9 +57,8 @@ class Board {
                     this.currentRune=null;
                 }
             },
-            onclick: ()=>{
-
-            }
+            externalmouseup: ()=>{},
+            onclick: ()=>{}
         }
 
         // Start the animation loop
@@ -73,7 +72,7 @@ class Board {
     }
 
     _draw() {
-        const hexSize = 40;  // Radius of each hexagon (distance from center to any vertex)
+        const hexSize = this.c.height/14;  // Radius of each hexagon (distance from center to any vertex)
         const hexWidth = Math.sqrt(3) * hexSize;  // Width of the hexagon (horizontal distance between two points)
         const hexHeight = hexSize*1.5;
     
@@ -92,9 +91,14 @@ class Board {
                 path.lineTo(points[i].x, points[i].y);
             }
             path.closePath();
-            this.ctx.fillStyle = "#555";
+            if(ctx.isPointInPath(path, this.mouse.x,this.mouse.y)) {
+                this.ctx.fillStyle = "#333";
+            } else {
+                this.ctx.fillStyle = "#555";
+            }
             this.ctx.fill(path);
             this.ctx.lineWidth = 2;
+            this.ctx.strokeStyle = "black";
             this.ctx.stroke(path);
 
             return path;
@@ -115,9 +119,49 @@ class Board {
             5
         ]
 
+    
+
         const cx = this.center.x;
         const cy = this.center.y;
         const ctx = this.ctx;
+
+        function getX(amt, i, j) {
+            return cx - ((amt/2)*hexWidth+(hexWidth/2)) + ((j+1)*hexWidth); // calc x
+        }
+
+        function getY(amt, i, j) {
+            return cy - ((pattern.length/2)*hexHeight-(hexHeight/2)) + (i*hexHeight); // calc y
+        }
+
+        function drawConnection(i1, j1, i2, j2) {
+            const amt1 = pattern[i1];
+            const amt2 = pattern[i2];
+
+            // connecting point
+            const x1 = getX(amt1, i1, j1);
+            const y1 = getY(amt1, i1, j1);
+            // Achor Point
+            const x2 = getX(amt2, i2, j2);
+            const y2 = getY(amt2, i2, j2);
+
+            ctx.beginPath();
+            ctx.arc(x1, y1, 10, 0, 2 * Math.PI); // Draw a circle with radius 10
+            ctx.fillStyle = "red"; // Fill color
+            ctx.fill();
+            ctx.lineWidth = 2;
+            ctx.strokeStyle = "black";
+            ctx.stroke();
+
+
+
+            const path = new Path2D();
+            path.moveTo(x1,y1);
+            path.lineTo(x2,y2);
+            ctx.lineWidth = 5;
+            ctx.strokeStyle = "#333";
+            ctx.stroke(path);
+        }
+
         let y = cy - ((pattern.length/2)*hexHeight-(hexHeight/2));
 
         let isInSlot = false;
@@ -141,6 +185,9 @@ class Board {
 
                 // check if slot has rune
                 if(this.table[i][j]) {
+                    // rememner, j is x, i is y so [y][x] position is reversed
+                    drawConnection(i, j, i-1, j-1);
+
                     if(!this.savedPosition) {
                         this.c.style.cursor = "grab";
                     }

@@ -1,3 +1,9 @@
+.flex {
+    display: flex;
+}
+
+/* sidebar */
+
 #sideBar {
     position: relative;
     top: 0;
@@ -56,7 +62,7 @@
     flex-direction: row;
     width:100%;
     height:100%;
-    gap: 5%;
+    box-sizing: border-box;
 }
 #boardSection > div, #boardSection > canvas {
     padding: 1%;
@@ -74,4 +80,31 @@
 }
 #boardSection #boardCenter {
     background-color: var(--secondary);
+}
+
+/* More Rune Info */
+#runeIcon {
+    width: 50%;
+    max-width: 80px;
+    aspect-ratio: 1/1;
+}
+
+#runeName {
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+#runeDescription {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 0.9em;
+    gap:2%;
 }
