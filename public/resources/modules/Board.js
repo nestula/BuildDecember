@@ -145,20 +145,11 @@ class Board {
             const x2 = getX(amt2, i2, j2);
             const y2 = getY(amt2, i2, j2);
 
-            ctx.beginPath();
-            ctx.arc(x1, y1, 10, 0, 2 * Math.PI); // Draw a circle with radius 10
-            ctx.fillStyle = "red"; // Fill color
-            ctx.fill();
-            ctx.lineWidth = 2;
-            ctx.strokeStyle = "black";
-            ctx.stroke();
-
-
 
             const path = new Path2D();
             path.moveTo(x1,y1);
             path.lineTo(x2,y2);
-            ctx.lineWidth = 5;
+            ctx.lineWidth = 4;
             ctx.strokeStyle = color || "black";
             ctx.stroke(path);
         }
@@ -186,36 +177,11 @@ class Board {
 
                 // check if slot has rune
                 if(this.table[i][j]) {
-                    // rememner, j is x, i is y so [y][x] position is reversed
-                    if(i>3) {
-                        // if(RuneInfo.canConnect(this.table[i-1][j], this.table[i][j])) {
-                            
-                        // }
-                        drawConnection(i, j, i-1, j+1);
-                    } else {
-                        drawConnection(i, j, i-1, j);
-                    }
-
+                
                     if(!this.savedPosition) {
                         this.c.style.cursor = "grab";
                     }
-                    const runeName = this.table[i][j];
-                    if (window.allRunes) {
-                        const matchingRune = window.allRunes.find(rune => rune.title.toLowerCase() === runeName.toLowerCase());
-                        // print
-                        if (matchingRune) {
-                            // see if the image is cached
-                            if(!this.cached_images[matchingRune.title]) {
-                                const img = new Image();
-                                img.src = `../../resources/icons/${matchingRune.icon}`;
-                                this.cached_images[matchingRune.title] = img; // finish
-                            }
-
-                            const img = this.cached_images[matchingRune.title];
-                            const padding = 0.8;
-                            ctx.drawImage(img, x - hexSize*padding, y - hexSize*padding, hexSize*2*padding, hexSize*2*padding);
-                        }
-                    }
+                    
 
                 } else {
                     // this.c.style.cursor = "default";
@@ -231,6 +197,107 @@ class Board {
         }
 
 
+        // draw connections
+
+        for(let i=0; i<pattern.length; i++) {
+            for(let j=0; j<pattern[i]; j++) {
+                const baseRuneName = this.table[i][j];
+
+                let surroundingIndexes = [];
+                if(i == 3) {
+                    // middle
+                    surroundingIndexes = [
+                        [i-1, j], // top right
+                        [i-1, j-1], // top left
+                        [i, j+1], // right
+                        [i, j-1], // left
+                        [i+1, j], // bottom left
+                        [i+1, j-1], // bottom right
+                    ]
+                } else if(i < 3) {
+                    // top row
+                    surroundingIndexes = [
+                        [i-1, j], // top right
+                        [i-1, j-1], // top left
+                        [i, j+1], // right
+                        [i, j-1], // left
+                        [i+1, j], // bottom left
+                        [i+1, j+1], // bottom right
+                    ]
+                } else if(i > 3) {
+                    // bottom row
+                    surroundingIndexes = [
+                        [i-1, j+1], // top right
+                        [i-1, j], // top left
+                        [i, j+1], // right
+                        [i, j-1], // left
+                        [i+1, j], // bottom left
+                        [i+1, j-1], // bottom right
+                    ]
+                }
+
+                // draw connections
+
+                for(const [ni, nj] of surroundingIndexes) {
+                    // check if indexes are within bounds
+                    if (ni >= 0 && ni < pattern.length && nj >= 0 && nj < pattern[ni]) {
+                        if(baseRuneName) {
+                            const baseRune = window.allRunes.find(rune => rune.title.toLowerCase() === baseRuneName.toLowerCase());
+                            if(baseRune.type=="skill" && this.table[ni] && this.table[ni][nj]) {
+                                const linkRune = window.allRunes.find(rune => rune.title.toLowerCase() === this.table[ni][nj].toLowerCase());
+                                if(linkRune.type=="link" && RuneInfo.canConnect(baseRune.title, linkRune.title)) {
+                                    let color = "black";
+                                    switch(linkRune.mainStat.toLowerCase()) {
+                                        case "strength":
+                                            color="red";
+                                            break;
+                                        case "agility":
+                                            color="green";
+                                            break;
+                                        case "intellect":
+                                            color="blue";
+                                            break;
+                                        default:
+                                            color="red";
+                                    }
+                                    drawConnection(i, j, ni, nj, color);
+                                }
+                            }
+                        }
+                    }
+                }
+
+            }   
+        }
+
+        // draw images
+
+        for(let i=0; i<pattern.length; i++) {
+            for(let j=0; j<pattern[i]; j++) {
+                // draw images
+                if(this.table[i][j]) {
+                    const runeName = this.table[i][j];
+                    if (window.allRunes) {
+                        const matchingRune = window.allRunes.find(rune => rune.title.toLowerCase() === runeName.toLowerCase());
+                        // print
+                        if (matchingRune) {
+                            const x = getX(pattern[i], i, j);
+                            const y = getY(pattern[i], i, j);
+                            // see if the image is cached
+                            if(!this.cached_images[matchingRune.title]) {
+                                const img = new Image();
+                                img.src = `../../resources/icons/${matchingRune.icon}`;
+                                this.cached_images[matchingRune.title] = img; // finish
+                            }
+
+                            const img = this.cached_images[matchingRune.title];
+                            const padding = 0.8;
+                            ctx.drawImage(img, x - hexSize*padding, y - hexSize*padding, hexSize*2*padding, hexSize*2*padding);
+                        }
+                    }
+                }
+            }
+        }
     }
     
 

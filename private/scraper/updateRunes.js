@@ -152,6 +152,10 @@ async function updateRunes() {
                         runes[index].mainStat = stat;
                     }
 
+                    function cleanContent(content) {
+                        return content.filter(item => !item.includes("Удар"));
+                    }
+
                     // get rune type
                     const typeElement = content.querySelector('[class^="Elem_card_desc__"]');
                     if(typeElement) { // Check if typeElement exists //
@@ -177,18 +181,21 @@ async function updateRunes() {
                                 }
     
                                 
-                                if(condition.includes("that satisfy any one")) {
-                                    linkConditions["any"] = items;
-                                }
+                               
                                 if(condition.includes("cannot be linked with skills that satisfy")) {
-                                    linkConditions["cannot"] = items;
+                                    linkConditions["cannot"] = cleanContent(items);
                                 }
+
                                 if(condition.includes("must include all")) {
-                                    linkConditions["must"] = items;
+                                    linkConditions["all"] = cleanContent(items);
+                                } else {
+                                    if((condition.includes("that satisfy") && condition.includes("can "))) {
+                                        linkConditions["any"] = cleanContent(items);
+                                    }
                                 }
                                 // minions
                                 if(condition.includes("applies to minions")) {
-                                    linkConditions["minions"] = items;
+                                    linkConditions["minions"] = cleanContent(items);
                                 }
                                 runes[index].conditions = linkConditions;
                             }
@@ -232,6 +239,6 @@ async function updateRunes() {
     }
 }
 
-
+// updateRunes();
 
 module.exports = updateRunes;

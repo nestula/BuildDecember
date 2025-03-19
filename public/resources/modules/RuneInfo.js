@@ -20,13 +20,13 @@ const RuneInfo = {
         const link = rune1.type === "link" ? rune1 : rune2;
 
         const conditions = link.conditions || {};
-        console.log(conditions);
 
         let canLink = false;
 
+        // console.log(conditions.any, rune1.tags);
 
         // satify any
-
+        
         if(conditions.any) {
             for(const key of rune1.tags) {
                 for(const check of conditions.any) {
@@ -40,14 +40,36 @@ const RuneInfo = {
         
         // satisfy all
 
+        if(conditions.all) {
+            for(const key of rune1.tags) {
+                for(const check of conditions.all) {
+                    if(key !== check) {
+                        canLink = false;
+                        break;
+                    }
+                }
+            }
+        }
+
         // excluded
+
+        if(conditions.cannot) {
+            for(const key of rune1.tags) {
+                for(const check of conditions.cannot) {
+                    if(key === check) {
+                        canLink = false;
+                        break;
+                    }
+                }
+            }
+        }
         
         return canLink;
     }
 }
 
 setTimeout(() => {
-    console.log(RuneInfo.canConnect("Piercing Arrow", "Multishot"));
+    console.log(RuneInfo.canConnect("Piercing Arrow", "Rapid Shot"));
 }, 1000);
 
 export default RuneInfo;

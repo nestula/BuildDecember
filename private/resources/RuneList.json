@@ -3180,7 +3180,7 @@
     "mainStat": "Strength",
     "type": "link",
     "conditions": {
-      "must": [
+      "all": [
         "Strike",
         "Attack"
       ],
@@ -3205,6 +3205,9 @@
     "mainStat": "Strength",
     "type": "link",
     "conditions": {
+      "any": [
+        "Physical"
+      ],
       "minions": true
     },
     "howToGet": [
@@ -3223,6 +3226,9 @@
     "mainStat": "Strength",
     "type": "link",
     "conditions": {
+      "any": [
+        "Fire"
+      ],
       "minions": true
     },
     "howToGet": [
@@ -3242,7 +3248,7 @@
     "mainStat": "Strength",
     "type": "link",
     "conditions": {
-      "must": [
+      "all": [
         "Physical",
         "Strike"
       ],
@@ -3265,7 +3271,7 @@
     "mainStat": "Strength",
     "type": "link",
     "conditions": {
-      "must": [
+      "all": [
         "Physical",
         "Strike"
       ],
@@ -3287,6 +3293,9 @@
     "mainStat": "Strength",
     "type": "link",
     "conditions": {
+      "any": [
+        "Physical"
+      ],
       "minions": true
     },
     "howToGet": [
@@ -3305,7 +3314,7 @@
     "mainStat": "Strength",
     "type": "link",
     "conditions": {
-      "must": [
+      "all": [
         "Fire",
         "Strike"
       ],
@@ -3328,7 +3337,7 @@
     "mainStat": "Strength",
     "type": "link",
     "conditions": {
-      "must": [
+      "all": [
         "Fire",
         "Strike"
       ],
@@ -3402,7 +3411,11 @@
     "description": "Can be linked with Skills that satisfy Duration",
     "mainStat": "Strength",
     "type": "link",
-    "conditions": {},
+    "conditions": {
+      "any": [
+        "Duration"
+      ]
+    },
     "howToGet": [
       "Drop",
       "Shop"
@@ -3419,6 +3432,9 @@
     "mainStat": "Strength",
     "type": "link",
     "conditions": {
+      "any": [
+        "Fire"
+      ],
       "minions": true
     },
     "howToGet": [
@@ -3461,7 +3477,7 @@
     "mainStat": "Strength",
     "type": "link",
     "conditions": {
-      "must": [
+      "all": [
         "Melee",
         "Attack",
         "Strike"
@@ -3491,7 +3507,7 @@
     "mainStat": "Strength",
     "type": "link",
     "conditions": {
-      "must": [
+      "all": [
         "Melee",
         "Attack",
         "Strike"
@@ -3594,6 +3610,9 @@
     "mainStat": "Strength",
     "type": "link",
     "conditions": {
+      "any": [
+        "Strike"
+      ],
       "cannot": [
         "Toggle"
       ],
@@ -3614,7 +3633,11 @@
     "description": "Can be linked with Skills that satisfy Shout",
     "mainStat": "Strength",
     "type": "link",
-    "conditions": {},
+    "conditions": {
+      "any": [
+        "Shout"
+      ]
+    },
     "howToGet": [
       "Drop",
       "Shop"
@@ -3632,7 +3655,7 @@
     "mainStat": "Strength",
     "type": "link",
     "conditions": {
-      "must": [
+      "all": [
         "Melee",
         "Weapon Range"
       ],
@@ -3656,6 +3679,9 @@
     "mainStat": "Strength",
     "type": "link",
     "conditions": {
+      "any": [
+        "Movement"
+      ],
       "cannot": [
         "Totem",
         "Sentry",
@@ -3680,7 +3706,7 @@
     "mainStat": "Strength",
     "type": "link",
     "conditions": {
-      "must": [
+      "all": [
         "Melee",
         "Attack",
         "Strike"
@@ -3708,7 +3734,11 @@
     "description": "Can be linked with Skills that satisfy Shout",
     "mainStat": "Strength",
     "type": "link",
-    "conditions": {},
+    "conditions": {
+      "any": [
+        "Shout"
+      ]
+    },
     "howToGet": [
       "Drop",
       "Shop"
@@ -3724,7 +3754,11 @@
     "description": "Can be linked with Skills that satisfy Shout",
     "mainStat": "Strength",
     "type": "link",
-    "conditions": {},
+    "conditions": {
+      "any": [
+        "Shout"
+      ]
+    },
     "howToGet": [
       "Drop",
       "Shop"
@@ -3765,6 +3799,9 @@
     "mainStat": "Strength",
     "type": "link",
     "conditions": {
+      "any": [
+        "Totem"
+      ],
       "cannot": [
         "Sentry",
         "Toggle",
@@ -3789,7 +3826,7 @@
     "mainStat": "Strength",
     "type": "link",
     "conditions": {
-      "must": [
+      "all": [
         "Abyssling",
         "Minion"
       ]
@@ -3808,7 +3845,11 @@
     "description": "Can be linked with Skills that satisfy Trap",
     "mainStat": "Strength",
     "type": "link",
-    "conditions": {},
+    "conditions": {
+      "any": [
+        "Trap"
+      ]
+    },
     "howToGet": [
       "Drop",
       "Shop"
@@ -3824,7 +3865,11 @@
     "description": "Can be linked with Skills that satisfy Trap",
     "mainStat": "Strength",
     "type": "link",
-    "conditions": {},
+    "conditions": {
+      "any": [
+        "Trap"
+      ]
+    },
     "howToGet": [
       "Drop",
       "Shop"
@@ -3843,7 +3888,7 @@
     "mainStat": "Strength",
     "type": "link",
     "conditions": {
-      "must": [
+      "all": [
         "Attack",
         "Melee",
         "Strike"
@@ -3872,7 +3917,7 @@
     "mainStat": "Strength",
     "type": "link",
     "conditions": {
-      "must": [
+      "all": [
         "Strike",
         "Melee",
         "Attack"
@@ -3899,7 +3944,11 @@
     "description": "Can be linked with Skills that satisfy Movement",
     "mainStat": "Strength",
     "type": "link",
-    "conditions": {},
+    "conditions": {
+      "any": [
+        "Movement"
+      ]
+    },
     "howToGet": [
       "Drop",
       "Shop"
@@ -3915,7 +3964,11 @@
     "description": "Can be linked with Skills that satisfy Minion",
     "mainStat": "Strength",
     "type": "link",
-    "conditions": {},
+    "conditions": {
+      "any": [
+        "Minion"
+      ]
+    },
     "howToGet": [
       "Drop",
       "Shop"
@@ -3931,7 +3984,11 @@
     "description": "Can be linked with Skills that satisfy Shout",
     "mainStat": "Strength",
     "type": "link",
-    "conditions": {}
+    "conditions": {
+      "any": [
+        "Shout"
+      ]
+    }
   },
   {
     "title": "Extract Earth Energy",
@@ -3945,7 +4002,7 @@
     "mainStat": "Strength",
     "type": "link",
     "conditions": {
-      "must": [
+      "all": [
         "Physical",
         "Strike"
       ],
@@ -3968,7 +4025,7 @@
     "mainStat": "Strength",
     "type": "link",
     "conditions": {
-      "must": [
+      "all": [
         "Fire",
         "Удар"
       ],
@@ -3991,7 +4048,7 @@
     "mainStat": "Strength",
     "type": "link",
     "conditions": {
-      "must": [
+      "all": [
         "Melee",
         "Attack"
       ],
@@ -4034,6 +4091,9 @@
     "mainStat": "Strength",
     "type": "link",
     "conditions": {
+      "any": [
+        "Strike"
+      ],
       "cannot": [
         "Toggle"
       ],
@@ -4071,7 +4131,7 @@
     "mainStat": "Strength",
     "type": "link",
     "conditions": {
-      "must": [
+      "all": [
         "Strike",
         "Fire"
       ],
@@ -4107,7 +4167,11 @@
     "description": "Can be linked with Skills that satisfy Shout",
     "mainStat": "Strength",
     "type": "link",
-    "conditions": {},
+    "conditions": {
+      "any": [
+        "Shout"
+      ]
+    },
     "howToGet": [
       "Synthesis"
     ]
@@ -4123,6 +4187,9 @@
     "mainStat": "Strength",
     "type": "link",
     "conditions": {
+      "any": [
+        "Strike"
+      ],
       "cannot": [
         "Totem",
         "Sentry",
@@ -4145,6 +4212,9 @@
     "mainStat": "Strength",
     "type": "link",
     "conditions": {
+      "any": [
+        "Strike"
+      ],
       "cannot": [
         "Totem",
         "Sentry",
@@ -4167,6 +4237,9 @@
     "mainStat": "Strength",
     "type": "link",
     "conditions": {
+      "any": [
+        "Strike"
+      ],
       "cannot": [
         "Totem",
         "Sentry",
@@ -4191,7 +4264,7 @@
     "mainStat": "Strength",
     "type": "link",
     "conditions": {
-      "must": [
+      "all": [
         "Melee",
         "Attack",
         "Strike"
@@ -4249,6 +4322,9 @@
     "mainStat": "Strength",
     "type": "link",
     "conditions": {
+      "any": [
+        "Defense Enhance"
+      ],
       "cannot": [
         "Totem",
         "Sentry",
@@ -4273,6 +4349,9 @@
     "mainStat": "Strength",
     "type": "link",
     "conditions": {
+      "any": [
+        "Defense Enhance"
+      ],
       "cannot": [
         "Totem",
         "Sentry",
@@ -4297,6 +4376,9 @@
     "mainStat": "Strength",
     "type": "link",
     "conditions": {
+      "any": [
+        "Defense Enhance"
+      ],
       "cannot": [
         "Totem",
         "Sentry",
@@ -4369,7 +4451,7 @@
     "mainStat": "Strength",
     "type": "link",
     "conditions": {
-      "must": [
+      "all": [
         "Attack",
         "Melee",
         "Strike"
@@ -4398,7 +4480,7 @@
     "mainStat": "Strength",
     "type": "link",
     "conditions": {
-      "must": [
+      "all": [
         "Movement",
         "Strike"
       ]
@@ -4418,6 +4500,9 @@
     "mainStat": "Strength",
     "type": "link",
     "conditions": {
+      "any": [
+        "Projectile"
+      ],
       "cannot": [
         "Minion",
         "Sentry",
@@ -4443,7 +4528,7 @@
     "mainStat": "Strength",
     "type": "link",
     "conditions": {
-      "must": [
+      "all": [
         "Attack",
         "Melee",
         "Strike"
@@ -4492,7 +4577,7 @@
     "mainStat": "Strength",
     "type": "link",
     "conditions": {
-      "must": [
+      "all": [
         "Melee",
         "Strike"
       ],
@@ -4527,7 +4612,7 @@
     "mainStat": "Strength",
     "type": "link",
     "conditions": {
-      "must": [
+      "all": [
         "Physical",
         "Strike"
       ],
@@ -4603,6 +4688,11 @@
     "mainStat": "Strength",
     "type": "link",
     "conditions": {
+      "any": [
+        "Attack",
+        "Melee",
+        "Strike"
+      ],
       "cannot": [
         "Minion",
         "Sentry",
@@ -4625,7 +4715,11 @@
     "description": "Can be linked with Skills that satisfy Minion",
     "mainStat": "Strength",
     "type": "link",
-    "conditions": {},
+    "conditions": {
+      "any": [
+        "Minion"
+      ]
+    },
     "howToGet": [
       "Synthesis"
     ]
@@ -4677,7 +4771,7 @@
     "mainStat": "Strength",
     "type": "link",
     "conditions": {
-      "must": [
+      "all": [
         "Attack",
         "Shadow",
         "Strike",
@@ -4701,6 +4795,9 @@
     "mainStat": "Agility",
     "type": "link",
     "conditions": {
+      "any": [
+        "Attack"
+      ],
       "cannot": [
         "Shout",
         "Attack Enhance",
@@ -4727,6 +4824,9 @@
     "mainStat": "Agility",
     "type": "link",
     "conditions": {
+      "any": [
+        "Strike"
+      ],
       "minions": true
     },
     "howToGet": [
@@ -4745,6 +4845,9 @@
     "mainStat": "Agility",
     "type": "link",
     "conditions": {
+      "any": [
+        "Poison"
+      ],
       "minions": true
     },
     "howToGet": [
@@ -4763,6 +4866,9 @@
     "mainStat": "Agility",
     "type": "link",
     "conditions": {
+      "any": [
+        "Projectile"
+      ],
       "cannot": [
         "Totem",
         "Movement",
@@ -4787,6 +4893,9 @@
     "mainStat": "Agility",
     "type": "link",
     "conditions": {
+      "any": [
+        "Strike"
+      ],
       "minions": true
     },
     "howToGet": [
@@ -4804,7 +4913,11 @@
     "description": "Can be linked with Skills that satisfy Duration",
     "mainStat": "Agility",
     "type": "link",
-    "conditions": {},
+    "conditions": {
+      "any": [
+        "Duration"
+      ]
+    },
     "howToGet": [
       "Drop",
       "Shop"
@@ -4821,6 +4934,9 @@
     "mainStat": "Agility",
     "type": "link",
     "conditions": {
+      "any": [
+        "Projectile"
+      ],
       "cannot": [
         "Totem",
         "Movement",
@@ -4843,6 +4959,9 @@
     "mainStat": "Agility",
     "type": "link",
     "conditions": {
+      "any": [
+        "Poison"
+      ],
       "minions": true
     },
     "howToGet": [
@@ -4860,6 +4979,9 @@
     "mainStat": "Agility",
     "type": "link",
     "conditions": {
+      "any": [
+        "Projectile"
+      ],
       "cannot": [
         "Cannot Change Speed"
       ],
@@ -4881,6 +5003,9 @@
     "mainStat": "Agility",
     "type": "link",
     "conditions": {
+      "any": [
+        "Strike"
+      ],
       "minions": true
     },
     "howToGet": [
@@ -4899,6 +5024,9 @@
     "mainStat": "Agility",
     "type": "link",
     "conditions": {
+      "any": [
+        "Projectile"
+      ],
       "cannot": [
         "Cannot Change Speed"
       ],
@@ -4919,6 +5047,9 @@
     "mainStat": "Agility",
     "type": "link",
     "conditions": {
+      "any": [
+        "Projectile"
+      ],
       "cannot": [
         "Totem",
         "Movement",
@@ -4943,7 +5074,7 @@
     "mainStat": "Agility",
     "type": "link",
     "conditions": {
-      "must": [
+      "all": [
         "Strike",
         "Poison"
       ],
@@ -4989,7 +5120,7 @@
     "mainStat": "Agility",
     "type": "link",
     "conditions": {
-      "must": [
+      "all": [
         "Strike",
         "Poison"
       ],
@@ -5093,6 +5224,9 @@
     "mainStat": "Agility",
     "type": "link",
     "conditions": {
+      "any": [
+        "Attack"
+      ],
       "cannot": [
         "Totem",
         "Movement",
@@ -5137,6 +5271,9 @@
     "mainStat": "Agility",
     "type": "link",
     "conditions": {
+      "any": [
+        "Projectile"
+      ],
       "cannot": [
         "Minion",
         "Sentry",
@@ -5187,7 +5324,11 @@
     "description": "Can be linked with Skills that satisfy Sentry",
     "mainStat": "Agility",
     "type": "link",
-    "conditions": {},
+    "conditions": {
+      "any": [
+        "Sentry"
+      ]
+    },
     "howToGet": [
       "Drop",
       "Shop"
@@ -5203,7 +5344,11 @@
     "description": "Can be linked with Skills that satisfy Sentry",
     "mainStat": "Agility",
     "type": "link",
-    "conditions": {},
+    "conditions": {
+      "any": [
+        "Sentry"
+      ]
+    },
     "howToGet": [
       "Drop",
       "Shop"
@@ -5219,7 +5364,11 @@
     "description": "Can be linked with Skills that satisfy Sentry",
     "mainStat": "Agility",
     "type": "link",
-    "conditions": {},
+    "conditions": {
+      "any": [
+        "Sentry"
+      ]
+    },
     "howToGet": [
       "Drop",
       "Shop"
@@ -5235,7 +5384,11 @@
     "description": "Can be linked with Skills that satisfy Trap",
     "mainStat": "Agility",
     "type": "link",
-    "conditions": {},
+    "conditions": {
+      "any": [
+        "Trap"
+      ]
+    },
     "howToGet": [
       "Drop",
       "Shop"
@@ -5251,7 +5404,11 @@
     "description": "Can be linked with Skills that satisfy Trap",
     "mainStat": "Agility",
     "type": "link",
-    "conditions": {},
+    "conditions": {
+      "any": [
+        "Trap"
+      ]
+    },
     "howToGet": [
       "Drop",
       "Shop"
@@ -5267,7 +5424,11 @@
     "description": "Can be linked with Skills that satisfy Trap",
     "mainStat": "Agility",
     "type": "link",
-    "conditions": {},
+    "conditions": {
+      "any": [
+        "Trap"
+      ]
+    },
     "howToGet": [
       "Drop",
       "Shop"
@@ -5283,7 +5444,11 @@
     "description": "Can be linked with Skills that satisfy Trap",
     "mainStat": "Agility",
     "type": "link",
-    "conditions": {},
+    "conditions": {
+      "any": [
+        "Trap"
+      ]
+    },
     "howToGet": [
       "Synthesis"
     ]
@@ -5300,7 +5465,7 @@
     "mainStat": "Agility",
     "type": "link",
     "conditions": {
-      "must": [
+      "all": [
         "Trap",
         "Projectile"
       ]
@@ -5320,7 +5485,11 @@
     "description": "Can be linked with Skills that satisfy Overheat",
     "mainStat": "Agility",
     "type": "link",
-    "conditions": {},
+    "conditions": {
+      "any": [
+        "Overheat"
+      ]
+    },
     "howToGet": [
       "Drop",
       "Shop"
@@ -5336,7 +5505,11 @@
     "description": "Can be linked with Skills that satisfy Overheat",
     "mainStat": "Agility",
     "type": "link",
-    "conditions": {},
+    "conditions": {
+      "any": [
+        "Overheat"
+      ]
+    },
     "howToGet": [
       "Drop",
       "Shop"
@@ -5352,7 +5525,11 @@
     "description": "Can be linked with Skills that satisfy Trap",
     "mainStat": "Agility",
     "type": "link",
-    "conditions": {},
+    "conditions": {
+      "any": [
+        "Trap"
+      ]
+    },
     "howToGet": [
       "Synthesis"
     ]
@@ -5367,7 +5544,11 @@
     "description": "Can be linked with Skills that satisfy Minion",
     "mainStat": "Agility",
     "type": "link",
-    "conditions": {},
+    "conditions": {
+      "any": [
+        "Minion"
+      ]
+    },
     "howToGet": [
       "Drop",
       "Shop"
@@ -5415,7 +5596,7 @@
     "mainStat": "Agility",
     "type": "link",
     "conditions": {
-      "must": [
+      "all": [
         "Poison",
         "Удар"
       ],
@@ -5436,7 +5617,11 @@
     "description": "Can be linked with Skills that satisfy Sentry",
     "mainStat": "Agility",
     "type": "link",
-    "conditions": {},
+    "conditions": {
+      "any": [
+        "Sentry"
+      ]
+    },
     "howToGet": [
       "Synthesis"
     ]
@@ -5454,7 +5639,7 @@
     "mainStat": "Agility",
     "type": "link",
     "conditions": {
-      "must": [
+      "all": [
         "Melee",
         "Attack",
         "Strike"
@@ -5496,6 +5681,9 @@
     "mainStat": "Agility",
     "type": "link",
     "conditions": {
+      "any": [
+        "Projectile"
+      ],
       "cannot": [
         "Totem",
         "Movement",
@@ -5519,6 +5707,9 @@
     "mainStat": "Agility",
     "type": "link",
     "conditions": {
+      "any": [
+        "Strike"
+      ],
       "cannot": [
         "Totem",
         "Sentry",
@@ -5541,6 +5732,9 @@
     "mainStat": "Agility",
     "type": "link",
     "conditions": {
+      "any": [
+        "Strike"
+      ],
       "cannot": [
         "Totem",
         "Sentry",
@@ -5563,6 +5757,9 @@
     "mainStat": "Agility",
     "type": "link",
     "conditions": {
+      "any": [
+        "Strike"
+      ],
       "cannot": [
         "Totem",
         "Sentry",
@@ -5611,7 +5808,7 @@
     "mainStat": "Agility",
     "type": "link",
     "conditions": {
-      "must": [
+      "all": [
         "Physical",
         "Projectile"
       ],
@@ -5660,7 +5857,11 @@
     "description": "Can be linked with Skills that satisfy Shout",
     "mainStat": "Agility",
     "type": "link",
-    "conditions": {},
+    "conditions": {
+      "any": [
+        "Shout"
+      ]
+    },
     "howToGet": [
       "Unique Dungeon"
     ]
@@ -5676,6 +5877,9 @@
     "mainStat": "Agility",
     "type": "link",
     "conditions": {
+      "any": [
+        "Attack Enhance"
+      ],
       "cannot": [
         "Totem",
         "Sentry",
@@ -5700,6 +5904,9 @@
     "mainStat": "Agility",
     "type": "link",
     "conditions": {
+      "any": [
+        "Sentry"
+      ],
       "cannot": [
         "Totem",
         "Toggle",
@@ -5722,6 +5929,9 @@
     "mainStat": "Agility",
     "type": "link",
     "conditions": {
+      "any": [
+        "Totem"
+      ],
       "cannot": [
         "Sentry",
         "Toggle",
@@ -5743,7 +5953,11 @@
     "description": "Can be linked with Skills that satisfy Trap",
     "mainStat": "Agility",
     "type": "link",
-    "conditions": {},
+    "conditions": {
+      "any": [
+        "Trap"
+      ]
+    },
     "howToGet": [
       "Synthesis"
     ]
@@ -5758,7 +5972,11 @@
     "description": "Can be linked with Skills that satisfy Overheat",
     "mainStat": "Agility",
     "type": "link",
-    "conditions": {},
+    "conditions": {
+      "any": [
+        "Overheat"
+      ]
+    },
     "howToGet": [
       "Synthesis"
     ]
@@ -5773,7 +5991,11 @@
     "description": "Can be linked with Skills that satisfy Trap",
     "mainStat": "Agility",
     "type": "link",
-    "conditions": {},
+    "conditions": {
+      "any": [
+        "Trap"
+      ]
+    },
     "howToGet": [
       "Synthesis"
     ]
@@ -5789,6 +6011,9 @@
     "mainStat": "Agility",
     "type": "link",
     "conditions": {
+      "any": [
+        "Strike"
+      ],
       "cannot": [
         "Shout",
         "Attack Enhance",
@@ -5815,7 +6040,7 @@
     "mainStat": "Agility",
     "type": "link",
     "conditions": {
-      "must": [
+      "all": [
         "Melee",
         "Strike",
         "Physical"
@@ -5864,7 +6089,7 @@
     "mainStat": "Agility",
     "type": "link",
     "conditions": {
-      "must": [
+      "all": [
         "Strike"
       ],
       "cannot": [
@@ -5894,7 +6119,7 @@
     "mainStat": "Agility",
     "type": "link",
     "conditions": {
-      "must": [
+      "all": [
         "Attack",
         "Shadow",
         "Strike",
@@ -5917,6 +6142,9 @@
     "mainStat": "Intellect",
     "type": "link",
     "conditions": {
+      "any": [
+        "Lightning"
+      ],
       "minions": true
     },
     "howToGet": [
@@ -5935,6 +6163,9 @@
     "mainStat": "Intellect",
     "type": "link",
     "conditions": {
+      "any": [
+        "Cold"
+      ],
       "minions": true
     },
     "howToGet": [
@@ -5953,6 +6184,9 @@
     "mainStat": "Intellect",
     "type": "link",
     "conditions": {
+      "any": [
+        "Spell"
+      ],
       "cannot": [
         "Shout",
         "Attack Enhance",
@@ -5980,7 +6214,7 @@
     "mainStat": "Intellect",
     "type": "link",
     "conditions": {
-      "must": [
+      "all": [
         "Cold",
         "Strike"
       ],
@@ -5999,7 +6233,11 @@
     "description": "Can be linked with Skills that satisfy Use Count Skills",
     "mainStat": "Intellect",
     "type": "link",
-    "conditions": {},
+    "conditions": {
+      "any": [
+        "Use Count Skills"
+      ]
+    },
     "howToGet": [
       "Drop",
       "Shop"
@@ -6017,7 +6255,7 @@
     "mainStat": "Intellect",
     "type": "link",
     "conditions": {
-      "must": [
+      "all": [
         "Cold",
         "Strike"
       ],
@@ -6039,6 +6277,9 @@
     "mainStat": "Intellect",
     "type": "link",
     "conditions": {
+      "any": [
+        "Cold"
+      ],
       "minions": true
     },
     "howToGet": [
@@ -6056,6 +6297,9 @@
     "mainStat": "Intellect",
     "type": "link",
     "conditions": {
+      "any": [
+        "Lightning"
+      ],
       "minions": true
     },
     "howToGet": [
@@ -6098,7 +6342,11 @@
     "description": "Can be linked with Skills that satisfy Channel",
     "mainStat": "Intellect",
     "type": "link",
-    "conditions": {},
+    "conditions": {
+      "any": [
+        "Channel"
+      ]
+    },
     "howToGet": [
       "Drop",
       "Shop"
@@ -6114,7 +6362,11 @@
     "description": "Can be linked with Skills that satisfy Minion",
     "mainStat": "Intellect",
     "type": "link",
-    "conditions": {},
+    "conditions": {
+      "any": [
+        "Minion"
+      ]
+    },
     "howToGet": [
       "Drop",
       "Shop"
@@ -6130,7 +6382,11 @@
     "description": "Can be linked with Skills that satisfy Minion",
     "mainStat": "Intellect",
     "type": "link",
-    "conditions": {},
+    "conditions": {
+      "any": [
+        "Minion"
+      ]
+    },
     "howToGet": [
       "Drop",
       "Shop"
@@ -6146,7 +6402,11 @@
     "description": "Can be linked with Skills that satisfy Minion",
     "mainStat": "Intellect",
     "type": "link",
-    "conditions": {},
+    "conditions": {
+      "any": [
+        "Minion"
+      ]
+    },
     "howToGet": [
       "Drop",
       "Shop"
@@ -6164,7 +6424,7 @@
     "mainStat": "Intellect",
     "type": "link",
     "conditions": {
-      "must": [
+      "all": [
         "Lightning",
         "Strike"
       ],
@@ -6187,7 +6447,7 @@
     "mainStat": "Intellect",
     "type": "link",
     "conditions": {
-      "must": [
+      "all": [
         "Lightning",
         "Strike"
       ],
@@ -6209,6 +6469,9 @@
     "mainStat": "Intellect",
     "type": "link",
     "conditions": {
+      "any": [
+        "Strike"
+      ],
       "minions": true
     },
     "howToGet": [
@@ -6336,7 +6599,7 @@
     "mainStat": "Intellect",
     "type": "link",
     "conditions": {
-      "must": [
+      "all": [
         "Strike",
         "Cold"
       ],
@@ -6364,7 +6627,7 @@
     "mainStat": "Intellect",
     "type": "link",
     "conditions": {
-      "must": [
+      "all": [
         "Strike"
       ],
       "minions": true
@@ -6407,7 +6670,11 @@
     "description": "Can be linked with Skills that satisfy Minion",
     "mainStat": "Intellect",
     "type": "link",
-    "conditions": {},
+    "conditions": {
+      "any": [
+        "Minion"
+      ]
+    },
     "howToGet": [
       "Drop",
       "Shop"
@@ -6423,7 +6690,11 @@
     "description": "Can be linked with Skills that satisfy Totem",
     "mainStat": "Intellect",
     "type": "link",
-    "conditions": {},
+    "conditions": {
+      "any": [
+        "Totem"
+      ]
+    },
     "howToGet": [
       "Drop",
       "Shop"
@@ -6439,7 +6710,11 @@
     "description": "Can be linked with Skills that satisfy Totem",
     "mainStat": "Intellect",
     "type": "link",
-    "conditions": {},
+    "conditions": {
+      "any": [
+        "Totem"
+      ]
+    },
     "howToGet": [
       "Drop",
       "Shop"
@@ -6455,7 +6730,11 @@
     "description": "Can be linked with Skills that satisfy Totem",
     "mainStat": "Intellect",
     "type": "link",
-    "conditions": {},
+    "conditions": {
+      "any": [
+        "Totem"
+      ]
+    },
     "howToGet": [
       "Drop",
       "Shop"
@@ -6472,6 +6751,9 @@
     "mainStat": "Intellect",
     "type": "link",
     "conditions": {
+      "any": [
+        "Strike"
+      ],
       "cannot": [
         "Totem",
         "Sentry",
@@ -6541,7 +6823,7 @@
     "mainStat": "Intellect",
     "type": "link",
     "conditions": {
-      "must": [
+      "all": [
         "Strike"
       ],
       "minions": true
@@ -6560,7 +6842,11 @@
     "description": "Can be linked with Skills that satisfy Overheat",
     "mainStat": "Intellect",
     "type": "link",
-    "conditions": {},
+    "conditions": {
+      "any": [
+        "Overheat"
+      ]
+    },
     "howToGet": [
       "Drop",
       "Shop"
@@ -6576,7 +6862,11 @@
     "description": "Can be linked with Skills that satisfy Movement",
     "mainStat": "Intellect",
     "type": "link",
-    "conditions": {},
+    "conditions": {
+      "any": [
+        "Movement"
+      ]
+    },
     "howToGet": [
       "Synthesis"
     ]
@@ -6592,6 +6882,9 @@
     "mainStat": "Intellect",
     "type": "link",
     "conditions": {
+      "any": [
+        "Movement"
+      ],
       "cannot": [
         "Totem",
         "Sentry",
@@ -6615,7 +6908,7 @@
     "mainStat": "Intellect",
     "type": "link",
     "conditions": {
-      "must": [
+      "all": [
         "Cold",
         "Удар"
       ],
@@ -6638,7 +6931,7 @@
     "mainStat": "Intellect",
     "type": "link",
     "conditions": {
-      "must": [
+      "all": [
         "Lightning",
         "Удар"
       ],
@@ -6705,6 +6998,9 @@
     "mainStat": "Intellect",
     "type": "link",
     "conditions": {
+      "any": [
+        "Strike"
+      ],
       "minions": true
     },
     "howToGet": [
@@ -6721,7 +7017,11 @@
     "description": "Can be linked with Skills that satisfy Minion",
     "mainStat": "Intellect",
     "type": "link",
-    "conditions": {},
+    "conditions": {
+      "any": [
+        "Minion"
+      ]
+    },
     "howToGet": [
       "Synthesis"
     ]
@@ -6737,6 +7037,9 @@
     "mainStat": "Intellect",
     "type": "link",
     "conditions": {
+      "any": [
+        "Strike"
+      ],
       "minions": true
     },
     "howToGet": [
@@ -6753,7 +7056,11 @@
     "description": "Can be linked with Skills that satisfy Totem",
     "mainStat": "Intellect",
     "type": "link",
-    "conditions": {},
+    "conditions": {
+      "any": [
+        "Totem"
+      ]
+    },
     "howToGet": [
       "Synthesis"
     ]
@@ -6771,7 +7078,7 @@
     "mainStat": "Intellect",
     "type": "link",
     "conditions": {
-      "must": [
+      "all": [
         "Melee",
         "Attack",
         "Strike"
@@ -6793,6 +7100,9 @@
     "mainStat": "Intellect",
     "type": "link",
     "conditions": {
+      "any": [
+        "Strike"
+      ],
       "cannot": [
         "Totem",
         "Sentry",
@@ -6816,6 +7126,9 @@
     "mainStat": "Intellect",
     "type": "link",
     "conditions": {
+      "any": [
+        "Strike"
+      ],
       "cannot": [
         "Totem",
         "Sentry",
@@ -6838,6 +7151,9 @@
     "mainStat": "Intellect",
     "type": "link",
     "conditions": {
+      "any": [
+        "Strike"
+      ],
       "cannot": [
         "Totem",
         "Sentry",
@@ -6860,6 +7176,9 @@
     "mainStat": "Intellect",
     "type": "link",
     "conditions": {
+      "any": [
+        "Strike"
+      ],
       "cannot": [
         "Totem",
         "Sentry",
@@ -6882,6 +7201,9 @@
     "mainStat": "Intellect",
     "type": "link",
     "conditions": {
+      "any": [
+        "Strike"
+      ],
       "cannot": [
         "Totem",
         "Sentry",
@@ -6940,7 +7262,7 @@
     "mainStat": "Intellect",
     "type": "link",
     "conditions": {
-      "must": [
+      "all": [
         "Spell",
         "Strike"
       ],
@@ -6966,6 +7288,9 @@
     "mainStat": "Intellect",
     "type": "link",
     "conditions": {
+      "any": [
+        "Attack Enhance"
+      ],
       "cannot": [
         "Totem",
         "Sentry",
@@ -7015,7 +7340,11 @@
     "description": "Can be linked with Skills that satisfy Movement",
     "mainStat": "Intellect",
     "type": "link",
-    "conditions": {},
+    "conditions": {
+      "any": [
+        "Movement"
+      ]
+    },
     "howToGet": [
       "Synthesis"
     ]
@@ -7030,7 +7359,11 @@
     "description": "Can be linked with Skills that satisfy Minion",
     "mainStat": "Intellect",
     "type": "link",
-    "conditions": {},
+    "conditions": {
+      "any": [
+        "Minion"
+      ]
+    },
     "howToGet": [
       "Synthesis"
     ]
@@ -7046,6 +7379,9 @@
     "mainStat": "Intellect",
     "type": "link",
     "conditions": {
+      "any": [
+        "Defense Enhance"
+      ],
       "cannot": [
         "Totem",
         "Sentry",
@@ -7069,7 +7405,11 @@
     "description": "Can be linked with Skills that satisfy Minion",
     "mainStat": "Intellect",
     "type": "link",
-    "conditions": {},
+    "conditions": {
+      "any": [
+        "Minion"
+      ]
+    },
     "howToGet": [
       "Synthesis"
     ]
@@ -7207,6 +7547,9 @@
     "mainStat": "Intellect",
     "type": "link",
     "conditions": {
+      "any": [
+        "Strike"
+      ],
       "minions": true
     },
     "howToGet": [
@@ -7257,7 +7600,7 @@
     "mainStat": "Intellect",
     "type": "link",
     "conditions": {
-      "must": [
+      "all": [
         "Overheat",
         "Bowgun"
       ]
