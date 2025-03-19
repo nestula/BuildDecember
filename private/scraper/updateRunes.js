@@ -132,8 +132,16 @@ async function updateRunes() {
                     runes[index].tags = tagList;
 
                     // get description
-                    const description = content.querySelector('[data-class="prop"]').textContent;
-                    runes[index].description = description.replace("Удар", "");
+                    const descriptions = content.querySelector('[class^="Elem_card_desc__"]')?.querySelectorAll('[data-class="prop"]');
+                    let desc = "";
+                    if(descriptions) {
+                        for(let i = 0; i < descriptions.length; i++) {
+                            const description = descriptions[i].textContent;
+                            desc += description.replace("Удар", "");
+                            desc += " ";
+                        }
+                    }
+                    runes[index].description = desc;
 
                     // get weapon types
                     const weaponTypes = content.querySelectorAll('[data-class="WeaponType"] span');

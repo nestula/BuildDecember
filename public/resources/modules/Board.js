@@ -40,7 +40,7 @@ class Board {
             new Array(5),
         ]
         this.table[2][2] = "Ogre Arrow";
-        this.table[1][2] = "Convert Physical Damage";
+        this.table[2][1] = "Convert Physical Damage";
         this.table[2][3] = "Additional Physical DMG";
         this.table[3][3] = "Extract Poison Energy";
 
@@ -295,27 +295,29 @@ class Board {
 
                 if(baseRuneName && window.allRunes) {
                     const baseRune = JSON.parse(JSON.stringify(window.allRunes.find(rune => rune.title.toLowerCase() === baseRuneName.toLowerCase())));
-                    if(baseRune.type == "link") break;
                 
                     // update based on surrounding
-                    let newTags = baseRune.tags; //  Array
-                    for(const [ni, nj] of surroundingIndexes) {
-                        // check if it exists
-                        if(this.table[ni] && this.table[ni][nj]) {
-                            const checkRune = window.allRunes.find(rune => rune.title.toLowerCase() === this.table[ni][nj].toLowerCase());
-                            // Converts
-                            if(checkRune.title.includes("Convert")) {
-                                const convertType = checkRune.title.split(" ")[1];
-                                newTags = newTags.filter(tag => !["Poison", "Fire", "Lightning", "Cold", "Physical"].includes(tag));
-                                newTags.push(convertType);
-                                drawConnection(i, j, ni, nj, "orange");
+                    if(baseRune.type=="skill")  { // make sure not link-link
+
+                        let newTags = baseRune.tags; //  Array
+                        for(const [ni, nj] of surroundingIndexes) {
+                            // check if it exists
+                            if(this.table[ni] && this.table[ni][nj]) {
+                                const checkRune = window.allRunes.find(rune => rune.title.toLowerCase() === this.table[ni][nj].toLowerCase());
+                                // Converts
+                                if(checkRune.title.includes("Convert")) {
+                                    const convertType = checkRune.title.split(" ")[1];
+                                    if(newTags.includes(convertType)) continue;
+                                    newTags = newTags.filter(tag => !["Poison", "Fire", "Lightning", "Cold", "Physical"].includes(tag));
+                                    newTags.push(convertType);
+                                    drawConnection(i, j, ni, nj, "orange");
+                                }
                             }
                         }
+                        baseRune.tags = newTags;
+
                     }
-                    baseRune.tags = newTags;
-                    if(Date.now()%10 == 0) {
-                        // console.log(newTags);
-                    }
+                    
 
                     for(const [ni, nj] of surroundingIndexes) {
                         // check if indexes are within bounds
