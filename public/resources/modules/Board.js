@@ -20,7 +20,6 @@ class Board {
             y: this.c.height / 2
         }
 
-        this.cached_images = {}; // Cache for images
 
         this.table=[
             new Array(5),
@@ -31,6 +30,8 @@ class Board {
             new Array(6),
             new Array(5),
         ]
+        this.table[2][2] = "Ogre Arrow";
+        this.table[2][3] = "Extract Poison Energy";
 
         this.currentPosition = null;
         this.savedPosition = null;
@@ -241,7 +242,7 @@ class Board {
                 for(const [ni, nj] of surroundingIndexes) {
                     // check if indexes are within bounds
                     if (ni >= 0 && ni < pattern.length && nj >= 0 && nj < pattern[ni]) {
-                        if(baseRuneName) {
+                        if(baseRuneName && window.allRunes) {
                             const baseRune = window.allRunes.find(rune => rune.title.toLowerCase() === baseRuneName.toLowerCase());
                             if(baseRune.type=="skill" && this.table[ni] && this.table[ni][nj]) {
                                 const linkRune = window.allRunes.find(rune => rune.title.toLowerCase() === this.table[ni][nj].toLowerCase());
@@ -284,13 +285,16 @@ class Board {
                             const x = getX(pattern[i], i, j);
                             const y = getY(pattern[i], i, j);
                             // see if the image is cached
-                            if(!this.cached_images[matchingRune.title]) {
+                            if(!window.cached_images) {
+                                window.cached_images = {};
+                            }
+                            if(!window.cached_images[matchingRune.title]) {
                                 const img = new Image();
                                 img.src = `../../resources/icons/${matchingRune.icon}`;
-                                this.cached_images[matchingRune.title] = img; // finish
+                                window.cached_images[matchingRune.title] = img; // finish
                             }
 
-                            const img = this.cached_images[matchingRune.title];
+                            const img = window.cached_images[matchingRune.title];
                             const padding = 0.8;
                             ctx.drawImage(img, x - hexSize*padding, y - hexSize*padding, hexSize*2*padding, hexSize*2*padding);
                         }
@@ -319,7 +323,7 @@ class Board {
             const hexWidth = Math.sqrt(3) * hexSize;  // Width of the hexagon (horizontal distance between two points)
             const hexHeight = hexSize*1.5;
             
-            this.mouse.x=x;
+            this.mouse.x=x - hexWidth/4;
             this.mouse.y=y - hexHeight/4;
         });
         this.c.addEventListener("mousedown", (e)=>{

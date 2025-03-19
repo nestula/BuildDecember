@@ -21,32 +21,35 @@ const RuneInfo = {
 
         const conditions = link.conditions || {};
 
-        let canLink = false;
+        let canLink = true;
 
         // console.log(conditions.any, rune1.tags);
 
         // satify any
         
+        let hasAny = false;
         if(conditions.any) {
             for(const key of rune1.tags) {
                 for(const check of conditions.any) {
                     if(key === check) {
-                        canLink = true;
+                        hasAny = true;
                         break;
                     }
                 }
             }
         }
-        
+
+        if(hasAny) {
+            canLink = true;
+        }
+
         // satisfy all
 
         if(conditions.all) {
-            for(const key of rune1.tags) {
-                for(const check of conditions.all) {
-                    if(key !== check) {
-                        canLink = false;
-                        break;
-                    }
+            for(const check of conditions.all) {
+                if(!rune1.tags.includes(check)) {
+                    canLink = false;
+                    break;
                 }
             }
         }

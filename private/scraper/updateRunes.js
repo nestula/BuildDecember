@@ -133,7 +133,7 @@ async function updateRunes() {
 
                     // get description
                     const description = content.querySelector('[data-class="prop"]').textContent;
-                    runes[index].description = description;
+                    runes[index].description = description.replace("Удар", "");
 
                     // get weapon types
                     const weaponTypes = content.querySelectorAll('[data-class="WeaponType"] span');
@@ -153,7 +153,10 @@ async function updateRunes() {
                     }
 
                     function cleanContent(content) {
-                        return content.filter(item => !item.includes("Удар"));
+                        if (Array.isArray(content)) {
+                            return content.filter(item => !item.includes("Удар"));
+                        }
+                        return [];
                     }
 
                     // get rune type
@@ -195,7 +198,7 @@ async function updateRunes() {
                                 }
                                 // minions
                                 if(condition.includes("applies to minions")) {
-                                    linkConditions["minions"] = cleanContent(items);
+                                    linkConditions["minions"] = true;
                                 }
                                 runes[index].conditions = linkConditions;
                             }
@@ -239,6 +242,6 @@ async function updateRunes() {
     }
 }
 
-// updateRunes();
+updateRunes();
 
 module.exports = updateRunes;

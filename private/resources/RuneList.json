@@ -4021,13 +4021,12 @@
       "Fire",
       "Strike"
     ],
-    "description": "Can be linked with Skills that satisfy Fire, Удар (must include all)",
+    "description": "Can be linked with Skills that satisfy Fire,  (must include all)",
     "mainStat": "Strength",
     "type": "link",
     "conditions": {
       "all": [
-        "Fire",
-        "Удар"
+        "Fire"
       ],
       "minions": true
     },
@@ -5592,13 +5591,12 @@
       "Poison",
       "Strike"
     ],
-    "description": "Can be linked with Skills that satisfy Poison, Удар (must include all)",
+    "description": "Can be linked with Skills that satisfy Poison,  (must include all)",
     "mainStat": "Agility",
     "type": "link",
     "conditions": {
       "all": [
-        "Poison",
-        "Удар"
+        "Poison"
       ],
       "minions": true
     },
@@ -6904,13 +6902,12 @@
       "Cold",
       "Strike"
     ],
-    "description": "Can be linked with Skills that satisfy Cold, Удар (must include all)",
+    "description": "Can be linked with Skills that satisfy Cold,  (must include all)",
     "mainStat": "Intellect",
     "type": "link",
     "conditions": {
       "all": [
-        "Cold",
-        "Удар"
+        "Cold"
       ],
       "minions": true
     },
@@ -6927,13 +6924,12 @@
       "Lightning",
       "Strike"
     ],
-    "description": "Can be linked with Skills that satisfy Lightning, Удар (must include all)",
+    "description": "Can be linked with Skills that satisfy Lightning,  (must include all)",
     "mainStat": "Intellect",
     "type": "link",
     "conditions": {
       "all": [
-        "Lightning",
-        "Удар"
+        "Lightning"
       ],
       "minions": true
     },
