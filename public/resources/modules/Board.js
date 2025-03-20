@@ -62,6 +62,11 @@ class Board {
             onmouseup: ()=>{
                 this.mouse.externalmouseup();
                 // check if rune is in trash
+                if(!this.currentPosition) {
+                    this.currentRune=null;
+                    this.c.style.cursor = "default";
+                    return;
+                };
                 const isInTrash  = (this.currentPosition && this.currentPosition[0]==-1 && this.currentPosition[1]==-1);
                 if(this.savedPosition) {
                     // set original position
@@ -152,11 +157,13 @@ class Board {
                 path.lineTo(points[i].x, points[i].y);
             }
             path.closePath();
-            if(ctx.isPointInPath(path, this.mouse.x,this.mouse.y)) {
-                this.ctx.fillStyle = "#333";
-            } else {
-                this.ctx.fillStyle = "#555";
-            }
+            // if(ctx.isPointInPath(path, this.mouse.x,this.mouse.y)) {
+            //     // this.ctx.fillStyle = "#333";
+            // } else {
+            //     this.ctx.fillStyle = "#555";
+            // }
+
+            this.ctx.fillStyle = "#555";
             this.ctx.fill(path);
             this.ctx.lineWidth = 2;
             this.ctx.strokeStyle = "black";
@@ -185,6 +192,7 @@ class Board {
         const cy = this.center.y;
         const ctx = this.ctx;
 
+        function dist(x1, y1, x2, y2) { return Math.sqrt((x2 - x1) * (x2 - x1) + (y2 - y1) * (y2 - y1)); }
         function getX(amt, i, j) {
             return cx - ((amt/2)*hexWidth+(hexWidth/2)) + ((j+1)*hexWidth); // calc x
         }
@@ -228,10 +236,30 @@ class Board {
                 // check mouse position
                 const path = drawHexagon(x,y);
                 if(!isInSlot) {
-                    if(this.ctx.isPointInPath(path, this.mouse.x,this.mouse.y)) {
+                    if(dist(x,y,this.mouse.x,this.mouse.y) < hexSize-5) {
                         this.currentPosition=[i,j];
                         isInSlot=true;
+                        // draw bounding circe
+                        const circle = new Path2D();
+                        circle.arc(x, y, hexSize-5, 0, 2 * Math.PI);
+                        this.ctx.lineWidth = 2;
+                        this.ctx.fillStyle = "#06402B";
+                        this.ctx.fill(circle);
+                        this.ctx.strokeStyle = "black";
+                        this.ctx.stroke(circle);
+
+
+                        // draw circle at mouse x and y
+                        // const circle2 = new Path2D();
+                        // circle2.arc(this.mouse.x, this.mouse.y, 5, 0, 2 * Math.PI);
+                        // this.ctx.lineWidth = 2;
+                        // this.ctx.fillStyle = "red";
+                        // this.ctx.fill(circle2);
                     }
+                    // if(this.ctx.isPointInPath(path, this.mouse.x,this.mouse.y)) {
+                    //     this.currentPosition=[i,j];
+                    //     isInSlot=true;
+                    // }
                 }
 
                 // check if slot has rune
@@ -391,9 +419,12 @@ class Board {
 
         // draw trash can
 
+
         const xSize = 20; // Size of the "X"
         const xPos = 10 + hexWidth / 2; // Center X position
         const yPos = 10 + hexHeight / 2; // Center Y position
+
+        // drawHexagon(xPos, yPos);
 
         const rect = new Path2D();
         rect.rect(10, 10, hexWidth, hexHeight);
@@ -430,18 +461,25 @@ class Board {
 
         // event listeners
 
-        this.c.addEventListener("mousemove", (e)=>{
+        this.c.addEventListener("mousemove", (e) => {
             const rect = this.c.getBoundingClientRect();
-            const x = (e.clientX - rect.left) | 0;
-            const y = (e.clientY - rect.top) | 0;
-
-            const hexSize = this.c.height/14;  // Radius of each hexagon (distance from center to any vertex)
-            const hexWidth = Math.sqrt(3) * hexSize;  // Width of the hexagon (horizontal distance between two points)
-            const hexHeight = hexSize*1.5;
-            
-            this.mouse.x=x - hexWidth/4;
-            this.mouse.y=y - hexHeight/4;
+            const scaleX = this.c.width / rect.width;   // Scale factor for X
+            const scaleY = this.c.height / rect.height; // Scale factor for Y
+        
+            this.mouse.x = (e.clientX - rect.left) * scaleX;
+            this.mouse.y = (e.clientY - rect.top) * scaleY;
         });
+        
+        this.c.addEventListener("touchmove", (e) => {
+            const rect = this.c.getBoundingClientRect();
+            const scaleX = this.c.width / rect.width;
+            const scaleY = this.c.height / rect.height;
+        
+            const touch = e.touches[0];  // Get first touch
+            this.mouse.x = (touch.clientX - rect.left) * scaleX;
+            this.mouse.y = (touch.clientY - rect.top) * scaleY;
+        });
+        
         this.c.addEventListener("mousedown", (e)=>{
             this.mouse.down=true;
             this.mouse.onmousedown();

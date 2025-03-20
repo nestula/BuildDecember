@@ -86,6 +86,10 @@ img {
     background-color: var(--secondary);
 }
 
+#board {
+    border: 2px solid white;
+}
+
 /* More Rune Info */
 #runeIcon {
     width: 50%;
