@@ -87,7 +87,7 @@ img {
 }
 
 #board {
-    border: 2px solid white;
+    border: 2px solid var(--secondary);
 }
 
 /* More Rune Info */

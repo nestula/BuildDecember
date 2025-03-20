@@ -2,6 +2,8 @@ import SearchRune from "../../resources/modules/search.js";
 import Board from "../../resources/modules/Board.js";
 import RuneInfo from "../../resources/modules/RuneInfo.js";
 
+import Packer from "../../resources/modules/Packer.js";
+
 if(!window.cached_images) {
     window.cached_images = {};
 }
@@ -183,6 +185,15 @@ document.getElementById("loadStorage").addEventListener("click", () => {
     };
     board.table = JSON.parse(data);
     subRoute("boardRoute");
+})
+
+// compact saving 
+document.getElementById("saveCompact").addEventListener("click", () => {
+    const table = board.table;
+    const compactedData = Packer.compact({
+        table
+    })
+    console.log(compactedData);
 })
 
 document.getElementById("clearStorage").addEventListener("click", () => {
