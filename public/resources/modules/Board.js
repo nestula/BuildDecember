@@ -61,12 +61,16 @@ class Board {
             },
             onmouseup: ()=>{
                 this.mouse.externalmouseup();
+                // check if rune is in trash
+                const isInTrash  = (this.currentPosition[0]==-1 && this.currentPosition[1]==-1);
                 if(this.savedPosition) {
+                    // set original position
                     this.table[this.savedPosition[0]][this.savedPosition[1]]=null;
                     this.savedPosition = null;
                     this.c.style.cursor = "default";
                 }
-                if(this.currentPosition && this.currentRune) {
+                // set new condition
+                if(!isInTrash && this.currentPosition && this.currentRune) {
                     this.table[this.currentPosition[0]][this.currentPosition[1]]=this.currentRune;
                     this.currentRune=null;
                 }
@@ -384,6 +388,36 @@ class Board {
                 }
             }
         }
+
+        // draw trash can
+
+        const xSize = 20; // Size of the "X"
+        const xPos = 10 + hexWidth / 2; // Center X position
+        const yPos = 10 + hexHeight / 2; // Center Y position
+
+        const rect = new Path2D();
+        rect.rect(10, 10, hexWidth, hexHeight);
+        ctx.fillStyle = "darkred";
+        ctx.fill(rect);
+        ctx.lineWidth = 2;
+        ctx.strokeStyle = "black";
+        ctx.stroke(rect);
+
+        // Draw "X"
+        ctx.beginPath();
+        ctx.moveTo(xPos - xSize / 2, yPos - xSize / 2);
+        ctx.lineTo(xPos + xSize / 2, yPos + xSize / 2);
+        ctx.moveTo(xPos + xSize / 2, yPos - xSize / 2);
+        ctx.lineTo(xPos - xSize / 2, yPos + xSize / 2);
+        ctx.strokeStyle = "white";
+        ctx.lineWidth = 3;
+        ctx.stroke();
+
+        // Check if mouse is inside
+        if (ctx.isPointInPath(rect, this.mouse.x, this.mouse.y)) {
+            this.currentPosition = [-1, -1];
+        }
+
     }
     
 
