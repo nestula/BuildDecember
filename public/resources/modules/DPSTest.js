@@ -6,25 +6,48 @@ function DPSTest(data={}) {
     // seperate data
     const table = data.table;
 
+    /*
+        Formula:
+            (DMG+ * DMG%) * Skill Multiplier% * (Amp1% * Amp2% * Amp3%...)
+    */
+
     // add stats from linking runes only to skill rune here
     const rune = {
-        name: "",
-        tags: ["Attack", "Strike", "Melee", "Physical"],
+        name: "Quick Slash",
+        tags: ["Attack", "Strike", "Melee", "Physical", "Shadow", "Weapon Range"],
         stats: {
-            "Physical DMG": 30
+            "Physical DMG %": 250,
+            "Physical DMG": 80
         }
     }
+
+    stats["Physical DMG"] += rune.stats["Physical DMG"];
 
     let finalDPS = 0;
 
     let runeDMG = 0;
     runeDMG += stats["Physical DMG"]+stats["Attack DMG"]; // DMG +
     runeDMG *= 1+(stats["Attack DMG %"]+stats["Physical DMG %"])/100; // DMG %
-    runeDMG *= 1+(rune.stats["Physical DMG"])/100; // Skill Multiplier
+    // skill multiplier
+    runeDMG *= 1+(rune.stats["Physical DMG %"])/100; // Skill Multiplier
     // amps
     // runeDMG = runeDMG * amp% * amp% * amp%
  
     finalDPS = runeDMG;
+
+    // implement resistances
+    // const dummyLevel = 2;
+    // const dummy = {
+    //     name: "Dummy",
+    //     stats: {
+    //         resistances: 
+    //     }
+    // }
+
+    // Speed = weapon speed * attack/cast speed % * (amp1% * amp2% * amp3%...)
+    // critRate = weapon crit rate * critical rate %
+    // critchance = critRate / (1+dummyLevel*0.04)
+    // runeDMG *= (100+critDMG%)/100; // if crit
 
     return finalDPS;
 }

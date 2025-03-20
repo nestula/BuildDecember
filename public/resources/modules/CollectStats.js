@@ -7,7 +7,7 @@ function CollectStats(data={}) {
         weapon: {
             name: "Sword",
             stats: {
-                "Attack DMG": 25,
+                "Attack DMG": 17,
             }
         }
     }
