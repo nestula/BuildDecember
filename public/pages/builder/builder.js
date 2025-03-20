@@ -160,18 +160,22 @@ document.getElementById("clearLoad").addEventListener("click", () => {
 
 document.getElementById("saveStorage").addEventListener("click", () => {
     const data = JSON.stringify(board.table);
-    localStorage.setItem("runeBoard", data);
+    localStorage.setItem("buildData", data);
 })
 
-document.getElementById("loadStorage").addEventListener("click", () => {
-    const data = localStorage.getItem("runeBoard");
+function loadLocalStorage() {
+    const data = localStorage.getItem("buildData");
     if(!data) {
         alert("No data found in storage (Save localStorage first)");
         return;
     };
     board.table = JSON.parse(data);
     subRoute("boardRoute");
-})
+}
+document.getElementById("loadStorage").addEventListener("click", loadLocalStorage);
+if(localStorage.getItem("buildData")) {
+    loadLocalStorage();
+}
 
 // compact saving 
 document.getElementById("saveCompact").addEventListener("click", () => {
@@ -184,7 +188,7 @@ document.getElementById("saveCompact").addEventListener("click", () => {
 
 document.getElementById("clearStorage").addEventListener("click", () => {
     if(!confirm("Are you sure you want to clear the storage?")) return;
-    localStorage.setItem("runeBoard", [
+    localStorage.setItem("buildData", [
         new Array(5),
         new Array(6),
         new Array(7),
@@ -194,3 +198,12 @@ document.getElementById("clearStorage").addEventListener("click", () => {
         new Array(5)
     ]);
 })
+
+window.addEventListener('beforeunload', function(event) {
+    // The preventDefault() method cancels the event if it is cancelable, meaning that the default action that belongs to the event will not occur.
+    event.preventDefault();
+    // Included for legacy compatibility. Will be ignored by modern browsers.
+    event.returnValue = '';
+    // Customize the confirmation message (Optional)
+    return 'Are you sure you want to leave this page? You may want to save to localStorage before.';
+});
