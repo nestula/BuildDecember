@@ -122,3 +122,40 @@ body {
 ::-webkit-scrollbar-thumb:hover {
     background-color: var(--scrollbar-thumb-hover-bg);
 }
+
+
+/* elements */
+
+button {
+    width: 50%;
+    height: 100%;
+    background-color: var(--item-background);
+    border: 3px solid var(--secondary);
+    color: var(--text-color);
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+    padding: .5rem;
+    transition: background-color 0.3s ease, border 0.3s ease;
+}
+
+button:hover {
+    background-color: var(--secondary);
+    border: 3px solid var(--item-background)
+}
+
+input {
+    background-color: var(--item-background);
+    border: 3px solid var(--secondary);
+    color: var(--text-color);
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: .5rem;
+    outline: none;
+    transition: background-color 0.3s ease, border 0.3s ease;
+}
+
+input:focus {
+    background-color: var(--secondary);
+    border: 3px solid var(--item-background)
+}

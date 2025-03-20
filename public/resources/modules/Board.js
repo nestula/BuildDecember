@@ -236,12 +236,13 @@ class Board {
                 // check mouse position
                 const path = drawHexagon(x,y);
                 if(!isInSlot) {
-                    if(dist(x,y,this.mouse.x,this.mouse.y) < hexSize-5) {
+                    const inset = 5;
+                    if(dist(x,y,this.mouse.x,this.mouse.y) < hexSize-inset) {
                         this.currentPosition=[i,j];
                         isInSlot=true;
                         // draw bounding circe
                         const circle = new Path2D();
-                        circle.arc(x, y, hexSize-5, 0, 2 * Math.PI);
+                        circle.arc(x, y, hexSize-inset, 0, 2 * Math.PI);
                         this.ctx.lineWidth = 2;
                         this.ctx.fillStyle = "#06402B";
                         this.ctx.fill(circle);
@@ -493,6 +494,27 @@ class Board {
         // start ticks
 
         this._tick();
+    }
+    clear() {
+        this.table = [
+            new Array(5),
+            new Array(6),
+            new Array(7),
+            new Array(8),
+            new Array(7),
+            new Array(6),
+            new Array(5)
+        ];
+        this.calculatedTable = [
+            new Array(5),
+            new Array(6),
+            new Array(7),
+            new Array(8),
+            new Array(7),
+            new Array(6),
+            new Array(5)
+        ];
+        this._draw();
     }
 }
 

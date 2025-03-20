@@ -12,6 +12,8 @@ if(!window.cached_images) {
 const boardParent = document.getElementById("board").parentElement;
 const board = new Board(document.getElementById("board"), {width:500, height:500});
 
+document.getElementById("clearBoard").addEventListener("click", () => board.clear());
+
 const status = {
    selectedRune: null 
 }
@@ -119,6 +121,8 @@ document.getElementById("runeSearch").addEventListener("input", loadRuneData);
 
 
 
+
+
 // copy and share
 
 function copy(str) {
@@ -199,11 +203,11 @@ document.getElementById("clearStorage").addEventListener("click", () => {
     ]);
 })
 
-window.addEventListener('beforeunload', function(event) {
-    // The preventDefault() method cancels the event if it is cancelable, meaning that the default action that belongs to the event will not occur.
-    event.preventDefault();
-    // Included for legacy compatibility. Will be ignored by modern browsers.
-    event.returnValue = '';
-    // Customize the confirmation message (Optional)
-    return 'Are you sure you want to leave this page? You may want to save to localStorage before.';
-});
+// window.addEventListener('beforeunload', function(event) {
+//     // The preventDefault() method cancels the event if it is cancelable, meaning that the default action that belongs to the event will not occur.
+//     event.preventDefault();
+//     // Included for legacy compatibility. Will be ignored by modern browsers.
+//     event.returnValue = '';
+//     // Customize the confirmation message (Optional)
+//     return 'Are you sure you want to leave this page? You may want to save to localStorage before.';
+// });

@@ -22,6 +22,5 @@ document.getElementById("statsRoute").addEventListener("click", () => subRoute("
 document.getElementById("boardRoute").addEventListener("click", () => subRoute("boardRoute"));
 document.getElementById("zodiacRoute").addEventListener("click", () => subRoute("zodiacRoute"));
 document.getElementById("gearRoute").addEventListener("click", () => subRoute("gearRoute"));
-document.getElementById("shareRoute").addEventListener("click", () => subRoute("shareRoute"));
 
 export default subRoute;
