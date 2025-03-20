@@ -211,3 +211,15 @@ document.getElementById("clearStorage").addEventListener("click", () => {
 //     // Customize the confirmation message (Optional)
 //     return 'Are you sure you want to leave this page? You may want to save to localStorage before.';
 // });
+
+
+// DPS test
+import DPSTest from "../../resources/modules/DPSTest.js";
+setTimeout(() => {
+
+    const DPSdata = {
+        table: board.table
+    }
+    console.log(DPSTest(DPSdata));
+
+},1000)
