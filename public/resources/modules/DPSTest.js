@@ -45,6 +45,7 @@ function DPSTest(data={}) {
     // }
 
     // Speed = weapon speed * attack/cast speed % * (amp1% * amp2% * amp3%...)
+    // speed caps at 5.0
     // critRate = weapon crit rate * critical rate %
     // critchance = critRate / (1+dummyLevel*0.04)
     // runeDMG *= (100+critDMG%)/100; // if crit
