@@ -53,7 +53,7 @@ class Board {
             y:0,
             down: false,
             onmousedown: ()=>{
-                if(!this.currentRune && this.currentPosition) {
+                if(!this.currentRune && this.currentPosition && this.currentPosition[0]!=-1 && this.currentPosition[1]!=-1) {
                     this.currentRune = this.table[this.currentPosition[0]][this.currentPosition[1]];
                     this.savedPosition = this.currentPosition;
                     this.c.style.cursor = "grabbing";

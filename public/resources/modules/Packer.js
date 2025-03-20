@@ -17,11 +17,12 @@ const Packer = Object.freeze({
 
         // order: runes
 
-        console.log("unpacked: ", Packer.unpack(compactedData))
-
         return compactedData;
     },
     unpack: (str) => {
+        const unpackedData = {
+            table: []
+        }
         const args = str.split("#");
         // table
         let table = [
@@ -51,10 +52,10 @@ const Packer = Object.freeze({
                 break;
             }
         }
-
+        unpackedData.table = table;
         
         
-        return table;
+        return unpackedData;
     }
 });
 

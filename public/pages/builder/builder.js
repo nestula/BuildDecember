@@ -3,6 +3,7 @@ import Board from "../../resources/modules/Board.js";
 import RuneInfo from "../../resources/modules/RuneInfo.js";
 
 import Packer from "../../resources/modules/Packer.js";
+import subRoute from "./subRoute.js";
 
 if(!window.cached_images) {
     window.cached_images = {};
@@ -118,44 +119,29 @@ document.getElementById("runeSearch").addEventListener("input", loadRuneData);
 
 
 
-function subRoute(page) {
-    const sections = document.getElementById("activeSection");
-    const subSections = sections.children;
-    
-    for(const section of subSections) {
-        section.style.display = "none";
-    }
-    const subRouteLookup = {
-        "LoadShareRoute": document.getElementById("loadShareSection"),
-        "statsRoute": document.getElementById("statsSection"),
-        "boardRoute": document.getElementById("boardSection"),
-        "zodiacRoute": document.getElementById("zodiacSection"),
-        "gearRoute": document.getElementById("gearSection"),
-        "shareRoute": document.getElementById("shareSection"),
-    }
-    if(subRouteLookup[page]) {
-        subRouteLookup[page].style.display = "flex";
-    }
-}
-document.getElementById("LoadShareRoute").addEventListener("click", () => subRoute("LoadShareRoute"));
-document.getElementById("statsRoute").addEventListener("click", () => subRoute("statsRoute"));
-document.getElementById("boardRoute").addEventListener("click", () => subRoute("boardRoute"));
-document.getElementById("zodiacRoute").addEventListener("click", () => subRoute("zodiacRoute"));
-document.getElementById("gearRoute").addEventListener("click", () => subRoute("gearRoute"));
-document.getElementById("shareRoute").addEventListener("click", () => subRoute("shareRoute"));
-
-
 // copy and share
 
-
+function copy(str) {
+    navigator.clipboard.writeText(str);
+    alert("Copied to clipboard!");
+}
 function copyJSON() {
-    const data = JSON.stringify(board.table);
-    navigator.clipboard.writeText(data);
-    alert("JSON copied to clipboard!");
+    const data = JSON.stringify({
+        table: board.table
+    })
+    copy(data);
 }
 function loadJSON() {
     const data = document.getElementById("loadBox").value;
-    board.table = JSON.parse(data);
+    if(data) {
+        if(data.startsWith("#")) {
+            const info = Packer.unpack(data);
+            board.table = info.table;
+        } else {
+            const info = JSON.parse(data);
+            board.table = info.table;
+        }
+    }
     subRoute("boardRoute");
 }
 
@@ -193,7 +179,7 @@ document.getElementById("saveCompact").addEventListener("click", () => {
     const compactedData = Packer.compact({
         table
     })
-    console.log(compactedData);
+    copy(compactedData);
 })
 
 document.getElementById("clearStorage").addEventListener("click", () => {
