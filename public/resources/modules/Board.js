@@ -39,10 +39,10 @@ class Board {
             new Array(6),
             new Array(5),
         ]
-        this.table[2][2] = "Ogre Arrow";
-        this.table[2][1] = "Convert Physical Damage";
-        this.table[2][3] = "Additional Physical DMG";
-        this.table[3][3] = "Extract Poison Energy";
+        // this.table[2][2] = "Ogre Arrow";
+        // this.table[2][1] = "Convert Physical Damage";
+        // this.table[2][3] = "Additional Physical DMG";
+        // this.table[3][3] = "Extract Poison Energy";
 
         this.currentPosition = null;
         this.savedPosition = null;

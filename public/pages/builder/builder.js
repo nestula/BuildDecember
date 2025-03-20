@@ -123,3 +123,59 @@ document.getElementById("boardRoute").addEventListener("click", () => subRoute("
 document.getElementById("zodiacRoute").addEventListener("click", () => subRoute("zodiacRoute"));
 document.getElementById("gearRoute").addEventListener("click", () => subRoute("gearRoute"));
 document.getElementById("shareRoute").addEventListener("click", () => subRoute("shareRoute"));
+
+
+// copy and share
+
+
+function copyJSON() {
+    const data = JSON.stringify(board.table);
+    navigator.clipboard.writeText(data);
+    alert("JSON copied to clipboard!");
+}
+function loadJSON() {
+    const data = document.getElementById("loadBox").value;
+    board.table = JSON.parse(data);
+    subRoute("boardRoute");
+}
+
+document.getElementById("copyJSON").addEventListener("click", () => {
+    copyJSON();
+}) 
+
+document.getElementById("loadButton").addEventListener("click", () => {
+    loadJSON();
+})
+document.getElementById("clearLoad").addEventListener("click", () => {
+    document.getElementById("loadBox").value = "";
+})
+
+// local saving
+
+document.getElementById("saveStorage").addEventListener("click", () => {
+    const data = JSON.stringify(board.table);
+    localStorage.setItem("runeBoard", data);
+})
+
+document.getElementById("loadStorage").addEventListener("click", () => {
+    const data = localStorage.getItem("runeBoard");
+    if(!data) {
+        alert("No data found in storage (Save localStorage first)");
+        return;
+    };
+    board.table = JSON.parse(data);
+    subRoute("boardRoute");
+})
+
+document.getElementById("clearStorage").addEventListener("click", () => {
+    if(!confirm("Are you sure you want to clear the storage?")) return;
+    localStorage.setItem("runeBoard", [
+        new Array(5),
+        new Array(6),
+        new Array(7),
+        new Array(8),
+        new Array(7),
+        new Array(6),
+        new Array(5)
+    ]);
+})

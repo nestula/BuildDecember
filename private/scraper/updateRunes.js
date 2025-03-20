@@ -176,6 +176,9 @@ async function updateRunes() {
                         if(typeText.includes("Can be linked with" || typeText.includes("Cannot be linked with"))) {
                             type="link";
                         }
+                        if(runes[index].title.toLowerCase().includes("activation")) {
+                            type="link";
+                        }
                         runes[index].type = type;
     
                         // get conditions
@@ -250,6 +253,6 @@ async function updateRunes() {
     }
 }
 
-// updateRunes();
+updateRunes();
 
 module.exports = updateRunes;

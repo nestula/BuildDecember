@@ -3534,7 +3534,8 @@
     ],
     "description": "Must link an Activation (Attack, Strike) Skill and a Target (Spell) Skill in the arrow's direction. Target Skill cannot be linked if any of the Attack, Channeling, Totem, Sentry, Minion, Movement, Toggle, Trap tags exist. Target Skill must be registered in a Skill slot to activate. Rune cannot be awakening ",
     "mainStat": "Strength",
-    "type": "skill",
+    "type": "link",
+    "conditions": {},
     "howToGet": [
       "Drop",
       "Shop"
@@ -4113,7 +4114,8 @@
     ],
     "description": "Must link a Target Shout, Attack Enhance, Defense Enhance Skill in the arrow's direction. Target Skill cannot be linked if any of the Channeling, Totem, Sentry, Minion, Movement, Toggle, Trap tags exist. Target Skill must be registered in a Skill slot to activate. Rune cannot be awakening ",
     "mainStat": "Strength",
-    "type": "skill",
+    "type": "link",
+    "conditions": {},
     "howToGet": [
       "Synthesis"
     ]
@@ -4151,7 +4153,8 @@
     ],
     "description": "Must link a Target Shout, Attack Enhance, Defense Enhance Skill in the arrow's direction. Target Skill cannot be linked if any of the Channeling, Totem, Sentry, Minion, Movement, Toggle, Trap tags exist. Target Skill must be registered in a Skill slot to activate. Rune cannot be awakening ",
     "mainStat": "Strength",
-    "type": "skill",
+    "type": "link",
+    "conditions": {},
     "howToGet": [
       "Synthesis"
     ]
@@ -5663,7 +5666,8 @@
     ],
     "description": "Must link an Activation (Strike) Skill and a Target (Spell) Skill in the arrow's direction. Target Skill cannot be linked if any of the Attack, Channeling, Totem, Sentry, Minion, Movement, Toggle, Trap tags exist. Target Skill must be registered in a Skill slot to activate. Rune cannot be awakening ",
     "mainStat": "Agility",
-    "type": "skill",
+    "type": "link",
+    "conditions": {},
     "howToGet": [
       "Synthesis"
     ]
@@ -6487,7 +6491,8 @@
     ],
     "description": "Must link an Activation (Spell, Strike) Skill and a Target (Spell) Skill in the arrow's direction. Target Skill cannot be linked if any of the Attack, Channeling, Totem, Sentry, Minion, Movement, Toggle, Trap tags exist. Target Skill must be registered in a Skill slot to activate. Rune cannot be awakening ",
     "mainStat": "Intellect",
-    "type": "skill",
+    "type": "link",
+    "conditions": {},
     "howToGet": [
       "Drop",
       "Shop"
@@ -6502,7 +6507,8 @@
     ],
     "description": "Must link an Activation (Channeling) Skill and a Target (Spell) Skill in the arrow's direction. Target Skill cannot be linked if any of the Attack, Channeling, Totem, Sentry, Minion, Movement, Toggle, Trap tags exist. Target Skill must be registered in a Skill slot to activate. Rune cannot be awakening ",
     "mainStat": "Intellect",
-    "type": "skill",
+    "type": "link",
+    "conditions": {},
     "howToGet": [
       "Drop",
       "Shop"
@@ -7241,7 +7247,8 @@
     ],
     "description": "Must link an Activation (Movement) Skill and a Target (Shout, Attack Enhance, Defense Enhance) Skill in the arrow's direction. Target Skill cannot be linked if any of the Channeling, Totem, Sentry, Minion, Toggle tags exist. Target Skill must be registered in a Skill slot to activate. Rune cannot be awakening ",
     "mainStat": "Intellect",
-    "type": "skill",
+    "type": "link",
+    "conditions": {},
     "howToGet": [
       "Synthesis"
     ]
@@ -7512,7 +7519,8 @@
     ],
     "description": "Must link an Activation (Strike) Skill and a Target (Spell) Skill in the arrow's direction. Target Skill cannot be linked if any of the Attack, Channeling, Totem, Sentry, Minion, Movement, Toggle, Shout, Attack Enhance, Defense Enhance, Trap tags exist. Target Skill must be registered in a Skill slot to activate. Rune cannot be awakening ",
     "mainStat": "Intellect",
-    "type": "skill",
+    "type": "link",
+    "conditions": {},
     "howToGet": [
       "Synthesis"
     ]
@@ -7527,7 +7535,8 @@
     ],
     "description": "Must link an Activation (Enhance) Skill and a Target (Totem) Skill in the arrow's direction. Target Skill cannot be linked if any of the Channeling, Sentry, Minion, Movement, Toggle tags exist. Target Skill must be registered in a Skill slot to activate. Rune cannot be awakening ",
     "mainStat": "Intellect",
-    "type": "skill",
+    "type": "link",
+    "conditions": {},
     "howToGet": [
       "Guild"
     ]
