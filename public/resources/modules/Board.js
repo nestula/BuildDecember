@@ -62,7 +62,7 @@ class Board {
             onmouseup: ()=>{
                 this.mouse.externalmouseup();
                 // check if rune is in trash
-                const isInTrash  = (this.currentPosition[0]==-1 && this.currentPosition[1]==-1);
+                const isInTrash  = (this.currentPosition && this.currentPosition[0]==-1 && this.currentPosition[1]==-1);
                 if(this.savedPosition) {
                     // set original position
                     this.table[this.savedPosition[0]][this.savedPosition[1]]=null;
@@ -72,8 +72,8 @@ class Board {
                 // set new condition
                 if(!isInTrash && this.currentPosition && this.currentRune) {
                     this.table[this.currentPosition[0]][this.currentPosition[1]]=this.currentRune;
-                    this.currentRune=null;
-                }
+                };
+                this.currentRune=null;
             },
             externalmouseup: ()=>{},
             onclick: ()=>{}

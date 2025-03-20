@@ -231,6 +231,19 @@ async function updateRunes() {
                     // Optionally, store the cleaned HTML
                     // runes[index].html = content.innerHTML;
 
+
+                    /// OVERRIDES ///
+                    if(runes[index].title === "Use Count") {
+                        runes[index].conditions.any = [
+                            "Attack",
+                            "Defence",
+                            "Magic",
+                            "Spell",
+                            "Duration",
+                            "Movement"          
+                        ]
+                    }
+
                     console.log(`${index + 1} / ${subPageLinks.length} - Processing ${runes[index].title}...`);
         
                 } else {
@@ -253,6 +266,6 @@ async function updateRunes() {
     }
 }
 
-updateRunes();
+// updateRunes();
 
 module.exports = updateRunes;

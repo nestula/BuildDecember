@@ -6237,7 +6237,12 @@
     "type": "link",
     "conditions": {
       "any": [
-        "Use Count Skills"
+          "Attack",
+          "Defence",
+          "Magic",
+          "Spell",
+          "Duration",
+          "Movement"          
       ]
     },
     "howToGet": [

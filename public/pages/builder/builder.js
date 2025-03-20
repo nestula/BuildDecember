@@ -2,6 +2,10 @@ import SearchRune from "../../resources/modules/search.js";
 import Board from "../../resources/modules/Board.js";
 import RuneInfo from "../../resources/modules/RuneInfo.js";
 
+if(!window.cached_images) {
+    window.cached_images = {};
+}
+
 const boardParent = document.getElementById("board").parentElement;
 const board = new Board(document.getElementById("board"), {width:500, height:500});
 
@@ -27,6 +31,12 @@ function loadRuneData() {
         const icon = document.createElement("img");
         icon.src = `../../resources/icons/${rune.icon}`;
         runeItem.appendChild(icon);
+
+        icon.onload = () => {
+            if(!window.cached_images[rune.title]) {
+                window.cached_images[rune.title] = icon;
+            }
+        }
 
         // name
         const name = document.createElement("span");
