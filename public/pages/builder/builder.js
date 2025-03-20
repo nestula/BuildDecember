@@ -28,15 +28,22 @@ function loadRuneData() {
         runeItem.style.userSelect = "none";
         runeItem.classList.add("runeItem");
 
-        const icon = document.createElement("img");
-        icon.src = `../../resources/icons/${rune.icon}`;
-        runeItem.appendChild(icon);
-
-        icon.onload = () => {
-            if(!window.cached_images[rune.title]) {
-                window.cached_images[rune.title] = icon;
-            }
+        
+        if(window.cached_images[rune.title]) {
+            const icon = window.cached_images[rune.title];
+            runeItem.appendChild(icon);
+        } else {
+            const icon = document.createElement("img");
+            icon.src = `../../resources/icons/${rune.icon}`;
+            runeItem.appendChild(icon);
+            window.cached_images[rune.title] = icon;
         }
+
+        // icon.onload = () => {
+        //     if(!window.cached_images[rune.title]) {
+        //         window.cached_images[rune.title] = icon;
+        //     }
+        // }
 
         // name
         const name = document.createElement("span");
@@ -88,6 +95,7 @@ function showRuneInfo(name) {
 
     const img = document.getElementById("runeIcon");
     img.src = `../../resources/icons/${rune.icon}`;
+    // TODO make cached images for this
 
     const runeName = document.getElementById("runeName");
     runeName.textContent = rune.title;
