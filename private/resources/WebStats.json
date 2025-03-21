@@ -1,3 +1,7 @@
 {
-  "visits": 0
+  "visits": 7,
+  "uniqueVisits": 1,
+  "logged": [
+    "::1"
+  ]
 }

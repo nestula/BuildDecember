@@ -51,7 +51,14 @@ app.use((req, res, next) => {
       console.log("Error reading file:", err);
     } else {
       const webStats = JSON.parse(data);
+      // visits
       webStats.visits += 1;
+      // unique
+      if(!webStats.logged.includes(req.ip)) {
+        webStats.uniqueVisits += 1;
+        webStats.logged.push(req.ip);
+      }
+      
       fs.writeFile(webStatsPath, JSON.stringify(webStats, null, 2), "utf8", (err) => {
         if (err) {
           console.log("Error writing file:", err);
@@ -64,7 +71,7 @@ app.use((req, res, next) => {
 });
 
 app.get("/updateMetrics", (req, res) => {
-  console.log("Visit")
+  // console.log("Visit")
 })
 
 app.get("/getJSON", (req, res) => {
