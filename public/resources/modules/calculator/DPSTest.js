@@ -2,7 +2,6 @@ import CollectStats from "./CollectStats.js";
 
 function DPSTest(data={}) {
     const stats = CollectStats(data);
-    console.log(stats);
     // seperate data
     const table = data.table;
 
@@ -85,7 +84,17 @@ function DPSTest(data={}) {
     // critchance = critRate / (1+dummyLevel*0.04)
     // tempRuneDMG *= (100+critDMG%)/100; // if crit
 
-    return finalDPS;
+
+    const formattedData = {
+        finalDPS: finalDPS | 0,
+        stats: stats,
+        // runeDPS -> per second
+        // runeDMG -> per hit
+        // EHP
+        // EMana / mana
+    }
+
+    return formattedData;
 }
 
 export default DPSTest;

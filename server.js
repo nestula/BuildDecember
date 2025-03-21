@@ -9,7 +9,7 @@ const favicon = require("serve-favicon");
 
 
 const app = express();
-const PORT = process.env.PORT || 3333; // Use a different port if 3000 is in use
+const PORT = process.env.PORT || 3000; // Use a different port if 3000 is in use -> 3333
 
 // Serve static files from 'public' folder
 app.use(express.static("public"));

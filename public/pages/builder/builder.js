@@ -11,6 +11,7 @@ if(!window.cached_images) {
 
 const boardParent = document.getElementById("board").parentElement;
 const board = new Board(document.getElementById("board"), {width:500, height:500});
+window.board = board;
 
 document.getElementById("clearBoard").addEventListener("click", () => board.clear());
 
@@ -214,12 +215,13 @@ document.getElementById("clearStorage").addEventListener("click", () => {
 
 
 // DPS test
-import DPSTest from "../../resources/modules/DPSTest.js";
-setTimeout(() => {
+import Calculate from "../../resources/modules/calculator/Calculate.js";
 
-    const DPSdata = {
-        table: board.table
-    }
-    console.log(DPSTest(DPSdata));
+function calcDPS() {
+    const calcData = Calculate();
+    // route to stats after
+}
 
-},1000)
+document.getElementById("calculateBoardShortcut").addEventListener("click", () => {
+    calcDPS()
+})
