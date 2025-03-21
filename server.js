@@ -21,7 +21,9 @@ app.use((req, res, next) => {
     if (err) {
       console.log("Error reading file:", err);
     } else {
-      const webStats = JSON.parse(data);
+      let webStats;
+      try { webStats = JSON.parse(data); }
+      catch { return; }
       // visits
       webStats.visits += 1;
       // unique
@@ -48,11 +50,6 @@ app.use(express.static(path.join(__dirname, "public")));
 
 app.use(favicon(path.join(__dirname, "public", "favicon.png")));
 
-// API Route
-app.get("/api/hello", (req, res) => {
-  res.json({ message: "Hello from Node.js!" });
-});
-
 // Start the server
 app.listen(PORT, () => {
   console.log(`Server running at http://localhost:${PORT}`);
@@ -70,27 +67,6 @@ app.listen(PORT, () => {
 //         res.status(500).json({ error: "Failed to fetch HTML" });
 //     }
 // });
-
-
-///// middleware /////
-
-
-
-app.get("/updateMetrics", (req, res) => {
-  // console.log("Visit")
-})
-
-app.get("/getJSON", (req, res) => {
-  const filePath = path.join(__dirname, "private/resources/RuneList.json"); // Correct path
-
-  fs.readFile(filePath, "utf8", (err, data) => {
-    if (err) {
-      console.error("Error reading file:", err);
-      return res.status(500).json({ error: "Failed to read JSON file" });
-    }
-    res.json({ json: JSON.parse(data) }); // Send JSON data
-  });
-});
 
 
 
