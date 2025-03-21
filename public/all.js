@@ -11,6 +11,7 @@ function addNavBar() {
         left:0;
         user-select: none;
         z-index: 1000;
+        font-weight: bold;
     `);
 
     const pageName = document.querySelector("title").textContent;
@@ -18,6 +19,7 @@ function addNavBar() {
     const routes = {
         "Home": "../../index.html",
         "Builder": "/pages/builder/builder.html",
+        "Runes": "/pages/runes/runes.html"
     }
 
     for(const name in routes) {

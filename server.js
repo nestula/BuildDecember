@@ -70,6 +70,17 @@ app.listen(PORT, () => {
 
 
 
+// routes
+
+app.use((req, res, next) => {
+  const validPages = ["/", "/pages/home/home.html", "/pages/builder/builder.html"];
+  if (!validPages.includes(req.path)) {
+    return res.redirect("/pages/home/home.html");
+  }
+  next();
+});
+
+
 const updateRunes = require("./private/scraper/updateRunes");
 
 // updateRunes();

@@ -358,7 +358,16 @@ class Board {
                             // see if connectable
                             if(baseRune.type=="skill" && this.table[ni] && this.table[ni][nj]) {
                                 // check if rune can connect
-                                const linkRune = window.allRunes.find(rune => rune.title.toLowerCase() === this.table[ni][nj].toLowerCase());
+                                const linkRuneName = this.table[ni][nj].toLowerCase();
+                                if(linkRuneName.includes("convert")) continue; 
+
+                                const linkRune = window.allRunes.find(rune => rune.title.toLowerCase() === linkRuneName);
+                                
+                                if(linkRuneName.includes("activation")) {
+                                    drawConnection(i,j,ni,nj,"purple");
+                                    continue;
+                                }
+
                                 if(linkRune.type=="link" && RuneInfo.canLink(baseRune, linkRune)) {
                                     let color = "black";
                                     // set color
