@@ -7,7 +7,7 @@ async function getRuneJSONData() {
             return null; // Return null if data is already loaded
         }
         // Fetch the JSON data from the server
-        const response = await fetch("/resources/modules/RuneList.json");
+        const response = await fetch("/RuneList.json");
         if (!response.ok) {
             throw new Error(`HTTP error! Status: ${response.status}`);
         }
