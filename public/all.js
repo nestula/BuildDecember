@@ -68,3 +68,8 @@ function addNavBar() {
 }
 
 addNavBar();
+
+
+/// metrics ///
+
+fetch("/updateMetrics")

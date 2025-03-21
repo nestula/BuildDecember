@@ -40,6 +40,32 @@ app.listen(PORT, () => {
 // });
 
 
+///// middleware /////
+
+app.use((req, res, next) => {
+  // get ./private/resources/WebStats.json
+  const webStatsPath = path.join(__dirname, "private/resources/WebStats.json"); // Correct path
+
+  fs.readFile(webStatsPath, "utf8", (err, data) => {
+    if (err) {
+      console.log("Error reading file:", err);
+    } else {
+      const webStats = JSON.parse(data);
+      webStats.visits += 1;
+      fs.writeFile(webStatsPath, JSON.stringify(webStats, null, 2), "utf8", (err) => {
+        if (err) {
+          console.log("Error writing file:", err);
+        }
+      })
+    }
+  });
+
+  next()
+});
+
+app.get("/updateMetrics", (req, res) => {
+  console.log("Visit")
+})
 
 app.get("/getJSON", (req, res) => {
   const filePath = path.join(__dirname, "private/resources/RuneList.json"); // Correct path

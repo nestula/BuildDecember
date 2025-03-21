@@ -27,7 +27,6 @@ async function getRuneJSONData() {
 
 
 
-
 function SearchRune(searchTerm) {
     const terms = searchTerm.toLowerCase().split(/\s+/); // Split by spaces
 
