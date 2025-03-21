@@ -1,7 +1,9 @@
 {
-  "visits": 7,
-  "uniqueVisits": 1,
+  "visits": 39,
+  "uniqueVisits": 3,
   "logged": [
-    "::1"
+    "::1",
+    "::ffff:127.0.0.1",
+    "204.11.189.127"
   ]
 }
