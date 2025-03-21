@@ -7,12 +7,15 @@ async function getRuneJSONData() {
             return null; // Return null if data is already loaded
         }
         // Fetch the JSON data from the server
-        const response = await fetch("/RuneList.json");
+        // const response = await fetch("/RuneList.json");
+        // also fetch as application/json
+        const response = await fetch("/RuneList.json", { headers: { "Content-Type": "application/json" } });
         if (!response.ok) {
             throw new Error(`HTTP error! Status: ${response.status}`);
         }
         const data = await response.json();
-        allRunes = data.json; // Store runes globally
+        allRunes = data; // Store runes globally
+        
         window.allRunes= allRunes; // Make it accessible globally
         HasLoadedJSON = true; // Set the flag to true once data is loaded
 
