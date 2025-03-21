@@ -12,7 +12,7 @@ function DPSTest(data={}) {
     */
 
     // add stats from linking runes only to skill rune here
-    const rune = {
+    const tempRune= {
         name: "Quick Slash",
         tags: ["Attack", "Strike", "Melee", "Physical", "Shadow", "Weapon Range"],
         stats: {
@@ -21,19 +21,54 @@ function DPSTest(data={}) {
         }
     }
 
-    stats["Physical DMG"] += rune.stats["Physical DMG"];
-
     let finalDPS = 0;
 
-    let runeDMG = 0;
-    runeDMG += stats["Physical DMG"]+stats["Attack DMG"]; // DMG +
-    runeDMG *= 1+(stats["Attack DMG %"]+stats["Physical DMG %"])/100; // DMG %
-    // skill multiplier
-    runeDMG *= 1+(rune.stats["Physical DMG %"])/100; // Skill Multiplier
+
+    ///// CALCULATE tempRuneS /////
+
+    for(let i=0; i<table.length; i++) { // loop y
+        for(let j=0; j<table[i].length; j++) { // loop x
+            const slot = table[i][j];
+            if(slot) {
+                const rune = window.allRunes.find(r => r.title == slot);
+                if(!rune) continue;
+
+                // DMG +
+                let dmg = 0;
+                const DMG = 0; // add damage + stats from links and stats
+                dmg += DMG;
+                // DMG %
+                const x = 0 + 0 + 0; // add percents
+                const DMGPercent = 1 + (x)/100; // dmg % from all dmg & runes
+                dmg *= DMGPercent;
+                // Skill Multiplier %
+                const y = 0; // main skill mult
+                const skillMult = 1+(y)/100; // apply skill multiplier
+                dmg *= skillMult;
+                // Amp %
+                const amps = [];
+                for(const amp of amps) {
+                    dmg *= 1+amp/100;
+                }
+
+
+                finalDPS += dmg;
+            }
+        }
+    }
+
+    // stats["Physical DMG"] += tempRune.stats["Physical DMG"];
+
+
+    // let tempRuneDMG = 0;
+    // tempRuneDMG += stats["Physical DMG"]+stats["Attack DMG"]; // DMG +
+    // tempRuneDMG *= 1+(stats["Attack DMG %"]+stats["Physical DMG %"])/100; // DMG %
+    // // skill multiplier
+    // tempRuneDMG *= 1+(tempRune.stats["Physical DMG %"])/100; // Skill Multiplier
     // amps
-    // runeDMG = runeDMG * amp% * amp% * amp%
+    // tempRuneDMG = tempRuneDMG * amp% * amp% * amp%
  
-    finalDPS = runeDMG;
+    // finalDPS = tempRuneDMG;
 
     // implement resistances
     // const dummyLevel = 2;
@@ -48,7 +83,7 @@ function DPSTest(data={}) {
     // speed caps at 5.0
     // critRate = weapon crit rate * critical rate %
     // critchance = critRate / (1+dummyLevel*0.04)
-    // runeDMG *= (100+critDMG%)/100; // if crit
+    // tempRuneDMG *= (100+critDMG%)/100; // if crit
 
     return finalDPS;
 }
