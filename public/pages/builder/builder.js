@@ -10,7 +10,18 @@ if(!window.cached_images) {
 }
 
 const boardParent = document.getElementById("board").parentElement;
-const board = new Board(document.getElementById("board"), {width:500, height:500});
+const boardMultLandscape = 2.5;
+const boardMultPortrait = 1.2;
+let boardMultiplier = window.innerWidth > window.innerHeight ? boardMultLandscape : boardMultPortrait;
+const boardSize = (window.innerWidth / boardMultiplier) | 0;
+const board = new Board(document.getElementById("board"), {width: boardSize, height:boardSize});
+window.addEventListener("resize", () => {
+    boardMultiplier = window.innerWidth > window.innerHeight ? boardMultLandscape : boardMultPortrait;
+    const boardSize = (window.innerWidth / boardMultiplier) | 0;
+    board.setSize(boardSize, boardSize);
+    board._handleResize();
+});
+
 window.board = board;
 
 document.getElementById("clearBoard").addEventListener("click", () => board.clear());

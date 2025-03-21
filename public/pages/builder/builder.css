@@ -90,6 +90,7 @@ img {
     border: 2px solid var(--secondary);
 }
 
+
 /* More Rune Info */
 #runeIcon {
     width: 50%;
@@ -151,4 +152,15 @@ img {
     height: 100%;
     padding: 10px;
     box-sizing: border-box;
+}
+
+
+@media (orientation: portrait) {
+    #activeSection > div {
+        flex-direction: column;
+        overflow-x: scroll;
+    }
+    #boardLeft {
+        flex-direction: column !important;
+    }
 }

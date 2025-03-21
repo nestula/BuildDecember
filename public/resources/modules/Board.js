@@ -516,6 +516,11 @@ class Board {
         ];
         this._draw();
     }
+
+    setSize(width, height) {
+        this.c.width = width;
+        this.c.height = height;
+    }
 }
 
 export default Board;
