@@ -547,13 +547,14 @@ class Board {
             } else { // first touch
     
                 // SELECT
-                if(this.savedPosition == -999) {
+                if(this.savedPosition == -999 ) {
                     this.mouse.down = false;
                     this.table[this.currentPosition[0]][this.currentPosition[1]] = this.currentRune;
                     this.currentRune = null;
                     this.savedPosition = null;
                     return;
                 }
+
                 if(this.currentPosition) {
                     this.mouse.down=true;
 
