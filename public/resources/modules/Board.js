@@ -1,5 +1,8 @@
 import RuneInfo from "./RuneInfo.js";
 
+
+const ELEMENTS = ["poison", "Fire", "Lightning", "Cold", "Physical"]
+
 class Board {
     constructor(element, options={}) {
         if(!element) {
@@ -347,9 +350,29 @@ class Board {
                                 // Converts
                                 if(checkRune.title.includes("Convert")) {
                                     const convertType = checkRune.title.split(" ")[1];
-                                    if(newTags.includes(convertType)) continue;
-                                    newTags = newTags.filter(tag => !["Poison", "Fire", "Lightning", "Cold", "Physical"].includes(tag));
-                                    newTags.push(convertType);
+                                    if(newTags.includes(convertType)) continue; // already has this type
+
+                                    const convertTags = checkRune.tags;
+                                    let canConnect = false;
+                                    for(const tag of baseRune.tags) {
+                                        if(ELEMENTS.includes(tag) && convertTags.includes(tag)) {
+                                            canConnect = true;
+                                            break;
+                                        }
+                                    }
+                                    if(!canConnect) continue;
+
+                                    let hasTag = false;
+                                    for (let tag of ELEMENTS) {
+                                        if(newTags.includes(tag)) {
+                                            newTags = newTags.filter(t => t !== tag);
+                                            hasTag = true;
+                                        }
+                                    }
+
+                                    if(!hasTag) { continue };
+
+                                    newTags.push(convertType); // add new type
                                     drawConnection(i, j, ni, nj, "orange");
                                 }
                             }
