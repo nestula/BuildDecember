@@ -49,11 +49,12 @@ class Board {
         this.currentRune = null;
 
         this.mouse = {
+            waitingTouchAction: false,
             x:0,
             y:0,
             down: false,
             onmousedown: ()=>{
-                if(!this.currentRune && this.currentPosition && this.currentPosition[0]!=-1 && this.currentPosition[1]!=-1) {
+                if(!this.currentRune && this.currentPosition && this.currentPosition && this.currentPosition[0]!=-1 && this.currentPosition[1]!=-1) {
                     this.currentRune = this.table[this.currentPosition[0]][this.currentPosition[1]];
                     this.savedPosition = this.currentPosition;
                     this.c.style.cursor = "grabbing";
@@ -64,20 +65,26 @@ class Board {
                 // check if rune is in trash
                 if(!this.currentPosition) {
                     this.currentRune=null;
+                    this.savedPosition = null;
                     this.c.style.cursor = "default";
                     return;
                 };
                 const isInTrash  = (this.currentPosition && this.currentPosition[0]==-1 && this.currentPosition[1]==-1);
+                // set new condition
+                let tempRune = null;
+
+                if(!isInTrash && this.currentPosition && this.currentRune) {
+                    tempRune = this.table[this.currentPosition[0]][this.currentPosition[1]];
+                    this.table[this.currentPosition[0]][this.currentPosition[1]]=this.currentRune;
+                };
+                
                 if(this.savedPosition) {
                     // set original position
-                    this.table[this.savedPosition[0]][this.savedPosition[1]]=null;
+                    this.table[this.savedPosition[0]][this.savedPosition[1]]=tempRune;
                     this.savedPosition = null;
                     this.c.style.cursor = "default";
                 }
-                // set new condition
-                if(!isInTrash && this.currentPosition && this.currentRune) {
-                    this.table[this.currentPosition[0]][this.currentPosition[1]]=this.currentRune;
-                };
+                
                 this.currentRune=null;
             },
             externalmouseup: ()=>{},
@@ -489,6 +496,86 @@ class Board {
             this.mouse.x = (touch.clientX - rect.left) * scaleX;
             this.mouse.y = (touch.clientY - rect.top) * scaleY;
         });
+
+    
+        this.c.addEventListener("touchstart", (e)=>{
+            e.preventDefault(); 
+
+            const rect = this.c.getBoundingClientRect();
+            const scaleX = this.c.width / rect.width;
+            const scaleY = this.c.height / rect.height;
+        
+            const touch = e.touches[0];  // Get first touch
+            this.mouse.x = (touch.clientX - rect.left) * scaleX;
+            this.mouse.y = (touch.clientY - rect.top) * scaleY;
+
+            this._draw(); // update mouse position
+
+
+            // DELETE
+
+            if(this.currentPosition && this.currentPosition[0] === -1 && this.currentPosition[1] === -1) {
+                this.mouse.down = false;
+                if(this.currentRune) {
+                    this.table[this.savedPosition[0]][this.savedPosition[1]] = null;
+                    this.currentRune = null;
+                    this.savedPosition = null;
+                }
+                this.waitingTouchAction = false;
+                return;
+            }
+
+            // TOUCH CONTROLS
+
+            if(this.waitingTouchAction) { // second touch
+
+                this.mouse.down = false;
+                if(this.currentRune && this.savedPosition && this.currentPosition) {
+                    // set positions
+                    const tempRune = this.table[this.currentPosition[0]][this.currentPosition[1]];
+                    this.table[this.currentPosition[0]][this.currentPosition[1]] = this.currentRune;
+                    this.table[this.savedPosition[0]][this.savedPosition[1]] = tempRune;
+                } else if(this.currentRune) {
+                    console.log(this.currentRune);
+                    this.table[this.currentPosition[0]][this.currentPosition[1]] = this.currentRune;
+                    this.currentRune = null;
+                }
+    
+                this.waitingTouchAction = false;
+
+
+            } else { // first touch
+    
+                // SELECT
+                if(this.savedPosition == -999) {
+                    this.mouse.down = false;
+                    this.table[this.currentPosition[0]][this.currentPosition[1]] = this.currentRune;
+                    this.currentRune = null;
+                    this.savedPosition = null;
+                    return;
+                }
+                if(this.currentPosition) {
+                    this.mouse.down=true;
+
+
+                    this.currentRune = this.table[this.currentPosition[0]][this.currentPosition[1]];
+                    if(this.currentRune) { // make sure not empty
+                        this.savedPosition = [...this.currentPosition];
+
+                        this.waitingTouchAction = true;
+    
+                        setTimeout(() => {
+                            if(this.waitingTouchAction) {
+                                this.waitingTouchAction = false;
+                            }
+                        }, 1000);
+                    }
+                    
+                }
+
+            }
+ 
+        }, { passive: false });
         
         this.c.addEventListener("mousedown", (e)=>{
             this.mouse.down=true;

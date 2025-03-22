@@ -2769,8 +2769,7 @@
       "Poison",
       "Lightning",
       "Fire",
-      "Projectile",
-      ""
+      "Projectile"
     ],
     "description": "Summons Judgment at random to your surrounding and deals damage with your highest element Buff will reset on using any skills other than Judgment ",
     "mainStat": "Intellect",
@@ -2982,8 +2981,7 @@
       "Poison",
       "Lightning",
       "Fire",
-      "Projectile",
-      ""
+      "Projectile"
     ],
     "description": "Deal DMG with Highest Element. Amplify DMG and increase Resource Cost on hit. Buff will reset on using any skills other than Judgment. ",
     "mainStat": "Intellect",
@@ -7434,6 +7432,9 @@
     "type": "link",
     "conditions": {
       "cannot": [
+        "Movement"
+      ],
+      "any": [
         "Movement"
       ]
     }

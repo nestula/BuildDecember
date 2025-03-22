@@ -63,6 +63,7 @@ async function updateRunes() {
         for(let i = 0; i < runeElementList.length; i++) {
             runes[i] = {
                 title: runeElementList[i].querySelector('a').textContent,
+                // stats: {}
                 //url: `https://undecember.thein.ru${runeElementList[i].querySelector('a').getAttribute('href')}`
             };
         }
@@ -80,6 +81,7 @@ async function updateRunes() {
             console.log(`${index} / ${subPageLinks.length} - ${subPageUrl}`);
             
             try {
+     
                 const subPageData = await fetchPage(subPageUrl);
                 const subPageDOM = new JSDOM(subPageData);
                 const subPageDocument = subPageDOM.window.document;
@@ -110,6 +112,9 @@ async function updateRunes() {
                 // Use JSDOM to parse the HTML of the subpage
                 const subPageDOM = new JSDOM(html);
                 const content = subPageDOM.window.document.getElementById("content");
+
+                console.log(`${index + 1} / ${subPageLinks.length} - Processing ${runes[index].title}...`);
+
         
                 if (content) { // Check if content exists //
 
@@ -128,7 +133,10 @@ async function updateRunes() {
                     // get tags
                     const tags = content.querySelectorAll('[class^="Elem_card_tags_item__"]');
                     const tagList = [];
-                    tags.forEach(tag => tagList.push(tag.textContent));
+                    tags.forEach(tag => {
+                        if(tag.textContent === "") return;
+                        tagList.push(tag.textContent)
+                    });
                     runes[index].tags = tagList;
 
                     // get description
@@ -231,22 +239,33 @@ async function updateRunes() {
                     // STATS
 
                     const tiles = content.querySelectorAll('[class^="Elem_card_tiles_col_"]');
-                    for(const tile of tiles) {
+                    for(let i=0; i<tiles.length; i++) {
+                        const tile = tiles[i];
                         const tileContent = tile.textContent;
                         // level 1
-                        if(tileContent.toLowerCase().includes("rune Level 1")) {
-
+                        if(i==0) {
+                            const resource = tile.querySelector('[class^="Elem_card_resource__"]');
+                            const props = tile.querySelectorAll('[class^="Elem_card_props__"]');
+                            // title = Elem_card_props_lvl
+                            // ignore first prop 
+                            // console.log("Got: "+resource.textContent)
+                            // const stats = props.textContent;
+                            // runes[index]["stats"]["level1"] = stats;
+                            // console.log(stats)
                         }
                         // level 45
-                        if(tileContent.toLowerCase().includes("rune Level 45")) {
-                            runes[index].stats.level45 = tileContent;
-                        }
-                        // grade
-                        if(tileContent.toLowerCase().includes("grade")) {
-
+                        if(i==1) {
+                            // runes[index].stats.level45 = tileContent;
                         }
                     }
+                    const grade = content.querySelector("[class^=Elem_card_tiles_col2__]");
+                    // get grade
                     // TODO here
+
+
+                    // AWAKENINGS
+
+                    const awakenings = content.querySelector('[class^="Elem_card_awakening__"]');
                     
         
                     // Save the extracted data to the runes array
@@ -272,7 +291,6 @@ async function updateRunes() {
                         ]
                     }
 
-                    console.log(`${index + 1} / ${subPageLinks.length} - Processing ${runes[index].title}...`);
         
                 } else {
 
@@ -294,6 +312,6 @@ async function updateRunes() {
     }
 }
 
-// updateRunes();
+updateRunes();
 
 module.exports = updateRunes;

@@ -86,6 +86,16 @@ function loadRuneData() {
             const rune = runeItem.querySelector(".runeName").textContent;
             showRuneInfo(rune);
         });
+
+        runeItem.addEventListener("touchstart", (event) => {
+            board.mouse.waitingTouchAction=true;
+
+            const rune = runeItem.querySelector(".runeName").textContent;
+            status.selectedRune = rune;
+            board.currentRune = rune;
+            board.savedPosition = -999;
+        });
+
     });
     
 }
@@ -124,6 +134,7 @@ function showRuneInfo(name) {
     runeMinRarity.innerHTML = `Min. Rarity: <span style="font-style: italic">${rune.minRarity}</span>`;
 }
 board.mouse.externalmouseup = ()=>{
+    // open rune info
     if(!board.currentRune) return;
     showRuneInfo(board.currentRune);
 };
