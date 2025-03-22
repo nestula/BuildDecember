@@ -285,7 +285,7 @@ async function updateRunes() {
                         ]
                     }
                     if(runes[index].title === "Reverse Time") { 
-                        delete runes[index]["cannot"]; // remove incorrect cannot
+                        delete runes[index].conditions.cannot; // remove incorrect cannot
                         runes[index].conditions.any = [
                             "Movement"
                         ]
