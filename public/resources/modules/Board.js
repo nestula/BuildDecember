@@ -1,7 +1,7 @@
 import RuneInfo from "./RuneInfo.js";
 
 
-const ELEMENTS = ["poison", "Fire", "Lightning", "Cold", "Physical"]
+const ELEMENTS = ["Poison", "Fire", "Lightning", "Cold", "Physical"]
 
 class Board {
     constructor(element, options={}) {
