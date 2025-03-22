@@ -265,6 +265,12 @@ async function updateRunes() {
                             "Movement"          
                         ]
                     }
+                    if(runes[index].title === "Reverse Time") { 
+                        delete runes[index]["cannot"]; // remove incorrect cannot
+                        runes[index].conditions.any = [
+                            "Movement"
+                        ]
+                    }
 
                     console.log(`${index + 1} / ${subPageLinks.length} - Processing ${runes[index].title}...`);
         
