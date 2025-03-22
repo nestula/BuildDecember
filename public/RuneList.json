@@ -6237,12 +6237,12 @@
     "type": "link",
     "conditions": {
       "any": [
-          "Attack",
-          "Defence",
-          "Magic",
-          "Spell",
-          "Duration",
-          "Movement"          
+        "Attack",
+        "Defence",
+        "Magic",
+        "Spell",
+        "Duration",
+        "Movement"
       ]
     },
     "howToGet": [
@@ -7431,7 +7431,12 @@
     ],
     "description": "Cannot be linked with Skills that satisfy Movement ",
     "mainStat": "Intellect",
-    "type": "skill"
+    "type": "link",
+    "conditions": {
+      "cannot": [
+        "Movement"
+      ]
+    }
   },
   {
     "title": "Mana Outburst",

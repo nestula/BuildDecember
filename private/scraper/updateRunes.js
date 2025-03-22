@@ -172,8 +172,9 @@ async function updateRunes() {
                     if(typeElement) { // Check if typeElement exists //
                         // get type
                         const typeText = typeElement ? typeElement.textContent : "Unknown";
+                        const lowerCased = typeText.toLowerCase();
                         let type="skill";
-                        if(typeText.includes("Can be linked with" || typeText.includes("Cannot be linked with"))) {
+                        if(lowerCased.includes("can be linked") || lowerCased.includes("cannot be linked")) {
                             type="link";
                         }
                         if(runes[index].title.toLowerCase().includes("activation")) {
@@ -225,6 +226,27 @@ async function updateRunes() {
                         getMethods.forEach(getMethod => getMethodsList.push(getMethod.textContent));
                         runes[index].howToGet = getMethodsList;
                     }
+
+
+                    // STATS
+
+                    const tiles = content.querySelectorAll('[class^="Elem_card_tiles_col_"]');
+                    for(const tile of tiles) {
+                        const tileContent = tile.textContent;
+                        // level 1
+                        if(tileContent.toLowerCase().includes("rune Level 1")) {
+
+                        }
+                        // level 45
+                        if(tileContent.toLowerCase().includes("rune Level 45")) {
+                            runes[index].stats.level45 = tileContent;
+                        }
+                        // grade
+                        if(tileContent.toLowerCase().includes("grade")) {
+
+                        }
+                    }
+                    // TODO here
                     
         
                     // Save the extracted data to the runes array
@@ -260,7 +282,7 @@ async function updateRunes() {
         // Write the scraped data to a JSON file
         console.log("Writing to JSON file...");
         const jsonData = JSON.stringify(runes, null, 2);
-        fs.writeFileSync('./private/resources/RuneList.json', jsonData);
+        fs.writeFileSync('./public/RuneList.json', jsonData);
     } catch (error) {
         console.error("Error logging HTML data:", error);
     }
