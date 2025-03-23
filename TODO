@@ -19,5 +19,6 @@
 
 .ultra compact version where each rune has a UUID procedurally made thats 5 characters long 
 
+.in the board class, add a object updated every frame with calculated stats from certain runes
 
 ABSTRACT THE CONNECTION FUNCTION OMG

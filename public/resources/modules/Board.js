@@ -153,7 +153,7 @@ class Board {
         const hexHeight = hexSize*1.5;
     
         // Function to draw a single hexagon
-        const drawHexagon = (x, y) => {
+        const drawHexagon = (x, y, color) => {
             const points = [];
             for (let i = 0; i < 6; i++) {
                 const angle = (i * Math.PI) / 3 + Math.PI / 6;  // Calculate each corner of the hexagon
@@ -173,7 +173,7 @@ class Board {
             //     this.ctx.fillStyle = "#555";
             // }
 
-            this.ctx.fillStyle = "#555";
+            this.ctx.fillStyle = color || "#555";
             this.ctx.fill(path);
             this.ctx.lineWidth = 2;
             this.ctx.strokeStyle = "black";
@@ -226,7 +226,7 @@ class Board {
             const path = new Path2D();
             path.moveTo(x1,y1);
             path.lineTo(x2,y2);
-            ctx.lineWidth = 4;
+            ctx.lineWidth = 5;
             ctx.strokeStyle = color || "black";
             ctx.stroke(path);
         }
@@ -245,6 +245,13 @@ class Board {
                 x+=hexWidth;
                 // check mouse position
                 const path = drawHexagon(x,y);
+                // dull out unlockable sides / slots
+                if(j==0 || j == amt-1) {
+                    drawHexagon(x,y, "rgba(55,55,55,0.8)");
+                }
+
+                // check if mouse is in slot
+
                 if(!isInSlot) {
                     const inset = 5;
                     if(dist(x,y,this.mouse.x,this.mouse.y) < hexSize-inset) {
