@@ -7431,9 +7431,6 @@
     "mainStat": "Intellect",
     "type": "link",
     "conditions": {
-      "cannot": [
-        "Movement"
-      ],
       "any": [
         "Movement"
       ]
