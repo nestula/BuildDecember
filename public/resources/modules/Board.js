@@ -23,6 +23,7 @@ class Board {
             y: this.c.height / 2
         }
 
+        this.calculatedRunes = {};
 
         this.table=[
             new Array(5),
@@ -274,10 +275,6 @@ class Board {
                         // this.ctx.fillStyle = "red";
                         // this.ctx.fill(circle2);
                     }
-                    // if(this.ctx.isPointInPath(path, this.mouse.x,this.mouse.y)) {
-                    //     this.currentPosition=[i,j];
-                    //     isInSlot=true;
-                    // }
                 }
 
                 // check if slot has rune
@@ -288,8 +285,6 @@ class Board {
                     }
                     
 
-                } else {
-                    // this.c.style.cursor = "default";
                 }
 
             }
@@ -396,14 +391,11 @@ class Board {
                             if(baseRune.type=="skill" && this.table[ni] && this.table[ni][nj]) {
                                 // check if rune can connect
                                 const linkRuneName = this.table[ni][nj].toLowerCase();
-                                if(linkRuneName.includes("convert")) continue; 
 
                                 const linkRune = window.allRunes.find(rune => rune.title.toLowerCase() === linkRuneName);
                                 
-                                if(linkRuneName.includes("activation")) {
-                                    drawConnection(i,j,ni,nj,"purple");
-                                    continue;
-                                }
+                                const activation = linkRuneName.includes("activation");
+                                const convert = linkRuneName.includes("convert");
 
                                 if(linkRune.type=="link" && RuneInfo.canLink(baseRune, linkRune)) {
                                     let color = "black";
@@ -421,8 +413,16 @@ class Board {
                                         default:
                                             color="orange";
                                     }
-                                    drawConnection(i, j, ni, nj, color);
 
+                                    
+                                    if(!activation && !convert) {
+                                        drawConnection(i, j, ni, nj, color);
+
+                                    }
+                                }
+
+                                if(activation) {
+                                    drawConnection(i, j, ni, nj, "purple");
                                 }
                             }
                         }

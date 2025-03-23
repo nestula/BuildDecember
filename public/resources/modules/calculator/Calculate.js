@@ -2,13 +2,14 @@ import DPSTest from "./DPSTest.js";
 
 function Calculate() {
     const DPSdata = {
-        table: window.board.table
+        table: window.board.table,
+        runes: window.board.calculatedRunes
     }
 
     const data = DPSTest(DPSdata);
 
 
-    console.log(data)
+    console.log(DPSdata,data)
 
     return data;
 }
