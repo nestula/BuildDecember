@@ -623,6 +623,7 @@ class Board {
         this._tick();
     }
     clear() {
+        if(!confirm("Are you sure you want to clear the board?")) return;
         this.table = [
             new Array(5),
             new Array(6),
