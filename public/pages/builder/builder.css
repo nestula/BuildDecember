@@ -47,14 +47,14 @@ img {
    filter: brightness(0.8);
 }
 
-#LoadShareRoute {
+/* #LoadShareRoute {
     background-image: url("../../resources/images/download.webp");
-    background-size: 70%; /* Adjust size */
+    background-size: 70%;
     background-repeat: no-repeat;
     background-position: center;
-    background-color: rgba(255, 255, 255, 0.1); /* Lightens the background */
-    background-blend-mode: screen; /* Makes dark parts lighter */
-}
+    background-color: rgba(255, 255, 255, 0.1);
+    background-blend-mode: screen;
+} */
 
 
 

@@ -1,7 +1,8 @@
 {
-  "visits": 21473,
-  "uniqueVisits": 1,
+  "visits": 21494,
+  "uniqueVisits": 2,
   "logged": [
-    "::1"
+    "::1",
+    "206.21.122.109"
   ]
 }
