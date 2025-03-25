@@ -23,7 +23,9 @@ body {
     background-image: url("./resources/images/background.webp");
     background-size: cover;
     background-attachment: fixed;
+
     font-family: Arial, sans-serif;
+
     background-color: var(--background-color);
     color: var(--text-color);
     text-align: center;

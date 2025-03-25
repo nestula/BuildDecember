@@ -3,7 +3,6 @@
 
 .tutorial page, landing / home page
 
-.loose search
 
 .help for colors on build planner
     .orange -> convert
@@ -13,7 +12,6 @@
     .purple -> connect
 
 .popup to change activation rune direction
-.more stats for runes
 
 .only link once, and to hgiher level runes
 
@@ -21,4 +19,11 @@
 
 .in the board class, add a object updated every frame with calculated stats from certain runes
 
+.trash icon instead of red X
+.show clicked / selected rune
+.click and tap mechanic for desktop
+.auto saving icon
+
 ABSTRACT THE CONNECTION FUNCTION OMG
+
+.FAQ section

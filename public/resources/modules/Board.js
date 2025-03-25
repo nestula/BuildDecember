@@ -1,6 +1,11 @@
 import RuneInfo from "./RuneInfo.js";
 
 
+// const trashCanIcon = new Image();
+// trashCanIcon.src = "../images/trashcan.png";
+// let trashCanIconLoaded = false;
+// trashCanIcon.onload = () => console.log("loaded");
+
 const ELEMENTS = ["Poison", "Fire", "Lightning", "Cold", "Physical"]
 
 class Board {
@@ -466,14 +471,13 @@ class Board {
             }
         }
 
-        // draw trash can
-
+    
 
         const xSize = 20; // Size of the "X"
         const xPos = 10 + hexWidth / 2; // Center X position
         const yPos = 10 + hexHeight / 2; // Center Y position
 
-        // drawHexagon(xPos, yPos);
+        // // drawHexagon(xPos, yPos);
 
         const rect = new Path2D();
         rect.rect(10, 10, hexWidth, hexHeight);
@@ -482,6 +486,15 @@ class Board {
         ctx.lineWidth = 2;
         ctx.strokeStyle = "black";
         ctx.stroke(rect);
+
+        // draw trash can
+
+        // if(trashCanIconLoaded) {
+        //     ctx.drawImage(trashCanIcon, 10, 10, 20, 20);
+        // } else {
+        //     console.log("Trash Can Not Loaded");
+        // }
+
 
         // Draw "X"
         ctx.beginPath();

@@ -20,16 +20,13 @@ function loadJSON() {
             const info = Packer.unpack(data);
             board.table = info.table;
         } else {
-            const info = JSON.parse(data);
-            board.table = info.table;
+            alert("That is not in the right format!")
         }
     }
     subRoute("boardRoute");
 }
 
-document.getElementById("copyJSON").addEventListener("click", () => {
-    copyJSON();
-}) 
+
 
 document.getElementById("loadButton").addEventListener("click", () => {
     loadJSON();
@@ -40,10 +37,19 @@ document.getElementById("clearLoad").addEventListener("click", () => {
 
 // local saving
 
-document.getElementById("saveStorage").addEventListener("click", () => {
-    const data = JSON.stringify(board.table);
+
+function saveStorage() {
+    const data = Packer.compact({
+        table: board.table
+    })
     localStorage.setItem("buildData", data);
+}
+document.getElementById("saveStorage").addEventListener("click", () => {
+    saveStorage();
 })
+setInterval(()=>{
+    saveStorage();
+},5000)
 
 function loadLocalStorage() {
     const data = localStorage.getItem("buildData");
@@ -51,7 +57,8 @@ function loadLocalStorage() {
         alert("No data found in storage (Save localStorage first)");
         return;
     };
-    board.table = JSON.parse(data);
+    const unpackedData = Packer.unpack(data);
+    board.table = unpackedData.table;
     subRoute("boardRoute");
 }
 document.getElementById("loadStorage").addEventListener("click", loadLocalStorage);
@@ -79,7 +86,9 @@ document.getElementById("clearStorage").addEventListener("click", () => {
         new Array(6),
         new Array(5)
     ]);
-})
+});
+
+
 
 // window.addEventListener('beforeunload', function(event) {
 //     // The preventDefault() method cancels the event if it is cancelable, meaning that the default action that belongs to the event will not occur.
