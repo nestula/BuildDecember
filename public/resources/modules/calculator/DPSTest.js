@@ -25,12 +25,17 @@ function DPSTest(data={}) {
 
     ///// CALCULATE tempRuneS /////
 
+
+    const calculatedRunes = {
+
+    }
+
     for(let i=0; i<table.length; i++) { // loop y
         for(let j=0; j<table[i].length; j++) { // loop x
             const slot = table[i][j];
             if(slot) {
                 const rune = window.allRunes.find(r => r.title == slot);
-                if(!rune) continue;
+                if(!rune || rune["type"]=="link") continue;
 
                 // DMG +
                 let dmg = 0;
@@ -50,6 +55,7 @@ function DPSTest(data={}) {
                     dmg *= 1+amp/100;
                 }
 
+                calculatedRunes[rune.title] = dmg;
 
                 finalDPS += dmg;
             }
@@ -88,6 +94,7 @@ function DPSTest(data={}) {
     const formattedData = {
         finalDPS: finalDPS | 0,
         stats: stats,
+        calculatedRunes
         // runeDPS -> per second
         // runeDMG -> per hit
         // EHP

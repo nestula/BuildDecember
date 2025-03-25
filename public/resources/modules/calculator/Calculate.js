@@ -9,7 +9,7 @@ function Calculate() {
     const data = DPSTest(DPSdata);
 
 
-    console.log(DPSdata,data)
+    console.log("in",DPSdata,"out",data)
 
     return data;
 }

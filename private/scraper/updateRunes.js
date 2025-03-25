@@ -1,6 +1,6 @@
 // fs and updating json
 
-const fetchTimeout = 90;
+const fetchTimeout = 70;
 
 const fs = require("fs");
 const { JSDOM } = require("jsdom");
@@ -63,7 +63,7 @@ async function updateRunes() {
         for(let i = 0; i < runeElementList.length; i++) {
             runes[i] = {
                 title: runeElementList[i].querySelector('a').textContent,
-                // stats: {}
+                stats: {}
                 //url: `https://undecember.thein.ru${runeElementList[i].querySelector('a').getAttribute('href')}`
             };
         }
@@ -238,25 +238,48 @@ async function updateRunes() {
 
                     // STATS
 
-                    const tiles = content.querySelectorAll('[class^="Elem_card_tiles_col_"]');
+                    const tiles = content.querySelectorAll('[class^="Elem_card_tiles_col__"]');
                     for(let i=0; i<tiles.length; i++) {
                         const tile = tiles[i];
                         const tileContent = tile.textContent;
                         // level 1
+                        
+                        const resource = tile.querySelector('[class^="Elem_card_resource__"]');
+                        const props = tile.querySelector('[class^="Elem_card_props__"]')?.children;
+                        if(!props) continue;
+
+                        // add props
+                        const propList = {};
+                        
+                        for(let i=0; i<props.length; i++) {
+                            const prop = props[i];
+                            const propContent = prop.textContent;
+                            const propValue = prop.querySelector("span");
+
+                            if(propValue) { // normal stats
+                                const textNodes = propContent.replaceAll(propValue.textContent, "").trim().replaceAll("  ", " ").replace(" s", "");
+                                propList[textNodes] = propValue.textContent;
+                            } else if(
+                                propContent.includes("Physical Element") || 
+                                propContent.includes("Fire Element") || 
+                                propContent.includes("Poison Element") || 
+                                propContent.includes("Lightning Element") || 
+                                propContent.includes("Cold Element")
+                            ) { // type
+                                runes[index]["elementType"] = propContent.split(" ")[0];
+                            } else { // effect label
+                                propList[propContent] = "Effect";
+                            }
+
+                        }
+
                         if(i==0) {
-                            const resource = tile.querySelector('[class^="Elem_card_resource__"]');
-                            const props = tile.querySelectorAll('[class^="Elem_card_props__"]');
-                            // title = Elem_card_props_lvl
-                            // ignore first prop 
-                            // console.log("Got: "+resource.textContent)
-                            // const stats = props.textContent;
-                            // runes[index]["stats"]["level1"] = stats;
-                            // console.log(stats)
+                            runes[index]["stats"]["level1"] = propList;
+                        } else if(i==1) {
+                            runes[index]["stats"]["level45"] = propList
                         }
-                        // level 45
-                        if(i==1) {
-                            // runes[index].stats.level45 = tileContent;
-                        }
+
+                        
                     }
                     const grade = content.querySelector("[class^=Elem_card_tiles_col2__]");
                     // get grade
@@ -312,6 +335,6 @@ async function updateRunes() {
     }
 }
 
-// updateRunes();
+updateRunes();
 
 module.exports = updateRunes;

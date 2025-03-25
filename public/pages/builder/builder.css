@@ -118,8 +118,19 @@ img {
     gap:2%;
 }
 
-
-
+#runeStats {
+    font-size: .8rem;
+    margin-top: 2%;
+    border-top: 2px solid white;
+    padding-top: 2%;
+}
+#runeElement {
+    color: rgb(80, 98, 255);
+    font-size: 1.1rem;
+}
+.statAccent {
+    color: rgb(255, 0, 89);
+}
 
 /* sections */
 

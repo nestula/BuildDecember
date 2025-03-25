@@ -34,7 +34,7 @@ class Board {
             new Array(6),
             new Array(5),
         ],
-        this.calculatedTable=[
+        this.tableData=[
             new Array(5),
             new Array(6),
             new Array(7),
@@ -153,6 +153,14 @@ class Board {
         const hexWidth = Math.sqrt(3) * hexSize;  // Width of the hexagon (horizontal distance between two points)
         const hexHeight = hexSize*1.5;
     
+        function dist(x1, y1, x2, y2) { return Math.sqrt((x2 - x1) * (x2 - x1) + (y2 - y1) * (y2 - y1)); }
+        function getX(amt, i, j) {
+            return cx - ((amt/2)*hexWidth+(hexWidth/2)) + ((j+1)*hexWidth); // calc x
+        }
+
+        function getY(amt, i, j) {
+            return cy - ((pattern.length/2)*hexHeight-(hexHeight/2)) + (i*hexHeight); // calc y
+        }
         // Function to draw a single hexagon
         const drawHexagon = (x, y, color) => {
             const points = [];
@@ -203,14 +211,7 @@ class Board {
         const cy = this.center.y;
         const ctx = this.ctx;
 
-        function dist(x1, y1, x2, y2) { return Math.sqrt((x2 - x1) * (x2 - x1) + (y2 - y1) * (y2 - y1)); }
-        function getX(amt, i, j) {
-            return cx - ((amt/2)*hexWidth+(hexWidth/2)) + ((j+1)*hexWidth); // calc x
-        }
 
-        function getY(amt, i, j) {
-            return cy - ((pattern.length/2)*hexHeight-(hexHeight/2)) + (i*hexHeight); // calc y
-        }
 
         function drawConnection(i1, j1, i2, j2, color) {
             const amt1 = pattern[i1];
@@ -246,6 +247,7 @@ class Board {
                 x+=hexWidth;
                 // check mouse position
                 const path = drawHexagon(x,y);
+                if(!this.table[i][j]) { this.tableData[i][j] = null }
                 // dull out unlockable sides / slots
                 if(j==0 || j == amt-1) {
                     drawHexagon(x,y, "rgba(55,55,55,0.8)");
@@ -633,7 +635,7 @@ class Board {
             new Array(6),
             new Array(5)
         ];
-        this.calculatedTable = [
+        this.tableData = [
             new Array(5),
             new Array(6),
             new Array(7),
