@@ -116,6 +116,8 @@ img {
     aspect-ratio: 1/1;
 }
 
+
+
 #runeName {
     width:100%;
     display: flex;
@@ -145,6 +147,9 @@ img {
 #runeElement {
     color: rgb(80, 98, 255);
     font-size: 1.1rem;
+}
+#runeTags {
+    color: rgb(255, 64, 0);   
 }
 .statAccent {
     color: rgb(255, 0, 89);

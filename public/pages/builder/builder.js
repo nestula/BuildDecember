@@ -141,6 +141,18 @@ function showRuneInfo(name) {
         document.getElementById("runeElement").innerText = "";
     }
 
+    // tags
+
+    const runeTags = document.getElementById("runeTags");
+    runeTags.innerHTML = "";
+    if(rune.tags) {
+        rune.tags.forEach((tag, index) => {
+            runeTags.innerHTML+=`${tag}${index == rune.tags.length - 1 ? '' : ', '}`;
+        });
+    }
+
+    // stats
+
     if(rune.stats["level1"]) { // show default
         for(const stat in rune.stats["level1"]) {
             const statDiv = document.createElement("div");
