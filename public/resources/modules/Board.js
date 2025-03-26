@@ -486,6 +486,11 @@ class Board {
         if (ctx.isPointInPath(rect, this.mouse.x, this.mouse.y)) {
             // Darken the image on hover
             ctx.filter = "brightness(70%)"; 
+                
+            ctx.font = "20px Arial";
+            ctx.textBaseline = "top";
+            ctx.fillStyle = "white";
+            ctx.fillText("Drop rune inside to remove", 10+hexWidth+10, 10+hexHeight/2-10);
         } else {
             // Reset filter (normal brightness)
             ctx.filter = "brightness(100%)"; 
@@ -494,10 +499,6 @@ class Board {
         ctx.filter = "none";
 
 
-        ctx.font = "20px Arial";
-        ctx.textBaseline = "top";
-        ctx.fillStyle = "white";
-        ctx.fillText("Drop rune to remove", 10+hexWidth+10, 10);
 
         // Check if mouse is inside
         if (ctx.isPointInPath(rect, this.mouse.x, this.mouse.y)) {
