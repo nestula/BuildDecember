@@ -1,3 +1,9 @@
+const DATA = {
+    version: "0.1.5"
+}
+
+
+
 function addNavBar() {
     const navBar = document.createElement("div");
     navBar.setAttribute("style", `
@@ -70,4 +76,51 @@ function addNavBar() {
 }
 
 addNavBar();
+
+function addFooter() {
+    const footer = document.createElement("div");
+    footer.setAttribute("style", `
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #333;
+        padding: 5px;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+        left:0;
+        user-select: none;
+        z-index: 1000;
+        font-weight: bold;
+    `);
+
+    footer.innerHTML = `
+        <a href="https://discord.gg/NgKqGnrUbT" class="discord-link">Join the discord</a>
+        <h3>Version: ${DATA.version}</h3>
+    `;
+
+    document.body.appendChild(footer);
+}
+
+addFooter();
+
+function addFonts() {
+    const fonts = document.createElement('link');
+    fonts.rel = "preconnect";
+    fonts.href = "https://fonts.googleapis.com";
+    document.head.appendChild(fonts);
+
+    const fonts2 = document.createElement('link');
+    fonts2.rel = "preconnect";
+    fonts2.href = "https://fonts.gstatic.com";
+    fonts2.crossOrigin = "crossorigin";
+    document.head.appendChild(fonts2);
+
+    const fonts3 = document.createElement('link');
+    fonts3.rel = "stylesheet";
+    fonts3.href = "https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap";
+    document.head.appendChild(fonts3);
+}
+
+addFonts();
 

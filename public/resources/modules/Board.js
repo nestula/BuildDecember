@@ -1,10 +1,7 @@
 import RuneInfo from "./RuneInfo.js";
 
 
-// const trashCanIcon = new Image();
-// trashCanIcon.src = "../images/trashcan.png";
-// let trashCanIconLoaded = false;
-// trashCanIcon.onload = () => console.log("loaded");
+const trashCanIcon = document.getElementById("trashCanImage");
 
 const ELEMENTS = ["Poison", "Fire", "Lightning", "Cold", "Physical"]
 
@@ -482,29 +479,25 @@ class Board {
         const rect = new Path2D();
         rect.rect(10, 10, hexWidth, hexHeight);
         ctx.fillStyle = "darkred";
-        ctx.fill(rect);
-        ctx.lineWidth = 2;
-        ctx.strokeStyle = "black";
-        ctx.stroke(rect);
+        // ctx.fill(rect);
 
         // draw trash can
 
-        // if(trashCanIconLoaded) {
-        //     ctx.drawImage(trashCanIcon, 10, 10, 20, 20);
-        // } else {
-        //     console.log("Trash Can Not Loaded");
-        // }
+        if (ctx.isPointInPath(rect, this.mouse.x, this.mouse.y)) {
+            // Darken the image on hover
+            ctx.filter = "brightness(70%)"; 
+        } else {
+            // Reset filter (normal brightness)
+            ctx.filter = "brightness(100%)"; 
+        }
+        ctx.drawImage(trashCanIcon, 20, 15, hexWidth - 20, hexHeight - 10);
+        ctx.filter = "none";
 
 
-        // Draw "X"
-        ctx.beginPath();
-        ctx.moveTo(xPos - xSize / 2, yPos - xSize / 2);
-        ctx.lineTo(xPos + xSize / 2, yPos + xSize / 2);
-        ctx.moveTo(xPos + xSize / 2, yPos - xSize / 2);
-        ctx.lineTo(xPos - xSize / 2, yPos + xSize / 2);
-        ctx.strokeStyle = "white";
-        ctx.lineWidth = 3;
-        ctx.stroke();
+        ctx.font = "20px Arial";
+        ctx.textBaseline = "top";
+        ctx.fillStyle = "white";
+        ctx.fillText("Drop rune to remove", 10+hexWidth+10, 10);
 
         // Check if mouse is inside
         if (ctx.isPointInPath(rect, this.mouse.x, this.mouse.y)) {

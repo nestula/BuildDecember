@@ -15,6 +15,13 @@ const RuneInfo = {
         const link = rune1.type === "link" ? rune1 : rune2;
         const conditions = link.conditions || {};
         const tags = skill.tags || []; // Ensure tags exist
+
+        if(link.title === "Use Count") {
+            const skillString = JSON.stringify(skill);
+            if(!skillString.toLowerCase().includes("use count")) { // if use count does not match
+                return false;
+            }
+        }
     
         // Excluded conditions override everything
         if (conditions.cannot) {
@@ -53,5 +60,6 @@ const RuneInfo = {
     }
     
 }
+
 
 export default RuneInfo;
