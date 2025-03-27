@@ -47,9 +47,10 @@ function saveStorage() {
 document.getElementById("saveStorage").addEventListener("click", () => {
     saveStorage();
 })
+
 setInterval(()=>{
     saveStorage();
-},5000)
+},3000)
 
 function loadLocalStorage() {
     const data = localStorage.getItem("buildData");

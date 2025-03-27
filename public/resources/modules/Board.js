@@ -566,6 +566,7 @@ class Board {
 
             // TOUCH CONTROLS
 
+
             if(this.waitingTouchAction) { // second touch
 
                 this.mouse.down = false;
@@ -575,10 +576,10 @@ class Board {
                     this.table[this.currentPosition[0]][this.currentPosition[1]] = this.currentRune;
                     this.table[this.savedPosition[0]][this.savedPosition[1]] = tempRune;
                 } else if(this.currentRune) {
-                    console.log(this.currentRune);
                     this.table[this.currentPosition[0]][this.currentPosition[1]] = this.currentRune;
                     this.currentRune = null;
                 }
+
     
                 this.waitingTouchAction = false;
 
@@ -614,8 +615,11 @@ class Board {
                 }
 
             }
+
+            this.mouse.externalmouseup();
  
         }, { passive: false });
+
         
         this.c.addEventListener("mousedown", (e)=>{
             this.mouse.down=true;
