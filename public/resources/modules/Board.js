@@ -1,6 +1,7 @@
 import RuneInfo from "./RuneInfo.js";
 
 
+
 const trashCanIcon = document.getElementById("trashCanImage");
 
 const ELEMENTS = ["Poison", "Fire", "Lightning", "Cold", "Physical"]
@@ -54,6 +55,9 @@ class Board {
         this.savedPosition = null;
         this.currentRune = null;
 
+
+        this.lastPosition = null;
+
         this.mouse = {
             waitingTouchAction: false,
             x:0,
@@ -91,6 +95,7 @@ class Board {
                     this.c.style.cursor = "default";
                 }
                 
+                this.lastPosition = this.currentPosition;
                 this.currentRune=null;
             },
             externalmouseup: ()=>{},
@@ -577,6 +582,7 @@ class Board {
                     this.table[this.savedPosition[0]][this.savedPosition[1]] = tempRune;
                 } else if(this.currentRune) {
                     this.table[this.currentPosition[0]][this.currentPosition[1]] = this.currentRune;
+                    this.lastPosition = this.currentPosition;
                     this.currentRune = null;
                 }
 
@@ -587,7 +593,7 @@ class Board {
             } else { // first touch
     
                 // SELECT
-                if(this.savedPosition == -999 ) {
+                if(this.savedPosition == -999 ) { // trash can
                     this.mouse.down = false;
                     this.table[this.currentPosition[0]][this.currentPosition[1]] = this.currentRune;
                     this.currentRune = null;

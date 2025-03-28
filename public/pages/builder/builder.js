@@ -195,3 +195,35 @@ function calcDPS() {
 document.getElementById("calculateBoardShortcut").addEventListener("click", () => {
     calcDPS()
 })
+
+
+
+/// EDIT RUNE
+
+const editPopup = document.getElementById("editRunePopupOverlay");
+
+function openEditPopup() {
+    editPopup.style.display = "flex";
+    console.log(board.lastPosition);
+    if(board.lastPosition) {
+        const rune = board.table[board.lastPosition[0]][board.lastPosition[1]];
+        console.log(rune);
+    }
+}
+function closeEditPopup() {
+    editPopup.style.display = "none";
+}
+function updateEditRune() {
+
+}
+// listeners
+document.getElementById("cancelEditRune").addEventListener("click", () => {
+    closeEditPopup();
+})
+document.getElementById("saveEditRune").addEventListener("click", () => {
+    updateEditRune();
+    closeEditPopup();
+})
+document.getElementById("editRune").addEventListener("click", () => {
+    openEditPopup();
+})
