@@ -25,7 +25,7 @@ app.use((req, res, next) => {
       try { webStats = JSON.parse(data); }
       catch { return; }
       // visits
-      webStats.visits += 1;
+      webStats.calls += 1;
       // unique
       if (!webStats.logged.includes(req.ip)) {
         if (req.ip !== null) {
