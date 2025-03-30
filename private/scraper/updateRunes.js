@@ -288,7 +288,7 @@ async function updateRunes() {
                     }
                     const grade = content.querySelector("[class^=Elem_card_tiles_col2__]");
                     // get grade
-                    // TODO here
+                    // TODO get awakenings and grades
 
 
                     // AWAKENINGS
