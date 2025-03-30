@@ -2,6 +2,8 @@ import SearchRune from "../../resources/modules/search.js";
 import Board from "../../resources/modules/Board.js";
 import RuneInfo from "../../resources/modules/RuneInfo.js";
 
+import getRuneByLevel from "./getRuneByLevel.js";
+
 import subRoute from "./subRoute.js";
 
 if(!window.cached_images) {
@@ -124,8 +126,15 @@ function checkRunes() {
 checkRunes();
 
 
-function showRuneInfo(name) {
-    const rune = window.allRunes.find(r => r.title == name);
+function showRuneInfo(name, boardPos) {
+    let rune = false;
+    let boardData = false;
+    if(boardPos) {
+        boardData = board.tableData[boardPos[0]][boardPos[1]];
+        rune = getRuneByLevel(name, boardData.level);
+    } else {
+        rune = window.allRunes.find(r => r.title == name);
+    }
 
     const img = document.getElementById("runeIcon");
     img.src = `../../resources/icons/${rune.icon}`;
@@ -142,6 +151,11 @@ function showRuneInfo(name) {
 
     const runeStats = document.getElementById("runeStats");
     runeStats.innerHTML = "";
+
+    const runeLevel = document.getElementById("runeLevel");
+    if(boardPos) {
+        runeLevel.innerHTML = `Level: <span class="statAccent">${boardData.level}</span>`;
+    }
 
     if(rune.elementType) {
         document.getElementById("runeElement").innerText = rune.elementType;
@@ -160,11 +174,17 @@ function showRuneInfo(name) {
     }
 
     // stats
-
-    if(rune.stats["level1"]) { // show default
-        for(const stat in rune.stats["level1"]) {
+    console.log(rune.stats);
+    if(rune.stats["currentLevel"]) {
+        for(const stat in rune.stats["currentLevel"]) {
             const statDiv = document.createElement("div");
-            statDiv.innerHTML = `${stat}: <span class="statAccent">${rune.stats["level1"][stat]}</span>`;
+            statDiv.innerHTML = `${stat}: <span class="statAccent">${rune.stats["currentLevel"][stat]}</span>`;
+            runeStats.appendChild(statDiv);
+        }
+    } else if(rune.stats["level45"]) { // show default
+        for(const stat in rune.stats["level45"]) {
+            const statDiv = document.createElement("div");
+            statDiv.innerHTML = `${stat}: <span class="statAccent">${rune.stats["level45"][stat]}</span>`;
             runeStats.appendChild(statDiv);
         }
     }
@@ -174,7 +194,7 @@ function showRuneInfo(name) {
 board.mouse.externalmouseup = ()=>{
     // open rune info
     if(!board.currentRune) return;
-    showRuneInfo(board.currentRune);
+    showRuneInfo(board.currentRune, board.currentPosition);
 };
 
 
@@ -212,7 +232,6 @@ function openEditPopup() {
         // set values
         document.getElementById("editRuneName").textContent = rune.title;
         document.getElementById("editRuneLevel").value = runeData.level || 1;
-        console.log(runeData);
     }
 }
 function closeEditPopup() {
@@ -220,8 +239,11 @@ function closeEditPopup() {
 }
 function updateEditRune() {
     const [y, x] = board.lastPosition;
-    const newLevel = document.getElementById("editRuneLevel").value;
+    const newLevel = Math.min(Math.max(1, parseInt(document.getElementById("editRuneLevel").value)), 45);
+    getRuneByLevel(document.getElementById("editRuneName").textContent, newLevel);
     board.tableData[y][x].level = newLevel;
+
+    showRuneInfo(document.getElementById("editRuneName").textContent, [y, x]);
 }
 // listeners
 document.getElementById("cancelEditRune").addEventListener("click", () => {

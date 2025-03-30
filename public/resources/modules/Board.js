@@ -88,18 +88,27 @@ class Board {
                 const isInTrash  = (this.currentPosition && this.currentPosition[0]==-1 && this.currentPosition[1]==-1);
                 // set new condition
                 let tempRune = null;
+                let tempRuneData = null;
 
+                // check if rune is in trash
                 if(!isInTrash && this.currentPosition && this.currentRune) {
                     tempRune = this.table[this.currentPosition[0]][this.currentPosition[1]];
                     this.table[this.currentPosition[0]][this.currentPosition[1]]=this.currentRune;
+
+                    if(this.savedPosition) {
+                        tempRuneData = this.tableData[this.currentPosition[0]][this.currentPosition[1]];
+                        this.tableData[this.currentPosition[0]][this.currentPosition[1]]=this.tableData[this.savedPosition[0]][this.savedPosition[1]];
+                    }
                 };
                 
                 if(this.savedPosition) {
                     // set original position
                     this.table[this.savedPosition[0]][this.savedPosition[1]]=tempRune;
+                    this.tableData[this.savedPosition[0]][this.savedPosition[1]]=tempRuneData;
                     this.savedPosition = null;
                     this.c.style.cursor = "default";
                 }
+
                 
                 this.lastPosition = this.currentPosition;
                 this.currentRune=null;
@@ -586,13 +595,16 @@ class Board {
                     const tempRune = this.table[this.currentPosition[0]][this.currentPosition[1]];
                     this.table[this.currentPosition[0]][this.currentPosition[1]] = this.currentRune;
                     this.table[this.savedPosition[0]][this.savedPosition[1]] = tempRune;
+                    // swap data
+                    const tempData = this.tableData[this.currentPosition[0]][this.currentPosition[1]];
+                    this.tableData[this.currentPosition[0]][this.currentPosition[1]] = this.tableData[this.savedPosition[0]][this.savedPosition[1]];
+                    this.tableData[this.savedPosition[0]][this.savedPosition[1]] = tempData;
                 } else if(this.currentRune) {
                     this.table[this.currentPosition[0]][this.currentPosition[1]] = this.currentRune;
-                    this.lastPosition = this.currentPosition;
                     this.currentRune = null;
                 }
 
-    
+                this.lastPosition = this.currentPosition;
                 this.waitingTouchAction = false;
 
 
@@ -625,6 +637,8 @@ class Board {
                     }
                     
                 }
+
+                this.lastPosition = this.currentPosition;
 
             }
 

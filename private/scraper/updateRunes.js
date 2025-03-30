@@ -258,7 +258,12 @@ async function updateRunes() {
 
                             if(propValue) { // normal stats
                                 const textNodes = propContent.replaceAll(propValue.textContent, "").trim().replaceAll("  ", " ").replace(" s", "");
-                                propList[textNodes] = propValue.textContent;
+                                const num = parseFloat(propValue.textContent);
+                                if(!isNaN(num)) {
+                                    propList[textNodes] = num;
+                                } else {
+                                    propList[textNodes] = propValue.textContent;
+                                }
                             } else if(
                                 propContent.includes("Physical Element") || 
                                 propContent.includes("Fire Element") || 
