@@ -204,17 +204,24 @@ const editPopup = document.getElementById("editRunePopupOverlay");
 
 function openEditPopup() {
     editPopup.style.display = "flex";
-    console.log(board.lastPosition);
     if(board.lastPosition) {
-        const rune = board.table[board.lastPosition[0]][board.lastPosition[1]];
-        console.log(rune);
+        // get rune
+        const runeName = board.table[board.lastPosition[0]][board.lastPosition[1]];
+        const runeData = board.tableData[board.lastPosition[0]][board.lastPosition[1]];
+        const rune = window.allRunes.find(r => r.title == runeName);
+        // set values
+        document.getElementById("editRuneName").textContent = rune.title;
+        document.getElementById("editRuneLevel").value = runeData.level || 1;
+        console.log(runeData);
     }
 }
 function closeEditPopup() {
     editPopup.style.display = "none";
 }
 function updateEditRune() {
-
+    const [y, x] = board.lastPosition;
+    const newLevel = document.getElementById("editRuneLevel").value;
+    board.tableData[y][x].level = newLevel;
 }
 // listeners
 document.getElementById("cancelEditRune").addEventListener("click", () => {

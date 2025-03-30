@@ -46,10 +46,16 @@ class Board {
             new Array(6),
             new Array(5),
         ]
-        // this.table[2][2] = "Ogre Arrow";
-        // this.table[2][1] = "Convert Physical Damage";
-        // this.table[2][3] = "Additional Physical DMG";
-        // this.table[3][3] = "Extract Poison Energy";
+        // set table
+        this.dataTemplate = {
+            level: 45
+        }
+        for(let y=0; y<this.tableData.length; y++) {
+            for(let x=0; x<this.tableData[y].length; x++) {
+                this.tableData[y][x] = JSON.parse(JSON.stringify(this.dataTemplate));
+            }
+        }
+
 
         this.currentPosition = null;
         this.savedPosition = null;
@@ -254,7 +260,7 @@ class Board {
                 x+=hexWidth;
                 // check mouse position
                 const path = drawHexagon(x,y);
-                if(!this.table[i][j]) { this.tableData[i][j] = null }
+                if(!this.table[i][j]) { this.tableData[i][j] = JSON.parse(JSON.stringify(this.dataTemplate)) }
                 // dull out unlockable sides / slots
                 if(j==0 || j == amt-1) {
                     drawHexagon(x,y, "rgba(55,55,55,0.8)");
