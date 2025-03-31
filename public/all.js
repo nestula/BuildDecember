@@ -84,7 +84,7 @@ function addFooter() {
         justify-content: space-around;
         align-items: center;
         background-color: #333;
-        padding: 5px;
+        padding: 2px;
         position: fixed;
         width: 100%;
         bottom: 0;
