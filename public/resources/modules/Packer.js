@@ -6,14 +6,25 @@ const Packer = Object.freeze({
 
         compactedData+="#"
         const table = data.table;
+        const tableData = data.tableData || {};
         for(let i=0; i<table.length; i++) { // loop y
             for(let j=0; j<table[i].length; j++) { // loop x
                 const slot = table[i][j];
+                const slotData = tableData[i][j];
                 if(slot) {
-                    compactedData+=`${slot}-${i}-${j};`;
+                    // title, x, y
+                    compactedData+=`${slot}-${i}-${j}`;
+                    // data
+                    if(slotData.level != 45) {
+                        compactedData+=`-L${slotData.level}`;
+                    }
+                    // end
+                    compactedData+=";";
                 }
             }
         }
+
+        
 
         // order: runes
 
@@ -34,6 +45,22 @@ const Packer = Object.freeze({
             new Array(6),
             new Array(5),
         ];
+        let tableData = [
+            new Array(5),
+            new Array(6),
+            new Array(7),
+            new Array(8),
+            new Array(7),
+            new Array(6),
+            new Array(5),
+        ]
+        for(let i=0; i<tableData.length; i++) {
+            for(let j=0; j<tableData[i].length; j++) {
+                tableData[i][j] = {
+                    level: 45
+                };
+            }
+        }
 
         for(let index=0; index<args.length; index++) {
             const section = args[index];
@@ -45,16 +72,27 @@ const Packer = Object.freeze({
                         const title = splitRune[0];
                         const y = splitRune[1];
                         const x = splitRune[2];
-                        if(table[y]) {
-                            table[y][x]=title;
+                        if(!table[y]) break;
+
+                        table[y][x]=title;
+                        
+                        const data = splitRune.slice(2);
+                        for(let i=0; i<data.length; i++) {
+                            switch(data[i][0]) {
+                                case "L":
+                                    tableData[y][x].level = parseFloat(data[i].slice(1));
+                                break;
+                            }
                         }
                     }
                 break;
             }
         }
         unpackedData.table = table;
+        unpackedData.tableData = tableData;
         
-        
+        console.log(`Unpacked data:`, unpackedData);
+
         return unpackedData;
     }
 });

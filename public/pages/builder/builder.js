@@ -154,7 +154,7 @@ function showRuneInfo(name, boardPos) {
 
     const runeLevel = document.getElementById("runeLevel");
     if(boardPos) {
-        runeLevel.innerHTML = `Level: <span class="statAccent">${boardData.level}</span>`;
+        runeLevel.innerHTML = `Level: <span class="statAccent">${boardData.level || 45}</span>`;
     }
 
     if(rune.elementType) {

@@ -2,6 +2,7 @@
 .safeguard and sanitize & validate input for load
 
 .tutorial page, landing / home page
+.ability to lock runes in place
 
 
 .help for colors on build planner
@@ -19,11 +20,10 @@
 
 .in the board class, add a object updated every frame with calculated stats from certain runes
 
-.trash icon instead of red X
-.show clicked / selected rune
 .click and tap mechanic for desktop
 .auto saving icon
 
 ABSTRACT THE CONNECTION FUNCTION OMG
 
+.custom context menu
 .FAQ section

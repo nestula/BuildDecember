@@ -6,16 +6,16 @@ function getRuneByLevel(runeName, level) {
     for(const prop in level45) {
         // get step
         if(typeof level1[prop] == "number" && typeof level45[prop] == "number") {
-            steps[prop] = (level45[prop] - (level1[prop] || 0)) / 44;
+            steps[prop] = ((level45[prop] || 0) - (level1[prop] || 0)) / 44;
         }
     }
 
     const stats = {};
     for(const prop in level45) {
         if(typeof level1[prop] === "number" && typeof level45[prop] === "number") {
-            stats[prop] = parseFloat((level1[prop] + steps[prop] * (level - 1)).toFixed(2)) 
+            stats[prop] = parseFloat(((level1[prop]||0) + steps[prop] * (level - 1)).toFixed(2)) 
         } else {
-            stats[prop] = level1[prop];
+            stats[prop] = level1[prop] || level45[prop];
         }
     }
 

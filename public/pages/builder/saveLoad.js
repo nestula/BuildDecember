@@ -40,7 +40,8 @@ document.getElementById("clearLoad").addEventListener("click", () => {
 
 function saveStorage() {
     const data = Packer.compact({
-        table: board.table
+        table: board.table,
+        tableData: board.tableData
     })
     localStorage.setItem("buildData", data);
 }
@@ -60,34 +61,25 @@ function loadLocalStorage() {
     };
     const unpackedData = Packer.unpack(data);
     board.table = unpackedData.table;
+    board.tableData = unpackedData.tableData;
     subRoute("boardRoute");
 }
 document.getElementById("loadStorage").addEventListener("click", loadLocalStorage);
 if(localStorage.getItem("buildData")) {
     loadLocalStorage();
 }
-
 // compact saving 
 document.getElementById("saveCompact").addEventListener("click", () => {
     const table = board.table;
+    const tableData = board.tableData;
     const compactedData = Packer.compact({
-        table
+        table,
+        tableData
     })
     copy(compactedData);
 })
 
-document.getElementById("clearStorage").addEventListener("click", () => {
-    if(!confirm("Are you sure you want to clear the storage?")) return;
-    localStorage.setItem("buildData", [
-        new Array(5),
-        new Array(6),
-        new Array(7),
-        new Array(8),
-        new Array(7),
-        new Array(6),
-        new Array(5)
-    ]);
-});
+
 
 
 
