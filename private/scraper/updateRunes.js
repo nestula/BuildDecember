@@ -291,9 +291,36 @@ async function updateRunes() {
                     // TODO get awakenings and grades
 
 
+                    // get awakenings
+                    const awakeningsElement = content.querySelector('[class^="Elem_card_awakening__"]');
+
                     // AWAKENINGS
 
                     const awakenings = content.querySelector('[class^="Elem_card_awakening__"]');
+                    if(awakenings) {
+                        const awakeningCards = awakenings.querySelectorAll('[class^="Elem_card_awakening_block__"]');
+                        const awakeningList = {};
+                        for(let i=0; i<awakeningCards.length; i++) {
+                            const awakeningCard = awakeningCards[i];
+                            const awakeningCardTitle = awakeningCard.querySelector('[class^="Elem_card_awakening_block_title__"]').textContent;
+                            const awakeningCardStats = awakeningCard.querySelectorAll('[data-class="prop"]');
+                            const awakeningCardStatList = {};
+                            for(let j=0; j<awakeningCardStats.length; j++) {
+                                const awakeningCardStat = awakeningCardStats[j];
+                                const awakeningCardStatContent = awakeningCardStat.textContent;
+                                const awakeningCardStatValue = awakeningCardStat.querySelector("span");
+                                if(awakeningCardStatValue) {
+                                    awakeningCardStatList[awakeningCardStatContent] = parseFloat(awakeningCardStatValue.textContent);
+                                } else {
+                                    awakeningCardStatList[awakeningCardStatContent] = awakeningCardStat.textContent;
+                                }
+                            }
+                            awakeningList[awakeningCardTitle] = awakeningCardStatList;
+                        }
+                        if(Object.keys(awakeningList).length > 0) {
+                            runes[index]["awakenings"] = awakeningList;
+                        }
+                    }
                     
         
                     // Save the extracted data to the runes array
@@ -340,6 +367,6 @@ async function updateRunes() {
     }
 }
 
-// updateRunes();
+updateRunes();
 
 module.exports = updateRunes;
