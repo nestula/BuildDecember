@@ -302,7 +302,7 @@ async function updateRunes() {
                         const awakeningList = {};
                         for(let i=0; i<awakeningCards.length; i++) {
                             const awakeningCard = awakeningCards[i];
-                            const awakeningCardTitle = awakeningCard.querySelector('[class^="Elem_card_awakening_block_title__"]').textContent;
+                            const awakeningCardTitle = awakeningCard.querySelector('[class^="Elem_card_awakening_block_title__"]').textContent.toLowerCase().replaceAll(" ", "");
                             const awakeningCardStats = awakeningCard.querySelectorAll('[data-class="prop"]');
                             const awakeningCardStatList = {};
                             for(let j=0; j<awakeningCardStats.length; j++) {

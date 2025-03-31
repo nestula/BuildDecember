@@ -57,7 +57,8 @@ const Packer = Object.freeze({
         for(let i=0; i<tableData.length; i++) {
             for(let j=0; j<tableData[i].length; j++) {
                 tableData[i][j] = {
-                    level: 45
+                    level: 45,
+                    awakening: false
                 };
             }
         }

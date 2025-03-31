@@ -45,15 +45,15 @@
     ],
     "elementType": "Physical",
     "awakenings": {
-      " Source": {
+      "source": {
         "+[10-30]% Shout Skill Rune Effect": null,
         "+[40-60]% Shout Skill Rune Effect Range": null
       },
-      " Origin": {
+      "origin": {
         "+[30-50]% Shout Skill Rune Cooldown Recovery Speed": null,
         "+[60-100]% Shout Skill Rune Cast Speed": null
       },
-      " Verity": {
+      "verity": {
         "Ignores enemy Dodge Rate": "Ignores enemy Dodge Rate",
         "Guaranteed Critical Hit": "Guaranteed Critical Hit",
         "+[15-30]% Shout Skill Rune Cooldown Recovery Speed": null
@@ -101,16 +101,16 @@
     ],
     "elementType": "Cold",
     "awakenings": {
-      " Source": {
+      "source": {
         "[12-17]% DMG Amplification against enemies affected by Cold Status Effect": null,
         "[8-12]% DMG Amplification against enemies that are not affected by Cold Status Effect": null
       },
-      " Origin": {
+      "origin": {
         "+2 Strike Range Count": 2,
         "+[10-40]% Area DMG": null,
         "+[10-20]% Area of Effect": null
       },
-      " Verity": {
+      "verity": {
         "+[15-30]% Chill Chance": null,
         "+[15-30] Freeze Rate against Chilled Enemies": null,
         "Gain Sharpness for 3 s upon inflicting a Cold Status Effect": 3,
@@ -163,7 +163,7 @@
     ],
     "elementType": "Physical",
     "awakenings": {
-      " Source": {
+      "source": {
         "+[10-30]% Area of Effect": null,
         "+[25-50] Status Effect Rate": null,
         "Causes Shield Pulse on hit": "Causes Shield Pulse on hit",
@@ -171,13 +171,13 @@
         "Shield Pulse DMG 430%": 430,
         "Shield Pulse Area of Effect 400": 400
       },
-      " Origin": {
+      "origin": {
         "+[10-15]% Movement Skill Rune Cooldown Recovery Speed": null,
         "50% chance to active Shield of Determination upon using Skill": 50,
         "Shield of Determination Duration 2 s": 2,
         "+[50-100]% Armor while Shield of Determination is active": null
       },
-      " Verity": {
+      "verity": {
         "+2 Max Use Count": 2,
         "[5-10]% Skill Rune Cooldown Amplification": null
       }
@@ -240,15 +240,15 @@
     ],
     "elementType": "Physical",
     "awakenings": {
-      " Source": {
+      "source": {
         "+[5-15]% Weapon Range": null,
         "Attack Radius 30º Increase": 30,
         "3% Movement Speed Amplification per Frenzy stack": 3
       },
-      " Origin": {
+      "origin": {
         "[20-25]% DMG Amplification against Elites": null
       },
-      " Verity": {
+      "verity": {
         "Gain Quick Attack Link Rune Effect": null,
         "+[34.2-40.1]% Attack Speed": null,
         "Cannot link Quick Attack Link Rune": null
@@ -291,14 +291,14 @@
     ],
     "elementType": "Physical",
     "awakenings": {
-      " Source": {
+      "source": {
         "[10-15]% chance to gain Earth Energy on hit": null
       },
-      " Origin": {
+      "origin": {
         "+[30-60] Status Effect Rate": null,
         "[20-25]% DMG Amplification": null
       },
-      " Verity": {
+      "verity": {
         "+[25-50] Area of Effect": null,
         "[20-25]% DMG Amplification": null
       }
@@ -351,17 +351,17 @@
     ],
     "elementType": "Lightning",
     "awakenings": {
-      " Source": {
+      "source": {
         "-70 Projectile Creation Range": 70,
         "+[5-20]% Projectile DMG": null
       },
-      " Origin": {
+      "origin": {
         "+[150-200] Projectile Creation Range": null,
         "+2 Projectile Count": 2,
         "10% Area of Effect Dampening": 10,
         "+[120-140]% DMG against Normal enemies": null
       },
-      " Verity": {
+      "verity": {
         "+[5-15] Shock Rate": null,
         "Cast Huge Lightning at 10 Lightning Status Effect stacks on the enemy": 10,
         "Huge Lightning Range 150": 150,
@@ -422,17 +422,17 @@
     ],
     "elementType": "Fire",
     "awakenings": {
-      " Source": {
+      "source": {
         "Gain Savagery Link Rune Effect": null,
         "+80 Weapon Range": 80,
         "[11.4-14]% Melee DMG Amplification": null,
         "Cannot link Savagery Link Rune": null
       },
-      " Origin": {
+      "origin": {
         "20% Weapon Range Dampening": 20,
         "[15-25]% Fire DMG Amplification": null
       },
-      " Verity": {
+      "verity": {
         "[7-12]% Attack Speed Amplification": null,
         "+[15-30]% Element Penetration": null
       }
@@ -492,14 +492,14 @@
     ],
     "elementType": "Physical",
     "awakenings": {
-      " Source": {
+      "source": {
         "[10-15]% DMG Amplification against Elites": null
       },
-      " Origin": {
+      "origin": {
         "[5-10]% Melee DMG Amplification": null,
         "+1% Attack Critical DMG per Maintain Position Stack": 1
       },
-      " Verity": {
+      "verity": {
         "[10-15]% Resource Cost Dampening": null
       }
     }
@@ -545,17 +545,17 @@
     ],
     "elementType": "Physical",
     "awakenings": {
-      " Source": {
+      "source": {
         "Gain Melee DMG Amplification Link Rune Effect": null,
         "[24.2-31]% Melee DMG Amplification": null,
         "Cannot apply Status Effects": "Cannot apply Status Effects",
         "Cannot link Melee DMG Amplification Link Rune": null
       },
-      " Origin": {
+      "origin": {
         "+200 Stun Rate against enemies at Full HP": 200,
         "+[10-35] Stun Rate": null
       },
-      " Verity": {
+      "verity": {
         "+2 Max Use Count": 2,
         "[5-10]% Skill Rune Cooldown Amplification": null
       }
@@ -600,14 +600,14 @@
     ],
     "elementType": "Physical",
     "awakenings": {
-      " Source": {
+      "source": {
         "[15-20]% Resource Cost Dampening": null
       },
-      " Origin": {
+      "origin": {
         "+[2-12]% Armor Penetration": null,
         "[10-15]% DMG Taken Dampening while Channeling": null
       },
-      " Verity": {
+      "verity": {
         "+[50-80]% DMG Multiplier": null,
         "+[10-15]% DMG when Channeling (Max Stacks: 10)": null
       }
@@ -656,16 +656,16 @@
     ],
     "elementType": "Physical",
     "awakenings": {
-      " Source": {
+      "source": {
         "+[15-30]% Armor Penetration": null,
         "[5-10]% Attack Speed Amplification": null
       },
-      " Origin": {
+      "origin": {
         "Fixed Attack Speed 2": 2,
         "+[50-65] Weapon Range": null,
         "[35-40]% Melee DMG Amplification": null
       },
-      " Verity": {
+      "verity": {
         "Gain Find Weakness Link Rune Effect": null,
         "+[117-155]% Critical Rate": null,
         "+6 Critical Rate": 6,
@@ -712,16 +712,16 @@
     ],
     "elementType": "Lightning",
     "awakenings": {
-      " Source": {
+      "source": {
         "+[20-35] Bind Rate": null,
         "+[10-20] Shock Rate": null,
         "[10-15]% DMG Amplification against enemies affected by Lightning Status Effect": null
       },
-      " Origin": {
+      "origin": {
         "[5-10]% Area DMG Dampening": null,
         "Vortex Strike Count +1": 1
       },
-      " Verity": {
+      "verity": {
         "[45-50]% Area of Effect Dampening": null,
         "[5-10]% Area DMG Amplification": null,
         "2 additional Vortex Strikes from self upon using Skill": 2
@@ -776,16 +776,16 @@
     ],
     "elementType": "Physical",
     "awakenings": {
-      " Source": {
+      "source": {
         "[15-20]% Area of Effect Dampening": null,
         "Inflict Pain effect for 4 s on hit": 4,
         "+50% Pain Effect": 50
       },
-      " Origin": {
+      "origin": {
         "+2 Strike Range Count": 2,
         "+[10-40]% Area DMG": null
       },
-      " Verity": {
+      "verity": {
         "+[30-50]% Area of Effect": null,
         "+[10-20]% Cast Speed": null
       }
@@ -838,18 +838,18 @@
     ],
     "elementType": "Physical",
     "awakenings": {
-      " Source": {
+      "source": {
         "+[10-40]% Area DMG": null,
         "50% chance to active Shield of Determination upon using Skill": 50,
         "Shield of Determination Duration 2 s": 2,
         "+[50-100]% Armor while Shield of Determination is active": null
       },
-      " Origin": {
+      "origin": {
         "+[75-100]% DMG against Elites when distance from enemy is 500 or less": null,
         "[5-10]% Area DMG Amplification": null,
         "Change to 1 large shield": "Change to 1 large shield"
       },
-      " Verity": {
+      "verity": {
         "+2 Strike Range Count": 2,
         "+[30-50]% Area of Effect": null
       }
@@ -904,16 +904,16 @@
     ],
     "elementType": "Physical",
     "awakenings": {
-      " Source": {
+      "source": {
         "+[10-40]% Strike DMG": null,
         "3% DMG Amplification per remaining Chain": 3
       },
-      " Origin": {
+      "origin": {
         "+2 Chain Count": 2,
         "+40% Chain Range": 40,
         "+[10-40]% DMG": null
       },
-      " Verity": {
+      "verity": {
         "Change to Blink tag": null,
         "Add Move Attack, Chain Attack tag": null,
         "Cannot Chain": "Cannot Chain",
@@ -983,14 +983,14 @@
     ],
     "elementType": "Physical",
     "awakenings": {
-      " Source": {
+      "source": {
         "+2 Strike Range Count": 2,
         "+[10-40]% Area DMG": null
       },
-      " Origin": {
+      "origin": {
         "+[10-20]% Buff Chance": null
       },
-      " Verity": {
+      "verity": {
         "Gain Melee DMG Amplification Link Rune Effect": null,
         "[18.8-24.2]% Melee DMG Amplification": null,
         "+20% Melee DMG": 20,
@@ -1050,18 +1050,18 @@
     ],
     "elementType": "Physical",
     "awakenings": {
-      " Source": {
+      "source": {
         "[25-30]% Resource Cost Dampening": null,
         "-2 Projectile Count": 2,
         "Projectile Repeat DMG enabled": "Projectile Repeat DMG enabled"
       },
-      " Origin": {
+      "origin": {
         "Replace with 1 large Whirlwind and cannot be affected by Multishot": 1,
         "+[30-60]% DMG Multiplier": null,
         "+80% Projectile Size": 80,
         "Pierces All": "Pierces All"
       },
-      " Verity": {
+      "verity": {
         "+[40-80]% DMG against Disturbed enemies": null,
         "+[10-20]% Stun Chance": null,
         "+[10-30]% Buff Chance": null
@@ -1118,15 +1118,15 @@
     ],
     "elementType": "Physical",
     "awakenings": {
-      " Source": {
+      "source": {
         "+[30-50] Weapon Range": null,
         "+[20-30]% Bleed Chance": null
       },
-      " Origin": {
+      "origin": {
         "+[30-60]% Bloodshed Domain of Blood Duration": null,
         "+[20-40]% Bloodshed Domain of Blood Effect": null
       },
-      " Verity": {
+      "verity": {
         "[10-15]% Melee DMG Amplification": null,
         "+[10-30]% Melee DMG": null
       }
@@ -1172,7 +1172,7 @@
     ],
     "elementType": "Cold",
     "awakenings": {
-      " Source": {
+      "source": {
         "+[10-20] Freeze Rate": null,
         "Cast Cold Explosion on target after a period of time upon inflicting Freeze": "Cast Cold Explosion on target after a period of time upon inflicting Freeze",
         "Cold Explosion DMG +527": 527,
@@ -1180,13 +1180,13 @@
         "Cold Explosion Area of Effect 75": 75,
         "Cold Explosion cannot apply Freeze": "Cold Explosion cannot apply Freeze"
       },
-      " Origin": {
+      "origin": {
         "+[25-35] Freeze Rate against Chilled Enemies": null,
         "+[25-40] Chill Rate": null,
         "[5-10]% DMG Amplification against enemies affected by Cold Status Effect": null,
         "[3-5]% DMG Amplification against enemies that are not affected by Cold Status Effect": null
       },
-      " Verity": {
+      "verity": {
         "+[50-70]% Area of Effect": null,
         "[3-8]% Area DMG Amplification": null
       }
@@ -1223,15 +1223,15 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[15-30]% Enhance Skill Rune Effect": null,
         "+[5-10]% Enhance Skill Rune Cooldown Recovery Speed": null
       },
-      " Origin": {
+      "origin": {
         "+[35-60]% Enhance Skill Rune Duration": null,
         "+[5-10]% Enhance Skill Rune Effect": null
       },
-      " Verity": {
+      "verity": {
         "[10-15]% Skill Rune Cooldown Dampening": null
       }
     }
@@ -1269,14 +1269,14 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "[15-30]% Skill Rune Cooldown Dampening": null
       },
-      " Origin": {
+      "origin": {
         "+[40-65]% Enhance Skill Rune Duration": null,
         "+[5-10]% Enhance Skill Rune Effect": null
       },
-      " Verity": {
+      "verity": {
         "+[10-30]% Enhance Skill Rune Duration": null,
         "Creates an Area of Protection upon using Skill": "Creates an Area of Protection upon using Skill",
         "Area of Protection Duration 3 s": 3,
@@ -1323,16 +1323,16 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[10-35]% Shout Skill Rune Cooldown Recovery Speed": null,
         "Gain Vampire Skin Effect for 1 s upon using Skill": 1,
         "Recovers HP by 10% of DMG Taken when Vampire Skin is effective": 10
       },
-      " Origin": {
+      "origin": {
         "+[5-15]% Shout Skill Rune Effect": null,
         "+[60-100]% Shout Skill Rune Cast Speed": null
       },
-      " Verity": {
+      "verity": {
         "+[25-50]% Shout Skill Rune Effect Range": null,
         "10% DMG Dampening for 3 s against Provoked Target": 10
       }
@@ -1383,15 +1383,15 @@
     ],
     "elementType": "Physical",
     "awakenings": {
-      " Source": {
+      "source": {
         "+17% DMG per stack against Bleeding enemies": 17,
         "[10-15]% DMG Dampening": null,
         "Change Blood Explosion Activation Stack to 3": 3
       },
-      " Origin": {
+      "origin": {
         "+[10-30]% Bleed Chance": null
       },
-      " Verity": {
+      "verity": {
         "+[15-30]% Skill Rune Effect": null,
         "+[40-70] Crowd Control Rate": null
       }
@@ -1450,17 +1450,17 @@
     ],
     "elementType": "Physical",
     "awakenings": {
-      " Source": {
+      "source": {
         "+[10-30]% Skill Rune Cooldown Recovery Speed": null,
         "50% chance to active Shield of Determination upon using Skill": 50,
         "Shield of Determination Duration 2 s": 2,
         "+[50-100]% Armor while Shield of Determination is active": null
       },
-      " Origin": {
+      "origin": {
         "[15-20]% Resource Cost Dampening": null,
         "+100% Status Effect Dodge Chance for 1 s upon using Skill": 100
       },
-      " Verity": {
+      "verity": {
         "+100% Pull Chance": 100,
         "+[10-40]% Area DMG": null
       }
@@ -1508,15 +1508,15 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "Change Max Pain Stacks to 5": 5,
         "+24.1% Armor per stack": 24.1,
         "+[5-10]% Defense Enhance Skill Rune Effect": null
       },
-      " Origin": {
+      "origin": {
         "+[50-75]% Defense Enhance Skill Rune Duration": null
       },
-      " Verity": {
+      "verity": {
         "+[10-30]% Defense Enhance Skill Rune Effect": null,
         "Gain the following effect for 5 s upon Patience Outburst": 5,
         "+100% Armor": 100,
@@ -1564,12 +1564,12 @@
     ],
     "elementType": "Lightning",
     "awakenings": {
-      " Source": {
+      "source": {
         "[25-30]% DMG Amplification": null,
         "+[5-20]% Skill Rune Cooldown Recovery Speed": null,
         "-60% Shock Chance": 60
       },
-      " Origin": {
+      "origin": {
         "30% chance for target to cast Chain Lightning on every hit": 30,
         "Chain Lightning DMG 60%": 60,
         "Chain Lightning DMG +128": 128,
@@ -1577,7 +1577,7 @@
         "Chain Lightning Chain Count +2": 2,
         "+[10-20]% Shock Effect": null
       },
-      " Verity": {
+      "verity": {
         "Apply the following effects if the caster and allies are within the Electric Area": "Apply the following effects if the caster and allies are within the Electric Area",
         "+[90-120]% Mana Regen/Sec": null,
         "+[10-20] Element Resist": null
@@ -1628,7 +1628,7 @@
     ],
     "elementType": "Physical",
     "awakenings": {
-      " Source": {
+      "source": {
         "Create Blood Puddle for 2 s upon using Skill": 2,
         "1 DoT stack on enemies within Blood Puddle": 1,
         "Blood Puddle Strike Cycle 1 s": 1,
@@ -1636,11 +1636,11 @@
         "Blood Puddle Range 350": 350,
         "+[40-80]% DoT": null
       },
-      " Origin": {
+      "origin": {
         "+[20-30]% DoT Acceleration": null,
         "+[10-30]% DoT": null
       },
-      " Verity": {
+      "verity": {
         "+2 Max DoT Stacks": 2,
         "+[7-16]% Attack Speed": null
       }
@@ -1685,11 +1685,11 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "Immune to all Status Effects until end of duration": "Immune to all Status Effects until end of duration",
         "+[10-20]% Skill Rune Duration": null
       },
-      " Origin": {
+      "origin": {
         "Create a Gravity Aura on the caster while sprinting": "Create a Gravity Aura on the caster while sprinting",
         "Gravity Aura Range 600": 600,
         "Apply the following effect to caster and friendly targets within Gravity Aura Range": "Apply the following effect to caster and friendly targets within Gravity Aura Range",
@@ -1698,7 +1698,7 @@
         "10% Attack Speed Dampening": 10,
         "10% Movement Speed Dampening": 10
       },
-      " Verity": {
+      "verity": {
         "+[10-20]% Movement Skill Rune Cooldown Recovery Speed": null
       }
     }
@@ -1745,16 +1745,16 @@
     ],
     "elementType": "Physical",
     "awakenings": {
-      " Source": {
+      "source": {
         "[10-25]% DMG Amplification": null,
         "[5-10]% Area of Effect Amplification": null
       },
-      " Origin": {
+      "origin": {
         "Deletes 2nd projectile attack, changes projectile number to 3": 2,
         "[5-10]% DMG Amplification": null,
         "[5-15]% Area of Effect Amplification": null
       },
-      " Verity": {
+      "verity": {
         "+[20-25]% Bleed Chance": null,
         "[15-30]% DMG Amplification against Bleeding enemies": null,
         "+[5-15] Stun Rate": null
@@ -1811,15 +1811,15 @@
     ],
     "elementType": "Physical",
     "awakenings": {
-      " Source": {
+      "source": {
         "Max Concussion Stacks 5": 5,
         "+[10-30]% Concussion Effect": null
       },
-      " Origin": {
+      "origin": {
         "+[10-20]% Projectile Size": null,
         "+[10-30]% Projectile DMG": null
       },
-      " Verity": {
+      "verity": {
         "[10-20]% Projectile Speed Dampening": null,
         "+[10-30]% Projectile DMG": null
       }
@@ -1857,13 +1857,13 @@
       "Synthesis"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "[15-30]% Skill Rune Cooldown Dampening": null
       },
-      " Origin": {
+      "origin": {
         "+[50-75]% Enhance Skill Rune Duration": null
       },
-      " Verity": {
+      "verity": {
         "+[2-10]% Enhance Skill Rune Effect": null,
         "+30% Status Effect Dodge Chance": 30
       }
@@ -1897,7 +1897,7 @@
       "Synthesis"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "Change to Rapid Seal Skill": "Change to Rapid Seal Skill",
         "Duration 5 s": 5,
         "+165% Physical DMG": 165,
@@ -1914,7 +1914,7 @@
         "+[10-25]% Seal Skill Rune Cooldown Recovery Speed": null,
         "10% Rapid Seal Effect Dampening": 10
       },
-      " Origin": {
+      "origin": {
         "Change to Aura": "Change to Aura",
         "Affects yourself and allies": "Affects yourself and allies",
         "Max Attack Seal Activation Count 1": 1,
@@ -1925,7 +1925,7 @@
         "20% Aura and Seal Effect Dampening": 20,
         "+[60-100]% Aura Range": null
       },
-      " Verity": {
+      "verity": {
         "+[10-60]% Aura and Seal Effect": null
       }
     }
@@ -1960,7 +1960,7 @@
       "Guild"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "Change to Rapid Seal Skill": "Change to Rapid Seal Skill",
         "Duration 5 s": 5,
         "+102.5% Armor": 102.5,
@@ -1978,7 +1978,7 @@
         "+[10-25]% Seal Skill Rune Cooldown Recovery Speed": null,
         "10% Rapid Seal Effect Dampening": 10
       },
-      " Origin": {
+      "origin": {
         "Change to Aura": "Change to Aura",
         "Affects yourself and allies": "Affects yourself and allies",
         "Max Defense Seal Activation Count 1": 1,
@@ -1989,7 +1989,7 @@
         "20% Aura and Seal Effect Dampening": 20,
         "+[60-100]% Aura Range": null
       },
-      " Verity": {
+      "verity": {
         "Add [3-6]% Armor Amplification effect upon Seal Activation": null
       }
     }
@@ -2022,7 +2022,7 @@
       "Guild"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "Change to Rapid Seal Skill": "Change to Rapid Seal Skill",
         "Duration 5 s": 5,
         "+30.3% Crowd Control Dodge Chance": 30.3,
@@ -2039,7 +2039,7 @@
         "+[10-25]% Seal Skill Rune Cooldown Recovery Speed": null,
         "10% Rapid Seal Effect Dampening": 10
       },
-      " Origin": {
+      "origin": {
         "Change to Aura": "Change to Aura",
         "Affects yourself and allies": "Affects yourself and allies",
         "Max Defense Seal Activation Count 1": 1,
@@ -2050,7 +2050,7 @@
         "20% Aura and Seal Effect Dampening": 20,
         "+[60-100]% Aura Range": null
       },
-      " Verity": {
+      "verity": {
         "-[10-3]% Resource Cost Amplification": null,
         "Immune to Crowd Control for 5 s when hitting a Crowd Controlled enemy (Cooldown: 10 s)": 5
       }
@@ -2103,14 +2103,14 @@
     ],
     "elementType": "Fire",
     "awakenings": {
-      " Source": {
+      "source": {
         "[10-15]% chance to deal double Maximized DMG on hit": null
       },
-      " Origin": {
+      "origin": {
         "Change Fire Pillar Creation Range to 120º": 120,
         "+[20-30]% Area of Effect": null
       },
-      " Verity": {
+      "verity": {
         "+1 Projectile Count": 1,
         "[12-17]% Projectile DMG Amplification": null
       }
@@ -2162,15 +2162,15 @@
     ],
     "elementType": "Physical",
     "awakenings": {
-      " Source": {
+      "source": {
         "[5-15]% Attack Cycle per Stage": null
       },
-      " Origin": {
+      "origin": {
         "+[5-10] DoT Rate": null,
         "+[5-10] Debuff Rate": null,
         "+[2-5] Crowd Control Rate": null
       },
-      " Verity": {
+      "verity": {
         "Gain Area Effect Link Rune Effect": null,
         "+[42-50]% Area of Effect": null,
         "+[46-61]% Area DMG": null,
@@ -2213,15 +2213,15 @@
       "Synthesis"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "[10-20]% Resource Cost Dampening": null,
         "Immune to Status Effects for 1 s upon using Skill": 1
       },
-      " Origin": {
+      "origin": {
         "+[40-60]% Shout Skill Rune Effect Range": null,
         "+[10-25]% Shout Skill Rune Effect": null
       },
-      " Verity": {
+      "verity": {
         "+[25-40]% Shout Skill Rune Cooldown Recovery Speed": null,
         "+[60-100]% Shout Skill Rune Cast Speed": null
       }
@@ -2278,15 +2278,15 @@
     ],
     "elementType": "Physical",
     "awakenings": {
-      " Source": {
+      "source": {
         "+[30-60]% DMG Multiplier": null,
         "Increase DMG by 25% of Equipped Weapon Range (Max: 100%)": 25
       },
-      " Origin": {
+      "origin": {
         "[2-7]% Melee DMG Amplification": null,
         "Add Melee tag": null
       },
-      " Verity": {
+      "verity": {
         "Activates Enhanced Ultimate Blow effect for 2 s upon normal strike hit": 2,
         "Enhanced Ultimate Blow DMG +[150-200]%": null,
         "Change Ultimate Blow Cooldown to 2 s": 2
@@ -2335,15 +2335,15 @@
     ],
     "elementType": "Fire",
     "awakenings": {
-      " Source": {
+      "source": {
         "30% chance to inflict Pain on the enemy for 4 s on hit": 30,
         "( DMG Taken 10% Amplification )": 10,
         "+[10-20]% Attack Speed": null
       },
-      " Origin": {
+      "origin": {
         "[15-20]% DMG Amplification against enemies affected by Fire Status Effect": null
       },
-      " Verity": {
+      "verity": {
         "+[25-40] Burn Rate": null,
         "Causes Fire Wave upon using Skill": "Causes Fire Wave upon using Skill",
         "Fire Wave DMG +273": 273,
@@ -2382,7 +2382,7 @@
       "Guild"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "Change to Rapid Seal Skill": "Change to Rapid Seal Skill",
         "Duration 5 s": 5,
         "12.3% Physical DMG Taken Dampening": 12.3,
@@ -2399,7 +2399,7 @@
         "+[10-25]% Seal Skill Rune Cooldown Recovery Speed": null,
         "10% Rapid Seal Effect Dampening": 10
       },
-      " Origin": {
+      "origin": {
         "Change to Aura": "Change to Aura",
         "Affects yourself and allies": "Affects yourself and allies",
         "Max Defense Seal Activation Count 1": 1,
@@ -2410,7 +2410,7 @@
         "20% Aura and Seal Effect Dampening": 20,
         "+[60-100]% Aura Range": null
       },
-      " Verity": {
+      "verity": {
         "+[25-40]% Aura and Seal Effect": null
       }
     }
@@ -2443,7 +2443,7 @@
       "Synthesis"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "Change to Rapid Seal Skill": "Change to Rapid Seal Skill",
         "Duration 5 s": 5,
         "11.2% Strike DMG Amplification": 11.2,
@@ -2460,7 +2460,7 @@
         "+[10-25]% Seal Skill Rune Cooldown Recovery Speed": null,
         "25% Rapid Seal Effect Dampening": 25
       },
-      " Origin": {
+      "origin": {
         "Change to Aura": "Change to Aura",
         "Affects yourself and allies": "Affects yourself and allies",
         "Max Attack Seal Activation Count 1": 1,
@@ -2471,7 +2471,7 @@
         "30% Aura and Seal Effect Dampening": 30,
         "+[60-100]% Aura Range": null
       },
-      " Verity": {
+      "verity": {
         "-[15-5]% Resource Cost Amplification": null
       }
     }
@@ -2522,18 +2522,18 @@
     ],
     "elementType": "Cold",
     "awakenings": {
-      " Source": {
+      "source": {
         "Gain Cold Penetration Link Rune Effect": null,
         "+[17-20] Cold Penetration": null,
         "+[40-52]% Cold DMG": null,
         "Cannot link Cold Penetration Link Rune": null
       },
-      " Origin": {
+      "origin": {
         "+[10-15] Debuff Rate": null,
         "+[3-10] Crowd Control Rate": null,
         "Cold DMG +[8-12]% per Cold Energy stack": null
       },
-      " Verity": {
+      "verity": {
         "+2 Ice Pillar(s) per 2 Cold Energy (Max 8)": 2,
         "[15-20]% Cold DMG Dampening": null
       }
@@ -2579,14 +2579,14 @@
     ],
     "elementType": "Physical",
     "awakenings": {
-      " Source": {
+      "source": {
         "[1.5-3]% Projectile DMG Amplification per 1 additional Projectile(s) (Max: 24)": null
       },
-      " Origin": {
+      "origin": {
         "+1 Chain Count": 1,
         "+[25-50]% Projectile DMG": null
       },
-      " Verity": {
+      "verity": {
         "+1 Pierce Count": 1,
         "1 Projectile Curve": 1,
         "[4-12]% DMG Amplification when distance from enemy is 600 or more": null
@@ -2640,15 +2640,15 @@
     ],
     "elementType": "Fire",
     "awakenings": {
-      " Source": {
+      "source": {
         "30% chance to gain Hellfire for 3 s on hit": 30,
         "( Fire Penetration +10%, 10% Fire DMG Amplification )": 10,
         "+[30-60]% Hellfire Effect": null
       },
-      " Origin": {
+      "origin": {
         "+[55-70]% Skill Rune Cooldown Recovery Speed": null
       },
-      " Verity": {
+      "verity": {
         "[5-10]% Area of Effect Amplification": null,
         "[10-15]% Area DMG Amplification": null
       }
@@ -2701,19 +2701,19 @@
     ],
     "elementType": "Cold",
     "awakenings": {
-      " Source": {
+      "source": {
         "Gain Area Effect Link Rune Effect": null,
         "+[40-60]% Projectile DMG": null,
         "+[42-50]% Area of Effect": null,
         "+[46-61]% Area DMG": null,
         "Cannot link Area Effect Link Rune": null
       },
-      " Origin": {
+      "origin": {
         "20% chance to gain Fatal Frostbite for 5 s on hit": 20,
         "( Chill Rate +30, DMG against enemies affected by Cold Status Effect +25% )": 30,
         "+[60-100]% Fatal Frostbite Effect": null
       },
-      " Verity": {
+      "verity": {
         "[40-45]% Area DMG Dampening": null,
         "Projectile Count +2": 2
       }
@@ -2757,17 +2757,17 @@
     ],
     "elementType": "Physical",
     "awakenings": {
-      " Source": {
+      "source": {
         "Gain Armor Penetration Link Rune Effect": null,
         "+[24.9-30]% Armor Penetration": null,
         "+[40-52]% Physical DMG": null,
         "Cannot link Armor Penetration Link Rune": null
       },
-      " Origin": {
+      "origin": {
         "-[5-2]% DMG Dampening Decrease upon hitting the same target repeatedly": null,
         "+[25-50]% Projectile DMG": null
       },
-      " Verity": {
+      "verity": {
         "+1 Chain Count": 1,
         "[1-2.5]% Projectile DMG Amplification per 1 remaining Chain(s) (Max: 15)": null
       }
@@ -2809,13 +2809,13 @@
     ],
     "elementType": "Poison",
     "awakenings": {
-      " Source": {
+      "source": {
         "[10-15]% Poison DMG Amplification": null
       },
-      " Origin": {
+      "origin": {
         "[15-20]% DMG Amplification against enemies affected by Poison Status Effect": null
       },
-      " Verity": {
+      "verity": {
         "Gain Area Effect Link Rune Effect": null,
         "+[42-50]% Area of Effect": null,
         "+[46-61]% Area DMG": null,
@@ -2865,17 +2865,17 @@
     ],
     "elementType": "Physical",
     "awakenings": {
-      " Source": {
+      "source": {
         "+[30-50]% Strike DMG": null,
         "[3-5]% DMG Amplification against Elites": null,
         "6% Projectile DMG Amplification per 1 Pierce(s)": 6
       },
-      " Origin": {
+      "origin": {
         "+2 Projectile Count": 2,
         "2 Projectile Curve": 2,
         "[1-5]% DMG Amplification when distance from enemy is 600 or more": null
       },
-      " Verity": {
+      "verity": {
         "Gain Preemptive Strike Link Rune Effect": null,
         "[25.7-30]% DMG Amplification against enemies at Full HP": null,
         "+[15-30] Bleed Rate": null,
@@ -2935,15 +2935,15 @@
     ],
     "elementType": "Physical",
     "awakenings": {
-      " Source": {
+      "source": {
         "+[1-2] Max Use Count": null,
         "+[15-30]% Skill Rune Cooldown Recovery Speed": null
       },
-      " Origin": {
+      "origin": {
         "+10 Projectile Count": 10,
         "[10-15]% Projectile DMG Dampening": null
       },
-      " Verity": {
+      "verity": {
         "Gain Area Effect Link Rune Effect": null,
         "-[40-30]% Projectile Duration": null,
         "+[42-50]% Area of Effect": null,
@@ -3004,19 +3004,19 @@
     ],
     "elementType": "Fire",
     "awakenings": {
-      " Source": {
+      "source": {
         "Gain Multishot Link Rune Effect": null,
         "+4 Projectile Count": 4,
         "[1-3]% Projectile DMG Amplification": null,
         "Cannot link Multishot Link Rune": null
       },
-      " Origin": {
+      "origin": {
         "[10-15]% Fire DMG Amplification": null,
         "+1 Chain Count": 1,
         "1 Projectile Curve": 1,
         "Pierce All on Projectile Curve": "Pierce All on Projectile Curve"
       },
-      " Verity": {
+      "verity": {
         "60% Strike DMG Multiplier Dampening": 60,
         "[350-400]% Additional Skill DMG Amplification": null
       }
@@ -3067,19 +3067,19 @@
     ],
     "elementType": "Lightning",
     "awakenings": {
-      " Source": {
+      "source": {
         "Gain Lightning Penetration Link Rune Effect": null,
         "+[17-20] Lightning Penetration": null,
         "+[40-52]% Lightning DMG": null,
         "Cannot link Lightning Penetration Link Rune": null
       },
-      " Origin": {
+      "origin": {
         "Gain Find Weakness Link Rune Effect": null,
         "+[117-155]% Critical Rate": null,
         "+6 Critical Rate": 6,
         "Cannot link Find Weakness Link Rune": null
       },
-      " Verity": {
+      "verity": {
         "70% chance to Unleash Lightning upon every Critical Hit": 70,
         "+[25-50]% Control Current Effect": null,
         "20% chance to gain Control Current for 5 s on hit": 20,
@@ -3130,16 +3130,16 @@
     ],
     "elementType": "Poison",
     "awakenings": {
-      " Source": {
+      "source": {
         "+1 Chain Count": 1,
         "+[25-50]% Projectile DMG": null
       },
-      " Origin": {
+      "origin": {
         "Gain Additional Poison DMG Link Rune Effect": null,
         "+[68-80]-[123-147] Poison DMG": null,
         "Cannot link Additional Poison DMG Link Rune": null
       },
-      " Verity": {
+      "verity": {
         "+[50-80]% DMG against enemies affected by Poison Status Effect": null,
         "+2 Projectile Count": 2
       }
@@ -3180,15 +3180,15 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "[15-30]% Resource Cost Dampening": null,
         "+[5-10]% Movement Skill Rune Cooldown Recovery Speed": null
       },
-      " Origin": {
+      "origin": {
         "+[20-40]% Nimble Effect": null,
         "+[10-20]% Skill Rune Duration": null
       },
-      " Verity": {
+      "verity": {
         "+2 Max Use Count": 2,
         "[5-10]% Skill Rune Cooldown Amplification": null
       }
@@ -3233,18 +3233,18 @@
     ],
     "elementType": "Physical",
     "awakenings": {
-      " Source": {
+      "source": {
         "Cross Slash's base Strike Count is fixed to 3": 3,
         "Increases base Strike Range": "Increases base Strike Range",
         "[5-10]% DMG Amplification": null
       },
-      " Origin": {
+      "origin": {
         "Gain Find Weakness Link Rune Effect": null,
         "+6 Critical Rate": 6,
         "+[117-155]% Critical Rate": null,
         "Cannot link Find Weakness Link Rune": null
       },
-      " Verity": {
+      "verity": {
         "Gain Finishing Strike Link Rune Effect": null,
         "[20-25]% DMG Amplification against enemies at 20% or less HP": null,
         "Cannot link Finishing Strike Link Rune": null
@@ -3283,15 +3283,15 @@
     ],
     "elementType": "Physical",
     "awakenings": {
-      " Source": {
+      "source": {
         "+[1-3] Pierce Count": null,
         "[1-3]% DMG Amplification per 1 Pierce(s)": null
       },
-      " Origin": {
+      "origin": {
         "+[1-2] Chain Count": null,
         "[1-3]% DMG Amplification per  Chain(s)": null
       },
-      " Verity": {
+      "verity": {
         "Projectile Return": "Projectile Return",
         "+[50-70]% Projectile Size": null,
         "Projectile Return DMG [50-80]% Dampening": null,
@@ -3346,17 +3346,17 @@
     ],
     "elementType": "Physical",
     "awakenings": {
-      " Source": {
+      "source": {
         "+2 Max Use Count": 2,
         "[5-10]% Skill Rune Cooldown Amplification": null
       },
-      " Origin": {
+      "origin": {
         "Illusion Strike's base Strike Range": "Illusion Strike's base Strike Range",
         "increases 3 times": 3,
         "Guaranteed Critical Hit against enemies at full HP": "Guaranteed Critical Hit against enemies at full HP",
         "+[10-15]% Movement Skill Rune Cooldown Recovery Speed": null
       },
-      " Verity": {
+      "verity": {
         "100% chance to inflict Exhaust effect for 3 s on Critical Hit": 100,
         "( 10% Armor Dampening, 15% Movement Speed Dampening )": 10,
         "+[30-60]% Exhaust Effect": null
@@ -3408,16 +3408,16 @@
     ],
     "elementType": "Physical",
     "awakenings": {
-      " Source": {
+      "source": {
         "+[30-50]% Sentry Duration": null,
         "+[10-20]% Sentry Attack Speed for 5 s upon summoning Sentry": null,
         "[15-25]% Sentry DMG Amplification 5 s after summoning Sentry": null
       },
-      " Origin": {
+      "origin": {
         "+[1-2] Simultaneous Summon Count": null,
         "+3% Sentry Armor Penetration per summoned Sentry": 3
       },
-      " Verity": {
+      "verity": {
         "+2 Sentry Projectile Count": 2,
         "+[25-50]% Sentry DMG": null,
         "+[20-30] Sentry Bleed Rate": null
@@ -3467,16 +3467,16 @@
     ],
     "elementType": "Physical",
     "awakenings": {
-      " Source": {
+      "source": {
         "+[30-50]% Sentry Duration": null,
         "+[4-6]% Attack Speed (Max: 50%) every 2 s": null,
         "+[4-6]% Armor Penetration (Max: 50%) every 2 s": null
       },
-      " Origin": {
+      "origin": {
         "+[1-2] Simultaneous Summon Count": null,
         "+5% Sentry DMG per summoned Sentry": 5
       },
-      " Verity": {
+      "verity": {
         "+2 Sentry Projectile Count": 2,
         "+[60-80]% Sentry DMG": null
       }
@@ -3527,18 +3527,18 @@
     ],
     "elementType": "Lightning",
     "awakenings": {
-      " Source": {
+      "source": {
         "+[30-50]% Sentry Duration": null,
         "[80-90]% Lightning DMG Taken by Sentry Dampening": null,
         "[10-25]% Lightning DMG Amplification Sentry for 3 s when Sentry is Shocked": null,
         "Deals Lightning DMG to self with a +50% chance to Shock when Sentry inflicts Shock": 50,
         "Sentry Lightning DMG dealt to self 100%": 100
       },
-      " Origin": {
+      "origin": {
         "+[1-2] Simultaneous Summon Count": null,
         "+2% Sentry Critical DMG per summoned Sentry": 2
       },
-      " Verity": {
+      "verity": {
         "+[20-40] Sentry Shock Rate": null,
         "+[32-40]% Sentry Hit Rate": null,
         "+[9-11] Sentry Critical Rate": null
@@ -3586,21 +3586,21 @@
     ],
     "elementType": "Poison",
     "awakenings": {
-      " Source": {
+      "source": {
         "Gain Area Effect Link Rune Effect": null,
         "[10-15]% Poison DMG Amplification": null,
         "+[42-50]% Area of Effect": null,
         "+[46-61]% Area DMG": null,
         "Cannot link Area Effect Link Rune": null
       },
-      " Origin": {
+      "origin": {
         "Gain Poison Penetration Link Rune Effect": null,
         "[10-20]% DMG Amplification against enemies affected by Poison Status Effect": null,
         "+[17-20] Poison Penetration": null,
         "+[40-52]% Poison DMG": null,
         "Cannot link Poison Penetration Link Rune": null
       },
-      " Verity": {
+      "verity": {
         "Gain Quick Attack Link Rune Effect": null,
         "+[26.6-31]% Attack Speed": null,
         "Cannot link Quick Attack Link Rune": null
@@ -3656,13 +3656,13 @@
     ],
     "elementType": "Physical",
     "awakenings": {
-      " Source": {
+      "source": {
         "[15-30]% Skill Rune Cooldown Dampening": null
       },
-      " Origin": {
+      "origin": {
         "+[50-80]% DMG against Bound enemies": null
       },
-      " Verity": {
+      "verity": {
         "+1 Max Use Count": 1,
         "+[15-30]% Skill Rune Cooldown Recovery Speed": null
       }
@@ -3721,16 +3721,16 @@
     ],
     "elementType": "Physical",
     "awakenings": {
-      " Source": {
+      "source": {
         "[10-15]% Projectile DMG Amplification": null,
         "+[2-4] Projectile Count": null
       },
-      " Origin": {
+      "origin": {
         "[13-20]% DMG Amplification against Bleeding enemies": null,
         "-240 Max Angle": 240,
         "-80 Interval Angle": 80
       },
-      " Verity": {
+      "verity": {
         "[30-50]% Bleed DMG Amplification": null,
         "+[20-40] Bleed Rate": null,
         "30% Status Effect Duration Dampening": 30
@@ -3778,18 +3778,18 @@
     ],
     "elementType": "Physical",
     "awakenings": {
-      " Source": {
+      "source": {
         "5% chance to gain Versatility for 8 s on hit": 5,
         "( Attack Speed +10%, Cast Speed +10%, Armor Penetration +10%, Element Penetration +10% )": 10,
         "+[30-60]% Versatility Effect": null
       },
-      " Origin": {
+      "origin": {
         "Gain Concentrated Area DMG Link Rune Effect": null,
         "[20.7-25]% Area DMG Amplification": null,
         "30% Area of Effect Dampening": 30,
         "Cannot link Concentrated Area DMG Link Rune": null
       },
-      " Verity": {
+      "verity": {
         "+[15-30] Status Effect Rate": null,
         "Convert DMG to Main Element [30-50]%": null
       }
@@ -3841,17 +3841,17 @@
     ],
     "elementType": "Poison",
     "awakenings": {
-      " Source": {
+      "source": {
         "[15-20]% Poison DMG Amplification": null
       },
-      " Origin": {
+      "origin": {
         "[10-15]% Poison DMG Amplification": null,
         "50% chance to additionally trigger Spread Deadly Poison on hit": 50,
         "Spread Deadly Poison Range 500": 500,
         "Poison DMG 126%": 126,
         "Poison DMG +211": 211
       },
-      " Verity": {
+      "verity": {
         "Gain Poison Penetration Link Rune Effect": null,
         "+[17-20] Poison Penetration": null,
         "+[40-52]% Poison DMG": null,
@@ -3910,17 +3910,17 @@
     ],
     "elementType": "Lightning",
     "awakenings": {
-      " Source": {
+      "source": {
         "[5-10]% Lightning DMG Amplification": null,
         "+[5-15]% Shock Chance": null,
         "Lightning Particle Count +5": 5
       },
-      " Origin": {
+      "origin": {
         "[5-10]% Lightning DMG Amplification": null,
         "+[5-15]% Shock Chance": null,
         "Lightning Arrow Pierce Count +2": 2
       },
-      " Verity": {
+      "verity": {
         "[5-10]% Lightning DMG Amplification": null,
         "+[5-15]% Shock Chance": null,
         "Lightning Arrow Chain Count +2": 2
@@ -3974,16 +3974,16 @@
     ],
     "elementType": "Cold",
     "awakenings": {
-      " Source": {
+      "source": {
         "+[20-40] Sentry Chill Rate": null,
         "+[32-40]% Sentry Hit Rate": null,
         "+[9-11] Sentry Critical Rate": null
       },
-      " Origin": {
+      "origin": {
         "+[40-70]% Sentry Chill Effect": null,
         "+[75-100]% Sentry DMG against Chilled enemies": null
       },
-      " Verity": {
+      "verity": {
         "+[50-70]% Sentry Chill Duration": null,
         "Transfers [25-35]% of the caster's Cold DMG Increase to Sentry (Max: 250%)": null
       }
@@ -4021,14 +4021,14 @@
       "Synthesis"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[10-20]% Enhance Skill Rune Effect": null
       },
-      " Origin": {
+      "origin": {
         "+[5-10]% Enhance Skill Rune Effect": null,
         "+[25-50]% Enhance Skill Rune Cooldown Recovery Speed": null
       },
-      " Verity": {
+      "verity": {
         "[10-20]% Resource Cost Dampening": null,
         "+[10-20]% Enhance Skill Rune Cooldown Recovery Speed": null
       }
@@ -4067,14 +4067,14 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "[10-20]% Resource Cost Dampening": null,
         "+[10-20]% Enhance Skill Rune Cooldown Recovery Speed": null
       },
-      " Origin": {
+      "origin": {
         "+[15-30]% Enhance Skill Rune Effect": null
       },
-      " Verity": {
+      "verity": {
         "+[30-50]% Skill Rune Duration": null
       }
     }
@@ -4125,13 +4125,13 @@
     ],
     "elementType": "Physical",
     "awakenings": {
-      " Source": {
+      "source": {
         "[10-15]% Projectile DMG Amplification": null
       },
-      " Origin": {
+      "origin": {
         "+[20-30] Debuff Rate": null
       },
-      " Verity": {
+      "verity": {
         "Gain Multishot Link Rune Effect": null,
         "+4 Projectile Count": 4,
         "[1-3]% Projectile DMG Amplification": null,
@@ -4183,13 +4183,13 @@
     ],
     "elementType": "Poison",
     "awakenings": {
-      " Source": {
+      "source": {
         "[10-15]% Poison DMG Amplification": null
       },
-      " Origin": {
+      "origin": {
         "[10-20]% DMG Amplification against enemies affected by Poison Status Effect": null
       },
-      " Verity": {
+      "verity": {
         "+[40-60]% Area of Effect": null
       }
     }
@@ -4235,13 +4235,13 @@
     ],
     "elementType": "Physical",
     "awakenings": {
-      " Source": {
+      "source": {
         "+[40-60]% Area of Effect": null
       },
-      " Origin": {
+      "origin": {
         "[5-10]% DMG Amplification": null
       },
-      " Verity": {
+      "verity": {
         "+[10-20]% Control Status Effect Chance": null
       }
     }
@@ -4283,13 +4283,13 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "[15-30]% Skill Rune Cooldown Dampening": null
       },
-      " Origin": {
+      "origin": {
         "+[20-40]% Enhance Skill Rune Effect": null
       },
-      " Verity": {
+      "verity": {
         "+[30-50]% Skill Rune Duration": null
       }
     }
@@ -4326,16 +4326,16 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[10-30]% Skill Rune Effect": null,
         "10% Sentry Attack Speed Amplification per stack": 10
       },
-      " Origin": {
+      "origin": {
         "10% Caster's DMG Taken Dampening per stack": 10,
         "-[30-10]% Skill Rune Effect": null,
         "Changes Caster's DMG Taken Amplification effect to DMG Taken Dampening effect per stack": "Changes Caster's DMG Taken Amplification effect to DMG Taken Dampening effect per stack"
       },
-      " Verity": {
+      "verity": {
         "+[10-30]% Skill Rune Effect": null,
         "Gain Regeneration while channeling": "Gain Regeneration while channeling",
         "( 1% Max HP Regen/Sec, 0.4% Max Mana Regen/Sec )": 1
@@ -4395,16 +4395,16 @@
     ],
     "elementType": "Cold",
     "awakenings": {
-      " Source": {
+      "source": {
         "+2 Projectile Count": 2,
         "-[5-3]% DMG Dampening Decrease upon hitting the same target repeatedly": null
       },
-      " Origin": {
+      "origin": {
         "Projectile Return": "Projectile Return",
         "+1 Pierce Count": 1,
         "Projectile Return DMG [60-70]% Dampening": null
       },
-      " Verity": {
+      "verity": {
         "[5-10]% Area DMG Dampening": null,
         "[10-15]% Projectile DMG Amplification": null,
         "Triggers Cold Explosion upon inflicting Chill": "Triggers Cold Explosion upon inflicting Chill"
@@ -4473,15 +4473,15 @@
     ],
     "elementType": "Fire",
     "awakenings": {
-      " Source": {
+      "source": {
         "Maintain Position Stacks +4": 4,
         "+[15-30]% Maintain Position effect": null
       },
-      " Origin": {
+      "origin": {
         "+5 Max Maintain Position Stacks": 5,
         "+[20-50]% Projectile DMG": null
       },
-      " Verity": {
+      "verity": {
         "[0.4-0.7]% DMG Taken Dampening per Maintain Position stack": null,
         "+[4-8] Fire Penetration": null
       }
@@ -4533,19 +4533,19 @@
     ],
     "elementType": "Lightning",
     "awakenings": {
-      " Source": {
+      "source": {
         "1 Projectile Curve": 1,
         "+1 Pierce Count": 1,
         "[30-40]% Projectile DMG Dampening": null,
         "Projectile count for every 3 Lightning Energy: 2": 3
       },
-      " Origin": {
+      "origin": {
         "Gain Lightning Penetration Link Rune Effect": null,
         "+[17-20] Lightning Penetration": null,
         "+[40-52]% Lightning DMG": null,
         "Cannot link Lightning Penetration Link Rune": null
       },
-      " Verity": {
+      "verity": {
         "Gain Lightning Barrier for 10 s upon Skill use": 10,
         "60% chance to charge 1 Lightning Energy upon being hit while under Lightning Barrier (Cooldown: 1 s)": 60,
         "[1.5-4]% Damage Taken Dampening for every Lightning Energy while under Lightning Barrier (Max: 25%)": null
@@ -4600,19 +4600,19 @@
     ],
     "elementType": "Physical",
     "awakenings": {
-      " Source": {
+      "source": {
         "Gain Concentrated Area DMG Link Rune Effect": null,
         "[20.7-25]% DMG Amplification": null,
         "30% Area of Effect Dampening": 30,
         "-60% Trap Detection Range": 60
       },
-      " Origin": {
+      "origin": {
         "Gain Avoid Crisis for 3 on hit": 3,
         "Max Stacks 5": 5,
         "[5-8]% DMG Taken Dampening per stack": null,
         "Remove Avoid Crisis when hit": "Remove Avoid Crisis when hit"
       },
-      " Verity": {
+      "verity": {
         "+[2-3] Simultaneous Trap Count": null,
         "+[50-70]% Trap DMG": null
       }
@@ -4670,14 +4670,14 @@
     ],
     "elementType": "Fire",
     "awakenings": {
-      " Source": {
+      "source": {
         "[8-13]% DMG Amplification": null
       },
-      " Origin": {
+      "origin": {
         "+[25-40] Burn Rate": null,
         "[6-9]% DMG Amplification against enemies affected by Fire Status Effect": null
       },
-      " Verity": {
+      "verity": {
         "15% Fire DMG Taken": 15,
         "+[50-60]% DMG against Debuffed enemies": null
       }
@@ -4728,17 +4728,17 @@
     ],
     "elementType": "Cold",
     "awakenings": {
-      " Source": {
+      "source": {
         "+[20-30]% Area of Effect": null,
         "[3-6]% Cold DMG Amplification": null,
         "+1 Trap Projectile Count": 1
       },
-      " Origin": {
+      "origin": {
         "Gain Area Effect Link Rune Effect": null,
         "+[42-50]% Area of Effect": null,
         "+[46-61]% DMG": null
       },
-      " Verity": {
+      "verity": {
         "Gain Avoid Crisis for 3 on hit": 3,
         "Max Stacks 5": 5,
         "[5-8]% DMG Taken Dampening per stack": null,
@@ -4790,19 +4790,19 @@
     ],
     "elementType": "Lightning",
     "awakenings": {
-      " Source": {
+      "source": {
         "+[20-30]% Trap Detection Range": null,
         "100% chance to gain Condensed Lightning for 2 s on hit": 100,
         "Max Stacks 10": 10,
         "Amplifies Lightning DMG by [1-2]% per stack": null
       },
-      " Origin": {
+      "origin": {
         "Gain Continuous Shock Link Rune Effect": null,
         "+[41-51] Shock Rate": null,
         "+[21-25]% Shock Effect": null,
         "Cannot link Continuous Shock Link Rune": null
       },
-      " Verity": {
+      "verity": {
         "100% chance to gain Agile Barrier for 2 s on hit": 100,
         "[5-10]% Dodge Rate Amplification": null,
         "[3-8]% Barrier Amplification": null
@@ -4857,18 +4857,18 @@
     ],
     "elementType": "Poison",
     "awakenings": {
-      " Source": {
+      "source": {
         "Gain Poison Penetration Link Rune Effect": null,
         "+[17-20] Poison Penetration": null,
         "+[40-52]% Poison DMG": null,
         "Cannot link Poison Penetration Link Rune": null
       },
-      " Origin": {
+      "origin": {
         "Gain Area Effect Link Rune Effect": null,
         "+[42-50]% Area of Effect": null,
         "+[46-61]% DMG": null
       },
-      " Verity": {
+      "verity": {
         "Gain the following effect(s) if the caster is inside poison gas": "Gain the following effect(s) if the caster is inside poison gas",
         "[10-15]% Dodge Rate Amplification": null
       }
@@ -4901,7 +4901,7 @@
       "Synthesis"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "Change to Aura": "Change to Aura",
         "Can be used with Seal": "Can be used with Seal",
         "15% Resource Cost Amplification": 15,
@@ -4916,12 +4916,12 @@
         "+50% Attack Aura and Seal Effect": 50,
         "-[8-3]% Resource Cost Amplification": null
       },
-      " Origin": {
+      "origin": {
         "For every active Trap, gain Trap DMG Amplification effect for 2 s": 2,
         "Max Stacks 10": 10,
         "[1-1.5]% Trap DMG Amplification per stack": null
       },
-      " Verity": {
+      "verity": {
         "For every active Trap, gain Dodge Rate Amplification effect for 3 s": 3,
         "Max Stacks 5": 5,
         "[2-3]% Dodge Rate Amplification per stack": null
@@ -4981,16 +4981,16 @@
     ],
     "elementType": "Lightning",
     "awakenings": {
-      " Source": {
+      "source": {
         "[10-15]% DMG Amplification against Shocked enemies": null,
         "+[10-20] Shock Rate": null
       },
-      " Origin": {
+      "origin": {
         "+2 Split Projectile Count": 2,
         "-15 Split Projectile Angle": 15,
         "[10-15]% Area of Effect Dampening": null
       },
-      " Verity": {
+      "verity": {
         "0.4% DMG Amplification per 1% Overheat Accumulation": 0.4,
         "+[20-50]% DMG": null
       }
@@ -5042,14 +5042,14 @@
     ],
     "elementType": "Physical",
     "awakenings": {
-      " Source": {
+      "source": {
         "+1 Max Use Count": 1,
         "+[12-20]% Leap Preparation Cooldown Recovery Speed": null
       },
-      " Origin": {
+      "origin": {
         "[10-20]% Overheat Accumulation Dampening for 1 s on hit": null
       },
-      " Verity": {
+      "verity": {
         "+[7-13]% Movement Skill Rune Cooldown Recovery Speed": null
       }
     }
@@ -5100,14 +5100,14 @@
     ],
     "elementType": "Physical",
     "awakenings": {
-      " Source": {
+      "source": {
         "[10-20]% Skill Rune Cooldown Dampening": null,
         "+[10-25] Crowd Control Rate": null
       },
-      " Origin": {
+      "origin": {
         "[12-18]% DMG Taken Dampening for 4 s on hit": null
       },
-      " Verity": {
+      "verity": {
         "Accumulate 50% Overheat on skill use": 50,
         "[15-20]% DMG Dampening": null
       }
@@ -5150,14 +5150,14 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[9-15]% Movement Skill Rune Cooldown Recovery Speed": null
       },
-      " Origin": {
+      "origin": {
         "+[40-80]% Shrewdness Duration": null,
         "+[5-12]% Shrewdness effect": null
       },
-      " Verity": {
+      "verity": {
         "Release 12% Overheat on skill use": 12,
         "Change to": "Change to",
         "+[2-8]% Movement Skill Rune Cooldown Recovery Speed": null,
@@ -5208,18 +5208,18 @@
     ],
     "elementType": "Physical",
     "awakenings": {
-      " Source": {
+      "source": {
         "Add Melee tag": null,
         "Cannot link Knockback Link Rune": "Cannot link Knockback Link Rune",
         "+[10-35]% Melee DMG": null,
         "25% Dampening for Max Projectile Distance Traveled": 25
       },
-      " Origin": {
+      "origin": {
         "+[1-2] Pierce Count": null,
         "[10-15]% Overheat Accumulation Dampening": null,
         "[10-15]% Resource Cost Dampening": null
       },
-      " Verity": {
+      "verity": {
         "+2 Projectile Count": 2,
         "+[20-50]% Projectile DMG": null,
         "+[20-40]% Projectile Size": null
@@ -5267,15 +5267,15 @@
     ],
     "elementType": "Poison",
     "awakenings": {
-      " Source": {
+      "source": {
         "+1 Projectile Count": 1,
         "+[30-50]% Projectile DMG": null
       },
-      " Origin": {
+      "origin": {
         "+1 Pierce Count": 1,
         "+[30-50]% Projectile DMG": null
       },
-      " Verity": {
+      "verity": {
         "+125% DMG against Elites": 125,
         "[8-12]% DMG Amplification against Bosses": null,
         "Cannot link Elite Slayer Link Rune": null
@@ -5326,17 +5326,17 @@
     ],
     "elementType": "Physical",
     "awakenings": {
-      " Source": {
+      "source": {
         "+[1-2] Simultaneous Summon Count": null,
         "Amplifies Sentry Armor by [8-15]%": null,
         "+3 Element Resist for Sentry and Caster per summoned Sentry": 3
       },
-      " Origin": {
+      "origin": {
         "[30-50]% DMG Taken by Sentry Decrease": null,
         "2% Sentry Max HP Regen/Sec": 2,
         "Sentry takes [10-15]% of DMG Taken instead": null
       },
-      " Verity": {
+      "verity": {
         "+2 Sentry Projectile Count": 2,
         "+[15-30]% Sentry DMG": null,
         "Sentry Knockback Chance +[15-20]%": null
@@ -5380,16 +5380,16 @@
     ],
     "elementType": "Physical",
     "awakenings": {
-      " Source": {
+      "source": {
         "+[20-40]% Melee DMG": null,
         "+[30-50]% Oblivion Effect": null,
         "7% chance to Instant Kill on every hit against a normal enemy": 7
       },
-      " Origin": {
+      "origin": {
         "+[10-20]% Skill Rune Duration": null,
         "+[10-15]% Movement Skill Rune Cooldown Recovery Speed": null
       },
-      " Verity": {
+      "verity": {
         "+2 Max Use Count": 2,
         "[5-10]% Skill Rune Cooldown Amplification": null,
         "10% chance to reset Cooldown on hit": 10
@@ -5435,18 +5435,18 @@
     ],
     "elementType": "Poison",
     "awakenings": {
-      " Source": {
+      "source": {
         "+[400-600] Hit Rate": null,
         "+[15-30] Venom Rate": null,
         "+[25-50]% Venom DMG": null
       },
-      " Origin": {
+      "origin": {
         "Gain Concentrated Area DMG Link Rune Effect": null,
         "[20.7-25]% Area DMG Amplification": null,
         "30% Area of Effect Dampening": 30,
         "Cannot link Concentrated Area DMG Link Rune": null
       },
-      " Verity": {
+      "verity": {
         "20% chance to gain Corrosion for 5 s on hit": 20,
         "( Poison DMG +30%, Blind Rate +20 )": 30,
         "+[50-100]% Corrosion Effect": null
@@ -5487,13 +5487,13 @@
       "Synthesis"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "[15-30]% Skill Rune Cooldown Dampening": null
       },
-      " Origin": {
+      "origin": {
         "+[10-20]% Enhance Skill Rune Effect": null
       },
-      " Verity": {
+      "verity": {
         "+[30-50]% Skill Rune Duration": null
       }
     }
@@ -5528,7 +5528,7 @@
       "Synthesis"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "Change to Rapid Seal Skill": "Change to Rapid Seal Skill",
         "Duration 5 s": 5,
         "+176.6% Hit Rate": 176.6,
@@ -5546,7 +5546,7 @@
         "+[10-25]% Seal Skill Rune Cooldown Recovery Speed": null,
         "10% Rapid Seal Effect Dampening": 10
       },
-      " Origin": {
+      "origin": {
         "Change to Aura": "Change to Aura",
         "Affects yourself and allies": "Affects yourself and allies",
         "Max Attack Seal Activation Count 1": 1,
@@ -5557,7 +5557,7 @@
         "20% Aura and Seal Effect Dampening": 20,
         "+[60-100]% Aura Range": null
       },
-      " Verity": {
+      "verity": {
         "+[120-150]% Hit Rate for 2 s on Attack miss (Cooldown: 5 s)": null
       }
     }
@@ -5594,7 +5594,7 @@
       "Guild"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "Change to Rapid Seal Skill": "Change to Rapid Seal Skill",
         "Duration 5 s": 5,
         "+122% Dodge Rate": 122,
@@ -5613,7 +5613,7 @@
         "+[10-25]% Seal Skill Rune Cooldown Recovery Speed": null,
         "10% Rapid Seal Effect Dampening": 10
       },
-      " Origin": {
+      "origin": {
         "Change to Aura": "Change to Aura",
         "Affects yourself and allies": "Affects yourself and allies",
         "Max Defense Seal Activation Count 1": 1,
@@ -5624,7 +5624,7 @@
         "20% Aura and Seal Effect Dampening": 20,
         "+[60-100]% Aura Range": null
       },
-      " Verity": {
+      "verity": {
         "Add +5% Perfect Dodge effect upon Seal Activation": 5
       }
     }
@@ -5659,7 +5659,7 @@
       "Synthesis"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "Change to Rapid Seal Skill": "Change to Rapid Seal Skill",
         "Duration 5 s": 5,
         "+157% Critical Rate": 157,
@@ -5677,7 +5677,7 @@
         "+[10-25]% Seal Skill Rune Cooldown Recovery Speed": null,
         "10% Rapid Seal Effect Dampening": 10
       },
-      " Origin": {
+      "origin": {
         "Change to Aura": "Change to Aura",
         "Affects yourself and allies": "Affects yourself and allies",
         "Max Attack Seal Activation Count 1": 1,
@@ -5688,7 +5688,7 @@
         "20% Aura and Seal Effect Dampening": 20,
         "+[60-100]% Aura Range": null
       },
-      " Verity": {
+      "verity": {
         "+[150-180]% Critical Rate for 2 s on non-critical hit (Cooldown: 5 s)": null
       }
     }
@@ -5731,14 +5731,14 @@
       "Synthesis"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "[5-15]% DMG Taken by Sentry Dampening on using Attack Toggle": null
       },
-      " Origin": {
+      "origin": {
         "[15-30]% Resource Cost Amplification": null,
         "+1 Max Sentry Summon Count": 1
       },
-      " Verity": {
+      "verity": {
         "[5-15]% chance for Sentry to deal double maximized DMG on using Defense Toggle": null
       }
     }
@@ -5791,16 +5791,16 @@
     ],
     "elementType": "Fire",
     "awakenings": {
-      " Source": {
+      "source": {
         "+[20-30]% Area of Effect": null,
         "[3-6]% Fire DMG Amplification": null,
         "+1 Trap Projectile Count": 1
       },
-      " Origin": {
+      "origin": {
         "100% chance to gain Regeneration Effect for 3 s on hit": 100,
         "+[80-100]% Regeneration Effect": null
       },
-      " Verity": {
+      "verity": {
         "+[2-3] Simultaneous Trap Count": null,
         "+[1-2] Chain Count": null
       }
@@ -5861,16 +5861,16 @@
     ],
     "elementType": "Cold",
     "awakenings": {
-      " Source": {
+      "source": {
         "+2 Max DoT Stacks": 2,
         "+[10-40]% Cold DMG": null
       },
-      " Origin": {
+      "origin": {
         "+[20-50]% Chill Effect": null,
         "+[10-20] Freeze Rate": null,
         "+[20-30]% Cold DMG": null
       },
-      " Verity": {
+      "verity": {
         "Gain the following effect(s) if the caster is inside a Chill Area": "Gain the following effect(s) if the caster is inside a Chill Area",
         "[10-15]% Element DMG Taken Dampening": null
       }
@@ -5928,14 +5928,14 @@
     ],
     "elementType": "Physical",
     "awakenings": {
-      " Source": {
+      "source": {
         "[5-15]% chance to trigger Additional Hit on hit": null
       },
-      " Origin": {
+      "origin": {
         "+[40-60]% Strong Winds effect": null,
         "+[40-60]% Light Winds Effect": null
       },
-      " Verity": {
+      "verity": {
         "60% chance to trigger Additional Hit upon Critical Hit": 60,
         "+[20-50]% Area of Effect": null,
         "+[15-20]% Critical DMG": null
@@ -5993,15 +5993,15 @@
     ],
     "elementType": "Physical",
     "awakenings": {
-      " Source": {
+      "source": {
         "+[25-40]% Area of Effect": null,
         "+[20-50]% DMG": null
       },
-      " Origin": {
+      "origin": {
         "Add Overheat tag": null,
         "[15-20]% Area DMG Amplification": null
       },
-      " Verity": {
+      "verity": {
         "+1 Projectile Count": 1,
         "+[15-30] Crowd Control Rate": null
       }
@@ -6059,21 +6059,21 @@
     ],
     "elementType": "Fire",
     "awakenings": {
-      " Source": {
+      "source": {
         "+11% Heat Explosion Duration per 1 Fire Energy": 11,
         "Change to": "Change to",
         "Projectile Count +2": 2,
         "[10-15]% DMG Dampening": null,
         "[15-20]% Area of Effect Dampening": null
       },
-      " Origin": {
+      "origin": {
         "+25% Heat Explosion Duration per 1 Fire Energy": 25,
         "Change to": "Change to",
         "Change to Heat Explosion Duration 0.6 s": 0.6,
         "Change to Heat Explosion Frequency 0.4 s": 0.4,
         "[4-8]% DMG Amplification": null
       },
-      " Verity": {
+      "verity": {
         "Change Suppress Heat to [10-50]% gain chance": null,
         "+[30-60]% DMG": null
       }
@@ -6119,18 +6119,18 @@
     ],
     "elementType": "Physical",
     "awakenings": {
-      " Source": {
+      "source": {
         "Gain Acceleration effect for 3 s at a 100% chance upon hitting an enemy": 3,
         "+70% Acceleration Effect": 70
       },
-      " Origin": {
+      "origin": {
         "Inflict Disturb effect for 3 s at a 100% chance upon hitting an enemy": 3,
         "+[80-100]% Disturb Effect": null,
         "+[15-20]% Movement Skill Rune Cooldown Recovery Speed": null,
         "+[70-90]% Area of Effect": null,
         "Cannot link Disturb Link Rune": "Cannot link Disturb Link Rune"
       },
-      " Verity": {
+      "verity": {
         "+1 Max Use Count": 1,
         "[10-15]% Skill Rune Cooldown Amplification": null,
         "15% chance to reset Cooldown upon using a skill": 15
@@ -6178,18 +6178,18 @@
     ],
     "elementType": "Physical",
     "awakenings": {
-      " Source": {
+      "source": {
         "+[15-30]% Projectile Speed": null,
         "[3-5]% DMG Amplification against Elites": null,
         "6% Projectile DMG Amplification per 1 Pierce(s)": 6
       },
-      " Origin": {
+      "origin": {
         "Gain Finishing Strike Link Rune Effect": null,
         "[20.7-25]% DMG Amplification against enemies at 20% or less HP": null,
         "Ignores Dodge Rate of enemies at 20% HP or less": 20,
         "Cannot link Finishing Strike Link Rune": null
       },
-      " Verity": {
+      "verity": {
         "Gain Armor Penetration Link Rune Effect": null,
         "+[24.9-30]% Armor Penetration": null,
         "+[40-52]% Physical DMG": null,
@@ -6232,13 +6232,13 @@
       "Synthesis"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[15-30]% Enhance Skill Rune Effect": null
       },
-      " Origin": {
+      "origin": {
         "[10-20]% Skill Rune Cooldown Dampening": null
       },
-      " Verity": {
+      "verity": {
         "+[15-20]% Enhance Skill Rune Effect": null,
         "[10-15]% Skill Rune Cooldown Dampening": null
       }
@@ -6272,7 +6272,7 @@
       "Guild"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "Change to Rapid Seal Skill": "Change to Rapid Seal Skill",
         "Duration 5 s": 5,
         "+31 Chaos Resist": 31,
@@ -6289,7 +6289,7 @@
         "+[10-25]% Seal Skill Rune Cooldown Recovery Speed": null,
         "15% Rapid Seal Effect Dampening": 15
       },
-      " Origin": {
+      "origin": {
         "Change to Aura": "Change to Aura",
         "Affects yourself and allies": "Affects yourself and allies",
         "Max Defense Seal Activation Count 1": 1,
@@ -6300,7 +6300,7 @@
         "30% Aura and Seal Effect Dampening": 30,
         "+[60-100]% Aura Range": null
       },
-      " Verity": {
+      "verity": {
         "-[15-5]% Resource Cost Amplification": null
       }
     }
@@ -6368,14 +6368,14 @@
     ],
     "elementType": "Cold",
     "awakenings": {
-      " Source": {
+      "source": {
         "+[20-30]% Projectile DMG": null,
         "+[4-9] Cold Crystal Buff Stack Count": null
       },
-      " Origin": {
+      "origin": {
         "[1.5-3]% DMG Amplification per Cold Crystal stack": null
       },
-      " Verity": {
+      "verity": {
         "Change Ice Crystal Arrow to enemy Tracking Projectile": "Change Ice Crystal Arrow to enemy Tracking Projectile",
         "[10-15]% DMG Dampening when hitting the same target repeatedly": null
       }
@@ -6421,16 +6421,16 @@
     ],
     "elementType": "Physical",
     "awakenings": {
-      " Source": {
+      "source": {
         "+[15-30]% Minion Overpower Effect": null,
         "Gain Minion Overpower upon summoning Abyssling": "Gain Minion Overpower upon summoning Abyssling",
         "( Main Element DMG +25-45, Armor Penetration +5%, Element Penetration +5% )": 25
       },
-      " Origin": {
+      "origin": {
         "+[25-30]% Abyssling Armor Penetration": null,
         "+[40-52]% Abyssling DMG": null
       },
-      " Verity": {
+      "verity": {
         "+[30-40] Abyssling Bleed Rate": null,
         "+[80-100]% Abyssling DMG against Bleeding enemies": null
       }
@@ -6464,13 +6464,13 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "[5-10]% Cast Speed Amplification to Caster for 6 s upon using Gather Minions": null
       },
-      " Origin": {
+      "origin": {
         "+[15-30]% Speed to Minions within 600 Range for 5 s upon using Gather Minions": null
       },
-      " Verity": {
+      "verity": {
         "Grants the following effect to Minions within 600 Range for 5 s upon using Gather Minions": 600,
         "[15-30]% Armor Amplification": null,
         "[15-30]% Element Resist Amplification": null
@@ -6519,14 +6519,14 @@
     ],
     "elementType": "Fire",
     "awakenings": {
-      " Source": {
+      "source": {
         "[13-15]% Element DMG Amplification": null
       },
-      " Origin": {
+      "origin": {
         "[75-100]% Burn DMG Amplification": null,
         "50% Status Effect Duration Dampening": 50
       },
-      " Verity": {
+      "verity": {
         "Gain Quick Cast Link Rune Effect": null,
         "+[26.6-31]% Cast Speed": null,
         "Cannot link Quick Cast Link Rune": null
@@ -6576,19 +6576,19 @@
     ],
     "elementType": "Cold",
     "awakenings": {
-      " Source": {
+      "source": {
         "Gain Multishot Link Rune Effect": null,
         "+4 Projectile Count": 4,
         "[1-3]% Projectile DMG Amplification": null,
         "Cannot link Multishot Link Rune": null
       },
-      " Origin": {
+      "origin": {
         "Gain Cold Penetration Link Rune Effect": null,
         "+[17-20] Cold Penetration": null,
         "+[40-52]% Cold DMG": null,
         "Cannot link Cold Penetration Link Rune": null
       },
-      " Verity": {
+      "verity": {
         "+10% DMG per 100 distance traveled by Frost Ball (Max: 150%)": 10,
         "+60% Projectile Size": 60,
         "+[10-20]% Projectile Speed": null
@@ -6633,16 +6633,16 @@
     ],
     "elementType": "Cold",
     "awakenings": {
-      " Source": {
+      "source": {
         "+[80-120]% Cold DMG": null,
         "+[15-20]% Area of Effect": null,
         "+4 Element Resist for 2 s upon using Skill (Max stacks: 5)": 4
       },
-      " Origin": {
+      "origin": {
         "+[10-13]% Cold Penetration": null,
         "[5-10]% DMG Amplification against enemies affected by Cold Status Effect": null
       },
-      " Verity": {
+      "verity": {
         "+[15-30]% Area of Effect": null,
         "+[75-100]% DMG against enemies affected by Cold Status Effect": null,
         "[2-4]% DMG Amplification against enemies that are not affected by Cold Status Effect": null
@@ -6693,19 +6693,19 @@
     ],
     "elementType": "Poison",
     "awakenings": {
-      " Source": {
+      "source": {
         "+[20-40] Debuff Rate": null,
         "+[15-25]% Debuff Effect": null,
         "[10-15]% DMG Amplification against Debuffed enemies": null
       },
-      " Origin": {
+      "origin": {
         "Link Runes gain Parallel Multishot": null,
         "Projectile Count +4": 4,
         "[5-10]% DMG Dampening when hitting the same target repeatedly": null,
         "+[30-60]% Strike DMG": null,
         "Cannot link Multishot Link Rune": null
       },
-      " Verity": {
+      "verity": {
         "Gain Flowing Pain Link Rune Effect": null,
         "+[76-98] Venom Rate": null,
         "+[52-65]% Venom DMG": null,
@@ -6765,16 +6765,16 @@
     ],
     "elementType": "Lightning",
     "awakenings": {
-      " Source": {
+      "source": {
         "+[30-40]% Projectile Speed": null,
         "+[20-30]% Area of Effect": null
       },
-      " Origin": {
+      "origin": {
         "+[30-50] Shock Rate": null,
         "+[10-20]% Shock Effect": null,
         "+[30-50]% Shock Duration": null
       },
-      " Verity": {
+      "verity": {
         "[30-50]% DMG Dampening": null,
         "Summon 4 Small Lightning Typhoons": 4
       }
@@ -6821,16 +6821,16 @@
     ],
     "elementType": "Cold",
     "awakenings": {
-      " Source": {
+      "source": {
         "Gain Elite Slayer Link Rune Effect": null,
         "+[140-163]% DMG against Elites": null,
         "5% DMG Amplification against Bosses": 5,
         "Cannot link Elite Slayer Link Rune": null
       },
-      " Origin": {
+      "origin": {
         "-[10-5]% DMG Dampening Decrease upon hitting the same target repeatedly": null
       },
-      " Verity": {
+      "verity": {
         "+1 Chain Count": 1,
         "+[41-50]% Projectile DMG": null
       }
@@ -6885,16 +6885,16 @@
     ],
     "elementType": "Fire",
     "awakenings": {
-      " Source": {
+      "source": {
         "+[20-30]% Realization Effect": null,
         "Gain Realization while Channeling": "Gain Realization while Channeling",
         "( 1% Max Barrier Regen/Sec, Barrier Charge Recovery Speed +10% )": 1
       },
-      " Origin": {
+      "origin": {
         "[3-5]% DoT Amplification": null,
         "[10-15]% DMG Taken Dampening while Channeling": null
       },
-      " Verity": {
+      "verity": {
         "+[20-30]% Fire Penetration": null,
         "Flamethrower Range +150, Radius +60º": 150
       }
@@ -6948,18 +6948,18 @@
     ],
     "elementType": "Lightning",
     "awakenings": {
-      " Source": {
+      "source": {
         "+170 Max Angle": 170,
         "+[4-8] Projectile Count": null,
         "+200 Interval Angle": 200
       },
-      " Origin": {
+      "origin": {
         "Gain Continuous Shock Link Rune Effect": null,
         "+[41-51] Shock Rate": null,
         "+[21-25]% Shock Effect": null,
         "Cannot link Continuous Shock Link Rune": null
       },
-      " Verity": {
+      "verity": {
         "+[50-80] Bind Rate": null,
         "+[40-50]% Lightning DMG": null
       }
@@ -7004,15 +7004,15 @@
     ],
     "elementType": "Poison",
     "awakenings": {
-      " Source": {
+      "source": {
         "Gain Quick Cast Link Rune Effect": null,
         "+[27-31]% Cast Speed": null,
         "Cannot link Quick Cast Link Rune": null
       },
-      " Origin": {
+      "origin": {
         "[10-15]% DoT Amplification": null
       },
-      " Verity": {
+      "verity": {
         "+[2-4] Projectile Count": null,
         "+[20-30]% DoT": null,
         "+200 Max Angle": 200,
@@ -7064,15 +7064,15 @@
     ],
     "elementType": "Physical",
     "awakenings": {
-      " Source": {
+      "source": {
         "Amplifies Minion Max HP by [8-15]%": null,
         "+[30-50]% Skill Rune Cooldown Recovery Speed": null
       },
-      " Origin": {
+      "origin": {
         "+[50-60]% Abyssling DMG": null,
         "+[25-30]% Abyssling Projectile Speed": null
       },
-      " Verity": {
+      "verity": {
         "+[25-30]% Abyssling Armor Penetration": null,
         "+[40-52]% Abyssling DMG": null
       }
@@ -7119,13 +7119,13 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "[10-15]% Minion Movement Speed increase during Unite effect": null
       },
-      " Origin": {
+      "origin": {
         "+[15-30]% Skill Rune Effect": null
       },
-      " Verity": {
+      "verity": {
         "[10-20]% Caster Movement Speed Increase upon activating Enrage Crowd": null,
         "+[50-70]% Caster Armor upon activating Unite Crowd": null
       }
@@ -7173,15 +7173,15 @@
     ],
     "elementType": "Fire",
     "awakenings": {
-      " Source": {
+      "source": {
         "+[25-50]% Minion Area of Effect": null,
         "+[50-80]% Rune Knight DMG": null,
         "Enlargement": "Enlargement"
       },
-      " Origin": {
+      "origin": {
         "+[30-50]% Rune Knight's Authority Effect": null
       },
-      " Verity": {
+      "verity": {
         "25% Minion DMG Dampening": 25,
         "[16.4-19]% DMG Taken by Minions Decrease": null,
         "Add +[20-30]% Minion Armor effect to Knight's Authority": null
@@ -7218,16 +7218,16 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+2 Max Sacred Devotion Stacks": 2,
         "+[3-6]% Sacred Devotion Minion Effect": null
       },
-      " Origin": {
+      "origin": {
         "[10-20]% Resource Cost Dampening": null,
         "Gain Regeneration while channeling": "Gain Regeneration while channeling",
         "( 1% Max HP Regen/Sec, 0.4% Max Mana Regen/Sec )": 1
       },
-      " Verity": {
+      "verity": {
         "[10-15]% DMG Taken Dampening while Channeling": null
       }
     }
@@ -7269,13 +7269,13 @@
     ],
     "elementType": "Cold",
     "awakenings": {
-      " Source": {
+      "source": {
         "+[70-100]% Cold Armor Effect": null
       },
-      " Origin": {
+      "origin": {
         "[10-15]% Cold DMG Taken Dampening": null
       },
-      " Verity": {
+      "verity": {
         "+[10-15]% Chill Dodge Chance": null,
         "+[10-15]% Freeze Dodge Chance": null
       }
@@ -7319,16 +7319,16 @@
     ],
     "elementType": "Lightning",
     "awakenings": {
-      " Source": {
+      "source": {
         "+[15-30] Bind Rate": null,
         "[5-10]% DMG Amplification against enemies affected by Lightning Status Effect": null,
         "[3-5]% DMG Amplification against enemies that are not affected by Lightning Status Effect": null
       },
-      " Origin": {
+      "origin": {
         "+[25-50]% Chain Range": null,
         "3% Lightning DMG Amplification per 1 Chain(s) (Max: 15)": 3
       },
-      " Verity": {
+      "verity": {
         "+[25-50]% Chain Range": null,
         "[2-3]% Lightning DMG Amplification per 1 remaining Chain(s) (Max: 15)": null
       }
@@ -7374,14 +7374,14 @@
     ],
     "elementType": "Fire",
     "awakenings": {
-      " Source": {
+      "source": {
         "[10-15]% chance to deal double Maximized DMG on hit": null
       },
-      " Origin": {
+      "origin": {
         "+[10-20]% Fire DMG": null,
         "15% chance to trigger Meteor on hit": 15
       },
-      " Verity": {
+      "verity": {
         "Cannot reuse for 2 s after using Meteor": 2,
         "+[20-30]% Fire Penetration": null,
         "40% Strike DMG Multiplier Dampening": 40,
@@ -7429,14 +7429,14 @@
     ],
     "elementType": "Poison",
     "awakenings": {
-      " Source": {
+      "source": {
         "+[13-18]% DoT Acceleration": null,
         "+[25-35]% DoT": null
       },
-      " Origin": {
+      "origin": {
         "[10-15]% DoT Amplification": null
       },
-      " Verity": {
+      "verity": {
         "+2 Max Use Count": 2,
         "+[10-30]% DoT": null
       }
@@ -7487,15 +7487,15 @@
     ],
     "elementType": "Poison",
     "awakenings": {
-      " Source": {
+      "source": {
         "+[1-3] Pierce Count": null,
         "+[30-50]% Projectile DMG": null
       },
-      " Origin": {
+      "origin": {
         "+2 Projectile Count": 2,
         "+[30-50]% Projectile DMG": null
       },
-      " Verity": {
+      "verity": {
         "Gain Element DMG Amplification Link Rune Effect": null,
         "[20-26]% Element DMG Amplification": null,
         "Cannot link Element DMG Amplification Link Rune": null
@@ -7547,16 +7547,16 @@
     ],
     "elementType": "Cold",
     "awakenings": {
-      " Source": {
+      "source": {
         "+[30-50] Chill Rate": null,
         "+[30-50]% Chill Effect": null,
         "+[20-30]-[40-60] Cold DMG against Chilled enemies": null
       },
-      " Origin": {
+      "origin": {
         "60% Strike DMG Multiplier Dampening": 60,
         "[450-500]% Additional Skill DMG Amplification": null
       },
-      " Verity": {
+      "verity": {
         "+[30-50] Freeze Rate": null,
         "[10-20]% DMG Amplification against Frozen enemies": null,
         "[5-10]% DMG Amplification against enemies that are not affected by Cold Status Effect": null
@@ -7609,15 +7609,15 @@
     ],
     "elementType": "Lightning",
     "awakenings": {
-      " Source": {
+      "source": {
         "+[1-2] Projectile Count": null,
         "+[50-60]% Projectile DMG": null
       },
-      " Origin": {
+      "origin": {
         "+[10-15]% Shock Dodge Chance": null,
         "+[10-15]% Bind Dodge Chance": null
       },
-      " Verity": {
+      "verity": {
         "+[10-20]% Shock Chance": null,
         "+[20-30]% Shock Effect": null
       }
@@ -7667,15 +7667,15 @@
     ],
     "elementType": "Fire",
     "awakenings": {
-      " Source": {
+      "source": {
         "Amplifies Minion Max HP by [8-15]%": null,
         "+[30-50]% Skill Rune Cooldown Recovery Speed": null
       },
-      " Origin": {
+      "origin": {
         "+1 Abyssling Max Chain Count": 1,
         "[0-8]% Minion DMG Dampening": null
       },
-      " Verity": {
+      "verity": {
         "+[30-40] Abyssling Burn Rate": null,
         "+[40-52]% Abyssling DMG against Burning enemies": null
       }
@@ -7729,15 +7729,15 @@
     ],
     "elementType": "Poison",
     "awakenings": {
-      " Source": {
+      "source": {
         "Amplifies Minion Max HP by [8-15]%": null,
         "+[30-50]% Skill Rune Cooldown Recovery Speed": null
       },
-      " Origin": {
+      "origin": {
         "+[15-20]% Abyssling Cast Speed": null,
         "+[40-52]% Abyssling DMG": null
       },
-      " Verity": {
+      "verity": {
         "+1 Abyssling Max Chain Count": 1,
         "+[20-30] Abyssling Venom Rate": null
       }
@@ -7789,15 +7789,15 @@
     ],
     "elementType": "Lightning",
     "awakenings": {
-      " Source": {
+      "source": {
         "Amplifies Minion Max HP by [8-15]%": null,
         "+[30-50]% Skill Rune Cooldown Recovery Speed": null
       },
-      " Origin": {
+      "origin": {
         "+[25-30]% Abyssling Projectile Speed": null,
         "+[40-52]% Abyssling DMG": null
       },
-      " Verity": {
+      "verity": {
         "+[30-40] Abyssling Shock Rate": null,
         "+[40-52]% Abyssling DMG against Shocked enemies": null
       }
@@ -7853,16 +7853,16 @@
     ],
     "elementType": "Cold",
     "awakenings": {
-      " Source": {
+      "source": {
         "Amplifies Minion Max HP by [8-15]%": null,
         "+[30-50]% Skill Rune Cooldown Recovery Speed": null
       },
-      " Origin": {
+      "origin": {
         "+[15-30]% Minion Overpower Effect": null,
         "Gain Minion Overpower upon summoning Abyssling": "Gain Minion Overpower upon summoning Abyssling",
         "( Main Element DMG +25-45, Armor Penetration +5%, Element Penetration +5% )": 25
       },
-      " Verity": {
+      "verity": {
         "+2 Abyssling Projectile Count": 2,
         "[1-3]% Abyssling DMG Amplification": null
       }
@@ -7897,15 +7897,15 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "[25-35]% Minion DMG Taken increase to enemies within 500 range within the caster": null,
         "[25-35]% DMG from Sentry Increase to enemies within 500 range within the caster": null
       },
-      " Origin": {
+      "origin": {
         "+100% Skill Rune Cooldown Recovery Speed": 100,
         "+[5-10]% Resource Cost": null
       },
-      " Verity": {
+      "verity": {
         "[80-100]% Movement Speed Amplification for 3 s to Minions within 800 range within the caster upon using Mark of Designation": null
       }
     }
@@ -7941,14 +7941,14 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[10-20]% Resource Cost": null,
         "Mana Absorb on hit +5%": 5
       },
-      " Origin": {
+      "origin": {
         "+[20-30]% Skill Rune Cooldown Recovery Speed": null
       },
-      " Verity": {
+      "verity": {
         "+[10-25]% Enhance Skill Rune Effect": null
       }
     }
@@ -7997,15 +7997,15 @@
     ],
     "elementType": "Cold",
     "awakenings": {
-      " Source": {
+      "source": {
         "+[25-50]% Minion Area of Effect": null,
         "+[50-80]% Rune Knight DMG": null,
         "Enlargement": "Enlargement"
       },
-      " Origin": {
+      "origin": {
         "+[30-50]% Rune Knight's Authority Effect": null
       },
-      " Verity": {
+      "verity": {
         "+[44-54] Chill Rate": null,
         "+[25.7-30]% Chill Effect": null,
         "Add +[15-30]% Minion DMG against Chilled enemies effect to Knight's Authority": null
@@ -8054,15 +8054,15 @@
     ],
     "elementType": "Lightning",
     "awakenings": {
-      " Source": {
+      "source": {
         "+[25-50]% Minion Area of Effect": null,
         "+[50-80]% Rune Knight DMG": null,
         "Enlargement": "Enlargement"
       },
-      " Origin": {
+      "origin": {
         "+[30-50]% Rune Knight's Authority Effect": null
       },
-      " Verity": {
+      "verity": {
         "+[41-51] Shock Rate": null,
         "+[20.7-25]% Shock Effect": null,
         "Add +[15-30]% Minion DMG against Shocked enemies effect to Knight's Authority": null
@@ -8100,14 +8100,14 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "-[30-40]% Enhance Skill Rune Resource Cost": null,
         "+[5-10]% Enhance Skill Rune Cooldown Recovery Speed": null
       },
-      " Origin": {
+      "origin": {
         "+[30-50]% Enhance Skill Rune Duration": null
       },
-      " Verity": {
+      "verity": {
         "+[15-25]% Enhance Skill Rune Effect": null
       }
     }
@@ -8143,14 +8143,14 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "-[30-40]% Enhance Skill Rune Resource Cost": null,
         "+[5-10]% Enhance Skill Rune Cooldown Recovery Speed": null
       },
-      " Origin": {
+      "origin": {
         "+[30-50]% Enhance Skill Rune Duration": null
       },
-      " Verity": {
+      "verity": {
         "+[15-25]% Enhance Skill Rune Effect": null
       }
     }
@@ -8195,14 +8195,14 @@
     ],
     "elementType": "Cold",
     "awakenings": {
-      " Source": {
+      "source": {
         "+[15-20]% Cold Penetration": null,
         "Projectile Count +2": 2
       },
-      " Origin": {
+      "origin": {
         "+[75-100]% DMG against Elites": null
       },
-      " Verity": {
+      "verity": {
         "Dampens Skill Rune Cooldown by 100%": 100,
         "75% DMG Dampening": 75,
         "[20-40]% Resource Cost Dampening": null,
@@ -8245,14 +8245,14 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "Totem applies [20-25]% Element DMG Taken Increase for 3 s to enemies within 800 range when destroyed by enemy": null
       },
-      " Origin": {
+      "origin": {
         "+[10-15]% Totem Effect Range": null,
         "+[10-20]% Totem Effect": null
       },
-      " Verity": {
+      "verity": {
         "+[15-30]% Totem Duration": null,
         "Increase Totem Install Distance by 500": 500,
         "Upon installing Totem, [80-90]% DMG Taken by Totem Dampening for 3 s": null
@@ -8297,18 +8297,18 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+5 Skill Rune Cooldown": 5,
         "Amplifies Totem Max HP by [10-15]%": null,
         "Upon installing Totem, Provoke enemies": "Upon installing Totem, Provoke enemies",
         "Provoked enemy cannot be Provoked for 10 s": 10
       },
-      " Origin": {
+      "origin": {
         "Amplifies Totem Max HP by [5-10]%": null,
         "+[10-15]% Totem Duration": null,
         "Upon installing Totem, Totem takes [6-10]% of DMG Taken instead for 10 s": null
       },
-      " Verity": {
+      "verity": {
         "+[15-30]% Totem Duration": null,
         "Increase Totem Install Distance by 500": 500,
         "Upon installing Totem, [80-90]% DMG Taken by Totem Dampening for 3 s": null
@@ -8349,16 +8349,16 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+4 Skill Rune Cooldown": 4,
         "Recover Barrier by [8-10]% of Max Barrier to Caster for 1 s upon installing Totem": null
       },
-      " Origin": {
+      "origin": {
         "+[10-15]% Totem Duration": null,
         "Amplifies Totem Max HP by [5-10]%": null,
         "Upon installing Totem, [80-90]% DMG Taken by Totem Dampening for 3 s": null
       },
-      " Verity": {
+      "verity": {
         "Add Aura Effect": "Add Aura Effect",
         "Regenerate [1-2]% of Max Barrier per Sec": null
       }
@@ -8396,14 +8396,14 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+4 Skill Rune Cooldown": 4,
         "Recover HP by [8-10]% of Max HP to Caster for 1 s upon installing Totem": null
       },
-      " Origin": {
+      "origin": {
         "Totem applies Regen [5-8]% of Max HP/Sec for 2 s to friendly targets within 800 range when destroyed by enemy": null
       },
-      " Verity": {
+      "verity": {
         "Add Aura Effect": "Add Aura Effect",
         "Regen [1-3]% of Max HP/Sec": null
       }
@@ -8445,17 +8445,17 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[5-10]% Totem Effect Range": null,
         "+[5-10]% Totem Effect": null,
         "+[10-15]% Totem Duration": null
       },
-      " Origin": {
+      "origin": {
         "Amplifies Totem Max HP by [5-10]%": null,
         "+[10-15]% Totem Duration": null,
         "Upon installing Totem, Totem takes [6-10]% of DMG Taken instead for 10 s": null
       },
-      " Verity": {
+      "verity": {
         "Change to Seal": "Change to Seal",
         "15% Resource Cost Amplification": 15,
         "Cooldown 3 s": 3,
@@ -8516,16 +8516,16 @@
     ],
     "elementType": "Lightning",
     "awakenings": {
-      " Source": {
+      "source": {
         "+2 Max Use Count": 2,
         "+[10-15]% Bind Chance": null
       },
-      " Origin": {
+      "origin": {
         "-[30-20]% Area of Effect": null,
         "25% chance to inflict Pain on the enemy for 2 s on hit": 25,
         "( DMG Taken 10% Increase )": 10
       },
-      " Verity": {
+      "verity": {
         "100% chance to +1 Lightning Energy on hit": 100,
         "DMG Amplification [1-2]% per Lightning Energy": null
       }
@@ -8562,15 +8562,15 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "-[50-60]% Movement Skill Rune Resource Cost": null,
         "+[10-20]% Skill Rune Duration": null
       },
-      " Origin": {
+      "origin": {
         "+[20-30]% Distort Space Effect": null,
         "+[5-10]% Movement Skill Rune Cooldown Recovery Speed": null
       },
-      " Verity": {
+      "verity": {
         "+2 Max Use Count": 2,
         "[5-10]% Skill Rune Cooldown Amplification": null
       }
@@ -8618,15 +8618,15 @@
     ],
     "elementType": "Poison",
     "awakenings": {
-      " Source": {
+      "source": {
         "+[25-50]% Minion Area of Effect": null,
         "+[50-80]% Rune Knight DMG": null,
         "Enlargement": "Enlargement"
       },
-      " Origin": {
+      "origin": {
         "+[30-50]% Rune Knight's Authority Effect": null
       },
-      " Verity": {
+      "verity": {
         "25% Minion DMG Dampening": 25,
         "[16.4-19]% DMG Taken by Minions Decrease": null,
         "Add +[20-30]% Minion Armor effect to Knight's Authority": null
@@ -8665,13 +8665,13 @@
       "Synthesis"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[30-50]% Skill Rune Duration": null
       },
-      " Origin": {
+      "origin": {
         "[15-30]% Resource Cost Dampening": null
       },
-      " Verity": {
+      "verity": {
         "[15-30]% Skill Rune Cooldown Dampening": null
       }
     }
@@ -8704,13 +8704,13 @@
       "Synthesis"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "[5-10]% Barrier Amplification while Pantheon is active": null
       },
-      " Origin": {
+      "origin": {
         "[10-20]% DMG Taken Dampening while Pantheon is active": null
       },
-      " Verity": {
+      "verity": {
         "[10-30]% Movement Speed Increase while Pantheon is active": null
       }
     }
@@ -8781,15 +8781,15 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "Projectile Count +1": 1,
         "+[20-50]% DMG": null
       },
-      " Origin": {
+      "origin": {
         "-150 Projectile Creation Range": 150,
         "+[10-30]% Area of Effect": null
       },
-      " Verity": {
+      "verity": {
         "Dark Judgment effect cannot be removed upon different skill use": null,
         "Change to 5 Max Dark Judgment Stacks": 5,
         "[5-15]% Resource Cost Dampening": null
@@ -8826,14 +8826,14 @@
       "Synthesis"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "-[30-40]% Enhance Skill Rune Resource Cost": null,
         "+[5-10]% Enhance Skill Rune Cooldown Recovery Speed": null
       },
-      " Origin": {
+      "origin": {
         "+[30-50]% Enhance Skill Rune Duration": null
       },
-      " Verity": {
+      "verity": {
         "+[15-25]% Enhance Skill Rune Effect": null
       }
     }
@@ -8875,16 +8875,16 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[5-15]% High Tone Effect": null,
         "+[10-5]% Enhance Skill Rune Resource Cost": null
       },
-      " Origin": {
+      "origin": {
         "Increases Max Abyssling Summon Count during High Tone of Hazy Melody": "Increases Max Abyssling Summon Count during High Tone of Hazy Melody",
         "+1 Max Abyssling Summon Count": 1,
         "[10-25]% Minion Skill Cooldown Dampening": null
       },
-      " Verity": {
+      "verity": {
         "+[5-15]% Low Tone Effect": null,
         "+[10-5]% Enhance Skill Rune Resource Cost": null
       }
@@ -8933,16 +8933,16 @@
     ],
     "elementType": "Fire",
     "awakenings": {
-      " Source": {
+      "source": {
         "[15-20]% DMG Amplification against Elites": null
       },
-      " Origin": {
+      "origin": {
         "Cannot increase Projectiles with Fire Energy": "Cannot increase Projectiles with Fire Energy",
         "Cannot gain Suppress Heat": "Cannot gain Suppress Heat",
         "+2 Projectile Count": 2,
         "[25-40]% DMG Dampening": null
       },
-      " Verity": {
+      "verity": {
         "+[10-15]% Fire Energy +1 chance on hit": null
       }
     }
@@ -8988,16 +8988,16 @@
     ],
     "elementType": "Fire",
     "awakenings": {
-      " Source": {
+      "source": {
         "Decrease stage every 1 s upon canceling": 1,
         "[10-15]% Attack Cycle per Stage": null
       },
-      " Origin": {
+      "origin": {
         "+[10-15]% Burn Chance": null,
         "+[15-25]% Critical DMG against Burning enemies": null,
         "+[50-70]% Critical Rate": null
       },
-      " Verity": {
+      "verity": {
         "+1 Projectile Count": 1,
         "+[25-40]% Projectile DMG": null
       }
@@ -9044,15 +9044,15 @@
     ],
     "elementType": "Lightning",
     "awakenings": {
-      " Source": {
+      "source": {
         "+[15-30]% Projectile Speed": null,
         "Projectile Count +2": 2,
         "Explosion Interval -20%": 20
       },
-      " Origin": {
+      "origin": {
         "[15-20]% DMG Amplification against Elites": null
       },
-      " Verity": {
+      "verity": {
         "Gain Electric Shock Link Rune Effect": null,
         "+[100-124]% Critical Rate against Shocked enemies": null,
         "+[32-35]% Critical DMG against Shocked enemies": null,
@@ -9114,18 +9114,18 @@
       "Synthesis"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "[40-52.5]% DMG Amplification": null,
         "+[25-30]% Highest Element Penetration": null,
         "-25 Max Maintain Position Stacks": 25
       },
-      " Origin": {
+      "origin": {
         "+[70.8-87]% Melee DMG": null,
         "100% chance to gain Regeneration Effect for 3 s on hit": 100,
         "Regeneration effect": "Regeneration effect",
         "(1% Max HP Regen/Sec, 0.4% Max Mana Regen/Sec)": 1
       },
-      " Verity": {
+      "verity": {
         "40% Strike DMG Multiplier Dampening": 40,
         "[270-320]% Additional Skill DMG Amplification": null
       }
@@ -9176,15 +9176,15 @@
     ],
     "elementType": "Physical",
     "awakenings": {
-      " Source": {
+      "source": {
         "+[25-50]% Minion Area of Effect": null,
         "+[50-80]% Rune Knight DMG": null,
         "Enlargement": "Enlargement"
       },
-      " Origin": {
+      "origin": {
         "+[30-50]% Rune Knight's Authority Effect": null
       },
-      " Verity": {
+      "verity": {
         "+[90.9-113]% DMG against Elites": null,
         "Add [2-4]% Minion DMG Amplification against Elites effect to Knight's Authority": null
       }
@@ -9223,17 +9223,17 @@
       "Synthesis"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[10-15]% Totem Duration": null,
         "Add Aura Effect": "Add Aura Effect",
         "[7-12]% DMG Dampening": null
       },
-      " Origin": {
+      "origin": {
         "Amplifies Totem Max HP by [5-10]%": null,
         "+[10-15]% Totem Duration": null,
         "Upon installing Totem, Totem takes [6-10]% of DMG Taken instead for 10 s": null
       },
-      " Verity": {
+      "verity": {
         "Totem regenerates [3-5]% of Max HP per Sec": null,
         "Upon installing Totem, [80-90]% DMG Taken by Totem Dampening for 3 s": null
       }
@@ -9267,7 +9267,7 @@
       "Synthesis"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "Change to Rapid Seal Skill": "Change to Rapid Seal Skill",
         "Duration 5 s": 5,
         "+165% Element DMG": 165,
@@ -9284,7 +9284,7 @@
         "+[10-25]% Seal Skill Rune Cooldown Recovery Speed": null,
         "10% Rapid Seal Effect Dampening": 10
       },
-      " Origin": {
+      "origin": {
         "Change to Aura": "Change to Aura",
         "Affects yourself and allies": "Affects yourself and allies",
         "Max Attack Seal Activation Count 1": 1,
@@ -9295,7 +9295,7 @@
         "20% Aura and Seal Effect Dampening": 20,
         "+[60-100]% Aura Range": null
       },
-      " Verity": {
+      "verity": {
         "+[10-60]% Aura and Seal Effect": null
       }
     }
@@ -9328,7 +9328,7 @@
       "Guild"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "Change to Rapid Seal Skill": "Change to Rapid Seal Skill",
         "Duration 5 s": 5,
         "+20 Element Resist": 20,
@@ -9345,7 +9345,7 @@
         "+[10-25]% Seal Skill Rune Cooldown Recovery Speed": null,
         "10% Rapid Seal Effect Dampening": 10
       },
-      " Origin": {
+      "origin": {
         "Change to Aura": "Change to Aura",
         "Affects yourself and allies": "Affects yourself and allies",
         "Max Defense Seal Activation Count 1": 1,
@@ -9356,7 +9356,7 @@
         "20% Aura and Seal Effect Dampening": 20,
         "+[60-100]% Aura Range": null
       },
-      " Verity": {
+      "verity": {
         "+[35-50]% Aura and Seal Effect": null
       }
     }
@@ -9402,15 +9402,15 @@
     ],
     "elementType": "Physical",
     "awakenings": {
-      " Source": {
+      "source": {
         "Simultaneously summons Abysslings equal to Max Minion Count": "Simultaneously summons Abysslings equal to Max Minion Count",
         "[40-80]% Skill Rune Cooldown Amplification": null
       },
-      " Origin": {
+      "origin": {
         "+2% DMG per 1% remaining HP of Twisted Abyssling (Max: + 200%)": 2,
         "+[25-30]% Abyssling Armor Penetration": null
       },
-      " Verity": {
+      "verity": {
         "+[15-30]% Minion Overpower Effect": null,
         "Gain Minion Overpower upon summoning Abyssling": "Gain Minion Overpower upon summoning Abyssling",
         "( Main Element DMG +25-45, Armor Penetration +5%, Element Penetration +5% )": 25
@@ -9476,13 +9476,13 @@
       "Synthesis"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "[13-15]% chance to deal double Maximized DMG on hit": null
       },
-      " Origin": {
+      "origin": {
         "Regen [0.5-1]% of Max Mana/Sec for every removed buff for 2 s when removing Resource Outburst": null
       },
-      " Verity": {
+      "verity": {
         "Judgment of Light effect cannot be removed upon different skill use": "Judgment of Light effect cannot be removed upon different skill use",
         "[5-15]% Resource Cost Dampening": null
       }
@@ -9540,13 +9540,13 @@
       "Synthesis"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[30-50]% Enhance Skill Rune Duration": null
       },
-      " Origin": {
+      "origin": {
         "+[10-20]% Enhance Skill Rune Effect": null
       },
-      " Verity": {
+      "verity": {
         "-[30-40]% Enhance Skill Rune Resource Cost": null,
         "+[5-10]% Enhance Skill Rune Cooldown Recovery Speed": null
       }
@@ -9591,16 +9591,16 @@
     ],
     "elementType": "Lightning",
     "awakenings": {
-      " Source": {
+      "source": {
         "[50-40]% chance to not consume Lightning Energy": null
       },
-      " Origin": {
+      "origin": {
         "Gain Lightning Penetration Link Rune Effect": null,
         "+[17-20] Lightning Penetration": null,
         "+[40-52]% Lightning DMG": null,
         "Cannot link Lightning Penetration Link Rune": null
       },
-      " Verity": {
+      "verity": {
         "[1.5-2]% DMG Taken Dampening for every used Lightning Energy for 3 s on using skill": null
       }
     }
@@ -9650,16 +9650,16 @@
     ],
     "elementType": "Fire",
     "awakenings": {
-      " Source": {
+      "source": {
         "Gain Concentrated Area DMG Link Rune Effect": null,
         "[20.7-25]% Area DMG Amplification": null,
         "30% Area of Effect Dampening": 30,
         "Cannot link Concentrated Area DMG Link Rune": null
       },
-      " Origin": {
+      "origin": {
         "+[50-100]% Spreading Flames Buff Duration": null
       },
-      " Verity": {
+      "verity": {
         "Cannot gain Spreading Flames": "Cannot gain Spreading Flames",
         "[3-5]% DMG Amplification per Fire Energy": null
       }
@@ -9699,7 +9699,7 @@
       "Synthesis"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "Change to Rapid Seal Skill": "Change to Rapid Seal Skill",
         "Duration 5 s": 5,
         "2% chance to deal triple Maximized DMG on hit": 2,
@@ -9719,7 +9719,7 @@
         "+[10-25]% Seal Skill Rune Cooldown Recovery Speed": null,
         "15% Rapid Seal Effect Dampening": 15
       },
-      " Origin": {
+      "origin": {
         "Change to Aura": "Change to Aura",
         "Affects yourself and allies": "Affects yourself and allies",
         "Max Attack Seal Activation Count 1": 1,
@@ -9733,7 +9733,7 @@
         "20% Aura and Seal Effect Dampening": 20,
         "+[60-100]% Aura Range": null
       },
-      " Verity": {
+      "verity": {
         "+[35-50]% Aura and Seal Effect": null
       }
     }
@@ -9771,16 +9771,16 @@
     "type": "skill",
     "elementType": "Fire",
     "awakenings": {
-      " Source": {
+      "source": {
         "+[1-4] Projectile Count": null,
         "-1 Projectile Split Count": 1,
         "+1 Split Projectile Count": 1
       },
-      " Origin": {
+      "origin": {
         "+1 Split Projectile Count": 1,
         "[5-15]% DMG Dampening": null
       },
-      " Verity": {
+      "verity": {
         "+1 Projectile Split Count": 1,
         "[10-20]% DMG Dampening": null
       }
@@ -9830,19 +9830,19 @@
     "type": "skill",
     "elementType": "Poison",
     "awakenings": {
-      " Source": {
+      "source": {
         "Activate Great Plague Effect on Spell Hit": null,
         "Remove all stacks of target with Great Plague Effect activated": null,
         "+[10-30]% Strike DMG": null,
         "[10-20]% Venom DMG Dampening": null
       },
-      " Origin": {
+      "origin": {
         "Gain Concentrated Area DMG Link Rune Effect": null,
         "[15-25]% Area DMG Amplification": null,
         "30% Area of Effect Dampening": 30,
         "+[5-15]% Black Plague Effect": null
       },
-      " Verity": {
+      "verity": {
         "[10-20]% Venom DMG Amplification": null,
         "+[10-25]% Black Plague Effect": null
       }
@@ -9894,15 +9894,15 @@
     ],
     "elementType": "Cold",
     "awakenings": {
-      " Source": {
+      "source": {
         "+2 Max DoT Stacks": 2,
         "+[10-50]% Cold DMG": null
       },
-      " Origin": {
+      "origin": {
         "+[20-50]% Chill Effect": null,
         "+[10-20] Freeze Rate": null
       },
-      " Verity": {
+      "verity": {
         "+[20-30]% Cold DMG": null,
         "Ice Spike, Hail, Frost Crystal Projectile Count +2": 2
       }
@@ -9941,17 +9941,17 @@
       "Synthesis"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[5-10]% Totem Effect Range": null,
         "+[5-10]% Totem Effect": null,
         "+[10-15]% Totem Duration": null
       },
-      " Origin": {
+      "origin": {
         "+[10-20]% Totem Effect Range": null,
         "Add Aura Effect": "Add Aura Effect",
         "[5-8]% Movement Speed Amplification": null
       },
-      " Verity": {
+      "verity": {
         "+[5-10]% Totem Effect": null,
         "+[15-20]% Totem Duration": null,
         "Totem applies 20% Movement Speed Increase for 3 s to friendly targets within 800 range when destroyed by enemy": 20
@@ -9986,7 +9986,7 @@
       "Guild"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "Change to Rapid Seal Skill": "Change to Rapid Seal Skill",
         "Duration 5 s": 5,
         "12.3% Element DMG Taken Dampening": 12.3,
@@ -10003,7 +10003,7 @@
         "+[10-25]% Seal Skill Rune Cooldown Recovery Speed": null,
         "10% Rapid Seal Effect Dampening": 10
       },
-      " Origin": {
+      "origin": {
         "Change to Aura": "Change to Aura",
         "Affects yourself and allies": "Affects yourself and allies",
         "Max Defense Seal Activation Count 1": 1,
@@ -10014,7 +10014,7 @@
         "20% Aura and Seal Effect Dampening": 20,
         "+[60-100]% Aura Range": null
       },
-      " Verity": {
+      "verity": {
         "+[25-40]% Aura and Seal Effect": null
       }
     }
@@ -10047,7 +10047,7 @@
       "Synthesis"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "Change to Rapid Seal Skill": "Change to Rapid Seal Skill",
         "Duration 5 s": 5,
         "11.2% DoT Amplification": 11.2,
@@ -10064,7 +10064,7 @@
         "+[10-25]% Seal Skill Rune Cooldown Recovery Speed": null,
         "25% Rapid Seal Effect Dampening": 25
       },
-      " Origin": {
+      "origin": {
         "Change to Aura": "Change to Aura",
         "Affects yourself and allies": "Affects yourself and allies",
         "Max Attack Seal Activation Count 1": 1,
@@ -10075,7 +10075,7 @@
         "30% Aura and Seal Effect Dampening": 30,
         "+[60-100]% Aura Range": null
       },
-      " Verity": {
+      "verity": {
         "-[15-5]% Resource Cost Amplification": null
       }
     }
@@ -10122,15 +10122,15 @@
     "type": "skill",
     "elementType": "Physical",
     "awakenings": {
-      " Source": {
+      "source": {
         "10% Skill Cooldown Dampening per 1 Movement Skill Rune Max Use Count": 10,
         "+[1-2] Movement Skill Rune Max Use Count": null
       },
-      " Origin": {
+      "origin": {
         "+[50-80]% Movement Skill Rune Cooldown Recovery Speed": null,
         "+50% Mana Regen/Sec": 50
       },
-      " Verity": {
+      "verity": {
         "[15-25]% DMG Amplification": null
       }
     }
@@ -10173,14 +10173,14 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[10-20]% Knockback Chance": null,
         "20% chance to gain Cold Energy upon Knockback": 20
       },
-      " Origin": {
+      "origin": {
         "[3.5-5]% Melee DMG Amplification": null
       },
-      " Verity": {
+      "verity": {
         "-[10-5]% Resource Cost": null
       }
     }
@@ -10214,13 +10214,13 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[35-50]-[55-80] Physical DMG": null
       },
-      " Origin": {
+      "origin": {
         "[0.5-0.9]% Physical DMG Amplification per 1 Red Link Rune on linked Skill Rune": null
       },
-      " Verity": {
+      "verity": {
         "+[55-80]% Physical DMG": null
       }
     }
@@ -10254,13 +10254,13 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[35-50]-[55-80] Fire DMG": null
       },
-      " Origin": {
+      "origin": {
         "[0.5-0.9]% Fire DMG Amplification per 1 Red Link Rune on linked Skill Rune": null
       },
-      " Verity": {
+      "verity": {
         "+[55-80]% Fire DMG": null
       }
     }
@@ -10298,14 +10298,14 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[14-20] Bleed Rate": null,
         "+[35-50]% Bleed DMG": null
       },
-      " Origin": {
+      "origin": {
         "+[3.5-5]% DoT Acceleration": null
       },
-      " Verity": {
+      "verity": {
         "[2.1-3]% DMG Amplification": null
       }
     }
@@ -10345,15 +10345,15 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[31-45]% Critical Rate against Bleeding enemies": null,
         "+[10-15]% Critical DMG against Bleeding enemies": null
       },
-      " Origin": {
+      "origin": {
         "Change to can inflict Bleed": "Change to can inflict Bleed",
         "-[35-25]% Critical DMG against Bleeding enemies": null
       },
-      " Verity": {
+      "verity": {
         "[2.8-4]% DMG Amplification against Bleeding enemies": null,
         "1.2% DMG Amplification if linked Skill Rune has 6 Red Link Runes": 1.2
       }
@@ -10389,15 +10389,15 @@
       "Synthesis"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+2% Max Armor Penetration": 2,
         "+[10-15]% Armor Penetration": null
       },
-      " Origin": {
+      "origin": {
         "[1.4-2]% Physical DMG Amplification": null,
         "+[20-40]% Physical DMG": null
       },
-      " Verity": {
+      "verity": {
         "-[10-5]% Resource Cost": null
       }
     }
@@ -10437,14 +10437,14 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[14-20] Burn Rate": null,
         "+[35-50]% Burn DMG": null
       },
-      " Origin": {
+      "origin": {
         "+[3.5-5]% DoT Acceleration": null
       },
-      " Verity": {
+      "verity": {
         "[2.8-4]% DMG Amplification against Burning enemies": null
       }
     }
@@ -10482,14 +10482,14 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[14-20] Burn Rate": null,
         "+[35-50]% Fire DMG": null
       },
-      " Origin": {
+      "origin": {
         "[3.5-5]% Burn DMG Amplification": null
       },
-      " Verity": {
+      "verity": {
         "[4-6]% Fire DMG Amplification": null,
         "-[20-14] Burn Rate": null
       }
@@ -10532,13 +10532,13 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "-[10-5]% Resource Cost": null
       },
-      " Origin": {
+      "origin": {
         "[3.5-5]% Area of Effect Amplification": null
       },
-      " Verity": {
+      "verity": {
         "[2.1-3]% Area DMG Amplification": null
       }
     }
@@ -10579,15 +10579,15 @@
       "Synthesis"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "[4.2-6]% DMG Amplification": null,
         "10% Area of Effect Dampening": 10
       },
-      " Origin": {
+      "origin": {
         "+[24-35]% DMG": null,
         "Change to 19% Area of Effect Dampening": 19
       },
-      " Verity": {
+      "verity": {
         "-[10-5]% Resource Cost": null
       }
     }
@@ -10622,15 +10622,15 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "-3% Resource Cost": 3,
         "+[3-6]% Skill Rune Effect": null
       },
-      " Origin": {
+      "origin": {
         "+[7-10]% Skill Rune Effect": null,
         "15% Skill Rune Duration Dampening": 15
       },
-      " Verity": {
+      "verity": {
         "+[7-10]% Skill Rune Cooldown Recovery Speed": null
       }
     }
@@ -10665,14 +10665,14 @@
       "Synthesis"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[4-9] Fire Penetration": null,
         "+2% Max Fire Penetration": 2
       },
-      " Origin": {
+      "origin": {
         "+[55-80]% Fire DMG": null
       },
-      " Verity": {
+      "verity": {
         "+[3.5-5]% Fire Penetration per 1 Awakened Link Rune on linked Skill Rune": null
       }
     }
@@ -10714,14 +10714,14 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "-3% Resource Cost": 3,
         "+[55-80]% DMG at 80% or more HP": null
       },
-      " Origin": {
+      "origin": {
         "[3.5-5]% DMG Amplification at Full HP": null
       },
-      " Verity": {
+      "verity": {
         "+[17-25] DoT Rate at 80% or more HP": null
       }
     }
@@ -10950,14 +10950,14 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[2-7]% Center of Gravity Effect": null,
         "+1 Max Center of Gravity Buff Stacks": 1
       },
-      " Origin": {
+      "origin": {
         "+[4-8]% Maximized DMG per Center of Gravity stack": null
       },
-      " Verity": {
+      "verity": {
         "Change Center of Gravity effect according to the following": "Change Center of Gravity effect according to the following",
         "Gain Center of Gravity effect every 0.5 s when moving": 0.5,
         "Remove 1 Center of Gravity stack every 1.5 s when not moving": 1,
@@ -11037,14 +11037,14 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[10-15]% Shout Skill Rune Cooldown Recovery Speed": null,
         "+3% Shout Skill Rune Effect": 3
       },
-      " Origin": {
+      "origin": {
         "[30-50]% chance to gain Earth Energy upon using Skill": null
       },
-      " Verity": {
+      "verity": {
         "+[3-5]% Shout Skill Rune Effect": null,
         "+[3-5]% Shout Skill Rune Effect Range per 1 Red Link Rune on linked Skill Rune": null
       }
@@ -11085,13 +11085,13 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[14-20] Weapon Range": null
       },
-      " Origin": {
+      "origin": {
         "[2.1-3]% Melee DMG Amplification": null
       },
-      " Verity": {
+      "verity": {
         "+[2-4]% DMG per 10 Weapon Range (Max: 80%)": null
       }
     }
@@ -11131,15 +11131,15 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[3-6]% Skill Rune Cooldown Recovery Speed": null,
         "-2 Resource Cost": 2
       },
-      " Origin": {
+      "origin": {
         "+[5-10]% Skill Rune Effect": null,
         "+[8-15]% Skill Rune Duration": null
       },
-      " Verity": {
+      "verity": {
         "[3-6]% Movement Speed Increase for 2 s upon using Skill (Max Stacks: 5)": null
       }
     }
@@ -11187,13 +11187,13 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "-[10-5]% Resource Cost": null
       },
-      " Origin": {
+      "origin": {
         "+[50-70]% Melee DMG": null
       },
-      " Verity": {
+      "verity": {
         "1.5% Melee DMG Amplification": 1.5,
         "+[3-5] HP on every hit at 40% or less HP": null
       }
@@ -11229,14 +11229,14 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[14-21]% Shout Skill Rune Duration": null
       },
-      " Origin": {
+      "origin": {
         "+[4-8]% Shout Skill Rune Effect": null,
         "+[2-5]% Shout Skill Rune Cooldown Recovery Speed": null
       },
-      " Verity": {
+      "verity": {
         "[10-20]% chance to gain Earth Energy upon using Skill": null
       }
     }
@@ -11273,13 +11273,13 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[13-20]% Improved Shout Effect": null
       },
-      " Origin": {
+      "origin": {
         "Add +[31-45]% Critical Rate to Improved Shout effect": null
       },
-      " Verity": {
+      "verity": {
         "[10-20]% chance to gain Fire Energy upon using Skill": null
       }
     }
@@ -11316,13 +11316,13 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "[3.5-5]% DMG Amplification": null
       },
-      " Origin": {
+      "origin": {
         "+[55-80]% DMG upon Attack": null
       },
-      " Verity": {
+      "verity": {
         "2% DMG Amplification if linked Skill Rune has 6 Red Link Runes": 2,
         "+[8-11]% DMG upon Attack per 1 Red Link Rune on linked Skill Rune": null
       }
@@ -11362,15 +11362,15 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[3-5]% Totem Effect": null,
         "+[10-20]% Totem Effect Range": null
       },
-      " Origin": {
+      "origin": {
         "+[15-25]% Totem Duration": null,
         "+[3-4]% Totem Effect if linked Skill Rune has 2 or more Blue Link Runes": null
       },
-      " Verity": {
+      "verity": {
         "+12% Totem Install Speed": 12,
         "+[20-30]% Totem Effect Range if linked Skill Rune has 2 or more Red Link Runes": null
       }
@@ -11407,13 +11407,13 @@
       "Synthesis"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[7-11]% Abyssling DMG per summoned Abyssling": null
       },
-      " Origin": {
+      "origin": {
         "+[21-30]% Abyssling Critical Rate per 1 summoned Abyssling": null
       },
-      " Verity": {
+      "verity": {
         "[2.1-3]% Abyssling DMG Amplification when Rune Knight is summoned": null
       }
     }
@@ -11484,14 +11484,14 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[17-25]% Area of Effect": null,
         "+17% Trap Detection Range": 17
       },
-      " Origin": {
+      "origin": {
         "[2.8-4]% Trap DMG Amplification": null
       },
-      " Verity": {
+      "verity": {
         "+[5-7]% Area of Effect per 1 Green Link Rune on linked Skill Rune": null,
         "+5% Trap Detection Range per 1 Green Link Rune on linked Skill Rune": 5
       }
@@ -11542,15 +11542,15 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+15% Melee DMG": 15,
         "[0.4-1.2]% Max HP Regen/Sec for 3 s on hit": null
       },
-      " Origin": {
+      "origin": {
         "[1.5-3]% Melee DMG Amplification": null,
         "2.5% DMG Amplification when Strength is 500 or more": 2.5
       },
-      " Verity": {
+      "verity": {
         "+[20-35]% Melee DMG": null,
         "[3-6]% Critical DMG Taken Decrease for 3 s on hit": null
       }
@@ -11598,15 +11598,15 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+30% Melee DMG": 30,
         "[3.5-5.5]% DMG Amplification against Stunned enemies": null
       },
-      " Origin": {
+      "origin": {
         "+4 Stun Rate": 4,
         "+[6-12] Stun Rate when enemy is at 50% or less HP": null
       },
-      " Verity": {
+      "verity": {
         "[0.4-0.8]% Melee DMG Amplification per 1 Red Link Rune on linked Skill Rune": null
       }
     }
@@ -11649,14 +11649,14 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[15-30]% Expand Vision effect": null
       },
-      " Origin": {
+      "origin": {
         "-[15-5]% Expand Vision effect": null,
         "+[20-35]% Expand Vision Duration": null
       },
-      " Verity": {
+      "verity": {
         "5% DMG Amplification": 5,
         "[2-6]% Movement Speed Increase for 2 s upon using Skill (Max Stacks: 4)": null
       }
@@ -11694,13 +11694,13 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[10-25]% Maximized Minion DMG": null
       },
-      " Origin": {
+      "origin": {
         "+[35-55]% Minion DMG": null
       },
-      " Verity": {
+      "verity": {
         "[2-5]% chance for Minion to deal double maximized DMG": null
       }
     }
@@ -11735,14 +11735,14 @@
       ]
     },
     "awakenings": {
-      " Source": {
+      "source": {
         "+[5-10]% Shout Skill Rune Duration": null,
         "+[5-10]% Shout Skill Rune Effect": null
       },
-      " Origin": {
+      "origin": {
         "+[5-10]% Shout Skill Rune Cooldown Recovery Speed": null
       },
-      " Verity": {
+      "verity": {
         "+[5-15]% Attack Speed during Shout Skill Effect": null,
         "+[5-15]% Cast Speed during Shout Skill Effect": null
       }
@@ -11871,14 +11871,14 @@
       "Synthesis"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[35-50]% Melee DMG": null
       },
-      " Origin": {
+      "origin": {
         "Change to can inflict DoT": "Change to can inflict DoT",
         "+[7-10] DoT Rate": null
       },
-      " Verity": {
+      "verity": {
         "[0.3-0.5]% Melee DMG Amplification per 1 Red Link Rune on linked Skill Rune": null
       }
     }
@@ -11917,13 +11917,13 @@
       "Synthesis"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "[4.9-7]% DMG Amplification against enemies at Full HP": null
       },
-      " Origin": {
+      "origin": {
         "+[55-80]% DMG": null
       },
-      " Verity": {
+      "verity": {
         "[1.4-2]% DMG Amplification against enemies at Full HP": null,
         "[3.5-5]% DMG Amplification against enemies that are not at Full HP": null
       }
@@ -11964,16 +11964,16 @@
       "Synthesis"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "[2.8-4]% Strike DMG Amplification": null,
         "5% Attack Speed Dampening": 5,
         "5% Cast Speed Dampening": 5
       },
-      " Origin": {
+      "origin": {
         "[5.6-8]% Attack Speed Amplification": null,
         "[5.6-8]% Cast Speed Amplification": null
       },
-      " Verity": {
+      "verity": {
         "+[35-50]% Strike DMG": null
       }
     }
@@ -12045,15 +12045,15 @@
       "Synthesis"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "[3.5-5]% DMG Amplification against Burning enemies": null
       },
-      " Origin": {
+      "origin": {
         "Does not remove Burn": "Does not remove Burn",
         "Can inflict Burn": "Can inflict Burn",
         "[4.9-7]% DMG Dampening against Burning enemies": null
       },
-      " Verity": {
+      "verity": {
         "[0.1-0.4]% Fire DMG Amplification per 1 Red Link Rune on linked Skill Rune": null,
         "+[1-2]% Fire Penetration per 1 Awakened Link Rune on linked Skill Rune": null
       }
@@ -12281,14 +12281,14 @@
       "Synthesis"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[35-50]% DMG when 2-handed weapon is equipped": null,
         "[3.5-5]% DMG Amplification when 2-handed weapon is equipped": null
       },
-      " Origin": {
+      "origin": {
         "-[10-5]% Resource Cost": null
       },
-      " Verity": {
+      "verity": {
         "+[11-16] Block Expertise for 4 s upon hitting with 2-handed weapon": null,
         "+[28-40]% Critical DMG for 4 s upon hitting with 1-handed weapon": null
       }
@@ -12333,13 +12333,13 @@
       "Synthesis"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[55-80]% DMG": null
       },
-      " Origin": {
+      "origin": {
         "[3.5-5]% DMG Amplification for 2 s upon taking Reflect DMG": null
       },
-      " Verity": {
+      "verity": {
         "[6-11]% DMG Taken Dampening for 1 s upon taking Reflect DMG": null
       }
     }
@@ -12551,13 +12551,13 @@
       "Synthesis"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[14-20]% Killing Machine Effect Duration": null
       },
-      " Origin": {
+      "origin": {
         "+[4.2-6]% Killing Machine Effect": null
       },
-      " Verity": {
+      "verity": {
         "+[63-90]% Carnage Effect Duration": null,
         "Gain 1 Carnage stack every time an object is destroyed": 1
       }
@@ -12609,15 +12609,15 @@
       "Synthesis"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+3 Max Fighting Spirit Stacks": 3,
         "[2.8-4]% Strike DMG Amplification": null
       },
-      " Origin": {
+      "origin": {
         "-30% Fighting Spirit Effect": 30,
         "[5-7]% Strike DMG Amplification": null
       },
-      " Verity": {
+      "verity": {
         "+50% Fighting Spirit Duration": 50,
         "+[15-25]% Fighting Spirit Effect": null
       }
@@ -12660,15 +12660,15 @@
       "Synthesis"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[30-55]% Melee DMG": null,
         "+[3-8]% Skill Rune Cooldown Recovery Speed": null
       },
-      " Origin": {
+      "origin": {
         "Momentum Effect +[1-12]%": null,
         "Momentum Duration +[5-15]%": null
       },
-      " Verity": {
+      "verity": {
         "Momentum Effect +5%": 5,
         "+[10-18] Stun Rate": null
       }
@@ -12720,14 +12720,14 @@
       "Synthesis"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[45-70]% Projectile DMG": null
       },
-      " Origin": {
+      "origin": {
         "-[8-4]% Resource Cost": null,
         "+1 Max Spot Weakness Stacks": 1
       },
-      " Verity": {
+      "verity": {
         "[1-3]% DMG Amplification against enemies at 400 distance or less": null,
         "Add Melee tag": null
       }
@@ -12768,13 +12768,13 @@
       "Synthesis"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[10-25]% Attack Speed at 40% or less HP": null
       },
-      " Origin": {
+      "origin": {
         "Max HP -[1-5]% on skill use at 40% or more HP": null
       },
-      " Verity": {
+      "verity": {
         "+[25-55]% Melee DMG": null,
         "[1.5-4]% Critical DMG Taken Decrease for 3 s on hit": null
       }
@@ -12815,14 +12815,14 @@
       "Synthesis"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "[4-7]% Melee DMG Amplification": null,
         "[2-6]% Weapon Range Dampening": null
       },
-      " Origin": {
+      "origin": {
         "[5-15]% Weapon Range Amplification": null
       },
-      " Verity": {
+      "verity": {
         "[1-5]% chance to deal double Maximized DMG on hit": null
       }
     }
@@ -12898,15 +12898,15 @@
       "Synthesis"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "[5-10]% Melee DMG Amplification": null,
         "+[5-10]% Resource Cost": null,
         "-[15-10]% Soul Blessing Effect": null
       },
-      " Origin": {
+      "origin": {
         "-5 Max Prayer Stacks": 5
       },
-      " Verity": {
+      "verity": {
         "+[30-40]% Soul Blessing Effect": null
       }
     }
@@ -12961,14 +12961,14 @@
       "Synthesis"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "-[1-5]% target's Physical Attack per Lower Armor Stack": null
       },
-      " Origin": {
+      "origin": {
         "-[30-20]% Lower Armor Effect": null,
         "+4 Max Lower Armor Stacks": 4
       },
-      " Verity": {
+      "verity": {
         "+[130-150]% Lower Armor Effect": null,
         "-3 Max Lower Armor Stacks": 3
       }
@@ -13014,13 +13014,13 @@
       "Synthesis"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "[6.3-9]% Area DMG Amplification on 1st, 2nd hits": null
       },
-      " Origin": {
+      "origin": {
         "+[55-80]% Area DMG": null
       },
-      " Verity": {
+      "verity": {
         "-[10-5]% Resource Cost": null
       }
     }
@@ -13102,13 +13102,13 @@
       "Synthesis"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[60-85]% Melee DMG": null
       },
-      " Origin": {
+      "origin": {
         "[4-6.5]% Melee DMG Amplification when distance from enemy is 200 or less": null
       },
-      " Verity": {
+      "verity": {
         "-[10-5]% Resource Cost": null
       }
     }
@@ -13150,14 +13150,14 @@
       "Synthesis"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "[2.5-5]% DMG Taken by Minions Decrease": null
       },
-      " Origin": {
+      "origin": {
         "+[35-55]% Minion DMG": null,
         "+1 Skill Rune Level if linked Skill Rune has 6 Legendary Link Runes": 1
       },
-      " Verity": {
+      "verity": {
         "[1-1.5]% Minion Attack Speed Amplification per 1 Minion tag Link Rune on linked Skill Rune": null
       }
     }
@@ -13245,18 +13245,18 @@
       ]
     },
     "awakenings": {
-      " Source": {
+      "source": {
         "[7.5-15]% DMG Amplification": null,
         "+[20-30]% Area of Effect": null
       },
-      " Origin": {
+      "origin": {
         "Gain Traces of the Warrior on hit": "Gain Traces of the Warrior on hit",
         "Gain Warrior's Shadow on 5 Traces of the Warrior stacks": 5,
         "Warrior's Shadow [Origin] Effect": "Warrior's Shadow [Origin] Effect",
         "Summon 1 Warrior's Shadows on skill use": 1,
         "+[30-60]% Strike DMG": null
       },
-      " Verity": {
+      "verity": {
         "Summon 1 Warrior's Shadow when HP is at 40% or lower": 1,
         "Consume all Barrier upon Attack": "Consume all Barrier upon Attack",
         "[20-30]% DMG Dampening": null,
@@ -13301,13 +13301,13 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[5-10]% Attack Speed": null
       },
-      " Origin": {
+      "origin": {
         "-[10-5]% Resource Cost": null
       },
-      " Verity": {
+      "verity": {
         "+[1.7-2.5]% Attack Speed per 1 Green Link Rune on linked Skill Rune": null
       }
     }
@@ -13341,14 +13341,14 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[35-50]% Critical Rate": null
       },
-      " Origin": {
+      "origin": {
         "+7% Critical DMG": 7,
         "+[6-9]% Critical Rate per 1 Green Link Rune on linked Skill Rune": null
       },
-      " Verity": {
+      "verity": {
         "+15% Critical Rate": 15,
         "+[12-17]% Critical DMG against enemies at 40% or less HP": null
       }
@@ -13383,13 +13383,13 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[35-50]-[55-80] Poison DMG": null
       },
-      " Origin": {
+      "origin": {
         "[0.5-0.9]% Poison DMG Amplification per 1 Green Link Rune on linked Skill Rune": null
       },
-      " Verity": {
+      "verity": {
         "+[55-80]% Poison DMG": null
       }
     }
@@ -13431,16 +13431,16 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "[3.5-5]% Projectile DMG Dampening": null,
         "Gain Powerful Multishot effect for 1 s upon using Skill (Cooldown: 3 s)": 1,
         "Powerful Multishot effect": "Powerful Multishot effect",
         "Projectile Count +2 for the duration": 2
       },
-      " Origin": {
+      "origin": {
         "-[10-5]% Resource Cost": null
       },
-      " Verity": {
+      "verity": {
         "2% DMG Amplification if linked Skill Rune has 6 Green Link Runes": 2,
         "[0.3-0.5]% Projectile DMG Amplification per 1 Projectile tag Link Rune on linked Skill Rune": null
       }
@@ -13475,14 +13475,14 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[10-15]% Critical DMG": null,
         "+[35-50]% DMG against enemies affected by Status Effect": null
       },
-      " Origin": {
+      "origin": {
         "[0.5-0.9]% Strike DMG Amplification per 1 Green Link Rune on linked Skill Rune": null
       },
-      " Verity": {
+      "verity": {
         "-[5-3]% Resource Cost": null,
         "Gain 1 Prepare Slaughter stack upon killing an enemy": 1,
         "Gain 1 Prepare Slaughter stack upon hitting an Elite Monster (Cooldown: 1 s)": 1,
@@ -13522,16 +13522,16 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[10-15]% Skill Rune Duration": null
       },
-      " Origin": {
+      "origin": {
         "+5% Attack Enhance Skill Rune Duration when Strength is 300 or more": 5,
         "+5% Defense Enhance Skill Rune Duration when Dexterity is 300 or more": 5,
         "+5% Skill Rune Duration when Intelligence is 300 or more": 5,
         "+[4-8]% Skill Rune Cooldown Recovery Speed": null
       },
-      " Verity": {
+      "verity": {
         "+10% Skill Rune Cooldown Recovery Speed if linked Skill Rune has 4 or more Legendary Link Runes": 10,
         "+[3.5-5]% Skill Rune Effect": null
       }
@@ -13573,14 +13573,14 @@
       "Synthesis"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+1 Pierce Count": 1,
         "+[50-70]% Projectile DMG": null
       },
-      " Origin": {
+      "origin": {
         "[1-1.5]% DMG Amplification per 1 Pierce(s)": null
       },
-      " Verity": {
+      "verity": {
         "+1 Pierce Count if linked Skill Rune has 3 or more Green Link Runes": 1,
         "[0.5-0.9]% Projectile DMG Amplification per 1 Projectile tag Link Rune on linked Skill Rune": null
       }
@@ -13616,14 +13616,14 @@
       "Synthesis"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[4-9] Poison Penetration": null,
         "+2% Max Poison Penetration": 2
       },
-      " Origin": {
+      "origin": {
         "+[55-80]% Poison DMG": null
       },
-      " Verity": {
+      "verity": {
         "+[3.5-5]% Poison Penetration per 1 Awakened Link Rune on linked Skill Rune": null
       }
     }
@@ -13662,15 +13662,15 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[7-10]% Projectile Speed": null,
         "[2.8-4]% Projectile DMG Amplification": null
       },
-      " Origin": {
+      "origin": {
         "+[14-20]% Projectile Speed": null,
         "+[7-10] Status Effect Rate": null
       },
-      " Verity": {
+      "verity": {
         "+[63-90]% DMG upon every Projectile Hit against enemies at 800 distance or more": null
       }
     }
@@ -13704,14 +13704,14 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[5-10]% DMG per 500 Hit Rate (Max: 150%)": null
       },
-      " Origin": {
+      "origin": {
         "+[35-50]% Hit Rate": null,
         "+1% Critical Rate per 250 Hit Rate (Max: 80%)": 1
       },
-      " Verity": {
+      "verity": {
         "+100% Hit Rate against enemies at Full HP": 100,
         "+100% Hit Rate against enemies at 20% or less HP": 100,
         "+[28-40]% Hit Rate": null
@@ -13751,14 +13751,14 @@
       "Synthesis"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "5% Projectile Speed Dampening": 5,
         "+[55-80]% Projectile DMG": null
       },
-      " Origin": {
+      "origin": {
         "-[10-5]% Resource Cost": null
       },
-      " Verity": {
+      "verity": {
         "[0.5-0.9]% Projectile DMG Amplification per 1 Projectile tag Link Rune on linked Skill Rune": null
       }
     }
@@ -13798,14 +13798,14 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+5% Attack Speed": 5,
         "[0.5-0.8]% Projectile DMG Amplification per 1 Projectile tag Link Rune on linked Skill Rune": null
       },
-      " Origin": {
+      "origin": {
         "-[10-5]% Resource Cost": null
       },
-      " Verity": {
+      "verity": {
         "+[55-80]% Projectile DMG": null
       }
     }
@@ -13843,13 +13843,13 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "[3.5-5]% DoT Amplification": null
       },
-      " Origin": {
+      "origin": {
         "[2-4]% chance to gain Poison Energy on hit": null
       },
-      " Verity": {
+      "verity": {
         "+[30-40]% DMG against enemies affected by Venom": null,
         "+[20-30] Venom Rate": null
       }
@@ -13898,14 +13898,14 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "[5.3-7]% DMG Amplification against Bosses": null
       },
-      " Origin": {
+      "origin": {
         "+[35-50]% DMG against Elites": null,
         "+40% DMG against Elites when distance from enemy is 500 or less": 40
       },
-      " Verity": {
+      "verity": {
         "[2.1-3]% DMG Amplification against Elites if linked Skill Rune has 1 Green Link Rune": null,
         "3% DMG Amplification against Elites": 3
       }
@@ -13944,14 +13944,14 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[7-10] Blind Rate": null,
         "+[40-55]% DMG against Blinded enemies": null
       },
-      " Origin": {
+      "origin": {
         "[3.5-5]% DMG Amplification against Blinded enemies": null
       },
-      " Verity": {
+      "verity": {
         "+[17-25] Blind Rate on Critical Hit": null
       }
     }
@@ -13990,13 +13990,13 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[55-80]% DMG against enemies affected by Venom": null
       },
-      " Origin": {
+      "origin": {
         "-[10-5]% Resource Cost": null
       },
-      " Verity": {
+      "verity": {
         "+[17-25] Venom Rate": null,
         "Change to Can inflict Venom": "Change to Can inflict Venom"
       }
@@ -14086,13 +14086,13 @@
       "Synthesis"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[55-80]% DMG upon every Projectile Hit against enemies at 400 distance or less": null
       },
-      " Origin": {
+      "origin": {
         "Close Range Shot effect +[6-10]% Increase": null
       },
-      " Verity": {
+      "verity": {
         "+[500-1000] Armor for 5 s on hitting enemies within 300 or less distance": null
       }
     }
@@ -14170,13 +14170,13 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[35-50]% Chain Impact Effect": null
       },
-      " Origin": {
+      "origin": {
         "[1.4-2]% DMG Amplification per 1 Chain(s)": null
       },
-      " Verity": {
+      "verity": {
         "[3-5]% Status Effect DMG Amplification when 2-handed weapon is equipped": null,
         "+[10-15] Status Effect Rate when 1-handed weapon is equipped": null
       }
@@ -14223,14 +14223,14 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[50-70]% Pierce Wound Effect": null
       },
-      " Origin": {
+      "origin": {
         "3% Projectile DMG Amplification": 3,
         "+[20-30]% Pierce Wound Effect": null
       },
-      " Verity": {
+      "verity": {
         "+1 Pierce Count": 1,
         "+[30-45]% Pierce Wound Effect": null
       }
@@ -14279,13 +14279,13 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[55-80]% DMG upon every Projectile Hit against enemies at 800 distance or more": null
       },
-      " Origin": {
+      "origin": {
         "+[7-10]% DMG per 50 Dexterity on every Projectile hit against enemies at 800 distance or more (Max: 80%)": null
       },
-      " Verity": {
+      "verity": {
         "+[55-80]% Attack Critical Rate upon every Projectile Hit against enemies at 800 distance or more": null
       }
     }
@@ -14320,16 +14320,16 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "[20-10]% DMG Taken by Sentry Increase": null,
         "Grants Sentry with an aura that recovers nearby allies by 3% of its Max HP every second.": 3,
         "Disable the Sentry HP Regeneration effect of Link Runes": "Disable the Sentry HP Regeneration effect of Link Runes"
       },
-      " Origin": {
+      "origin": {
         "+[15-45] Sentry HP upon every Sentry Attack Hit": null,
         "-[30-15]% Sentry HP": null
       },
-      " Verity": {
+      "verity": {
         "-[15-5]% Sentry DMG": null,
         "1% DMG Amplification per 2500 of Sentry HP (Max: 10)": 1
       }
@@ -14365,14 +14365,14 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "Amplifies Sentry Hit Rate by [2-4]%": null,
         "[2.5-4]% Sentry DMG Amplification": null
       },
-      " Origin": {
+      "origin": {
         "[3.5-5]% Sentry DMG Amplification against enemies affected by DoT": null
       },
-      " Verity": {
+      "verity": {
         "[3.5-5]% chance for Sentry to deal double maximized DMG on hit when Sentry Attack Hit Rate is 12000 or more": null
       }
     }
@@ -14407,14 +14407,14 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "Amplifies Sentry Armor by [20-40]%": null,
         "Sentry takes [1-5]% of DMG Taken instead for 5 s upon summoning Sentry": null
       },
-      " Origin": {
+      "origin": {
         "[5-25]% Chaos DMG Taken by Sentry Dampening": null
       },
-      " Verity": {
+      "verity": {
         "[10-20]% Sentry Armor Dampening": null,
         "Sentry Element Resist [10-20]% Dampening": null,
         "1% DMG Amplification per 5000 of Sentry Defense (Max: 10)": 1,
@@ -14452,14 +14452,14 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+1 Simultaneous Trap Count": 1,
         "[2-5]% Trap DMG Dampening": null
       },
-      " Origin": {
+      "origin": {
         "-[10-5]% Resource Cost": null
       },
-      " Verity": {
+      "verity": {
         "+[8-15]% Area of Effect": null,
         "+10% Trap Detection Range": 10
       }
@@ -14495,14 +14495,14 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+1 Simultaneous Trap Count": 1,
         "[2-5]% Trap DMG Dampening": null
       },
-      " Origin": {
+      "origin": {
         "-[10-5]% Resource Cost": null
       },
-      " Verity": {
+      "verity": {
         "+[8-15]% Area of Effect": null,
         "+10% Trap Detection Range": 10
       }
@@ -14540,15 +14540,15 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[35-40]% Trap DMG": null,
         "+[10-20]% Trap Install Speed": null,
         "+[10-20]% Attack Speed": null
       },
-      " Origin": {
+      "origin": {
         "-[10-5]% Resource Cost": null
       },
-      " Verity": {
+      "verity": {
         "[2.5-5]% Movement Speed Increase for 5 s upon using Skill (Max Stacks: 3)": null
       }
     }
@@ -14584,15 +14584,15 @@
       "Synthesis"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[10-20]% Area of Effect": null,
         "+[10-15]% Trap Install Distance": null
       },
-      " Origin": {
+      "origin": {
         "[2.5-4]% Trap DMG Amplification": null,
         "+[15-20]% Hit Rate": null
       },
-      " Verity": {
+      "verity": {
         "+[35-55]% Trap DMG": null,
         "+[6-12]% Trap Install Distance for 5 s upon using Skill (Max Stacks: 5)": null
       }
@@ -14630,15 +14630,15 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[10-20]% DMG for 3 s upon Trap Critical Hit": null,
         "+1 Trap Projectile Count": 1
       },
-      " Origin": {
+      "origin": {
         "+1 Trap Projectile Count per 3 Trap tag Link Runes on linked Skill Rune": 1,
         "[0.3-0.8]% DMG Amplification if linked Skill Rune has 5 or more Trap tag Link Runes": null
       },
-      " Verity": {
+      "verity": {
         "-[5-3]% Resource Cost": null,
         "+1 Trap Projectile Count per 300 Dexterity (Max: 3)": 1
       }
@@ -14674,15 +14674,15 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[14-21]% Attack Speed if Overheat is at 60% or more": null
       },
-      " Origin": {
+      "origin": {
         "-[3.5-0.5]% Resource Cost": null,
         "10% chance to gain 1 Fire Energy on hit at 60% or more Overheat (Cooldown 6 s)": 10,
         "Reset Cooldown on Rapid Cooling": "Reset Cooldown on Rapid Cooling"
       },
-      " Verity": {
+      "verity": {
         "+[6-12]% Attack Speed if linked Skill Rune has 2 or more Overheat tag Link Runes": null
       }
     }
@@ -14725,13 +14725,13 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[15-30]% Low Temperature effect": null
       },
-      " Origin": {
+      "origin": {
         "+[20-40]% High Temperature effect": null
       },
-      " Verity": {
+      "verity": {
         "+[5-25]% Low Temperature Duration": null,
         "+[5-25]% High Temperature Duration": null
       }
@@ -14768,13 +14768,13 @@
       "Synthesis"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[3-8] Crowd Control Rate": null
       },
-      " Origin": {
+      "origin": {
         "[2-6.5]% DMG Amplification against Crowd Controlled enemies": null
       },
-      " Verity": {
+      "verity": {
         "+[10-35]% Trap DMG": null,
         "[3-5]% DMG Amplification if linked Skill Rune has 5 or more Trap tag Link Runes": null
       }
@@ -14814,13 +14814,13 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "[3-6]% Minion DMG Amplification": null
       },
-      " Origin": {
+      "origin": {
         "+[4-8]% Triple Maximized Minion DMG": null
       },
-      " Verity": {
+      "verity": {
         "+[8-14]% Minion DMG per 1 Minion tag Link Rune on linked Skill Rune": null
       }
     }
@@ -14871,15 +14871,15 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[5-9]% Attack Speed": null,
         "Change Winding Wind Duration to 7 s": 7
       },
-      " Origin": {
+      "origin": {
         "+[30-50]% DMG": null,
         "5% DMG Amplification when Channeling": 5
       },
-      " Verity": {
+      "verity": {
         "+[1-3]% Perfect Dodge during Winding Wind duration": null
       }
     }
@@ -14961,14 +14961,14 @@
       "Synthesis"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+1 Max Sentry Summon Count": 1,
         "[2.8-4]% Sentry DMG Dampening": null
       },
-      " Origin": {
+      "origin": {
         "-[10-5]% Resource Cost": null
       },
-      " Verity": {
+      "verity": {
         "[2.1-3]% Sentry DMG Amplification": null
       }
     }
@@ -15090,16 +15090,16 @@
       "Synthesis"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "[3.5-5]% Projectile DMG Dampening": null,
         "Gain Powerful Multishot effect for 1 s upon using Skill (Cooldown: 3 s)": 1,
         "Powerful Multishot effect": "Powerful Multishot effect",
         "Projectile Count +2 for the duration": 2
       },
-      " Origin": {
+      "origin": {
         "-[10-5]% Resource Cost": null
       },
-      " Verity": {
+      "verity": {
         "2% DMG Amplification if linked Skill Rune has 6 Projectile tag Link Runes": 2,
         "[0.3-0.5]% Projectile DMG Amplification per 1 Projectile tag Link Rune on linked Skill Rune": null
       }
@@ -15249,13 +15249,13 @@
       "Guild"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[5-10]% Attack Enhance Skill Rune Effect": null
       },
-      " Origin": {
+      "origin": {
         "+[5-10]% Defense Enhance Skill Rune Effect": null
       },
-      " Verity": {
+      "verity": {
         "-[10-5]% Resource Cost": null
       }
     }
@@ -15290,13 +15290,13 @@
       "Synthesis"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[45-65]% Projectile DMG": null
       },
-      " Origin": {
+      "origin": {
         "[0.4-0.7]% Projectile DMG Amplification per 1 Projectile tag Link Rune on linked Skill Rune": null
       },
-      " Verity": {
+      "verity": {
         "-[10-5]% Resource Cost": null
       }
     }
@@ -15346,13 +15346,13 @@
       "Synthesis"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "[3.5-5]% Strike DMG Amplification": null
       },
-      " Origin": {
+      "origin": {
         "-[10-5]% Resource Cost": null
       },
-      " Verity": {
+      "verity": {
         "+[25-40]% Critical DMG": null
       }
     }
@@ -15388,14 +15388,14 @@
       "Unique Dungeon"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[25-40]% Shout Skill Rune Cast Speed": null
       },
-      " Origin": {
+      "origin": {
         "+15% Shout Skill Rune Cast Speed": 15,
         "+[15-25]% Shout Skill Rune Cooldown Recovery Speed if linked Skill Rune has 4 or more Shout tag Link Runes": null
       },
-      " Verity": {
+      "verity": {
         "+[5-10]% Shout Skill Rune Effect": null
       }
     }
@@ -15476,14 +15476,14 @@
       "Unique Dungeon"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[30-40]% Sentry Install Speed": null,
         "+[25-55]% Sentry DMG": null
       },
-      " Origin": {
+      "origin": {
         "+[13-20]% Sentry Attack Speed": null
       },
-      " Verity": {
+      "verity": {
         "-[10-5]% Resource Cost": null
       }
     }
@@ -15521,15 +15521,15 @@
       "Unique Dungeon"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+45% Totem Install Speed": 45,
         "-[6-3]% Totem Effect": null
       },
-      " Origin": {
+      "origin": {
         "+3% Totem Effect": 3,
         "+[6-14]% Totem Effect Range": null
       },
-      " Verity": {
+      "verity": {
         "-[10-5]% Resource Cost": null,
         "+3% Totem Effect": 3
       }
@@ -15562,14 +15562,14 @@
       "Synthesis"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "[3.5-5]% Trap DMG Amplification": null
       },
-      " Origin": {
+      "origin": {
         "+[25-80]% Trap DMG": null,
         "1.5% DMG Amplification if linked Skill Rune has 5 or more Trap tag Link Runes": 1.5
       },
-      " Verity": {
+      "verity": {
         "[0.5-0.9]% Trap DMG Amplification per 1 Green Link Rune on linked Skill Rune": null
       }
     }
@@ -15605,16 +15605,16 @@
       "Synthesis"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "9% Trap DMG Amplification for 4 s upon using skill (Max Stacks: 5)": 9,
         "Remove 1 DMG Amplification stack on hitting Trap": 1,
         "-[25-10]% Trap Duration": null
       },
-      " Origin": {
+      "origin": {
         "+[25-55]% Trap DMG": null,
         "+40% Critical Rate against Crowd Controlled enemies": 40
       },
-      " Verity": {
+      "verity": {
         "[0.5-0.8]% Trap DMG Amplification per 1 Green Link Rune on linked Skill Rune": null
       }
     }
@@ -15648,13 +15648,13 @@
       "Synthesis"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[5-10]% Critical Rate per 10% Overheat": null
       },
-      " Origin": {
+      "origin": {
         "+[8-12]% Critical Rate per 1 Green Link Rune on linked Skill Rune": null
       },
-      " Verity": {
+      "verity": {
         "-[12-3]% Resource Cost": null,
         "[1-5]% Overheat Accumulation Amplification": null
       }
@@ -15699,14 +15699,14 @@
       "Synthesis"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[10-25]% Maximized DMG": null
       },
-      " Origin": {
+      "origin": {
         "+[5-15]% Maximized DMG": null,
         "+[35-50]% DMG against enemies affected by Status Effect": null
       },
-      " Verity": {
+      "verity": {
         "+[15-66]% Critical DMG": null
       }
     }
@@ -15786,14 +15786,14 @@
       "Synthesis"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+2% DoT Acceleration": 2,
         "+[25-50]% DoT": null
       },
-      " Origin": {
+      "origin": {
         "+[0.5-0.9]% DoT Acceleration per 1 DoT tag Link Rune on linked Skill Rune": null
       },
-      " Verity": {
+      "verity": {
         "[3-5]% DoT Amplification against Bosses": null,
         "2% DoT Amplification": 2
       }
@@ -15836,13 +15836,13 @@
       "Synthesis"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[10-25]% Maximized DMG": null
       },
-      " Origin": {
+      "origin": {
         "[1-3]% chance to deal triple Maximized DMG on hit": null
       },
-      " Verity": {
+      "verity": {
         "+[1-7]% Critical Chance": null
       }
     }
@@ -15885,20 +15885,20 @@
       ]
     },
     "awakenings": {
-      " Source": {
+      "source": {
         "10% chance to summon Double Shadow Archer on hit": 10,
         "Double Shadow Archer Effect": "Double Shadow Archer Effect",
         "Summon 1 Shadow Archer(s) on skill use": 1,
         "+[20-35]% Attack Speed": null
       },
-      " Origin": {
+      "origin": {
         "Double Shadow Archer Effect": "Double Shadow Archer Effect",
         "Summon 1 Shadow Archer(s) on skill use": 1,
         "Cooldown 1 s": 1,
         "+[45-60]% Attack Critical DMG": null,
         "+[45-60]% Projectile DMG": null
       },
-      " Verity": {
+      "verity": {
         "[7.5-15]% DMG Amplification": null,
         "+2 Projectile Count": 2
       }
@@ -15933,13 +15933,13 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[1-5]-[100-155] Lightning DMG": null
       },
-      " Origin": {
+      "origin": {
         "[0.5-0.9]% Lightning DMG Amplification per 1 Blue Link Rune on linked Skill Rune": null
       },
-      " Verity": {
+      "verity": {
         "+[55-80]% Lightning DMG": null
       }
     }
@@ -15973,13 +15973,13 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[35-50]-[55-80] Cold DMG": null
       },
-      " Origin": {
+      "origin": {
         "[0.5-0.9]% Cold DMG Amplification per 1 Blue Link Rune on linked Skill Rune": null
       },
-      " Verity": {
+      "verity": {
         "+[55-80]% Cold DMG": null
       }
     }
@@ -16021,13 +16021,13 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[5-10]% Cast Speed": null
       },
-      " Origin": {
+      "origin": {
         "-[10-5]% Resource Cost": null
       },
-      " Verity": {
+      "verity": {
         "+[1.7-2.5]% Cast Speed per 1 Blue Link Rune on linked Skill Rune": null
       }
     }
@@ -16067,13 +16067,13 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[25-40]% Chill Effect": null
       },
-      " Origin": {
+      "origin": {
         "-[10-5]% Resource Cost": null
       },
-      " Verity": {
+      "verity": {
         "[3.5-5]% DMG Amplification against Chilled enemies": null
       }
     }
@@ -16111,13 +16111,13 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[7-12]% Skill Rune Cooldown Recovery Speed": null
       },
-      " Origin": {
+      "origin": {
         "-[10-5]% Resource Cost": null
       },
-      " Verity": {
+      "verity": {
         "+1 Max Use Count": 1,
         "[3-5]% Skill Rune Cooldown Amplification": null
       }
@@ -16158,14 +16158,14 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[15-25] Freeze Rate against Chilled Enemies": null
       },
-      " Origin": {
+      "origin": {
         "Change to can inflict Chill": "Change to can inflict Chill",
         "[3-5]% DMG Dampening against Chilled enemies": null
       },
-      " Verity": {
+      "verity": {
         "[2-3.5]% DMG Amplification against Chilled enemies": null,
         "1.5% Element DMG Amplification if linked Skill Rune has 5 or more Blue Link Runes": 1.5
       }
@@ -16201,14 +16201,14 @@
       "Synthesis"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[4-9] Cold Penetration": null,
         "+2% Max Cold Penetration": 2
       },
-      " Origin": {
+      "origin": {
         "+[55-80]% Cold DMG": null
       },
-      " Verity": {
+      "verity": {
         "+[2.5-4.6]% Cold Penetration per 1 Awakened Link Rune on linked Skill Rune": null
       }
     }
@@ -16243,14 +16243,14 @@
       "Synthesis"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[4-9] Lightning Penetration": null,
         "+2% Max Lightning Penetration": 2
       },
-      " Origin": {
+      "origin": {
         "+[55-80]% Lightning DMG": null
       },
-      " Verity": {
+      "verity": {
         "+[2.5-4.6]% Lightning Penetration per 1 Awakened Link Rune on linked Skill Rune": null
       }
     }
@@ -16289,14 +16289,14 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[7-12]% Skill Rune Cooldown Recovery Speed": null
       },
-      " Origin": {
+      "origin": {
         "[40-60]% chance to reset Cooldown upon using Skill (Cooldown: 15 s)": null,
         "(Cannot use on Toggle, Enhance Skills, or Rapid Seal)": "(Cannot use on Toggle, Enhance Skills, or Rapid Seal)"
       },
-      " Verity": {
+      "verity": {
         "-[10-5]% Resource Cost": null
       }
     }
@@ -16335,14 +16335,14 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[55-80]% DMG when Channeling": null
       },
-      " Origin": {
+      "origin": {
         "[2.8-4]% Element DMG Amplification while Channeling": null,
         "[2.8-4]% Physical DMG Amplification while Channeling": null
       },
-      " Verity": {
+      "verity": {
         "+[3-5]% DMG per 1 Awakened Link Rune on linked Skill Rune": null,
         "[3-5]% DMG Taken Dampening while Channeling": null
       }
@@ -16380,14 +16380,14 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[10-17]% Minion Cast Speed": null
       },
-      " Origin": {
+      "origin": {
         "+[5-10]% Resource Cost": null,
         "+1 Skill Rune Level if linked Skill Rune has 6 Legendary Link Runes": 1
       },
-      " Verity": {
+      "verity": {
         "[1-1.5]% Minion Attack Speed Amplification per 1 Minion tag Link Rune on linked Skill Rune": null
       }
     }
@@ -16420,13 +16420,13 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "Amplifies Minion Max HP by [5-8]%": null
       },
-      " Origin": {
+      "origin": {
         "-[10-5]% Resource Cost": null
       },
-      " Verity": {
+      "verity": {
         "Minion regenerates [2-5]% of Max HP per Sec": null
       }
     }
@@ -16461,13 +16461,13 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "[3-5.5]% DMG Taken by Minions Decrease": null
       },
-      " Origin": {
+      "origin": {
         "[0.6-1.2]% Boss DMG Taken by Minions Decrease per 1 Awakened Link Rune on linked Skill Rune": null
       },
-      " Verity": {
+      "verity": {
         "-[10-5]% Resource Cost": null,
         "Minion Bind Immunity": "Minion Bind Immunity"
       }
@@ -16506,14 +16506,14 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[10-17] Shock Rate": null
       },
-      " Origin": {
+      "origin": {
         "-20% Shock Duration": 20,
         "+[13-20]% Shock Effect": null
       },
-      " Verity": {
+      "verity": {
         "+[9-13.5]% Lightning DMG per 1 Blue Link Rune on linked Skill Rune": null
       }
     }
@@ -16553,14 +16553,14 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[25-40]% Critical DMG against Shocked enemies": null
       },
-      " Origin": {
+      "origin": {
         "Change to can inflict Shock": "Change to can inflict Shock",
         "[3-5]% DMG Dampening against Shocked enemies": null
       },
-      " Verity": {
+      "verity": {
         "[1.1-2]% DMG Amplification against Shocked enemies": null,
         "1% Element DMG Amplification if linked Skill Rune has 5 or more Blue Link Runes": 1
       }
@@ -16597,13 +16597,13 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "[3.5-5]% chance to deal double Maximized DMG on hit": null
       },
-      " Origin": {
+      "origin": {
         "[1-3]% chance to deal triple Maximized DMG on hit": null
       },
-      " Verity": {
+      "verity": {
         "[0.6-1]% Strike DMG Amplification per 1 Red Link Rune on linked Skill Rune": null
       }
     }
@@ -16792,14 +16792,14 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "[3.5-5]% DMG Amplification": null
       },
-      " Origin": {
+      "origin": {
         "+[10-15]% Resource Cost": null,
         "Gain 1 Time Warp stack every 7.5 s": 1
       },
-      " Verity": {
+      "verity": {
         "+3 Skill Rune Cooldown": 3,
         "[12-15]% DMG Amplification": null
       }
@@ -16881,13 +16881,13 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[55-80]% DMG against Debuffed enemies": null
       },
-      " Origin": {
+      "origin": {
         "+[6-15] Crowd Control Rate at 80% or more HP": null
       },
-      " Verity": {
+      "verity": {
         "+[10-16]% Status Effect Duration": null
       }
     }
@@ -16925,13 +16925,13 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[55-80]% DoT": null
       },
-      " Origin": {
+      "origin": {
         "-[10-5]% Resource Cost": null
       },
-      " Verity": {
+      "verity": {
         "1.5% DoT Amplification if linked Skill Rune has 5 or more DoT tag Link Runes": 1.5,
         "[0.3-0.6]% DoT Amplification per 1 Blue Link Rune on linked Skill Rune": null
       }
@@ -16967,16 +16967,16 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[35-55]% Minion Armor": null,
         "+[8-10] Minion Chaos Resist": null
       },
-      " Origin": {
+      "origin": {
         "-10 Minion Element Resist": 10,
         "+[60-80]% Minion Armor": null,
         "+[15-20] Minion Chaos Resist": null
       },
-      " Verity": {
+      "verity": {
         "-[10-5]% Resource Cost": null
       }
     }
@@ -17011,13 +17011,13 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "Totem regenerates [0.5-1]% of Max HP per Sec": null
       },
-      " Origin": {
+      "origin": {
         "+[20-30]% Totem Duration": null
       },
-      " Verity": {
+      "verity": {
         "-[10-5]% Resource Cost": null
       }
     }
@@ -17050,13 +17050,13 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[14-20]% Totem HP": null
       },
-      " Origin": {
+      "origin": {
         "[5-8]% DMG Taken by Totem Decrease": null
       },
-      " Verity": {
+      "verity": {
         "-[6-3]% Resource Cost": null,
         "2% Totem Max HP Amplification if linked Skill Rune has 5 or more Totem tag Link Runes": 2
       }
@@ -17092,14 +17092,14 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[4-8]% Totem Effect": null
       },
-      " Origin": {
+      "origin": {
         "10% Totem Effect Range Dampening": 10,
         "+[10-15]% Totem Effect": null
       },
-      " Verity": {
+      "verity": {
         "+[20-30]% Totem Effect Range": null
       }
     }
@@ -17139,14 +17139,14 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[55-80]% Status Effect DMG": null
       },
-      " Origin": {
+      "origin": {
         "10% Status Effect Duration Dampening": 10,
         "[9-15]% Status Effect DMG Amplification": null
       },
-      " Verity": {
+      "verity": {
         "-[10-5]% Resource Cost": null
       }
     }
@@ -17183,13 +17183,13 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[55-80]% DMG upon Spell": null
       },
-      " Origin": {
+      "origin": {
         "-[10-5]% Resource Cost": null
       },
-      " Verity": {
+      "verity": {
         "2% DMG Amplification if linked Skill Rune has 6 Blue Link Runes": 2,
         "[0.2-0.5]% DMG Amplification per 1 Blue Link Rune on linked Skill Rune": null
       }
@@ -17236,14 +17236,14 @@
       "Synthesis"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[10-15]% Preserve Mana Effect": null
       },
-      " Origin": {
+      "origin": {
         "-2 Max Preserve Mana Stacks": 2,
         "+[3-5]% Preserve Mana Effect": null
       },
-      " Verity": {
+      "verity": {
         "[1.3-2.5]% Max HP Regen/Sec while Preserve Mana is active": null,
         "[1.3-2.5]% Max Barrier Regen/Sec while Preserve Mana is active": null
       }
@@ -17290,13 +17290,13 @@
     ],
     "elementType": "Poison",
     "awakenings": {
-      " Source": {
+      "source": {
         "Max Energy +[1-2]": null
       },
-      " Origin": {
+      "origin": {
         "1% DMG Taken Dampening per 1 Energy possessed": 1
       },
-      " Verity": {
+      "verity": {
         "Add DoT tag": "Add DoT tag",
         "[10-20]% chance to gain random Energy every 0.8 s when dealing DoT (Does not apply to DMG Status Effect)": null,
         "[5-15]% DoT Increase": null
@@ -17333,13 +17333,13 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[6-12]% DMG per 10% remaining ratio until Critical Overheat Point": null
       },
-      " Origin": {
+      "origin": {
         "[3-5]% DMG Amplification if linked Skill Rune has 2 or more Overheat tag Link Runes": null
       },
-      " Verity": {
+      "verity": {
         "-[8-3]% Resource Cost": null,
         "2% Overheat Accumulation Dampening": 2
       }
@@ -17378,14 +17378,14 @@
       "Synthesis"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "Release [2-5]% Overheat on skill use": null
       },
-      " Origin": {
+      "origin": {
         "+[2.5-5]% Skill Rune Cooldown Recovery Speed": null,
         "-4 Resource Cost": 4
       },
-      " Verity": {
+      "verity": {
         "[4-16]% Movement Speed increase for the duration of Controlled Heat": null
       }
     }
@@ -17433,14 +17433,14 @@
       "Shop"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[3-5]% Skill Rune Effect": null,
         "+[5-8]% Skill Rune Cooldown Recovery Speed": null
       },
-      " Origin": {
+      "origin": {
         "+[30-60]% Readiness Duration": null
       },
-      " Verity": {
+      "verity": {
         "[3-6]% Movement Speed Increase for 5 s upon using Skill (Max Stacks: 4)": null
       }
     }
@@ -17567,14 +17567,14 @@
       "Synthesis"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+1 Chain Count": 1,
         "+[15-30]% Chain Range": null
       },
-      " Origin": {
+      "origin": {
         "-[10-5]% Resource Cost": null
       },
-      " Verity": {
+      "verity": {
         "+2 Chain Count": 2,
         "[8-12]% DMG Dampening": null
       }
@@ -17614,13 +17614,13 @@
       "Synthesis"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[45-65]% Element DMG": null
       },
-      " Origin": {
+      "origin": {
         "[0.4-0.8]% Element DMG Amplification per 1 Blue Link Rune on linked Skill Rune": null
       },
-      " Verity": {
+      "verity": {
         "-[10-5]% Resource Cost": null
       }
     }
@@ -17657,13 +17657,13 @@
       "Synthesis"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "[3.5-5]% DMG Amplification against enemies at 60% or less HP": null
       },
-      " Origin": {
+      "origin": {
         "+[11-16]% DMG upon Attack per 1 Red Link Rune on linked Skill Rune": null
       },
-      " Verity": {
+      "verity": {
         "-[10-5]% Resource Cost": null
       }
     }
@@ -17699,13 +17699,13 @@
       "Synthesis"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "[3.5-5]% Minion DMG Amplification": null
       },
-      " Origin": {
+      "origin": {
         "+[8-14]% Minion DMG per 1 Minion tag Link Rune on linked Skill Rune": null
       },
-      " Verity": {
+      "verity": {
         "[2-5]% DMG Taken by Minions Decrease": null
       }
     }
@@ -17740,13 +17740,13 @@
       "Synthesis"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[17-25]% Critical DMG against Shocked enemies": null
       },
-      " Origin": {
+      "origin": {
         "[2.1-3]% DMG Amplification against Shocked enemies": null
       },
-      " Verity": {
+      "verity": {
         "-[10-5]% Resource Cost": null
       }
     }
@@ -17782,14 +17782,14 @@
       "Synthesis"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[10-15]% Healing Chain Effect": null
       },
-      " Origin": {
+      "origin": {
         "-[10-5]% Resource Cost": null,
         "Add 1% Max Mana Regen/Sec to Healing Chain Effect": 1
       },
-      " Verity": {
+      "verity": {
         "+[35-50]% Armor when distance from Totem is 400 or less": null
       }
     }
@@ -17832,14 +17832,14 @@
       "Synthesis"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[4-8] Crowd Control Rate": null,
         "+[30-45]% DMG against Crowd Controlled enemies": null
       },
-      " Origin": {
+      "origin": {
         "[3.5-5]% DMG Amplification against Crowd Controlled enemies": null
       },
-      " Verity": {
+      "verity": {
         "-[10-5]% Resource Cost": null
       }
     }
@@ -18063,13 +18063,13 @@
       "Guild"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "-[10-5]% Resource Cost": null
       },
-      " Origin": {
+      "origin": {
         "Decrease DMG Taken by [1-4]% of Mana spent for 1 s upon using Skill (Max: 5%, Cooldown: 5 s)": null
       },
-      " Verity": {
+      "verity": {
         "-[5-3]% Resource Cost": null,
         "-1 Resource Cost if linked Skill Rune has 1 Blue Link Rune": 1
       }
@@ -18141,16 +18141,16 @@
       "Synthesis"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[0.1-0.3]% Barrier Absorb on Spell Hit": null,
         "+1.5% Barrier Absorb Limit": 1.5
       },
-      " Origin": {
+      "origin": {
         "Add Attack tag": "Add Attack tag",
         "-[10-5]% Resource Cost": null,
         "+0.5% Barrier Absorb on Attack Hit": 0.5
       },
-      " Verity": {
+      "verity": {
         "+[55-80]% DMG at Max Barrier": null
       }
     }
@@ -18236,14 +18236,14 @@
       "Synthesis"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[55-80]% Element DMG": null
       },
-      " Origin": {
+      "origin": {
         "+[28-40]% Element DMG": null,
         "2% Element DMG Amplification if linked Skill Rune has 5 or more Blue Link Runes": 2
       },
-      " Verity": {
+      "verity": {
         "+[1.9-2.8]% Element Penetration per 1 Blue Link Rune on linked Skill Rune": null
       }
     }
@@ -18289,14 +18289,14 @@
       "Synthesis"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[10-15]% Disturb Effect": null
       },
-      " Origin": {
+      "origin": {
         "-30% Disturb Duration": 30,
         "+[15-20]% Disturb Effect": null
       },
-      " Verity": {
+      "verity": {
         "-[5-3]% Resource Cost": null,
         "+[15-20]% Area of Effect": null
       }
@@ -18335,16 +18335,16 @@
       "Synthesis"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "4% Minion DMG Amplification per 6000 Minion HP": 4,
         "(Max: 24%)": 24,
         "+[4-12]% Minion HP": null
       },
-      " Origin": {
+      "origin": {
         "[0.5-2]% Minion DMG Amplification": null,
         "+[1-2.5]% Minion Max Element Resist": null
       },
-      " Verity": {
+      "verity": {
         "Minion regenerates [1-3]% of Max HP per Sec": null,
         "[0.7-1.8]% Minion Max HP Amplification per 1 Minion tag Link Rune on linked Skill Rune": null
       }
@@ -18389,14 +18389,14 @@
       "Synthesis"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[1-5]% Skill Rune Duration": null,
         "+1 Max Promised Protection Stacks": 1
       },
-      " Origin": {
+      "origin": {
         "[40-70]% chance to gain Cold Energy upon activating Promised Protection": null
       },
-      " Verity": {
+      "verity": {
         "+[2-6]% Skill Rune Cooldown Recovery Speed": null,
         "+8% Skill Rune Cooldown Recovery Speed if linked Skill Rune has 4 or more Legendary Link Runes": 8
       }
@@ -18439,13 +18439,13 @@
       "Synthesis"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[10-30]% Minion HP": null
       },
-      " Origin": {
+      "origin": {
         "+[1.5-3.5]% Minion Max Element Resist": null
       },
-      " Verity": {
+      "verity": {
         "+[5-15]% Minion Attack Speed": null,
         "+[5-15]% Minion Cast Speed": null
       }
@@ -18495,15 +18495,15 @@
       ]
     },
     "awakenings": {
-      " Source": {
+      "source": {
         "HP and Barrier Absorb on hit while Reverse Time is active +1%": 1,
         "+[5-10]% Skill Rune Cooldown Recovery Speed": null
       },
-      " Origin": {
+      "origin": {
         "HP and Barrier Absorb on hit while Reverse Time is active +1%": 1,
         "+[5-15]% Skill Rune Effect": null
       },
-      " Verity": {
+      "verity": {
         "HP and Barrier Absorb on hit while Reverse Time is active +1%": 1,
         "+[5-15]% Skill Rune Duration": null
       }
@@ -18555,15 +18555,15 @@
       ]
     },
     "awakenings": {
-      " Source": {
+      "source": {
         "[70-80]% DMG Amplification against Elites": null,
         "[45-55]% DMG Dampening": null
       },
-      " Origin": {
+      "origin": {
         "[90-100]% DMG Amplification against Bosses": null,
         "[45-55]% DMG Dampening": null
       },
-      " Verity": {
+      "verity": {
         "+1 Max Use Count": 1,
         "[10-15]% DMG Dampening": null,
         "15% chance to reset Cooldown upon using a skill": 15
@@ -18604,14 +18604,14 @@
       "Synthesis"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[35-50]% DMG": null
       },
-      " Origin": {
+      "origin": {
         "-[8-3]% Resource Cost": null,
         "-2 Resource Cost if linked Skill Rune has 1 Blue Link Rune": 2
       },
-      " Verity": {
+      "verity": {
         "-3% Resource Cost if linked Skill Rune has 2 or more Green Link Runes": 3,
         "[1.5-3]% DoT Amplification if linked Skill Rune has 2 or more Blue Link Runes": null,
         "[1.5-3]% Strike DMG Amplification if linked Skill Rune has 2 or more Red Link Runes": null
@@ -18670,17 +18670,17 @@
       "Synthesis"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "When HP and Mana are 80% or more": 80,
         "[2.4-3.5]% DMG Amplification": null,
         "[2.8-4]% Resource Cost Amplification": null
       },
-      " Origin": {
+      "origin": {
         "When HP and Mana are under 50%": 50,
         "[4.2-6]% Attack Speed Amplification": null,
         "[4.2-6]% Cast Speed Amplification": null
       },
-      " Verity": {
+      "verity": {
         "[2.1-3]% DMG Amplification if linked Skill Rune has 2 Red, Green, Blue Link Runes each": null,
         "-3% Resource Cost if linked Skill Rune has 2 Red, Green, Blue Link Runes each": 3
       }
@@ -18789,13 +18789,13 @@
       "Synthesis"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "+[5-10]% Smash Effect": null
       },
-      " Origin": {
+      "origin": {
         "-[10-5]% Resource Cost": null
       },
-      " Verity": {
+      "verity": {
         "+[2-5]% Resource Cost": null,
         "+1 Smash Stacks": 1,
         "-[15-10]% Smash Effect": null
@@ -18850,17 +18850,17 @@
       "Synthesis"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "[0.5-0.9]% DMG Amplification per 375 Max Barrier (Max: 20%)": null
       },
-      " Origin": {
+      "origin": {
         "+5% Attack Speed": 5,
         "+5% Cast Speed": 5,
         "When Barrier and Mana are under 50%": 50,
         "[2-4.5]% Attack Speed Amplification": null,
         "[2-4.5]% Cast Speed Amplification": null
       },
-      " Verity": {
+      "verity": {
         "+[25-40]% DMG": null,
         "[3-4.5]% Element DMG Amplification at Max Barrier": null
       }
@@ -18897,14 +18897,14 @@
       "Synthesis"
     ],
     "awakenings": {
-      " Source": {
+      "source": {
         "[1.5-6]% DMG Amplification": null,
         "+[1-4] Overheat Accumulation": null
       },
-      " Origin": {
+      "origin": {
         "[2-5]% chance to deal double Maximized DMG on hit": null
       },
-      " Verity": {
+      "verity": {
         "[0.3-1.4]% DMG Amplification per 1 Green Link Rune on linked Skill Rune": null
       }
     }

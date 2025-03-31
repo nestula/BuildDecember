@@ -140,23 +140,29 @@ function showRuneInfo(name, boardPos) {
     img.src = `../../resources/icons/${rune.icon}`;
     // TODO make cached images for this
 
+    // name
     const runeName = document.getElementById("runeName");
     runeName.textContent = rune.title;
 
+    // description
     const runeDescription = document.getElementById("runeDescription");
     runeDescription.textContent = rune.description || "No description available";
 
+    // min rarity
     const runeMinRarity = document.getElementById("runeMinRarity");
     runeMinRarity.innerHTML = `Min. Rarity: <span style="font-style: italic">${rune.minRarity}</span>`;
 
+    // stats
     const runeStats = document.getElementById("runeStats");
     runeStats.innerHTML = "";
 
+    // level
     const runeLevel = document.getElementById("runeLevel");
     if(boardPos) {
         runeLevel.innerHTML = `Level: <span class="statAccent">${boardData.level || 45}</span>`;
     }
 
+    // element
     if(rune.elementType) {
         document.getElementById("runeElement").innerText = rune.elementType;
     } else {
@@ -174,7 +180,7 @@ function showRuneInfo(name, boardPos) {
     }
 
     // stats
-    // console.log(rune.stats);
+
     if(rune.stats["currentLevel"]) {
         for(const stat in rune.stats["currentLevel"]) {
             const statDiv = document.createElement("div");
@@ -189,6 +195,24 @@ function showRuneInfo(name, boardPos) {
         }
     }
  
+    // awakening 
+
+    if(boardData.awakening) {
+        console.log(rune.awakenings)
+        document.getElementById("runeAwakeningName").textContent = boardData.awakening || "none";
+        document.getElementById("runeAwakeningIcon").src = `../../resources/images/awakenings/${boardData.awakening}.png`;
+        document.getElementById("runeAwakeningStats").innerHTML = "";
+        for(const prop in rune.awakenings[boardData.awakening]) {
+            const statDiv = document.createElement("div");
+            statDiv.innerHTML = `${prop}: <span class="statAccent">${rune.awakenings[boardData.awakening][prop] || ""}</span>`;
+            document.getElementById("runeAwakeningStats").appendChild(statDiv);
+        }
+    } else {
+        document.getElementById("runeAwakeningName").textContent = "none";
+        document.getElementById("runeAwakeningIcon").src = `../../resources/images/notFound.jpg`;
+        document.getElementById("runeAwakeningStats").innerHTML = "";
+    }
+    
 
 }
 board.mouse.externalmouseup = ()=>{

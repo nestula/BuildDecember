@@ -48,14 +48,15 @@ class Board {
         ]
         // set table
         this.dataTemplate = {
-            level: 45
+            level: 45,
+            awakening: false
         }
         for(let y=0; y<this.tableData.length; y++) {
             for(let x=0; x<this.tableData[y].length; x++) {
                 this.tableData[y][x] = JSON.parse(JSON.stringify(this.dataTemplate));
             }
         }
-
+    
 
         this.currentPosition = null;
         this.savedPosition = null;
