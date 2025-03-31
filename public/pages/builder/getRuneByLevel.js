@@ -14,7 +14,6 @@ function getRuneByLevel(runeName, level) {
     for(const prop in level45) {
         if(typeof level1[prop] === "number" && typeof level45[prop] === "number") {
             stats[prop] = parseFloat((level1[prop] + steps[prop] * (level - 1)).toFixed(2)) 
-            console.log(stats[prop]);
         } else {
             stats[prop] = level1[prop];
         }

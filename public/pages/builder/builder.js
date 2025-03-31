@@ -129,7 +129,7 @@ checkRunes();
 function showRuneInfo(name, boardPos) {
     let rune = false;
     let boardData = false;
-    if(boardPos) {
+    if(boardPos && boardPos[0] != -1 && boardPos[1] != -1) {
         boardData = board.tableData[boardPos[0]][boardPos[1]];
         rune = getRuneByLevel(name, boardData.level);
     } else {
@@ -174,7 +174,7 @@ function showRuneInfo(name, boardPos) {
     }
 
     // stats
-    console.log(rune.stats);
+    // console.log(rune.stats);
     if(rune.stats["currentLevel"]) {
         for(const stat in rune.stats["currentLevel"]) {
             const statDiv = document.createElement("div");

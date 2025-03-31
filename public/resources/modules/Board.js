@@ -599,7 +599,7 @@ class Board {
                     const tempData = this.tableData[this.currentPosition[0]][this.currentPosition[1]];
                     this.tableData[this.currentPosition[0]][this.currentPosition[1]] = this.tableData[this.savedPosition[0]][this.savedPosition[1]];
                     this.tableData[this.savedPosition[0]][this.savedPosition[1]] = tempData;
-                } else if(this.currentRune) {
+                } else if(this.currentRune && this.currentPosition) {
                     this.table[this.currentPosition[0]][this.currentPosition[1]] = this.currentRune;
                     this.currentRune = null;
                 }
@@ -611,7 +611,7 @@ class Board {
             } else { // first touch
     
                 // SELECT
-                if(this.savedPosition == -999 ) { // trash can
+                if(this.savedPosition == -999 && this.currentPosition) { // trash can
                     this.mouse.down = false;
                     this.table[this.currentPosition[0]][this.currentPosition[1]] = this.currentRune;
                     this.currentRune = null;
