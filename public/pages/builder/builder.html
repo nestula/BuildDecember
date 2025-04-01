@@ -96,6 +96,52 @@
                 <p>Level:</p>
                 <input type="number" id="editRuneLevel" min="1" max="45">
             </div>
+
+            <style>
+                #editRuneAwakeningContainer {
+                    display: flex;
+                    gap: 5px;
+                    align-items: center;
+                    justify-content: center;
+                }
+                #editRuneAwakeningDropdown {
+                    width: 10%;
+                    background-color: var(--text-color);
+                    color: var(--background-color);
+                    border: 2px solid var(--border-color);
+                    outline: none;
+                }
+                @media screen and (orientation: portrait) {
+                    #editRuneAwakeningDropdown {
+                        width: 50%;
+                    }
+                }
+            </style>
+            <h3>Awakening</h3>
+            <div id="editRuneAwakeningContainer">
+                <select id="editRuneAwakeningDropdown">
+                    <option value="none">None</option>
+                    <option value="verity">Verity</option>
+                    <option value="origin">Origin</option>
+                    <option value="source">Source</option>
+                </select>
+                <style>
+                    #editRuneAwakeningData {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 5px;
+                        background: var(--background-color);
+                        min-width:25%;
+                        min-height: 10px;
+                    }
+                    @media screen and (orientation: portrait) {
+                        #editRuneAwakeningData {
+                            width: 75%;
+                        }
+                    }
+                </style>
+                <div id="editRuneAwakeningData"></div>
+            </div>
             <hr>
             <div style="display: flex; justify-content: space-between;">
                 <button id="cancelEditRune">Cancel</button>

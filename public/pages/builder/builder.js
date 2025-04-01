@@ -256,6 +256,7 @@ function openEditPopup() {
         // set values
         document.getElementById("editRuneName").textContent = rune.title;
         document.getElementById("editRuneLevel").value = runeData.level || 1;
+        
     }
 }
 function closeEditPopup() {
