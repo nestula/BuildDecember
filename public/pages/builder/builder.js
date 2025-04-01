@@ -246,6 +246,8 @@ document.getElementById("calculateBoardShortcut").addEventListener("click", () =
 
 const editPopup = document.getElementById("editRunePopupOverlay");
 
+let editingRune = false;
+
 function openEditPopup() {
     editPopup.style.display = "flex";
     if(board.lastPosition) {
@@ -253,12 +255,42 @@ function openEditPopup() {
         const runeName = board.table[board.lastPosition[0]][board.lastPosition[1]];
         const runeData = board.tableData[board.lastPosition[0]][board.lastPosition[1]];
         const rune = window.allRunes.find(r => r.title == runeName);
+        editingRune = rune;
         // set values
         document.getElementById("editRuneName").textContent = rune.title;
         document.getElementById("editRuneLevel").value = runeData.level || 1;
-        
+        // awakenings
+        const awakeningDiv = document.getElementById("editRuneAwakeningDropdown");
+        awakeningDiv.innerHTML = "<option value='none'>None</option>";
+        for(const awakening in rune.awakenings) {
+            const awakeningOption = document.createElement("option");
+            awakeningOption.value = awakening;
+            awakeningOption.textContent = awakening;
+            awakeningDiv.appendChild(awakeningOption);
+        }
     }
 }
+document.getElementById("editRuneAwakeningDropdown").addEventListener("change", () => {
+    const awakening = document.getElementById("editRuneAwakeningDropdown").value;
+    const awakeningData = document.getElementById("editRuneAwakeningData");
+    awakeningData.innerHTML = "";
+
+    if (awakening != "none" && editingRune) {
+        document.getElementById("editRuneAwakeningData").innerHTML = "";
+        const stats = editingRune.awakenings[awakening];
+        for(const stat in stats) {
+            const statDiv = document.createElement("div");
+            if(stats[stat]) {
+                statDiv.innerHTML = `${stat}: <span class="statAccent">${stats[stat]}</span>`;
+            } else {
+                statDiv.innerHTML = stat;
+            }
+            document.getElementById("editRuneAwakeningData").appendChild(statDiv);
+        }
+    }
+})
+
+
 function closeEditPopup() {
     editPopup.style.display = "none";
 }
