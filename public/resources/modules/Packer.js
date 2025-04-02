@@ -18,6 +18,15 @@ const Packer = Object.freeze({
                     if(slotData.level != 45) {
                         compactedData+=`-L${slotData.level}`;
                     }
+                    if(slotData.awakening && slotData.awakening != "none") {
+                        let suffix = "";
+                        switch(slotData.awakening) {
+                            case "verity": suffix = "v"; break;
+                            case "source": suffix = "s"; break;
+                            case "origin": suffix = "o"; break;
+                        }
+                        compactedData+=`-A${suffix}`;
+                    }
                     // end
                     compactedData+=";";
                 }
@@ -82,6 +91,14 @@ const Packer = Object.freeze({
                             switch(data[i][0]) {
                                 case "L":
                                     tableData[y][x].level = parseFloat(data[i].slice(1));
+                                break;
+                                case "A":
+                                    const awakening = data[i].slice(1);
+                                    switch(awakening) {
+                                        case "v": tableData[y][x].awakening = "verity"; break;
+                                        case "s": tableData[y][x].awakening = "source"; break;
+                                        case "o": tableData[y][x].awakening = "origin"; break;
+                                    }
                                 break;
                             }
                         }
