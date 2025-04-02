@@ -47,9 +47,7 @@ function saveStorage() {
     })
     localStorage.setItem("buildData", data);
 }
-document.getElementById("saveStorage").addEventListener("click", () => {
-    saveStorage();
-})
+
 document.getElementById("saveBoard").addEventListener("click", () => {
     saveStorage();
 })
@@ -69,7 +67,6 @@ function loadLocalStorage() {
     board.tableData = unpackedData.tableData;
     subRoute("boardRoute");
 }
-document.getElementById("loadStorage").addEventListener("click", loadLocalStorage);
 if(localStorage.getItem("buildData")) {
     loadLocalStorage();
 }

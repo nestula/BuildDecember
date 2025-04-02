@@ -65,5 +65,5 @@ function showErrorPopup(message, source, lineno, colno) {
 // Global error handler
 window.onerror = function (message, source, lineno, colno, error) {
     showErrorPopup(message, source, lineno, colno);
-    return true;  // Prevent the default browser error handling
+    return false;  // Prevent the default browser error handling
 };

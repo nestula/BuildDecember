@@ -30,7 +30,6 @@ ABSTRACT THE CONNECTION FUNCTION OMG
 .custom context menu
 .FAQ section
 
-.Remove savelocalstorage
 .multiple build slots -> infinite local storage slots
 
 .allow switching back without overriding something currently on the board
