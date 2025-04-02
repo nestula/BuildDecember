@@ -32,3 +32,6 @@ ABSTRACT THE CONNECTION FUNCTION OMG
 
 .Remove savelocalstorage
 .multiple build slots -> infinite local storage slots
+
+.allow switching back without overriding something currently on the board
+.firefox compatibility

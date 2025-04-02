@@ -195,6 +195,7 @@ function showRuneInfo(name, boardPos) {
     }
  
     // awakening 
+    throw new Error('This is a forced error to test the popup!');
 
     if(boardData.awakening) {
         document.getElementById("runeAwakeningName").textContent = boardData.awakening || "none";
