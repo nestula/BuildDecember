@@ -210,6 +210,14 @@ function showRuneInfo(name, boardPos) {
         document.getElementById("runeAwakeningIcon").src = `../../resources/images/notFound.jpg`;
         document.getElementById("runeAwakeningStats").innerHTML = "";
     }
+
+    // edit
+
+    if(!board.currentPosition) {
+        document.getElementById("editRune").style.display = "none";
+    } else {
+        document.getElementById("editRune").style.display = "inline-block";
+    }
     
 
 }
