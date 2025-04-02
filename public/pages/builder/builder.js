@@ -1,10 +1,9 @@
 import SearchRune from "../../resources/modules/search.js";
 import Board from "../../resources/modules/Board.js";
-import RuneInfo from "../../resources/modules/RuneInfo.js";
 
 import getRuneByLevel from "./getRuneByLevel.js";
 
-import subRoute from "./subRoute.js";
+
 
 if(!window.cached_images) {
     window.cached_images = {};

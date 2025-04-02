@@ -30,7 +30,8 @@
                     <div id="boardLeft">
                         <canvas id="board" width="500" height="500"></canvas>
                         <button id="clearBoard">Clear Board</button>
-                        <button id="calculateBoardShortcut">Calculate</button>
+                        <button id="saveBoard">Save Board</button>
+                        <button style="display: none;" id="calculateBoardShortcut">Calculate</button>
                     </div>
                     <div id="boardCenter">
                         <div id="runeInfo" class="flex">
@@ -62,7 +63,7 @@
                 <div id="loadShareSection" style="display: flex;">
                     <div id="loadContainer">
                         <h2>Load</h2>
-                        <textarea id="loadBox" placeholder="Load info..." autocomplete="off" autocapitalize="off" spellcheck="false"></textarea>
+                        <textarea id="loadBox" placeholder="Paste shared data in here to load." autocomplete="off" autocapitalize="off" spellcheck="false"></textarea>
                         <button id="loadButton">Load</button>
                         <button id="clearLoad">Clear</button>
                         <button id="loadStorage">Load Local Storage</button>
@@ -115,6 +116,9 @@
                     #editRuneAwakeningDropdown {
                         width: 50%;
                     }
+                    #editRuneAwakeningContainer {
+                        flex-direction: column;
+                    }
                 }
             </style>
             <h3>Awakening</h3>
@@ -152,6 +156,7 @@
             </div>
         </div>
     </div>
+
 
     
 

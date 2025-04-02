@@ -1,5 +1,6 @@
 import subRoute from "./subRoute.js";
 import Packer from "../../resources/modules/Packer.js";
+import SVGHandler from "../../resources/modules/SVGHandler.js";
 
 // copy and share
 
@@ -39,6 +40,7 @@ document.getElementById("clearLoad").addEventListener("click", () => {
 
 
 function saveStorage() {
+    SVGHandler.cueLoader(800);
     const data = Packer.compact({
         table: board.table,
         tableData: board.tableData
@@ -48,10 +50,13 @@ function saveStorage() {
 document.getElementById("saveStorage").addEventListener("click", () => {
     saveStorage();
 })
+document.getElementById("saveBoard").addEventListener("click", () => {
+    saveStorage();
+})
 
 setInterval(()=>{
     saveStorage();
-},3000)
+},10000)
 
 function loadLocalStorage() {
     const data = localStorage.getItem("buildData");
