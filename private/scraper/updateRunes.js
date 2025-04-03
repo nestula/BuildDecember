@@ -257,7 +257,7 @@ async function updateRunes() {
                             const propValue = prop.querySelector("span");
 
                             if(propValue) { // normal stats
-                                const textNodes = propContent.replaceAll(propValue.textContent, "").trim().replaceAll("  ", " ").replace(" s", "");
+                                const textNodes = propContent.replaceAll(propValue.textContent, "").trim().replaceAll("  ", " ").replace(" s", "");//.replace("tack", " stack");
                                 const num = parseFloat(propValue.textContent);
                                 if(!isNaN(num)) {
                                     propList[textNodes] = num;

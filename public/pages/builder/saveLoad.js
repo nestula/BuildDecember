@@ -20,6 +20,7 @@ function loadJSON() {
         if(data.startsWith("#")) {
             const info = Packer.unpack(data);
             board.table = info.table;
+            board.tableData = info.tableData;
         } else {
             alert("That is not in the right format!")
         }
@@ -67,6 +68,7 @@ function loadLocalStorage() {
     board.tableData = unpackedData.tableData;
     subRoute("boardRoute");
 }
+
 if(localStorage.getItem("buildData")) {
     loadLocalStorage();
 }
