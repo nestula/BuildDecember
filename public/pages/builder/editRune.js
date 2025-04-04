@@ -73,7 +73,7 @@ function updateEditRune() {
         board.tableData[y][x].awakening = newAwakening;
     }
 
-    showRuneInfo(document.getElementById("editRuneName").textContent, [y, x]);
+    showRuneInfo(document.getElementById("editRuneName").textContent, [y, x], true);
 }
 // listeners
 document.getElementById("cancelEditRune").addEventListener("click", () => {

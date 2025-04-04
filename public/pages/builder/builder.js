@@ -3,6 +3,7 @@ import Board from "../../resources/modules/Board.js";
 
 import getRuneByLevel from "./getRuneByLevel.js";
 
+import formatStr from "./formatStr.js";
 
 
 if(!window.cached_images) {
@@ -125,7 +126,7 @@ function checkRunes() {
 checkRunes();
 
 
-function showRuneInfo(name, boardPos) {
+function showRuneInfo(name, boardPos, editable = false) {
     let rune = false;
     let boardData = false;
     if(boardPos && boardPos[0] != -1 && boardPos[1] != -1) {
@@ -183,13 +184,13 @@ function showRuneInfo(name, boardPos) {
     if(rune.stats["currentLevel"]) {
         for(const stat in rune.stats["currentLevel"]) {
             const statDiv = document.createElement("div");
-            statDiv.innerHTML = `${stat}: <span class="statAccent">${rune.stats["currentLevel"][stat]}</span>`;
+            statDiv.innerHTML = formatStr(stat, rune.stats["currentLevel"][stat], true);
             runeStats.appendChild(statDiv);
         }
     } else if(rune.stats["level45"]) { // show default
         for(const stat in rune.stats["level45"]) {
             const statDiv = document.createElement("div");
-            statDiv.innerHTML = `${stat}: <span class="statAccent">${rune.stats["level45"][stat]}</span>`;
+            statDiv.innerHTML = formatStr(stat, rune.stats["level45"][stat], true);
             runeStats.appendChild(statDiv);
         }
     }
@@ -202,7 +203,7 @@ function showRuneInfo(name, boardPos) {
         document.getElementById("runeAwakeningStats").innerHTML = "";
         for(const prop in rune.awakenings[boardData.awakening]) {
             const statDiv = document.createElement("div");
-            statDiv.innerHTML = `${prop}: <span class="statAccent">${rune.awakenings[boardData.awakening][prop] || ""}</span>`;
+            statDiv.innerHTML = formatStr(prop, rune.awakenings[boardData.awakening][prop], true);
             document.getElementById("runeAwakeningStats").appendChild(statDiv);
         }
     } else {
@@ -213,7 +214,7 @@ function showRuneInfo(name, boardPos) {
 
     // edit
 
-    if(!board.currentPosition) {
+    if(!editable) {
         document.getElementById("editRune").style.display = "none";
     } else {
         document.getElementById("editRune").style.display = "inline-block";
@@ -224,7 +225,7 @@ function showRuneInfo(name, boardPos) {
 board.mouse.externalmouseup = ()=>{
     // open rune info
     if(!board.currentRune) return;
-    showRuneInfo(board.currentRune, board.currentPosition);
+    showRuneInfo(board.currentRune, board.currentPosition, true);
 };
 
 

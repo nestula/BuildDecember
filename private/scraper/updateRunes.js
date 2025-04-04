@@ -6,6 +6,7 @@ const fs = require("fs");
 const { JSDOM } = require("jsdom");
 const axios = require("axios");
 
+
 // List of potential User-Agent strings
 const userAgents = [
     'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36',
@@ -41,6 +42,31 @@ async function fetchPage(url) {
         throw error;
     }
 }
+
+
+
+// FORMATTER
+
+
+function extractStrData(str = "") {
+    const args = [];
+    const formatted = str.replace(/(\d+(\.\d+)?)/g, (match) => {
+        args.push(Number(match));
+        return "#";
+    });
+
+    return {
+        str: formatted,
+        arr: args
+    };
+}
+
+// console.log(extractStrData("+[15-30]% Shout Skill Rune Cooldown Recovery Speed"))
+
+
+// UPDATER
+
+
 
 async function updateRunes() {
     try {
@@ -256,14 +282,18 @@ async function updateRunes() {
                             const propContent = prop.textContent;
                             const propValue = prop.querySelector("span");
 
-                            if(propValue) { // normal stats
-                                const textNodes = propContent.replaceAll(propValue.textContent, "").trim().replaceAll("  ", " ").replace(" s", "");//.replace("tack", " stack");
-                                const num = parseFloat(propValue.textContent);
-                                if(!isNaN(num)) {
-                                    propList[textNodes] = num;
-                                } else {
-                                    propList[textNodes] = propValue.textContent;
-                                }
+                            if(propValue) { // normal stats (if span exists within the element, it has a stat value)
+                                const formattedValues = extractStrData(propContent);
+                                const formattedArgs = formattedValues.arr;
+                                const formattedStr = formattedValues.str.replaceAll(" s", "").replaceAll("tack", " stack").replaceAll("  ", " ");
+                                propList[formattedStr] = formattedArgs;
+                                // const textNodes = propContent.replaceAll(propValue.textContent, "").trim().replaceAll("  ", " ").replace(" s", "");//.replace("tack", " stack");
+                                // const num = parseFloat(propValue.textContent);
+                                // if(!isNaN(num)) {
+                                //     propList[textNodes] = num;
+                                // } else {
+                                //     propList[textNodes] = propValue.textContent;
+                                // }
                             } else if(
                                 propContent.includes("Physical Element") || 
                                 propContent.includes("Fire Element") || 
@@ -306,14 +336,19 @@ async function updateRunes() {
                             const awakeningCardStats = awakeningCard.querySelectorAll('[data-class="prop"]');
                             const awakeningCardStatList = {};
                             for(let j=0; j<awakeningCardStats.length; j++) {
+                                // extract data
                                 const awakeningCardStat = awakeningCardStats[j];
                                 const awakeningCardStatContent = awakeningCardStat.textContent;
-                                const awakeningCardStatValue = awakeningCardStat.querySelector("span");
-                                if(awakeningCardStatValue) {
-                                    awakeningCardStatList[awakeningCardStatContent] = parseFloat(awakeningCardStatValue.textContent);
-                                } else {
-                                    awakeningCardStatList[awakeningCardStatContent] = awakeningCardStat.textContent;
-                                }
+                                const formattedAwakeningCard = extractStrData(awakeningCardStatContent);
+                                const formattedAwakeningCardStr = formattedAwakeningCard.str.replaceAll(" s", "").replaceAll("tack", " stack").replaceAll("  ", " ");
+                                const formattedAwakeningCardArr = formattedAwakeningCard.arr;
+                                awakeningCardStatList[formattedAwakeningCardStr] = formattedAwakeningCardArr;
+                                // const awakeningCardStatValue = awakeningCardStat.querySelector("span");
+                                // if(awakeningCardStatValue) {
+                                //     awakeningCardStatList[awakeningCardStatContent] = parseFloat(awakeningCardStatValue.textContent);
+                                // } else {
+                                //     awakeningCardStatList[awakeningCardStatContent] = awakeningCardStat.textContent;
+                                // }
                             }
                             awakeningList[awakeningCardTitle] = awakeningCardStatList;
                         }
@@ -370,3 +405,18 @@ async function updateRunes() {
 // updateRunes();
 
 module.exports = updateRunes;
+
+/*
+
+Need to format like:
+
+{
+    stats: {
+        level1: {
+            "#+% Physical DMG Increase for # seconds": [34, 5]; 
+            // replace the # with the corresponding stat in the array
+        }
+    }
+} 
+
+*/

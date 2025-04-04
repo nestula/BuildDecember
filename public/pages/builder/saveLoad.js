@@ -55,7 +55,7 @@ document.getElementById("saveBoard").addEventListener("click", () => {
 
 setInterval(()=>{
     saveStorage();
-},10000)
+}, 15000)
 
 function loadLocalStorage() {
     const data = localStorage.getItem("buildData");
