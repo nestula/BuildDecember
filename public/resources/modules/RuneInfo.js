@@ -49,6 +49,7 @@ const RuneInfo = {
             for (const check of conditions.all) {
                 if (!tags.includes(check)) {
                     hasAll = false;
+                    return false;
                     break;
                 }
             }

@@ -362,24 +362,54 @@ async function updateRunes() {
                     // Optionally, store the cleaned HTML
                     // runes[index].html = content.innerHTML;
 
+                    const title = runes[index].title;
 
                     /// OVERRIDES ///
-                    if(runes[index].title === "Use Count") {
-                        runes[index].conditions.any = [
-                            "Attack",
-                            "Defence",
-                            "Magic",
-                            "Spell",
-                            "Duration",
-                            "Movement"          
-                        ]
+                    switch(title) {
+                        case "Use Count":
+                            runes[index].conditions.any = [
+                                "Attack",
+                                "Defence",
+                                "Magic",
+                                "Spell",
+                                "Duration",
+                                "Movement"          
+                            ]
+                            break;
+                        case "Reverse Time":
+                            delete runes[index].conditions.cannot; // remove incorrect cannot
+                            runes[index].conditions.any = [
+                                "Movement"
+                            ]
+                            break;
+                        case "Chain":
+                            runes[index].conditions.any = [
+                                "Projectile"
+                            ]
+                            break;
+                        case "Concentrated Area DMG":
+                            runes[index].conditions.all = [
+                                "Area of Effect"   
+                            ]
+                            break;
+                        case "Area Effect":
+                            runes[index].conditions.all = [
+                                "Area of Effect"   
+                            ]
+                            break;
+                        // Cannot Multishot
+                        case "Wings of Ignition":
+                            runes[index].tags.push("Cannot Multishot");
+                            break;
+                        case "Condense Fire":
+                            runes[index].tags.push("Cannot Multishot");
+                            break;
+                        // elements
+                        case "Deadly Poison":
+                            runes[index]["all"] = ["Poison"];
+                            break;
                     }
-                    if(runes[index].title === "Reverse Time") { 
-                        delete runes[index].conditions.cannot; // remove incorrect cannot
-                        runes[index].conditions.any = [
-                            "Movement"
-                        ]
-                    }
+
 
         
                 } else {

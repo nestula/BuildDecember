@@ -16391,6 +16391,7 @@
       "Area of Effect",
       "Strike",
       "Fire",
+      "Cannot Multishot",
       "Projectile"
     ],
     "description": "Creates a sphere of condensed Fire Energy ",
@@ -17922,6 +17923,7 @@
       "Spell",
       "Strike",
       "Fire",
+      "Cannot Multishot",
       "Projectile"
     ],
     "description": "Summons projectiles that track enemies, and if hit, the projectiles split. The split projectiles then track new targets. ",
@@ -19159,6 +19161,9 @@
         "Strike",
         "DoT"
       ],
+      "all": [
+        "Area of Effect"
+      ],
       "cannot": [
         "Trap"
       ],
@@ -19223,6 +19228,9 @@
       "any": [
         "Strike",
         "DoT"
+      ],
+      "all": [
+        "Area of Effect"
       ],
       "cannot": [
         "Trap"
@@ -24468,6 +24476,9 @@
       "any": [
         "Strike",
         "DoT"
+      ],
+      "all": [
+        "Poison"
       ],
       "minions": true
     },
@@ -29933,6 +29944,9 @@
     "mainStat": "Intellect",
     "type": "link",
     "conditions": {
+      "any": [
+        "Projectile"
+      ],
       "cannot": [
         "Totem",
         "Movement"
