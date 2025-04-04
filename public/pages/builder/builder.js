@@ -197,14 +197,17 @@ function showRuneInfo(name, boardPos, editable = false) {
  
     // awakening 
 
-    if(boardData.awakening) {
+    if(boardData.awakening && rune.awakenings) {
         document.getElementById("runeAwakeningName").textContent = boardData.awakening || "none";
         document.getElementById("runeAwakeningIcon").src = `../../resources/images/awakenings/${boardData.awakening}.png`;
         document.getElementById("runeAwakeningStats").innerHTML = "";
-        for(const prop in rune.awakenings[boardData.awakening]) {
-            const statDiv = document.createElement("div");
-            statDiv.innerHTML = formatStr(prop, rune.awakenings[boardData.awakening][prop], true);
-            document.getElementById("runeAwakeningStats").appendChild(statDiv);
+        
+        if(rune.awakenings[boardData.awakening] ?? null) {
+            for(const prop in rune.awakenings[boardData.awakening]) {
+                const statDiv = document.createElement("div");
+                statDiv.innerHTML = formatStr(prop, rune.awakenings[boardData.awakening][prop], true);
+                document.getElementById("runeAwakeningStats").appendChild(statDiv);
+            }
         }
     } else {
         document.getElementById("runeAwakeningName").textContent = "none";
