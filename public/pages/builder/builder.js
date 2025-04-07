@@ -136,6 +136,12 @@ function showRuneInfo(name, boardPos, editable = false) {
         rune = window.allRunes.find(r => r.title == name);
     }
 
+    if(editable) {
+        window.editingRune = rune;
+    } else {
+        window.editingRune = false;
+    }
+
     const img = document.getElementById("runeIcon");
     img.src = `../../resources/icons/${rune.icon}`;
     // TODO make cached images for this
@@ -157,9 +163,9 @@ function showRuneInfo(name, boardPos, editable = false) {
     runeStats.innerHTML = "";
 
     // level
-    const runeLevel = document.getElementById("runeLevel");
+    const runeLevel = document.getElementById("editRuneLevel");
     if(boardPos) {
-        runeLevel.innerHTML = `Level: <span class="statAccent">${boardData.level || 45}</span>`;
+        runeLevel.value = boardData.level || 45;
     }
 
     // element
@@ -217,11 +223,11 @@ function showRuneInfo(name, boardPos, editable = false) {
 
     // edit
 
-    if(!editable) {
-        document.getElementById("editRune").style.display = "none";
-    } else {
-        document.getElementById("editRune").style.display = "inline-block";
-    }
+    // if(!editable) {
+    //     document.getElementById("editRune").style.display = "none";
+    // } else {
+    //     document.getElementById("editRune").style.display = "inline-block";
+    // }
     
 
 }

@@ -33,26 +33,18 @@ function openEditPopup() {
 }
 
 function showAwakeningStats(awakening) {
-    const awakeningData = document.getElementById("editRuneAwakeningData");
+    const awakeningData = document.getElementById("runeAwakeningStats");
     awakeningData.innerHTML = "";
 
-    if (awakening != "none" && editingRune) {
-        document.getElementById("editRuneAwakeningData").innerHTML = "";
-        const stats = editingRune.awakenings[awakening];
-        for(const stat in stats) {
-            const statDiv = document.createElement("div");
-            if(stats[stat]) {
-                statDiv.innerHTML = `${stat}: <span class="statAccent">${stats[stat]}</span>`;
-            } else {
-                statDiv.innerHTML = stat;
-            }
-            document.getElementById("editRuneAwakeningData").appendChild(statDiv);
-        }
+    if (awakening != "none" && window.editingRune) {
+        showRuneInfo(window.editingRune.title, board.lastPosition, true);
     }
 }
 
 document.getElementById("editRuneAwakeningDropdown").addEventListener("change", () => {
     const awakening = document.getElementById("editRuneAwakeningDropdown").value;
+    if(!window.editingRune) return;
+    window.board.tableData[window.board.lastPosition[0]][window.board.lastPosition[1]].awakening = awakening;
     showAwakeningStats(awakening);
 })
 
@@ -85,4 +77,21 @@ document.getElementById("saveEditRune").addEventListener("click", () => {
 })
 document.getElementById("editRune").addEventListener("click", () => {
     openEditPopup();
+})
+
+
+// new 
+
+function updateRuneLevel() {
+    if(!window.editingRune) {
+        showRuneInfo(document.getElementById("runeName").textContent, board.lastPosition, false);
+        return;
+    };
+    const runeLevel = parseInt(document.getElementById("editRuneLevel").value);
+    const newLevel = Math.min(Math.max(1, runeLevel), 45);
+    board.tableData[board.lastPosition[0]][board.lastPosition[1]].level = newLevel;
+    showRuneInfo(document.getElementById("runeName").textContent, board.lastPosition, true);
+}
+document.getElementById("editRuneLevel").addEventListener("change", () => {
+    updateRuneLevel();
 })
