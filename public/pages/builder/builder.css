@@ -189,6 +189,9 @@ img {
     padding: 10px;
     box-sizing: border-box;
 }
+.shareOption > button {
+    width:90%;
+}
 #saveCompact {
     height:50%;
 }

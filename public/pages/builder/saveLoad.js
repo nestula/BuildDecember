@@ -45,7 +45,7 @@ function saveStorage() {
     const data = Packer.compact({
         table: board.table,
         tableData: board.tableData
-    })
+    }, false)
     localStorage.setItem("buildData", data);
 }
 
@@ -82,6 +82,16 @@ if(localStorage.getItem("buildData")) {
     attemptLoad();
 }
 // compact saving 
+document.getElementById("saveNormal").addEventListener("click", () => {
+    const table = board.table;
+    const tableData = board.tableData;
+    const compactedData = Packer.compact({
+        table,
+        tableData
+    },false)
+    copy(compactedData);
+})
+
 document.getElementById("saveCompact").addEventListener("click", () => {
     const table = board.table;
     const tableData = board.tableData;
