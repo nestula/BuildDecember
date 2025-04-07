@@ -1,5 +1,5 @@
 const Packer = Object.freeze({
-    compact:(data={}) => {
+    compact:(data={}, compacted=true) => {
         let compactedData = "";
 
         // pack runes
@@ -9,10 +9,14 @@ const Packer = Object.freeze({
         const tableData = data.tableData || {};
         for(let i=0; i<table.length; i++) { // loop y
             for(let j=0; j<table[i].length; j++) { // loop x
-                const slot = table[i][j];
+                let slot = table[i][j];
                 const slotData = tableData[i][j];
                 if(slot) {
                     // title, x, y
+                    if(compacted) {
+                        const runeIndex = window.allRunes.findIndex(r => r.title == slot);
+                        slot = runeIndex;
+                    }
                     compactedData+=`${slot}-${i}-${j}`;
                     // data
                     if(slotData.level != 45) {
@@ -79,13 +83,23 @@ const Packer = Object.freeze({
                     const runes = section.split(";")
                     for(const rune of runes) {
                         const splitRune = rune.split("-");
-                        const title = splitRune[0];
+                        // handle title
+                        let title = splitRune[0];
+                        if (!isNaN(title)) {
+                            const index = Number(title);
+                            if (Number.isInteger(index) && index >= 0) {
+                                const data = window.allRunes[index];
+                                const name = data.title;
+                                title = name;
+                            }
+                        }
+                        // handle x, y
                         const y = splitRune[1];
                         const x = splitRune[2];
                         if(!table[y]) break;
-
+                        // set title
                         table[y][x]=title;
-                        
+                        // handle awakenings
                         const data = splitRune.slice(2);
                         for(let i=0; i<data.length; i++) {
                             switch(data[i][0]) {

@@ -69,8 +69,17 @@ function loadLocalStorage() {
     subRoute("boardRoute");
 }
 
+function attemptLoad() {
+    if(window.allRunes) {
+        loadLocalStorage();
+    } else {
+        setTimeout(() => {
+            attemptLoad();
+        }, 100);
+    }
+}
 if(localStorage.getItem("buildData")) {
-    loadLocalStorage();
+    attemptLoad();
 }
 // compact saving 
 document.getElementById("saveCompact").addEventListener("click", () => {

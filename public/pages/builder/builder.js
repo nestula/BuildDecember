@@ -223,11 +223,20 @@ function showRuneInfo(name, boardPos, editable = false) {
 
     // edit
 
-    // if(!editable) {
-    //     document.getElementById("editRune").style.display = "none";
-    // } else {
-    //     document.getElementById("editRune").style.display = "inline-block";
-    // }
+    if(!editable) {
+        // document.getElementById("editRune").style.display = "none";
+        document.getElementById("editRuneAwakeningDropdown").style.display = "none";
+        document.getElementById("editRuneAwakeningLabel").style.display = "none";
+        // make editRuneLevel disabled
+        document.getElementById("editRuneLevel").disabled = true;
+        document.getElementById("editRuneLevel").value = 45;
+    } else {
+        // document.getElementById("editRune").style.display = "inline-block";
+        document.getElementById("editRuneAwakeningLabel").style.display = "inline-block";
+        document.getElementById("editRuneAwakeningDropdown").style.display = "inline-block";
+        document.getElementById("editRuneAwakeningDropdown").value = boardData.awakening || "none";
+        document.getElementById("editRuneLevel").disabled = false;
+    }
     
 
 }

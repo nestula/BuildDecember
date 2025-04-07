@@ -34,3 +34,5 @@ ABSTRACT THE CONNECTION FUNCTION OMG
 
 .allow switching back without overriding something currently on the board
 .firefox compatibility
+
+.for previewing awakenings and levels, could make temporary container and edit directly, then override
