@@ -164,7 +164,7 @@ function showRuneInfo(name, boardPos, editable = false) {
 
     // level
     const runeLevel = document.getElementById("editRuneLevel");
-    if(boardPos) {
+    if(boardPos && runeLevel) {
         runeLevel.value = boardData.level || 45;
     }
 
@@ -207,6 +207,22 @@ function showRuneInfo(name, boardPos, editable = false) {
         document.getElementById("runeAwakeningName").textContent = boardData.awakening || "none";
         document.getElementById("runeAwakeningIcon").src = `../../resources/images/awakenings/${boardData.awakening}.png`;
         document.getElementById("runeAwakeningStats").innerHTML = "";
+
+        /*
+        <select id="editRuneAwakeningDropdown">
+            <option value="none">None</option>
+            <option value="verity">Verity</option>
+            <option value="origin">Origin</option>
+            <option value="source">Source</option>
+        </select>
+        */
+       // disable options (except none) that do not exist in rune.awakenings
+        const awakeningDropdown = document.getElementById("editRuneAwakeningDropdown");
+        awakeningDropdown.innerHTML = "";
+        awakeningDropdown.innerHTML += `<option value="none">None</option>`;
+        for(const awakening in rune.awakenings) {
+            awakeningDropdown.innerHTML += `<option value="${awakening}">${awakening}</option>`;
+        }
         
         if(rune.awakenings[boardData.awakening] ?? null) {
             for(const prop in rune.awakenings[boardData.awakening]) {
@@ -216,6 +232,9 @@ function showRuneInfo(name, boardPos, editable = false) {
             }
         }
     } else {
+        if(!rune.awakenings) {
+            document.getElementById("editRuneAwakeningDropdown").innerHTML = "<option value='none'>None</option>";
+        }
         document.getElementById("runeAwakeningName").textContent = "none";
         document.getElementById("runeAwakeningIcon").src = `../../resources/images/notFound.jpg`;
         document.getElementById("runeAwakeningStats").innerHTML = "";
