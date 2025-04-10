@@ -5,7 +5,9 @@
   "main": "scraper.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "stop": "pm2 stop bd",
+    "restart": "pm2 stop bd && node server.js"
   },
   "repository": {
     "type": "git",
