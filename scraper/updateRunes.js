@@ -33,7 +33,7 @@ async function fetchPage(url) {
         'Accept-Language': 'en-US,en;q=0.9',
         'Cache-Control': 'no-cache'
     };
-    
+
     try {
         const response = await axios.get(url, { headers });
         return response.data;
@@ -72,7 +72,7 @@ async function updateRunes() {
     try {
         console.log("Fetching HTML data...");
         const data = await fetchPage("https://undecember.thein.ru/en/runes");
-        
+
         // Make DOM
         const mainDOM = new JSDOM(data);
         const mainDocument = mainDOM.window.document;
@@ -86,7 +86,7 @@ async function updateRunes() {
         console.log("Creating basic rune list...");
         const runeElementList = mainDocument.querySelectorAll('.content_list_item');
         const runes = new Array(runeElementList.length);
-        for(let i = 0; i < runeElementList.length; i++) {
+        for (let i = 0; i < runeElementList.length; i++) {
             runes[i] = {
                 title: runeElementList[i].querySelector('a').textContent,
                 stats: {}
@@ -105,9 +105,9 @@ async function updateRunes() {
             const link = subPageLinks[index];
             const subPageUrl = `https://undecember.thein.ru${link.getAttribute("href")}`;
             console.log(`${index} / ${subPageLinks.length} - ${subPageUrl}`);
-            
+
             try {
-     
+
                 const subPageData = await fetchPage(subPageUrl);
                 const subPageDOM = new JSDOM(subPageData);
                 const subPageDocument = subPageDOM.window.document;
@@ -141,7 +141,7 @@ async function updateRunes() {
 
                 console.log(`${index + 1} / ${subPageLinks.length} - Processing ${runes[index].title}...`);
 
-        
+
                 if (content) { // Check if content exists //
 
                     const card = content.querySelector('[class^="Elem_card__"]');
@@ -160,7 +160,7 @@ async function updateRunes() {
                     const tags = content.querySelectorAll('[class^="Elem_card_tags_item__"]');
                     const tagList = [];
                     tags.forEach(tag => {
-                        if(tag.textContent === "") return;
+                        if (tag.textContent === "") return;
                         tagList.push(tag.textContent)
                     });
                     runes[index].tags = tagList;
@@ -168,8 +168,8 @@ async function updateRunes() {
                     // get description
                     const descriptions = content.querySelector('[class^="Elem_card_desc__"]')?.querySelectorAll('[data-class="prop"]');
                     let desc = "";
-                    if(descriptions) {
-                        for(let i = 0; i < descriptions.length; i++) {
+                    if (descriptions) {
+                        for (let i = 0; i < descriptions.length; i++) {
                             const description = descriptions[i].textContent;
                             desc += description.replace("Удар", "");
                             desc += " ";
@@ -183,14 +183,14 @@ async function updateRunes() {
                     weaponTypes.forEach((type, i) => {
                         weaponTypeList[i] = type.textContent.replaceAll(/["',]/g, "");
                     });
-                    if(weaponTypeList.length > 0) {
+                    if (weaponTypeList.length > 0) {
                         runes[index].weaponTypes = weaponTypeList;
                     }
 
                     // get main stat type
                     const statTag = card.querySelector('[class^="Elem_image_point__"]');
                     const stat = statTag.getAttribute("data-stat");
-                    if(stat) {
+                    if (stat) {
                         runes[index].mainStat = stat;
                     }
 
@@ -203,58 +203,58 @@ async function updateRunes() {
 
                     // get rune type
                     const typeElement = content.querySelector('[class^="Elem_card_desc__"]');
-                    if(typeElement) { // Check if typeElement exists //
+                    if (typeElement) { // Check if typeElement exists //
                         // get type
                         const typeText = typeElement ? typeElement.textContent : "Unknown";
                         const lowerCased = typeText.toLowerCase();
-                        let type="skill";
-                        if(lowerCased.includes("can be linked") || lowerCased.includes("cannot be linked")) {
-                            type="link";
+                        let type = "skill";
+                        if (lowerCased.includes("can be linked") || lowerCased.includes("cannot be linked")) {
+                            type = "link";
                         }
-                        if(runes[index].title.toLowerCase().includes("activation")) {
-                            type="link";
+                        if (runes[index].title.toLowerCase().includes("activation")) {
+                            type = "link";
                         }
                         runes[index].type = type;
-    
+
                         // get conditions
-                        if(type === "link") {
+                        if (type === "link") {
                             const linkConditions = {};
                             const conditions = typeElement.querySelectorAll('[data-class="prop"]');
-                            for(let i = 0; i < conditions.length; i++) {
+                            for (let i = 0; i < conditions.length; i++) {
                                 const condition = conditions[i].textContent.toLowerCase();
                                 let items = conditions[i].querySelector("span");
-                                if(items) {
+                                if (items) {
                                     items = items.textContent.split(", ");
                                 } else {
                                     items = true;
                                 }
-    
-                                
-                               
-                                if(condition.includes("cannot be linked with skills that satisfy")) {
+
+
+
+                                if (condition.includes("cannot be linked with skills that satisfy")) {
                                     linkConditions["cannot"] = cleanContent(items);
                                 }
 
-                                if(condition.includes("must include all")) {
+                                if (condition.includes("must include all")) {
                                     linkConditions["all"] = cleanContent(items);
                                 } else {
-                                    if((condition.includes("that satisfy") && condition.includes("can "))) {
+                                    if ((condition.includes("that satisfy") && condition.includes("can "))) {
                                         linkConditions["any"] = cleanContent(items);
                                     }
                                 }
                                 // minions
-                                if(condition.includes("applies to minions")) {
+                                if (condition.includes("applies to minions")) {
                                     linkConditions["minions"] = true;
                                 }
                                 runes[index].conditions = linkConditions;
                             }
                         }
-        
+
                     }
 
                     // how to get
                     const howToGetElement = content.querySelector('[data-class="HowtoGet"]');
-                    if(howToGetElement) {
+                    if (howToGetElement) {
                         const getMethods = howToGetElement.querySelectorAll("span");
                         const getMethodsList = [];
                         getMethods.forEach(getMethod => getMethodsList.push(getMethod.textContent));
@@ -265,24 +265,24 @@ async function updateRunes() {
                     // STATS
 
                     const tiles = content.querySelectorAll('[class^="Elem_card_tiles_col__"]');
-                    for(let i=0; i<tiles.length; i++) {
+                    for (let i = 0; i < tiles.length; i++) {
                         const tile = tiles[i];
                         const tileContent = tile.textContent;
                         // level 1
-                        
+
                         const resource = tile.querySelector('[class^="Elem_card_resource__"]');
                         const props = tile.querySelector('[class^="Elem_card_props__"]')?.children;
-                        if(!props) continue;
+                        if (!props) continue;
 
                         // add props
                         const propList = {};
-                        
-                        for(let i=0; i<props.length; i++) {
+
+                        for (let i = 0; i < props.length; i++) {
                             const prop = props[i];
                             const propContent = prop.textContent;
                             const propValue = prop.querySelector("span");
 
-                            if(propValue) { // normal stats (if span exists within the element, it has a stat value)
+                            if (propValue) { // normal stats (if span exists within the element, it has a stat value)
                                 const formattedValues = extractStrData(propContent);
                                 const formattedArgs = formattedValues.arr;
                                 const formattedStr = formattedValues.str.replaceAll(" s", "").replaceAll("tack", " stack").replaceAll("  ", " ");
@@ -294,11 +294,11 @@ async function updateRunes() {
                                 // } else {
                                 //     propList[textNodes] = propValue.textContent;
                                 // }
-                            } else if(
-                                propContent.includes("Physical Element") || 
-                                propContent.includes("Fire Element") || 
-                                propContent.includes("Poison Element") || 
-                                propContent.includes("Lightning Element") || 
+                            } else if (
+                                propContent.includes("Physical Element") ||
+                                propContent.includes("Fire Element") ||
+                                propContent.includes("Poison Element") ||
+                                propContent.includes("Lightning Element") ||
                                 propContent.includes("Cold Element")
                             ) { // type
                                 runes[index]["elementType"] = propContent.split(" ")[0];
@@ -308,13 +308,13 @@ async function updateRunes() {
 
                         }
 
-                        if(i==0) {
+                        if (i == 0) {
                             runes[index]["stats"]["level1"] = propList;
-                        } else if(i==1) {
+                        } else if (i == 1) {
                             runes[index]["stats"]["level45"] = propList
                         }
 
-                        
+
                     }
                     const grade = content.querySelector("[class^=Elem_card_tiles_col2__]");
                     // get grade
@@ -327,15 +327,15 @@ async function updateRunes() {
                     // AWAKENINGS
 
                     const awakenings = content.querySelector('[class^="Elem_card_awakening__"]');
-                    if(awakenings) {
+                    if (awakenings) {
                         const awakeningCards = awakenings.querySelectorAll('[class^="Elem_card_awakening_block__"]');
                         const awakeningList = {};
-                        for(let i=0; i<awakeningCards.length; i++) {
+                        for (let i = 0; i < awakeningCards.length; i++) {
                             const awakeningCard = awakeningCards[i];
                             const awakeningCardTitle = awakeningCard.querySelector('[class^="Elem_card_awakening_block_title__"]').textContent.toLowerCase().replaceAll(" ", "");
                             const awakeningCardStats = awakeningCard.querySelectorAll('[data-class="prop"]');
                             const awakeningCardStatList = {};
-                            for(let j=0; j<awakeningCardStats.length; j++) {
+                            for (let j = 0; j < awakeningCardStats.length; j++) {
                                 // extract data
                                 const awakeningCardStat = awakeningCardStats[j];
                                 const awakeningCardStatContent = awakeningCardStat.textContent;
@@ -352,12 +352,12 @@ async function updateRunes() {
                             }
                             awakeningList[awakeningCardTitle] = awakeningCardStatList;
                         }
-                        if(Object.keys(awakeningList).length > 0) {
+                        if (Object.keys(awakeningList).length > 0) {
                             runes[index]["awakenings"] = awakeningList;
                         }
                     }
-                    
-        
+
+
                     // Save the extracted data to the runes array
                     // Optionally, store the cleaned HTML
                     // runes[index].html = content.innerHTML;
@@ -365,7 +365,7 @@ async function updateRunes() {
                     const title = runes[index].title;
 
                     /// OVERRIDES ///
-                    switch(title) {
+                    switch (title) {
                         case "Use Count":
                             runes[index].conditions.any = [
                                 "Attack",
@@ -373,7 +373,7 @@ async function updateRunes() {
                                 "Magic",
                                 "Spell",
                                 "Duration",
-                                "Movement"          
+                                "Movement"
                             ]
                             break;
                         case "Reverse Time":
@@ -389,12 +389,12 @@ async function updateRunes() {
                             break;
                         case "Concentrated Area DMG":
                             runes[index].conditions.all = [
-                                "Area of Effect"   
+                                "Area of Effect"
                             ]
                             break;
                         case "Area Effect":
                             runes[index].conditions.all = [
-                                "Area of Effect"   
+                                "Area of Effect"
                             ]
                             break;
                         // Cannot Multishot
@@ -411,7 +411,7 @@ async function updateRunes() {
                     }
 
 
-        
+
                 } else {
 
                     console.log(`Subpage ${index + 1} doesn't have content.`);
@@ -443,10 +443,10 @@ Need to format like:
 {
     stats: {
         level1: {
-            "#+% Physical DMG Increase for # seconds": [34, 5]; 
+            "#+% Physical DMG Increase for # seconds": [34, 5];
             // replace the # with the corresponding stat in the array
         }
     }
-} 
+}
 
 */
