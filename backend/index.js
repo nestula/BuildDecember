@@ -11,15 +11,15 @@ app.set('trust proxy', true);
 const WEBSTATS_PATH = path.join(__dirname, "WebStats.json");
 
 
-// routes
-app.use((req, res, next) => {
-    const validPages = ["/", "/pages/home/home.html", "/pages/builder/builder.html"];
+// // routes
+// app.use((req, res, next) => {
+//     const validPages = ["/", "/pages/home/home.html", "/pages/builder/builder.html"];
 
-    if (!validPages.includes(req.path)) {
-        return res.redirect("/pages/home/home.html");
-    }
-    next();
-});
+//     if (!validPages.includes(req.path)) {
+//         return res.redirect("/pages/home/home.html");
+//     }
+//     next();
+// });
 
 
 // middleware
@@ -72,4 +72,15 @@ app.use(express.static(path.join(__dirname, "../frontend")));
 app.listen(PORT, () => {
     console.log(`Server running at http://localhost:${PORT}`);
 });
+
+// app.use((req, res) => {
+//     const ext = path.extname(req.originalUrl);
+
+//     // If no extension, or .html — assume it's a page navigation, not an asset
+//     if (!ext || ext === ".html") {
+//         res.sendFile(path.join(__dirname, "../frontend/pages/home/home.html"));
+//     } else {
+//         res.status(404).send("Not found");
+//     }
+// });
 
