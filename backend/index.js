@@ -10,23 +10,38 @@ app.set('trust proxy', true);
 
 const WEBSTATS_PATH = path.join(__dirname, "WebStats.json");
 
+
+// routes
+app.use((req, res, next) => {
+    const validPages = ["/", "/pages/home/home.html", "/pages/builder/builder.html"];
+
+    if (!validPages.includes(req.path)) {
+        return res.redirect("/pages/home/home.html");
+    }
+    next();
+});
+
+
 // middleware
 app.get("/pages/builder/builder.html", (req, res) => {
-    fs.readFile(WEBSTATS_PATH, "utf8", (err, data) => {
-        if (err) {
-            console.log("Error reading file:", err);
-        } else {
-            let webStats;
-            try {
-                webStats = JSON.parse(data);
-            } catch {
+    try {
+
+        fs.readFile(WEBSTATS_PATH, "utf8", (err, data) => {
+            if (err) {
+                console.log("Error reading file:", err);
                 return res.sendFile(path.join(__dirname, "../frontend/pages/builder/builder.html"));
             }
 
-            // Increment the call count for the page visit
+            let webStats;
+            try {
+                webStats = JSON.parse(data);
+            } catch (parseError) {
+                console.log("Error parsing JSON:", parseError);
+                return res.sendFile(path.join(__dirname, "../frontend/pages/builder/builder.html"));
+            }
+
             webStats.views += 1;
 
-            // Track unique visits based on IP address
             if (!webStats.logged.includes(req.ip)) {
                 if (req.ip !== null) {
                     webStats.uniqueVisits += 1;
@@ -34,17 +49,19 @@ app.get("/pages/builder/builder.html", (req, res) => {
                 }
             }
 
-            // Write the updated stats back to the file
-            fs.writeFile(WEBSTATS_PATH, JSON.stringify(webStats, null, 2), "utf8", (err) => {
-                if (err) {
-                    console.log("Error writing file:", err);
+            fs.writeFile(WEBSTATS_PATH, JSON.stringify(webStats, null, 2), "utf8", (writeErr) => {
+                if (writeErr) {
+                    console.log("Error writing file:", writeErr);
                 }
+                // Regardless of write success, send the page
+                res.sendFile(path.join(__dirname, "../frontend/pages/builder/builder.html"));
             });
-        }
+        });
 
-        // Serve the page
-        res.sendFile(path.join(__dirname, "../frontend/pages/builder/builder.html"));
-    });
+
+    } catch (err) {
+        console.log("Error:", err);
+    }
 });
 
 
@@ -56,12 +73,3 @@ app.listen(PORT, () => {
     console.log(`Server running at http://localhost:${PORT}`);
 });
 
-// routes
-app.use((req, res, next) => {
-    const validPages = ["/", "/pages/home/home.html", "/pages/builder/builder.html"];
-
-    if (!validPages.includes(req.path)) {
-        return res.redirect("/pages/home/home.html");
-    }
-    next();
-});

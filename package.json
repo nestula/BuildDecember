@@ -2,12 +2,12 @@
   "name": "builddecember",
   "version": "1.0.0",
   "description": "An unofficial build planner for Undecember",
-  "main": "scraper.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
+    "start": "node backend/index.js",
     "stop": "pm2 stop bd",
-    "restart": "pm2 stop bd && node server.js"
+    "restart": "pm2 stop bd && node backend/index.js"
   },
   "repository": {
     "type": "git",
