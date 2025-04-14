@@ -10,7 +10,6 @@ app.set('trust proxy', true);
 
 const WEBSTATS_PATH = path.join(__dirname, "WebStats.json");
 
-
 // // routes
 // app.use((req, res, next) => {
 //     const validPages = ["/", "/pages/home/home.html", "/pages/builder/builder.html"];
@@ -25,7 +24,6 @@ const WEBSTATS_PATH = path.join(__dirname, "WebStats.json");
 // middleware
 app.get("/pages/builder/builder.html", (req, res) => {
     try {
-
         fs.readFile(WEBSTATS_PATH, "utf8", (err, data) => {
             if (err) {
                 console.log("Error reading file:", err);
